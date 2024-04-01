@@ -1,0 +1,105 @@
+.searchContainer {
+  @apply relative grid w-full grid-cols-1 place-items-center gap-5 rounded-2xl p-5 duration-300 md:grid-cols-2;
+}
+.searchContainerV {
+  @apply relative grid w-full grid-cols-1 place-items-center gap-5 rounded-2xl p-5 duration-300;
+}
+.searchContainer.withPassengers {
+  @apply lg:grid-cols-6 2xl:grid-cols-6;
+}
+.searchContainer.withoutPassengers {
+  @apply 2xl:grid-cols-5;
+}
+.flat.searchContainer,
+.flat.searchContainerV {
+  @apply bg-white;
+}
+:global(.dark) .flat.searchContainer,
+:global(.dark) .flat.searchContainerV {
+  @apply bg-neutral-800;
+}
+.transparent.searchContainer,
+.transparent.searchContainerV {
+  @apply bg-white bg-opacity-25 backdrop-blur-md;
+}
+:global(.dark) .transparent.searchContainer,
+:global(.dark) .transparent.searchContainerV {
+  @apply bg-neutral-800 bg-opacity-25;
+}
+
+.searchContainerV .inputSpace1 {
+  @apply !col-span-1;
+}
+.inputSpace1 {
+  @apply col-span-1 w-full 2xl:!col-span-1;
+}
+.inputSpace1.withPassengers {
+  @apply lg:col-span-3;
+}
+.searchContainerV .inputSpace2 {
+  @apply w-full lg:!col-span-1;
+}
+.inputSpace2 {
+  @apply w-full 2xl:!col-span-1;
+}
+.inputSpace2.withPassengers {
+  @apply lg:col-span-2;
+}
+.inputSpace2.withoutPassengers {
+  @apply md:col-span-1;
+}
+
+.searchContainerV .flat.swap {
+  @apply absolute top-14 z-50 grid w-min place-items-center rounded-full border border-neutral-300 bg-white p-1 shadow-2xl duration-300 active:scale-90;
+}
+.searchContainerV .transparent.swap {
+  @apply absolute top-14 z-50 grid w-min place-items-center rounded-full bg-white p-1 shadow-2xl duration-300 active:scale-90;
+}
+
+.flat.swap {
+  @apply absolute top-14 z-50 grid w-min place-items-center rounded-full border border-neutral-300 bg-white p-1 shadow-2xl duration-300 active:scale-90 dark:shadow-white md:top-7 md:hover:border-primary-500 xl:left-[-26px] xl:col-start-2;
+}
+.transparent.swap {
+  @apply absolute top-14 z-50 grid w-min place-items-center rounded-full bg-white p-1 shadow-2xl duration-300 active:scale-90 dark:shadow-white md:top-7 md:hover:bg-primary-100 xl:left-[-26px] xl:col-start-2;
+}
+:global(.dark) .transparent.swap {
+  @apply bg-neutral-800 hover:bg-primary-800;
+}
+:global(.dark) .flat.swap {
+  @apply bg-neutral-800;
+}
+.flat.swap.inactive,
+.transparent.swap.inactive {
+  @apply scale-0;
+}
+.flat.swap.active,
+.transparent.swap.active {
+  @apply scale-100;
+}
+
+.searchContainerV .formButton {
+  @apply relative col-span-1 w-full rounded-lg bg-neutral-500 font-semibold uppercase text-white duration-200 lg:!col-span-1;
+}
+
+.formButton {
+  @apply relative col-span-1 w-full rounded-lg bg-neutral-950 font-semibold uppercase text-white duration-200 md:col-span-2 md:hover:bg-black 2xl:!col-span-1;
+}
+.flat.formButton {
+  @apply h-10;
+}
+.transparent.formButton {
+  @apply h-12;
+}
+.formButton.withPassengers {
+  @apply lg:col-span-6;
+}
+.formButton.disabled {
+  @apply grayscale disabled:cursor-not-allowed disabled:hover:bg-primary-500;
+}
+
+.searchContainerV .passengersInput {
+  @apply w-full md:!col-span-1;
+}
+.passengersInput {
+  @apply w-full md:col-span-2 2xl:col-span-1;
+}

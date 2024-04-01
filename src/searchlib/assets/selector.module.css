@@ -1,0 +1,138 @@
+.container {
+  @apply relative flex w-full items-center rounded-lg border bg-white px-1 duration-200;
+}
+:global(.dark) .container {
+  @apply bg-neutral-100;
+}
+.flat.container {
+  @apply border-neutral-300 py-1.5;
+}
+.transparent.container {
+  @apply border-transparent py-2;
+}
+.flat.container:not(.disabled),
+.transparent.container:not(.disabled) {
+  @apply hover:border-neutral-500;
+}
+.flat.container.loading,
+.transparent.container.loading {
+  @apply border-neutral-500;
+}
+.flat.container.error,
+.transparent.container.error {
+  @apply border-neutral-500;
+}
+.flat.container.open,
+.transparent.container.open {
+  @apply border-neutral-500;
+}
+
+.label {
+  @apply absolute bg-white duration-200 text-black;
+}
+:global(.dark) .label {
+  @apply bg-neutral-100 text-black;
+}
+.flat.label.error,
+.transparent.label.error {
+  @apply text-red-500 dark:text-red-500;
+}
+.flat.label.idle {
+  @apply left-3 top-2;
+}
+.transparent.label.idle {
+  @apply left-3 top-3;
+}
+.flat.label.focus {
+  @apply -top-2 left-2 px-1 text-xs;
+}
+:global(.dark) .flat.label.focus {
+  @apply bg-neutral-800;
+}
+.transparent.label.focus {
+  @apply -top-0 left-2 px-1 text-xs;
+}
+
+.input {
+  @apply min-w-0 flex-1 border-none bg-transparent pl-2 text-sm outline-none text-black;
+}
+.transparent.input {
+  @apply pt-3;
+}
+.dateInput {
+  @apply flex flex-1 pl-2 text-black;
+}
+.transparent.dateInput {
+  @apply pt-2;
+}
+
+.iconContainer {
+  @apply flex items-center rounded-lg p-1 duration-200;
+}
+.iconContainer.hidden {
+  @apply pointer-events-none opacity-0;
+}
+.btn {
+  @apply hover:bg-primary-100;
+}
+:global(.dark) .btn {
+  @apply hover:bg-primary-800;
+}
+
+.option {
+  @apply relative cursor-default select-none py-2 pl-10 pr-4 text-gray-900 duration-200;
+}
+:global(.dark) .option {
+  @apply text-black;
+}
+.option.active {
+  @apply bg-primary-100;
+}
+:global(.dark) .option.active {
+  @apply bg-black;
+}
+
+.calendarPopover {
+  @apply overflow-auto rounded-lg bg-white shadow-lg ring-1 ring-black/5;
+}
+:global(.dark) .calendarPopover {
+  @apply bg-neutral-800 ring-white/5;
+}
+.animateFadeIn {
+  animation: fadeIn 0.1s ease-in forwards;
+}
+.animateFadeOut {
+  animation: fadeOut 0.1s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+input.input::-webkit-outer-spin-button,
+input.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input.input[type="number"] {
+  -moz-appearance: textfield;
+}

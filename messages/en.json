@@ -1,0 +1,518 @@
+{
+  "Index": {
+    "links": {
+      "home": "Home",
+      "about_us": "About Us",
+      "destinations": "Destinations",
+      "contact_us": "Contact Us",
+      "faq": "FAQ",
+      "terms": "Policies",
+      "travel_policy": "Travel policy",
+      "cookies": "Cookie policy",
+      "flag": "EN",
+      "english": "English",
+      "spanish": "Spanish"
+    },
+    "locales": {
+      "language": "Language",
+      "spanish": "Spanish",
+      "english": "English"
+    },
+    "footer": {
+      "text": "We meet the market's transportation needs with excellence, ensuring the complete satisfaction of our customers.",
+      "menu": "Menu",
+      "copyright": "Quatrobus © 2024. All rights reserved"
+    },
+    "cookies": {
+      "title": "Use of cookies",
+      "description": "We use our own and third-party cookies to analyze website activity in order to improve our services for the user and provide personalized content. \nIf you continue browsing, we understand that you accept our",
+      "accept": "Accept",
+      "disable": "If you prefer, you have the possibility of disabling them from your browser and continuing on our website."
+    }
+  },
+  "Home": {
+    "hero": {
+      "title": "<b>We prioritize your comfort</b> on every trip",
+      "text": "Travel from the Inland Empire to the San Ysidro LPOE"
+    },
+    "destination": {
+      "pretitle": "Our destinations",
+      "title": "Where do you want to travel today?"
+    },
+    "banner": {
+      "text": "Enjoy a comfortable experience traveling <br class=\"max-md:hidden\" /> from <strong>Inland Empire</strong>",
+      "button": "Travel now!"
+    },
+    "tutorial": {
+      "0": {
+        "title": "Where we go?",
+        "text": "Choose both your city of origin and destination, as well as the dates of your trip"
+      },
+      "1": {
+        "title": "Choose the time and your seats",
+        "text": "Select price and departure and arrival times for your trip, along with your seats"
+      },
+      "2": {
+        "title": "Complete the passenger information",
+        "text": "Review your trip details and enter passenger information"
+      },
+      "3": {
+        "title": "Register your payment method",
+        "text": "Choose your payment method and complete the requested information. \nClick Process Payment. \nAnd ready!"
+      },
+      "title": "Buy your ticket in 4 steps",
+      "cta": {
+        "text": "<b>Get your tickets</b> in just a few minutes!",
+        "button": "Shop without leaving home"
+      }
+    },
+    "about_us": {
+      "title": "Who are we?",
+      "text": {
+        "0": "It all started with a personal experience that left a deep impression on one of the founding members, sparking his fascination with the travel industry after dealing with another service provider.",
+        "1": "This initial impulse was fueled by memories of childhood family trips to the airport, which led to the conviction that our true passion lay in passenger transportation."
+      },
+      "button": "Get to know us more here"
+    },
+    "services": {
+      "personalized": "Personalized service",
+      "customer": "Customer service",
+      "security": "Security",
+      "travel": "Travel comfort"
+    },
+    "choose_us": {
+      "title": "Why choose us?",
+      "why": {
+        "0": {
+          "title": "Backed security",
+          "text": "We have a highly trained team that will guarantee your well-being throughout the trip."
+        },
+        "1": {
+          "title": "Cultural Connections",
+          "text": "We are characterized by fostering cultural relationships between communities"
+        },
+        "2": {
+          "title": "Rates tailored to you",
+          "text": "We strive to turn your trip into an unforgettable adventure, ensuring that rates are accessible to everyone"
+        }
+      },
+      "services": {
+        "title": "<span class=\"font-light\">Our</span> services on board",
+        "Service01": "Air conditioning system",
+        "Service02": "Cell phone charging port",
+        "Service03": "Heating system",
+        "Service04": "Bilingual staff (Spanish and English)",
+        "Service05": "Heating system",
+        "Service06": "Bilingual staff (Spanish and English)"
+      }
+    },
+    "faq": {
+      "title": "Do you have questions about our services?",
+      "text": "We've put together the most common questions to give you the information you need in a clear and concise way.",
+      "button": "See all questions"
+    }
+  },
+  "Faq": {
+    "title": "FAQ",
+    "general_info": {
+      "title": "Información General",
+      "text": "Para cualquier otra pregunta, por favor llame a nuestro departamento de atención al cliente <a href=\"tel:+17027109545\" class=\"text-primary-500 duration-200 hover:text-secondary-500\" > +1 (702) 710-9545 </a> Lun-Vie: 9:00am - 5:00pm"
+    },
+    "luggage": {
+      "title": "Travel luggage",
+      "faq": {
+        "0": {
+          "question": "How much luggage can I carry without having to pay extra?",
+          "answer": {
+            "0": "You are exclusively entitled to 2 medium-sized suitcases with a maximum total weight of 80 pounds per adult ticket, while for children or minors, it is 1 medium-sized suitcase of maximum 40 pounds.",
+            "1": "If you exceed the permitted weight in your luggage, an excess weight fee will be applied and will be allowed depending on space availability.",
+            "2": "The passenger must inform if they wish to carry additional luggage on their trip, by contacting the main offices."
+          }
+        },
+        "1": {
+          "question": "What is considered excess baggage or oversized baggage?",
+          "answer": {
+            "0": "Excess or oversized luggage is considered to be any type of luggage that is not a standard suitcase.",
+            "1": "Excess baggage is subject to space availability and its acceptance is not always guaranteed.",
+            "2": "Examples of oversized luggage or excess luggage: televisions, boxes, coolers, strollers, among others."
+          }
+        },
+        "2": {
+          "question": "What is the maximum weight of my hand luggage?",
+          "answer": {
+            "0": "Your ticket is entitled to one briefcase, backpack or personal bag not exceeding 10 pounds in the luggage rack that belongs to your assigned seat."
+          }
+        },
+        "3": {
+          "question": "Can I travel with my pet?",
+          "answer": {
+            "0": "No, the company does not currently accept pet service on trips and it is not allowed."
+          }
+        },
+        "4": {
+          "question": "What items are not allowed to be carried?",
+          "answer": {
+            "0": "The following items are not permitted on our travel routes:",
+            "1": "Firearms and explosives",
+            "2": "Illegal substances and narcotics",
+            "3": "Flammable materials or liquids such as gasoline",
+            "4": "Pointed or sharp objects that may represent a risk to the safety of passengers",
+            "5": "Dangerous or toxic chemicals",
+            "6": "Prohibited and illegal substances or non-prescription medications"
+          }
+        }
+      }
+    },
+    "ticket": {
+      "title": "Fares and travel ticket",
+      "faq": {
+        "0": {
+          "question": "From what age do children pay their fare?",
+          "answer": {
+            "0": "Children from age 3 to 11 have access to a reduced fare. From age 12 and older, children must pay their adult ticket and travel in their own seat.",
+            "1": "In the case of infants or infants under 3 years of age, they may travel free of charge, but do not have an assigned seat."
+          }
+        },
+        "1": {
+          "question": "Do you have a special rate for Senior Adults?",
+          "answer": {
+            "0": "Yes, we have a reduced fare for passengers over 60 years of age, presenting an identification document at the time of purchasing your ticket."
+          }
+        },
+        "2": {
+          "question": "Do you have a special rate for University Students?",
+          "answer": {
+            "0": "Currently, we do not have a special rate. However, we invite you to consult our offers and promotions in our office at any time."
+          }
+        },
+        "3": {
+          "question": "If I can't travel, can I reschedule my trip or get a refund?",
+          "answer": {
+            "0": "Yes, you can reschedule your trip, at no extra cost, as long as it is done up to 2 days before the scheduled trip date indicated on the ticket.",
+            "1": "If you wish to make other changes or postponements, you have up to 1 day before the travel date indicated on the ticket, with a penalty of 20% of the original cost. If you make a change, it will be valid to use only 80% of the original value of the ticket in your favor for the acquisition of a new one at the current rate.",
+            "2": "In case the ticket is not used on the established date, the ticket will be canceled and invalid.",
+            "3": "We do not grant refunds or money back, only postponements or rescheduling according to the previous conditions."
+          }
+        },
+        "4": {
+          "question": "Is the ticket transferable? Is there any additional cost?",
+          "answer": {
+            "0": "Remember that the travel ticket is personal, non-transferable and the only proof to travel."
+          }
+        },
+        "5": {
+          "question": "If I lose my ticket?",
+          "answer": {
+            "0": "You may request a duplicate, assuming the responsibility of paying the corresponding administrative expense of the new printed ticket."
+          }
+        }
+      }
+    },
+    "conditions": {
+      "title": "Travel conditions",
+      "faq": {
+        "0": {
+          "question": "What time should I be at the terminal?",
+          "answer": {
+            "0": "We recommend that you be present at the terminal at least 15 minutes before the departure time indicated on your ticket to check-in your bags.",
+            "1": "During boarding, make sure you have both your travel ticket and your identification document on hand."
+          }
+        },
+        "1": {
+          "question": "Should I print my ticket before boarding?",
+          "answer": {
+            "0": "Yes, if you have purchased your tickets in person, we will deliver the printed tickets to our offices.",
+            "1": "If you have made a reservation or purchase through our website, you can present your tickets digitally, or you can also go to the counter or our offices to request your printed ticket."
+          }
+        },
+        "2": {
+          "question": "Can I buy more than one ticket in my purchasing process?",
+          "answer": {
+            "0": "Yes, during your purchase process on the web platform you can select the number of seats you wish to purchase.",
+            "1": "Remember that for each seat chosen you will be asked for the information of the passenger who will board the vehicle."
+          }
+        },
+        "3": {
+          "question": "Do you have food services on board?",
+          "answer": {
+            "0": "Yes, we offer food services on board to guarantee a comfortable and satisfactory experience during your trip. Consult our offices for more information."
+          }
+        },
+        "4": {
+          "question": "What are the office hours?",
+          "answer": {
+            "0": "We serve you in our offices from Monday to Sunday from 7:00 a.m. to 8:00 p.m."
+          }
+        }
+      }
+    }
+  },
+  "Metadata": {
+    "home": {
+      "title": "Legacy Charters | xxx",
+      "description": "xxx."
+    },
+    "faq": {
+      "title": "Legacy Charters | xxx",
+      "description": "xxx."
+    },
+    "travel_policies": {
+      "title": "Legacy Charters | xxx",
+      "description": "xxx."
+    },
+    "privacy_policies": {
+      "title": "Legacy Charters | xxx",
+      "description": "xxx."
+    }
+  },
+  "TravelPolicies": {
+    "title": "Travel policies",
+    "travel_ticket": {
+      "title": "Travel Ticket",
+      "text": {
+        "0": "Upon issuing and signing the travel ticket, the Passenger is responsible for verifying that all the data contained therein is in accordance (dates, times, destinations and prices) and in accordance with their request, and accepts the general clauses for contracting travel tickets. journey.",
+        "1": "The travel ticket is personal and non-transferable, being the only valid proof to travel, on the printed date and time.",
+        "2": "In case of loss of the ticket, the Passenger may request a duplicate, assuming the responsibility of paying $10 dollars to reprint the ticket again.",
+        "3": "Changes, postponements and cancellations will be accepted up to 3 hours before the scheduled travel date indicated on the travel ticket, for a cost of $25 per ticket.",
+        "4": "To make any ticket change request within the deadline detailed above, it is necessary to present the physical ticket.",
+        "5": "Autobuses Los Chávez Inc. grants a maximum period of 30 days to reschedule tickets with round trips with an open date, counted from the initial travel date.",
+        "6": "In the event that the ticket is not used on the updated date, the ticket will become void and void.",
+        "7": "Autobuses Los Chávez Inc. does not grant refunds or money returns, only postponements or rescheduling according to the previous conditions.",
+        "8": "Tickets and/or boarding passes presented by anyone other than the printed name will be considered null and void and will be confiscated.",
+        "9": "To complete the telephone purchase of your ticket, the holder must present the card and identification. \nOtherwise, the ticket will not be delivered and a $10.00 penalty will be applied, in addition to requiring a new payment."
+      }
+    },
+    "travel_fares": {
+      "title": "Travel Fares",
+      "text": {
+        "0": "Ticket prices are subject to change without notice.",
+        "1": "Discounts and promotions cannot be accumulated or combined.",
+        "2": "All rates are quoted in US dollars; \nunless otherwise stated."
+      }
+    },
+    "luggage": {
+      "title": "Luggage in the trunk and inside the bus",
+      "text": {
+        "0": "The Passenger is exclusively entitled to 02 suitcases of 35 pounds each per adult ticket or 01 suitcase of 35 pounds per minor ticket.",
+        "1": "Any type of luggage that is not a standard suitcase is considered excess or oversized luggage. \nExamples: televisions, boxes, coolers, strollers, paint cans and among others.",
+        "2": "As long as it has wheels, this type of luggage will be allowed, with a maximum limit of 2 units per person.",
+        "3": "Excess luggage will be admitted when the capacity of the bus allows it, subject to space availability and its acceptance is not always guaranteed.",
+        "4": "If you exceed the weight allowed in your luggage during high season such as summer, an excess weight fee will be applied and will be allowed depending on space availability.",
+        "5": "In the cabin or inside the bus, only 01 piece of hand luggage is allowed, which can be a backpack, bag or briefcase with a maximum of 10 pounds.",
+        "6": "Traveling with cardboard boxes, plastic containers or laundry bags is not permitted.",
+        "7": "Autobuses Los Chávez Inc. is not responsible for valuables not declared at boarding and transported as luggage.",
+        "8": "Autobuses Los Chávez Inc. is not responsible for lost luggage without a tag.",
+        "9": "In case of loss, Autobuses Los Chávez Inc. will only cover the amount of $25 dollars for each suitcase presenting the tag, during the trip.",
+        "10": "Autobuses Los Chávez Inc. is not responsible for items left on buses or terminals, nor for the loss of luggage inside the bus. \nIts care is the exclusive responsibility of the Passenger.",
+        "11": "At customs, each Passenger is responsible for taking care of and moving their own luggage to the bus.",
+        "12": "Autobuses Los Chávez Inc. is not responsible for luggage detained by customs authorities. \nNo liability will be accepted for loss, breakage, damage or deterioration of any item transported.",
+        "13": "The Passenger is responsible for carrying all the documentation required to cross international borders.",
+        "14": "Drivers are not authorized to wait for passengers more than 1 hour if the passenger does not carry valid and current documentation at customs checkpoints.",
+        "15": "The Passenger may not carry weapons or objects prohibited by law; \nthat may put the safety of passengers at risk. \nIt is the passenger's obligation to allow and provide all facilities to the company's personnel to carry out the inspection of their hand luggage and their person.",
+        "16": "It is not permitted to transport in the trunk and/or cabin:",
+        "17": "Illegal drugs, chemicals and/or toxic substances",
+        "18": "Illegal weapons, firearms, explosives and/or flammable objects",
+        "19": "The transportation of pets is not allowed."
+      }
+    },
+    "meantime": {
+      "title": "During the trip",
+      "text": {
+        "0": "Luggage is not allowed on the seat; \nCarry-on luggage must be placed in the overhead compartment or under the passenger seat so as not to block passage.",
+        "1": "All passengers must remain seated until the bus driver tells them to leave the bus.",
+        "2": "Smoking is prohibited on buses or offices of Autobuses Los Chávez Inc.",
+        "3": "Passengers may experience changes to the bus or seat number, depending on the origin and destination of their trip.",
+        "4": "In case of changes, our office staff will notify all passengers to ensure better service. \nAlthough some routes have assigned seating, we will do our best to accommodate those traveling in groups or families during these transfers."
+      }
+    },
+    "onboarding": {
+      "title": "Boarding and arrival process",
+      "text": {
+        "0": "Passenger boarding and disembarkation will only take place at authorized terminals or stations.",
+        "1": "The Passenger must arrive 1 hour before the bus departure time to deliver their luggage.",
+        "2": "Upon boarding, the Passenger must present his or her travel ticket and identification document."
+      }
+    },
+    "kids": {
+      "title": "Child",
+      "text": {
+        "0": "Children up to 6 years old have access to a reduced rate when traveling accompanied by an adult, valid only at the main offices located in Harwin, Rosenberg TX, as well as at terminals and agencies in Mexico. \nHowever, those Passengers boarding in El Campo TX, Ganado TX, Victoria TX, Beeville TX, George West TX and Laredo TX will be subject to the adult fare.",
+        "1": "From 7 years old, minors pay the adult fare when boarding at the main office, Harwin, Rosenberg Tx, terminals and agencies in Mexico.",
+        "2": "When purchasing and/or collecting tickets for minors either at the office, by phone or on the web, present your birth certificate or passport to verify age.",
+        "3": "Passengers under 18 years of age cannot travel alone unless permitted by their parents through a notarized travel consent letter authorizing the minor passenger to travel with Autobuses Los Chávez Inc.",
+        "4": "Minors under 18 years of age who cannot take care of themselves must be accompanied by a person over 18 years of age.",
+        "5": "For safety reasons, minors are not allowed to sit in the first three rows of the bus.",
+        "6": "Passengers are advised to keep minors away from the aisles and supervise them at all times."
+      }
+    },
+    "adults": {
+      "title": "Adults",
+      "text": {
+        "0": "People over 60 years of age have access to a $5 discount by presenting identification (INAPAM, INSEN, IFE) when purchasing their travel ticket in person.",
+        "1": "Elderly or senior people who cannot take care of themselves must be accompanied by a person over 18 years of age.",
+        "2": "The Passenger may not travel under the influence of alcohol and/or narcotics; \nor when your state of health is visibly not suitable for travel (unless presentation of a medical certificate), losing the value of your travel ticket.",
+        "3": "Autobuses Los Chávez Inc. may deny services to passengers if:",
+        "4": "The passenger does not comply or refuses to comply with the rules and regulations established by Autobuses Los Chávez Inc.",
+        "5": "The passenger acts in a disorderly or violent manner.",
+        "6": "The passenger is not fully clothed or is partially naked.",
+        "7": "The passenger hinders the driver's functions.",
+        "8": "The passenger's behavior is threatening to himself or other passengers."
+      }
+    },
+    "service": {
+      "title": "Transportation services",
+      "text": {
+        "0": "Scheduled times are based on local time zones. \nDeparture dates and times are subject to change.",
+        "1": "Autobuses Los Chávez Inc. is not responsible for delays caused by breakdowns, road conditions, weather or any other condition beyond the control of the carrier.",
+        "2": "Autobuses Los Chávez Inc. is not responsible for related expenses due to delays.",
+        "3": "Autobuses Los Chávez Inc. is not responsible for acts and negligence committed by interline and/or connecting carriers within or outside the international borders of the United States.",
+        "4": "Autobuses Los Chávez Inc. strives to offer Internet connectivity throughout the trip. \nIt is important to note that in some areas there may be poor or no connection. \nSince the service is provided by a third party, the company cannot offer compensation or refunds for internet connectivity issues.",
+        "5": "Autobuses Los Chávez Inc. is not responsible for failure or interruption in the provision of additional benefits (such as WiFi, charging port for mobile devices, individual screen or others) granted as a courtesy, not being part of the contracted service.",
+        "6": "The passenger is covered by the mandatory insurance policy contracted by Autobuses Los Chávez Inc."
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "text": {
+        "0": "Autobuses Los Chávez Inc. does not sell or share personal or financial information with third parties. \nHowever, personal and/or financial information may be shared with third parties as deemed necessary for the following purposes:",
+        "1": "Credit card processing and fraud prevention purposes necessary for ticket purchases.",
+        "2": "Legal purposes or compliance with a government agency, law enforcement or subpoena, and/or required by law.",
+        "3": "Autobuses Los Chávez Inc. collects and uses full name, telephone numbers and email address in order to secure and purchase a bus ticket.",
+        "4": "The full name is required to be printed or displayed digitally on the boarding pass, among other things, for security purposes.",
+        "5": "Telephone numbers are necessary, among other things, for emergency communication, itinerary updates and confirmation of reservations by SMS.",
+        "6": "Email is required for e-ticket delivery and/or travel policies, marketing, and itinerary updates.",
+        "7": "We collect, use and disclose personal information to provide you with the service you have requested and to offer you additional services that we believe may be of interest to you.",
+        "8": "The purposes for which we collect personal information will be identified before or at the time of collection. \nIn certain circumstances, the purposes for which information is collected may be clear and consent may be implied, such as when your name, address and payment information is provided as part of the ticket purchasing process.",
+        "9": "Our services are not directed to minors under 17 years of age. \nWe do not knowingly collect any personally identifiable information from children under 17 years of age. \nIn the event that we discover that a child under 17 has provided us with personal information, we will immediately delete it from our servers.",
+        "10": "If you are the parent or guardian of a minor and you are aware that your child has provided us with personal information, please contact us so we can take appropriate action."
+      }
+    },
+    "web": {
+      "title": "Website Terms of Use",
+      "text": {
+        "0": "This website is operated by Autobuses Los Chávez Inc. The terms “we”, “us” and “our” refer to Autobuses Los Chávez Inc. Your use of our website is subject to the following terms and conditions of use, according to may be modified periodically (the “Conditions”).",
+        "1": "You should read the Conditions or disclaimers presented on the pages of our website. \nPlease review the conditions carefully.",
+        "2": "The Terms apply to all users of our website, including, without limitation, users who are search engines, customers, merchants, sellers and/or contributors of content. \nIf you access and use this website, you accept and agree to be bound by the Terms and our Privacy Policy. \nIf you do not accept the Terms or our Privacy Policy, you are not authorized to access our website or use any of our website services.",
+        "3": "You agree to use our website for legitimate purposes and not for any illegal or unauthorized purpose, including, but not limited to, violation of intellectual property or privacy laws.",
+        "4": "By accepting the terms, you represent and represent that you are of legal age in your state or province of residence and have the legal capacity to enter into a binding contract.",
+        "5": "You agree not to use our website to carry out any activity that constitutes a civil or criminal offense or violates any law. \nYou agree not to attempt to interfere with the network or security features of our website or gain unauthorized access to our systems.",
+        "6": "Additionally, you agree to provide us with accurate personal information, such as your email address, postal address and other contact information to complete the purchase of your tickets or to contact you when necessary.",
+        "7": "You agree to promptly update your account and information.",
+        "8": "You authorize us to collect and use this information to contact you in accordance with our Privacy Policy.",
+        "9": "We reserve the right to refuse service to anyone, at any time and for any reason.",
+        "10": "We reserve the right to make changes to the Website, including termination, change, suspension or discontinuance of any aspect of the Website at any time without notice.",
+        "11": "We may impose additional rules or limits on the use of our website.",
+        "12": "You agree to review the conditions periodically and your continued access or use of our website will mean that you accept any changes made."
+      }
+    },
+    "security": {
+      "title": "Security",
+      "text": {
+        "0": "We value your trust in providing us with your Personal Information, so we strive to use commercially acceptable and optimal means to protect it. \nHowever, remember that no method of transmission over the Internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.",
+        "1": "Our Service may contain links to other sites. \nIf you click on a third-party link, you will be directed to that site. \nPlease note that we do not operate these external sites. \nTherefore, we strongly recommend that you review the privacy policy of these websites. \nWe have no control over, and assume no responsibility for, the content, privacy policies, or practices of any third party sites or services."
+      }
+    },
+    "providers": {
+      "title": "Service Providers",
+      "text": {
+        "0": "We may employ external companies and people for the following reasons:",
+        "1": "To facilitate our Service.",
+        "2": "To provide the service on our behalf.",
+        "3": "To help us analyze how our Service is used.",
+        "4": "We want to inform visitors and buyers of our website that these third-party entities have access to their personal information. \nThe reason is to perform the tasks assigned to them on our behalf. \nHowever, they are obligated not to disclose or use the information for any other purpose."
+      }
+    },
+    "errors": {
+      "title": "Errors and omissions",
+      "text": {
+        "0": "Please note that our website may contain typographical errors or inaccuracies and may not be complete or up-to-date.",
+        "1": "We reserve the right to correct any errors, inaccuracies or omissions and to change or update information at any time without prior notice (including after you have purchased a ticket).",
+        "2": "Such errors, inaccuracies or omissions may relate to service description, pricing, promotion and availability, and we reserve the right to cancel or refuse any tickets purchased based on incorrect pricing or availability information, to the extent we permitted by applicable laws.",
+        "3": "We do not undertake to update, amend or clarify the information on our website, except as required by law."
+      }
+    },
+    "complaints": {
+      "title": "Discrimination Complaints",
+      "text": {
+        "0": "If you believe that Autobuses Los Chávez Inc. has violated your rights, you may file a complaint by submitting a Title VI complaint form. \nAutobuses Los Chávez Inc. investigates complaints received no more than 30 days after the alleged incident. \nAutobuses Los Chávez Inc. will process complaints that are complete.",
+        "1": "We may update our Policies from time to time. \nTherefore, we recommend that you check this page periodically for changes. \nWe will notify you of changes by posting the new Privacy Policy on this page. \nThese changes are effective immediately upon posting on this page.",
+        "2": "If you have questions or queries regarding our privacy policy or practices, please contact"
+      }
+    },
+    "main": {
+      "text": {
+        "0": "These clauses constitute all the terms and conditions of the transportation contract entered into between the Client/Passenger and Autobuses Los Chávez Inc.",
+        "1": "At the time of issuance of the travel ticket, the Client/Passenger accepts and submits expressly and with full knowledge to the following general contract clauses and the fare table in force at the time of issuance of the aforementioned ticket:"
+      }
+    },
+    "subtitle": "Know our terms and conditions"
+  },
+  "CookiePolicies": {
+    "title": "Cookie policies",
+    "configuration": {
+      "text": {
+        "0": "If you prefer to prevent the use of cookies on the Website, you must first disable the use of cookies in your browser and then delete the cookies saved in your browser that are associated with this Website. \nYou can use this option to prevent the use of cookies at any time.",
+        "1": "If you do not accept our cookies, you may experience some inconvenience in using the Website and some features may not function properly.",
+        "2": "If you wish to delete Cookies or instruct your browser to delete or reject Cookies, please visit your browser's help pages.",
+        "3": "For the Chrome web browser, visit this page",
+        "4": "For the Internet Explorer browser, visit this page",
+        "5": "For the Chrome web browser, visit this page <a class=\"text-orange-500 duration-200 lg:hover:text-orange-700\" href=\"https://support.google.com/accounts/answer/ 32050\" target=\"_blank\" > Google </a>",
+        "6": "For the Internet Explorer browser, visit this page <a class=\"text-orange-500 duration-200 lg:hover:text-orange-700\" href=\"https://support.microsoft.com/es-es/ topic/c%C3%B3mo-delete-cookie-files-on-internet-explorer-bca9446f-d873-78de-77ba-d42645fa52fc\" target=\"_blank\" > Microsoft </a>",
+        "7": "For the Firefox browser, visit this page <a class=\"text-orange-500 duration-200 lg:hover:text-orange-700\" href=\"https://support.mozilla.org/en-US/kb /clear-cookies-and-site-data-firefox?redirectslug=delete-cookies-remove-info-websites-stored\" target=\"_blank\" > Mozilla Org</a>",
+        "8": "For the Safari web browser, visit this Apple page: <a class=\"text-orange-500 duration-200 lg:hover:text-orange-700\" href=\"https://support.apple.com/es- en/guide/safari/sfri11471/mac\" target=\"_blank\" > Apple </a>",
+        "9": "For any other web browser, visit the official web pages of your web browser."
+      },
+      "title": "Cookie configuration options"
+    },
+    "contact_us": {
+      "text": {
+        "0": "If you have any questions about this Cookies Policy, you can contact us:",
+        "1": "By email"
+      },
+      "title": "Contact us"
+    },
+    "definition": {
+      "text": {
+        "0": "For the purposes of this Cookies Policy",
+        "1": "Company (referred to as “the Company”, “We”, “Us” or “Our” in this Cookies Policy) refers to <b>Autobuses Los Chavez</b>",
+        "2": "“You” means the person accessing or using the Website, or a company, or any legal entity on behalf of which such person accesses or uses the Website, as applicable.",
+        "3": "“Cookies” means small files placed on your computer, mobile device or any other device by a website, containing details of your browsing history on that website among its many uses.",
+        "4": "“Website” refers to <b>(autobusesloschavez.com)</b>, accessible from <b> <a href=\"https://autobusesloschavez.com/\" target=\"_blank\"> https://autobusesloschavez .com/ </a> </b>"
+      },
+      "title": "Definition"
+    },
+    "interpretation": {
+      "text": {
+        "0": "Words whose initial letter is capitalized have the meaning defined in the following conditions.",
+        "1": "The following definitions will have the same meaning regardless of whether they appear in the singular or plural."
+      },
+      "title": "Interpretation"
+    },
+    "main_text": {
+      "0": "This Policy explains what Cookies are and how we use them. \nAlso detail the use we give on our website.",
+      "1": "Cookies do not typically contain any information that personally identifies the user, but personal information we store about you may be linked to the information stored in and obtained from cookies.",
+      "2": "For more information on how we use, store and ensure the security of your personal data, please see our Privacy Policy.",
+      "3": "We do not store sensitive personal information, such as email addresses, account passwords, etc. \nin the cookies we use. \nWhen you visit our website for the first time, we will use a cookie to remember your identity and save you time on your next visit."
+    },
+    "more_info": {
+      "text": {
+        "0": "You can obtain more information about Cookies on the following third party websites:"
+      },
+      "title": "More information"
+    },
+    "types": {
+      "text": {
+        "0": "We use two types of cookies: “Persistent” or “Session” cookies. \nPersistent Cookies remain on your personal computer or mobile device when you log out, while Session Cookies are deleted as soon as you close your web browser.",
+        "1": "We use both Session and Persistent Cookies for the purposes indicated below:",
+        "2": "Necessary/essential cookies",
+        "3": "Type: Session Cookies",
+        "4": "Managed by: Us",
+        "5": "Purpose: Cookies are essential to provide the services available on the Website and to allow you to use some of the functions. \nThey help authenticate users and prevent fraudulent use of user accounts. \nWithout these cookies, the services you have requested cannot be provided, and we only use these cookies to provide you with those services.",
+        "6": "Functionality cookies",
+        "7": "Type: Persistent Cookies",
+        "8": "Cookies allow us to remember choices you make when you use the Website, such as remembering your login details or language preference. \nThe purpose of these cookies is to offer you a more personal experience and to prevent you from having to re-enter your preferences each time you use the Website."
+      },
+      "title": "Types of cookies"
+    }
+  }
+}

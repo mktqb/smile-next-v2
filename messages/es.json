@@ -1,0 +1,518 @@
+{
+  "Index": {
+    "links": {
+      "home": "Inicio",
+      "about_us": "Nosotros",
+      "destinations": "Destinos",
+      "contact_us": "Contáctanos",
+      "faq": "Preguntas Frecuentes",
+      "terms": "Policies",
+      "travel_policy": "Políticas de viaje",
+      "cookies": "Políticas de cookies",
+      "flag": "ES",
+      "english": "Inglés",
+      "spanish": "Español"
+    },
+    "locales": {
+      "language": "Idioma",
+      "spanish": "Español",
+      "english": "Inglés"
+    },
+    "footer": {
+      "text": "Cumplimos con excelencia las necesidades de transporte del mercado, asegurando la completa satisfacción de nuestros clientes.",
+      "menu": "Menú",
+      "copyright": "Quatrobus © 2024. Todos los derechos reservados"
+    },
+    "cookies": {
+      "title": "Uso de cookies",
+      "description": "Utilizamos cookies propias y de terceros para analizar la actividad del sitio web con el fin de mejorar nuestros servicios para el usuario y brindarle contenido personalizado. Si continúa navegando, entendemos que aceptas nuestras",
+      "accept": "Aceptar",
+      "disable": "Si lo prefieres, tienes la posibilidad de deshabilitarlas desde tu navegador y continuar en nuestro sitio web."
+    }
+  },
+  "Home": {
+    "hero": {
+      "title": "<b>Priorizamos tu comodidad</b> <br class=\"max-md:hidden\" /> en cada viaje",
+      "text": "Viajes desde Inland Empire hasta la Frontera de San Ysidro"
+    },
+    "destination": {
+      "pretitle": "Nuestros destinos",
+      "title": "¿A dónde quieres viajar hoy?"
+    },
+    "banner": {
+      "text": "Disfruta de una cómoda experiencia viajando desde <strong>Inland Empire</strong>",
+      "button": "¡Viaja ahora!"
+    },
+    "tutorial": {
+      "0": {
+        "title": "¿A dónde vamos?",
+        "text": "Elige tanto tu ciudad de origen y destino, como las fechas de tu viaje"
+      },
+      "1": {
+        "title": "Escoge el horario y tus asientos",
+        "text": "Selecciona precio y horarios de salida y llegada para tu viaje, junto con tus asientos"
+      },
+      "2": {
+        "title": "Completa los datos del pasajero",
+        "text": "Revisa los detalles de tu viaje e ingresa la información de los pasajeros"
+      },
+      "3": {
+        "title": "Registra tu método de pago",
+        "text": "Elige tu medio de pago y completa los datos solicitados. Haz clic en Procesar Pago. ¡Y listo!"
+      },
+      "title": "Compra tu boleto en 4 pasos",
+      "cta": {
+        "text": "<b>Consigue tus tickets</b> ¡en pocos minutos!",
+        "button": "Compra sin salir de casa"
+      }
+    },
+    "about_us": {
+      "title": "¿Quiénes somos?",
+      "text": {
+        "0": "Todo comenzó con una experiencia personal que dejó una profunda impresión en uno de los miembros fundadores, despertando su fascinación por la industria de los viajes después de tratar con otro proveedor de servicios.",
+        "1": "Este impulso inicial fue alimentado por recuerdos de viajes familiares al aeropuerto durante la infancia, lo que llevó a la convicción de que nuestra verdadera pasión residía en el transporte de pasajeros."
+      },
+      "button": "Conócenos más aquí"
+    },
+    "services": {
+      "personalized": "Servicio personalizado",
+      "customer": "Atención al cliente",
+      "security": "Seguridad",
+      "travel": "Comodidad al viajar"
+    },
+    "choose_us": {
+      "title": "¿Por qué elegirnos?",
+      "why": {
+        "0": {
+          "title": "Seguridad respaldada",
+          "text": "Contamos con un equipo altamente capacitado que garantizará su bienestar durante todo el viaje"
+        },
+        "1": {
+          "title": "Conexiones Culturales",
+          "text": "Nos caracterizamos por fomentar relaciones culturales entre comunidades"
+        },
+        "2": {
+          "title": "Tarifas a tu medida",
+          "text": "Nos esforzamos por convertir tu viaje en una aventura inolvidable, asegurándonos de que las tarifas sean accesibles para todos"
+        }
+      },
+      "services": {
+        "title": "<span class=\"font-light\">Nuestros</span> servicios a bordo",
+        "Service01": "Air conditioning system",
+        "Service02": "Cell phone charging port",
+        "Service03": "Heating system",
+        "Service04": "Bilingual staff (Spanish and English)",
+        "Service05": "Heating system",
+        "Service06": "Bilingual staff (Spanish and English)"
+      }
+    },
+    "faq": {
+      "title": "¿Tienes preguntas sobre nuestros servicios?",
+      "text": "Hemos reunido las preguntas más comunes para brindarte la información que necesitas de manera clara y concisa.",
+      "button": "Ver todas las preguntas"
+    }
+  },
+  "Faq": {
+    "title": "Preguntas Frecuentes",
+    "general_info": {
+      "title": "Información General",
+      "text": "Para cualquier otra pregunta, por favor llame a nuestro departamento de atención al cliente <a href=\"tel:+17027109545\" class=\"text-primary-500 duration-200 hover:text-secondary-500\" > +1 (702) 710-9545 </a> Lun-Vie: 9:00am - 5:00pm"
+    },
+    "luggage": {
+      "title": "Equipaje de viaje",
+      "faq": {
+        "0": {
+          "question": "¿Cuánto equipaje puedo llevar sin tener que pagar adicional?",
+          "answer": {
+            "0": "Tienes derecho exclusivamente a 2 maletas medianas con un peso máximo en total de 80 libras por boleto adulto, mientras que para niños o menores,  es 1 maleta mediana de máximo 40 libras.",
+            "1": "En caso de exceder el peso permitido en tu equipaje, se aplicará una tarifa por exceso de peso y se permitirá según disponibilidad de espacio.",
+            "2": "El pasajero debe informar si desea llevar equipaje adicional en su viaje, comunicándose con las oficinas principales."
+          }
+        },
+        "1": {
+          "question": "¿Qué se considera como exceso de equipaje o equipaje sobredimensionado?",
+          "answer": {
+            "0": "Se considera exceso de equipaje o equipaje sobredimensionado a todo tipo de equipaje que no sea una maleta estándar.",
+            "1": "Los excesos de equipaje están sujetos a disponibilidad de espacio y su aceptación no es siempre garantizada.",
+            "2": "Ejemplos de equipaje sobredimensionado o exceso de equipaje: televisiones, cajas, hieleras, carriolas, entre otros."
+          }
+        },
+        "2": {
+          "question": "¿Cuál es el peso máximo de mi equipaje de mano?",
+          "answer": {
+            "0": "Tu boleto tiene derecho a un maletín, mochila o bolsa personal no mayor a 10 libras en el portabultos que pertenece a su asiento asignado."
+          }
+        },
+        "3": {
+          "question": "¿Puedo viajar con mi mascota?",
+          "answer": {
+            "0": "No, la empresa por ahora no acepta el servicio de mascotas en los viajes y no está permitido."
+          }
+        },
+        "4": {
+          "question": "¿Cuáles son los artículos que no se permiten llevar?",
+          "answer": {
+            "0": "No está permitido llevar los siguientes artículos en nuestras rutas de viaje:",
+            "1": "Armas de fuego y explosivos",
+            "2": "Sustancias ilegales y narcóticos",
+            "3": "Materiales o líquidos inflamables como gasolina",
+            "4": "Objetos puntiagudos o cortantes que pueda representar un riesgo para la seguridad de los pasajeros",
+            "5": "Productos químicos peligrosos o tóxicos",
+            "6": "Sustancias prohibidas y ilegales o medicamentos sin receta"
+          }
+        }
+      }
+    },
+    "ticket": {
+      "title": "Tarifas y boleto de viaje",
+      "faq": {
+        "0": {
+          "question": "¿Desde qué edad los niños pagan su pasaje?",
+          "answer": {
+            "0": "Los niños desde los 3 hasta los 11 años tienen acceso a una tarifa reducida. A partir de los 12 años, los niños deben pagar su boleto de adulto y viajar en su propio asiento.",
+            "1": "En el caso de los bebés o infantes menores de 3 años, podrán viajar de forma gratuita, pero no disponen de un asiento asignado."
+          }
+        },
+        "1": {
+          "question": "¿Cuentan con una tarifa especial para Adultos Senior?",
+          "answer": {
+            "0": "Sí, contamos con una tarifa reducida para pasajeros mayores de 60 años, presentando un documento de identificación al momento de comprar su boleto."
+          }
+        },
+        "2": {
+          "question": "¿Cuentan con una tarifa especial para Universitarios?",
+          "answer": {
+            "0": "Actualmente, no contamos con un tarifa especial. Sin embargo, te invitamos a consultar nuestras ofertas y promociones en nuestra oficina en cualquier momento."
+          }
+        },
+        "3": {
+          "question": "En caso no pueda viajar, ¿puedo reprogramar mi viaje o acceder a un reembolso?",
+          "answer": {
+            "0": "Sí, podrás reprogramar tu viaje, sin costo extra alguno, siempre y cuando se realice hasta 2 días antes de la fecha programada del viaje indicada en el boleto.",
+            "1": "En caso, desees realizar otros cambios o postergaciones, tienes hasta 1 día antes de la fecha de viaje indicada en el boleto, con una penalidad del 20% sobre el costo original. Si realizas un cambio, será válido utilizar solamente el 80% del valor original del boleto a tu favor para la adquisición de uno nuevo con la tarifa vigente.",
+            "2": "En caso de que el boleto no se utilice en la fecha establecida, el boleto quedará anulado y sin validez.",
+            "3": "No otorgamos reembolsos ni devoluciones de dinero, solo postergaciones o reprogramaciones de acuerdo a las condiciones previas."
+          }
+        },
+        "4": {
+          "question": "¿El boleto es transferible? ¿Tiene algún costo adicional?",
+          "answer": {
+            "0": "Recuerda que el boleto de viaje es personal, no transferible y el único comprobante para viajar."
+          }
+        },
+        "5": {
+          "question": "¿Si pierdo mi boleto?",
+          "answer": {
+            "0": "Podrás pedir un duplicado, asumiendo la responsabilidad de realizar el pago del gasto administrativo correspondiente del nuevo boleto impreso."
+          }
+        }
+      }
+    },
+    "conditions": {
+      "title": "Condiciones de viaje",
+      "faq": {
+        "0": {
+          "question": "¿A qué hora debo estar en el terminal?",
+          "answer": {
+            "0": "Te recomendamos estar presente en la terminal al menos 15 minutos antes del horario de salida indicado en tu boleto para realizar el check-in de tus maletas.",
+            "1": "Durante el embarque, asegúrate de tener a mano tanto tu boleto de viaje como tu documento de identidad."
+          }
+        },
+        "1": {
+          "question": "¿Debo imprimir mi pasaje antes de abordar?",
+          "answer": {
+            "0": "Sí, si has adquirido tus boletos de forma presencial, te entregamos en nuestras oficinas los pasajes impresos.",
+            "1": "En el caso de que hayas realizado una reserva o compra por nuestra web, podrás presentar tus boletos digitalmente, o también podrás acercarte al counter o a nuestras oficinas para solicitar tu boleto impreso."
+          }
+        },
+        "2": {
+          "question": "¿Puedo comprar más de un pasaje en mi proceso de compra?",
+          "answer": {
+            "0": "Sí, durante tu proceso de compra en la plataforma web puedes seleccionar la cantidad de asientos que desees comprar.",
+            "1": "Recuerda que para cada asiento elegido se te solicitará los datos del pasajero que abordará el vehículo."
+          }
+        },
+        "3": {
+          "question": "¿Cuentan con servicios de alimentación a bordo?",
+          "answer": {
+            "0": "Sí, ofrecemos servicios de alimentación a bordo para garantizar una experiencia cómoda y satisfactoria durante tu viaje. Consulta mayor información en nuestras oficinas."
+          }
+        },
+        "4": {
+          "question": "¿Cuáles son los horarios de atención en las oficinas?",
+          "answer": {
+            "0": "Te atendemos en nuestras oficinas de lunes a domingo de 7:00 a.m. a 8:00 p.m."
+          }
+        }
+      }
+    }
+  },
+  "Metadata": {
+    "home": {
+      "title": "Legacy Charters | xxx",
+      "description": "xxx."
+    },
+    "faq": {
+      "title": "Legacy Charters | xxx",
+      "description": "xxx."
+    },
+    "travel_policies": {
+      "title": "Legacy Charters | xxx",
+      "description": "xxx."
+    },
+    "privacy_policies": {
+      "title": "Legacy Charters | xxx",
+      "description": "xxx."
+    }
+  },
+  "TravelPolicies": {
+    "title": "Politicas de viaje",
+    "travel_ticket": {
+      "title": "Boleto de viaje",
+      "text": {
+        "0": "A la emisión y firma del boleto de viaje el Pasajero es responsable de verificar que todos los datos consignados en este sean conformes (fechas, horarios, destinos y precios) y de acuerdo a su solicitud, y acepta las cláusulas generales de contratación de boletos de viaje.",
+        "1": "El boleto de viaje es personal y no transferible, siendo el único comprobante válido para viajar, en la fecha y hora impresa.",
+        "2": "En caso de pérdida del boleto, el Pasajero podrá pedir un duplicado, asumiendo la responsabilidad de realizar el pago de $10 dólares por reimprimir nuevamente el boleto.",
+        "3": "Se aceptarán cambios, postergaciones y cancelaciones, hasta 3 horas antes de la fecha programada del viaje indicada en el boleto de viaje, por un costo de $25 dólares por boleto.",
+        "4": "Para realizar cualquier solicitud de cambio en el boleto dentro del plazo detallado anteriormente, es necesario presentar el boleto físico.",
+        "5": "Autobuses Los Chávez Inc. otorga un plazo máximo de 30 días para reprogramar boletos con viajes redondos con fecha abierta, contados desde la fecha inicial de viaje.",
+        "6": "En caso de que el boleto no se utilice en la fecha actualizada, el boleto quedará anulado y sin validez.",
+        "7": "Autobuses Los Chávez Inc. no otorga reembolsos ni devoluciones de dinero, solo postergaciones o reprogramaciones de acuerdo a las condiciones previas.",
+        "8": "Los boletos y/o pases de abordar presentados por cualquier persona distinta del nombre impreso se considerarán nulos y sin efecto y serán confiscados.",
+        "9": "Para completar la compra telefónica de su boleto, es necesario que el titular presente la tarjeta y una identificación. De lo contrario, no se entregará el boleto y se aplicará una penalización de $10.00, además de requerir un nuevo pago."
+      }
+    },
+    "travel_fares": {
+      "title": "Tarifas de viaje",
+      "text": {
+        "0": "Los precios de los boletos están sujetos a cambios sin previo aviso.",
+        "1": "Los descuentos y promociones no son acumulables ni combinables.",
+        "2": "Todas las tarifas se cotizan en dólares estadounidenses; a menos que se indique lo contrario."
+      }
+    },
+    "luggage": {
+      "title": "Equipaje en cajuela e interior del autobús",
+      "text": {
+        "0": "El Pasajero tiene derecho exclusivamente a 02 maletas de 35 libras cada una por boleto adulto o 01 maleta de 35 libras por boleto menor.",
+        "1": "Se considera exceso de equipaje o equipaje sobredimensionado a todo tipo de equipaje que no sea una maleta estándar. Ejemplos: televisiones, cajas, hieleras, carriolas, botes de pintura y entre otros.",
+        "2": "Siempre y cuando tenga ruedas, se permitirá llevar este tipo de equipaje, con un límite máximo de 2 unidades por persona.",
+        "3": "El exceso de equipaje será admitido cuando la capacidad del autobús lo permita, siendo sujeto a disponibilidad de espacio y su aceptación no es siempre garantizada.",
+        "4": "En caso de exceder el peso permitido en tu equipaje durante temporada alta como verano, se aplicará una tarifa por exceso de peso y se permitirá según disponibilidad de espacio.",
+        "5": "En cabina o al interior del autobús, únicamente se permite 01 pieza como equipaje de mano, el cual puede ser una mochila, bolsa o maletín con un máximo de 10 libras.",
+        "6": "No se permite viajar con cajas de cartón, contenedores de plásticos ni costales de lavandería.",
+        "7": "Autobuses Los Chávez Inc. no se responsabiliza por objetos de valor no declarados en el abordaje y transportados como equipaje.",
+        "8": "Autobuses Los Chávez Inc. no se hace responsable de equipaje extraviado sin etiqueta.",
+        "9": "En caso de extravío, Autobuses Los Chávez Inc. solo cubrirá la cantidad de $25 dólares por cada maleta presentando la etiqueta, durante el trayecto del viaje.",
+        "10": "Autobuses Los Chávez Inc. no se hace responsable de los artículos olvidados en autobuses o terminales, ni por la pérdida de equipajes en el interior del autobús. Su cuidado es de exclusiva responsabilidad del Pasajero.",
+        "11": "En la aduana cada Pasajero es responsable de cuidar y mover su propio equipaje hasta el autobús.",
+        "12": "Autobuses Los Chávez Inc. no se hace responsable del equipaje detenido por las autoridades aduaneras. No se aceptará responsabilidad alguna por la pérdida, rotura, daño o deterioro de ningún artículo transportado.",
+        "13": "El Pasajero es responsable de llevar toda la documentación requerida para poder cruzar las fronteras internacionales.",
+        "14": "Los conductores no están autorizados a esperar a los pasajeros más de 1 hora si el pasajero no lleva la documentación válida y vigente en los puntos de control aduanero.",
+        "15": "El Pasajero no podrá portar armas u objetos prohibidos por ley; que puedan poner en riesgo la seguridad de los pasajeros. Es obligación del pasajero permitir y dar todas las facilidades al personal de la empresa para que efectúe la revisión de su equipaje de mano y de su persona.",
+        "16": "No está permitido transportar en cajuela y/o cabina:",
+        "17": "Drogas ilegales, químicos y/o sustancias tóxicas",
+        "18": "Armas ilegales, armas de fuego, explosivos y/u objetos inflamables",
+        "19": "No se permite el transporte de mascotas."
+      }
+    },
+    "onboarding": {
+      "title": "Proceso de abordaje o embarque",
+      "text": {
+        "0": "El embarque y desembarque de pasajeros solo se realizará en los terminales o estaciones autorizadas.",
+        "1": "El Pasajero deberá presentarse 1 hora antes de la hora de salida del autobús, para entregar su equipaje.",
+        "2": "En el abordaje, el Pasajero deberá presentar su boleto de viaje y documento de identidad."
+      }
+    },
+    "kids": {
+      "title": "Menores",
+      "text": {
+        "0": "Menores hasta los 6 años tienen acceso a una tarifa reducida cuando viajan acompañados de un adulto, siendo válido solamente en las oficinas principales ubicadas en Harwin, Rosenberg TX, así como en terminales y agencias en México. Sin embargo, aquellos Pasajeros que aborden en El Campo TX, Ganado TX, Victoria TX, Beeville TX, George West TX y Laredo TX estarán sujetos a tarifa de adulto.",
+        "1": "A partir de los 7 años, los menores pagan la tarifa de adulto abordando en la oficina principal, Harwin, Rosenberg Tx, terminales y agencias de México.",
+        "2": "Al comprar y/o recoger boletos para menores ya sea en la oficina, por teléfono o en la web presentar el acta de nacimiento o pasaporte para verificar la edad.",
+        "3": "Los pasajeros menores de 18 años no pueden viajar solos a menos que lo permitan los padres por medio de una carta de consentimiento de viaje notariada en la que autoricen al pasajero menor de edad a viajar con Autobuses Los Chávez Inc.",
+        "4": "Menores de 18 años de edad que no puedan valerse por sí mismos deberán ser acompañados por una persona mayor de 18 años.",
+        "5": "Por razones de seguridad, no se permite que los menores se sienten en las tres primeras filas del autobús.",
+        "6": "Se recomienda a los Pasajeros mantener a los menores alejados de los pasillos y supervisarlos en todo momento."
+      }
+    },
+    "adults": {
+      "title": "Adultos",
+      "text": {
+        "0": "Las personas mayores de 60 años tienen acceso a un descuento de $5 dólares presentando una identificación (INAPAM, INSEN, IFE) al momento de comprar su boleto de viaje en persona.",
+        "1": "Personas adulto mayor o senior que no puedan valerse por sí mismas deberán ser acompañadas por una persona mayor de 18 años.",
+        "2": "El Pasajero no podrá viajar bajo la influencia de alcohol y/o estupefacientes; o cuando su estado de salud visiblemente no sea adecuado para viajar (salvo presentación de un certificado médico), perdiendo el valor de su boleto de viaje.",
+        "3": "Autobuses Los Chávez Inc. puede denegar servicios a los pasajeros si:",
+        "4": "El pasajero no cumple o se niega a cumplir con las normas y reglamentos establecidos por Autobuses Los Chávez Inc.",
+        "5": "El pasajero actúa de forma desordenada o violenta.",
+        "6": "El pasajero no está completamente vestido o está parcialmente desnudo.",
+        "7": "El pasajero obstaculiza las funciones del conductor.",
+        "8": "El comportamiento del pasajero es amenazador para él mismo o para otros pasajeros."
+      }
+    },
+    "service": {
+      "title": "Servicio",
+      "text": {
+        "0": "Los horarios programados se basan en las zonas horarias locales. Las fechas y horas de salida están sujetas a cambios.",
+        "1": "Autobuses Los Chávez Inc. no se responsabiliza de retrasos causados por averías, condiciones de la carretera, estado del tiempo o cualquier otra condición fuera del control del transportista.",
+        "2": "Autobuses Los Chávez Inc. no se responsabiliza de los gastos relacionados debido a retrasos.",
+        "3": "Autobuses Los Chávez Inc. no se responsabiliza por actos y negligencia cometidos por transportistas interlínea y/o de conexión dentro o fuera de las fronteras internacionales de los Estados Unidos.",
+        "4": "Autobuses Los Chávez Inc. se esfuerza por ofrecer conectividad a Internet durante todo el viaje. Es importante tener en cuenta que, en algunas áreas, puede haber una conexión deficiente o nula. Dado que el servicio es proporcionado por un tercero, la empresa no puede ofrecer compensaciones ni reembolsos por problemas de conectividad a Internet.",
+        "5": "Autobuses Los Chávez Inc. no se responsabiliza por falla o interrupción en la prestación de beneficios adicionales (como el WiFi, puerto de carga para dispositivos móviles, pantalla individual u otros) otorgados en calidad de cortesía, no siendo parte del servicio contratado.",
+        "6": "El pasajero cuenta con la cobertura de la póliza de seguro obligatorio contratada por Autobuses Los Chávez Inc."
+      }
+    },
+    "privacy": {
+      "title": "Política de privacidad",
+      "text": {
+        "0": "Autobuses Los Chávez Inc. no vende ni comparte información personal o financiera con terceros. Sin embargo, la información personal y/o financiera puede compartirse con terceros, según lo considere necesario para los siguientes propósitos:",
+        "1": "Procesamiento de tarjetas de crédito y fines de prevención de fraude necesarios para la compra de boletos.",
+        "2": "Fines legales o de cumplimiento con una agencia gubernamental, fuerzas policiales o citación, y/o requeridos por la ley.",
+        "3": "Autobuses Los Chávez Inc. recopila y utiliza el nombre completo, números de teléfono y dirección de correo electrónico con el fin de asegurar y comprar un boleto de autobús.",
+        "4": "El nombre completo se requiere para imprimirlo o mostrarlo digitalmente en el pase de abordar, entre otras cosas, para fines de seguridad.",
+        "5": "Los números de teléfono son necesarios, entre otras cosas, para la comunicación en caso de emergencia, actualización del itinerario y la confirmación de reservaciones por SMS.",
+        "6": "El correo electrónico es necesario para la entrega del boleto electrónico y/o políticas relativas a viajes, marketing y actualizaciones de itinerarios.",
+        "7": "Recopilamos, utilizamos y revelamos información personal para proporcionarle el servicio que ha solicitado y para ofrecerle servicios adicionales que creemos que pueden interesarle.",
+        "8": "Los fines para los que recopilamos la información personal se identificarán antes o en el momento de recopilarla. En determinadas circunstancias, los fines para los que se recopila la información pueden ser claros y el consentimiento puede estar implícito, como cuando se proporciona su nombre, dirección e información de pago como parte del proceso de compra de boletos.",
+        "9": "Nuestros servicios no están dirigidos a menores de 17 años. No recopilamos deliberadamente ninguna información personal identificable de niños menores de 17 años. En caso de que descubramos que un menor de 17 años nos ha proporcionado información personal, la eliminaremos inmediatamente de nuestros servidores.",
+        "10": "Si usted es padre, madre o tutor de un menor y tiene conocimiento de que su hijo nos ha proporcionado información personal, póngase en contacto con nosotros para que podamos tomar las medidas necesarias."
+      }
+    },
+    "web": {
+      "title": "Condiciones del uso del sitio web",
+      "text": {
+        "0": "Este sitio web está operado por Autobuses Los Chávez Inc. Los términos “nosotros”, “nos” y “nuestro” se refieren a Autobuses Los Chávez Inc. El uso de nuestro sitio web está sujeto a los siguientes términos y condiciones de uso, según se modifiquen periódicamente (las “Condiciones”).",
+        "1": "Usted debe leer las Condiciones o descargos de responsabilidad presentados en las páginas de nuestro sitio web. Revise las condiciones detenidamente.",
+        "2": "Las Condiciones aplican a todos los usuarios de nuestro sitio web, incluidos, entre otros, los usuarios que son buscadores, clientes, comerciantes, vendedores y/o colaboradores de contenido. Si obtiene acceso a este sitio web y lo usa, acepta y se compromete a cumplir las Condiciones y nuestra Política de Privacidad. Si no acepta las Condiciones o nuestra Política de Privacidad, no está autorizado a obtener acceso a nuestro sitio web ni a utilizar ninguno de los servicios de nuestro sitio web.",
+        "3": "Usted se compromete a utilizar nuestro sitio web para fines legítimos y no para ningún propósito ilegal o no autorizado, lo que incluye, entre otras cosas, la violación de las leyes de propiedad intelectual o de privacidad.",
+        "4": "Al aceptar las condiciones, usted declara y manifiesta que es mayor de edad en su estado o provincia de residencia y que tiene capacidad legal para celebrar un contrato vinculante.",
+        "5": "Usted se compromete a no utilizar nuestro sitio web para llevar a cabo ninguna actividad que constituya un delito civil o penal o que infrinja alguna ley. Se compromete a no intentar interferir en la red o en las funciones de seguridad de nuestro sitio web ni a obtener acceso no autorizado a nuestros sistemas.",
+        "6": "Además, se compromete a darnos información personal precisa, como su dirección de correo electrónico, su dirección postal y otros datos de contacto para finalizar la compra de sus boletos o ponernos en contacto con usted cuando sea necesario.",
+        "7": "Se compromete a actualizar puntualmente su cuenta e información.",
+        "8": "Nos autoriza a recopilar y utilizar esta información para ponernos en contacto con usted de acuerdo con lo que señala nuestra Política de Privacidad.",
+        "9": "Nos reservamos el derecho a negar el servicio a cualquier persona, en cualquier momento y por cualquier motivo.",
+        "10": "Nos reservamos el derecho a realizar modificaciones en el sitio web, incluida la terminación, cambio, suspensión o interrupción de cualquier aspecto del sitio web en cualquier momento y sin previo aviso.",
+        "11": "Podemos imponer normas o límites adicionales al uso de nuestro sitio web.",
+        "12": "Usted se compromete a revisar las condiciones periódicamente y su acceso o uso continuo de nuestro sitio web significará que acepta los cambios realizados."
+      }
+    },
+    "security": {
+      "title": "Seguridad",
+      "text": {
+        "0": "Valoramos su confianza al proporcionarnos su Información Personal, por lo que nos esforzamos por utilizar medios comercialmente aceptables y óptimos para protegerla. Sin embargo, recuerde que ningún método de transmisión por Internet, o método de almacenamiento electrónico es 100% seguro y fiable, y no podemos garantizar su absoluta seguridad.",
+        "1": "Nuestro Servicio puede contener enlaces con otros sitios. Si hace clic en un enlace de terceros, será dirigido a ese sitio. Tenga en cuenta que nosotros no operamos estos sitios externos. Por lo tanto, le recomendamos con especial énfasis que revise la política de privacidad de estos sitios web. No tenemos ningún control ni asumimos ninguna responsabilidad por el contenido, las políticas de privacidad o las prácticas de los sitios o servicios de terceros."
+      }
+    },
+    "providers": {
+      "title": "Proveedores del Serivicio",
+      "text": {
+        "0": "Podemos emplear a empresas y personas externas por las siguientes razones:",
+        "1": "Para facilitar nuestro Servicio.",
+        "2": "Para que presten el servicio en nuestro nombre.",
+        "3": "Para ayudarnos a analizar cómo se utiliza nuestro Servicio.",
+        "4": "Queremos informar a los visitantes y compradores de nuestro sitio web de que estas entidades externas tienen acceso a su información personal. El motivo es para realizar las tareas que se les asignan en nuestro nombre. Sin embargo, están obligados a no revelar ni utilizar la información para ningún otro propósito."
+      }
+    },
+    "errors": {
+      "title": "Errores y omisiones",
+      "text": {
+        "0": "Tenga en cuenta que nuestro sitio web puede contener errores tipográficos o inexactitudes y puede no estar completo o actualizado.",
+        "1": "Nos reservamos el derecho a corregir errores, inexactitudes u omisiones y a cambiar o actualizar la información en cualquier momento, sin previo aviso (incluso después de haber comprado un boleto).",
+        "2": "Dichos errores, inexactitudes u omisiones pueden referirse a la descripción del servicio, precio, promoción y disponibilidad, y nos reservamos el derecho a cancelar o rechazar cualquier boleto adquirido con base en información incorrecta sobre el precio o la disponibilidad, en la medida en que lo permitan las leyes aplicables.",
+        "3": "No nos comprometemos a actualizar, modificar o aclarar la información de nuestro sitio web, salvo que así lo exija la ley."
+      }
+    },
+    "complaints": {
+      "title": "Quejas por discriminación",
+      "text": {
+        "0": "Si considera que Autobuses Los Chávez Inc. ha infringido sus derechos, puede presentar una queja enviando un formulario de queja Título VI. Autobuses Los Chávez Inc. investiga las quejas recibidas no más de 30 días después del presunto incidente. Autobuses Los Chávez Inc. procesará las quejas que estén completas.",
+        "1": "Podemos actualizar nuestra Políticas de vez en cuando. Por lo tanto, le recomendamos que revise esta página periódicamente para ver si ha habido cambios. Le notificaremos de los cambios publicando la nueva Política de Privacidad en esta página. Estos cambios entran en vigor inmediatamente después de su publicación en esta página.",
+        "2": "Si tiene preguntas o consultas con respecto a nuestra política de privacidad o nuestras prácticas, comuníquese con"
+      }
+    },
+    "meantime": {
+      "title": "Durante el viaje",
+      "text": {
+        "0": "No se permite llevar equipaje en el asiento; el equipaje de mano debe colocarse en el compartimiento superior o debajo del asiento del pasajero para no bloquear el paso.",
+        "1": "Todos los pasajeros deben permanecer sentados hasta que el conductor del autobús les indique que pueden bajar de este.",
+        "2": "Está prohibido fumar en los autobuses u oficinas de Autobuses Los Chávez Inc.",
+        "3": "Los Pasajeros pueden experimentar cambios en el autobús o en el número de asiento, dependiendo del origen y destino de su viaje.",
+        "4": "En caso de cambios, nuestro personal de oficina notificará a todos los pasajeros para garantizar un mejor servicio. Aunque algunas rutas cuentan con asientos asignados, haremos todo lo posible para acomodar a aquellos que viajan en grupos o en familia durante estas transferencias."
+      }
+    },
+    "main": {
+      "text": {
+        "0": "Las presentes cláusulas constituyen todos los términos y condiciones del contrato de transporte celebrado entre el Cliente/Pasajero y Autobuses Los Chávez Inc.",
+        "1": "Al momento de expedirse el boleto de viaje, el Cliente/Pasajero acepta y se somete expresamente y con pleno conocimiento a las siguientes cláusulas generales de contratación y a la tabla de tarifas vigente al momento de la emisión del referido boleto:"
+      }
+    },
+    "subtitle": "Conoce nuestros terminos y condificones"
+  },
+  "CookiePolicies": {
+    "title": "Politicas de Cookies",
+    "interpretation": {
+      "title": "Interpretación",
+      "text": {
+        "0": "Las palabras cuya letra inicial está en mayúscula tienen el significado que se define en las siguientes condiciones.",
+        "1": "Las siguientes definiciones tendrán el mismo significado independientemente de que aparezcan en singular o en plural."
+      }
+    },
+    "definition": {
+      "title": "Definición",
+      "text": {
+        "0": "A los efectos de la presente Política de Cookies",
+        "1": "Empresa (denominada como “la Empresa”, “Nosotros”, “Nos” o “Nuestro” en esta Política de Cookies) se refiere a <b>Autobuses Los Chavez</b>",
+        "2": "“Usted” se refiere a la persona que accede o utiliza el Sitio web, o a una empresa, o a cualquier entidad jurídica en cuyo nombre dicha persona accede o utiliza el Sitio web, según corresponda.",
+        "3": "“Cookies” significa archivos pequeños que se colocan en su computadora, dispositivo móvil o cualquier otro dispositivo por un sitio web, que contiene detalles de su historial de navegación en ese sitio web entre sus muchos usos.",
+        "4": "“Sitio web” se refiere a <b>(autobusesloschavez.com)</b>, accesible desde <b> <a href=\"https://autobusesloschavez.com/\" target=\"_blank\"> https://autobusesloschavez.com/ </a> </b>"
+      }
+    },
+    "types": {
+      "title": "Tipos de cookies",
+      "text": {
+        "0": "Utilizamos dos tipos de cookies: “Persistentes” o de “Sesión”. Las Cookies Persistentes se quedan en su computadora personal o dispositivo móvil cuando se desconecta, mientras que las Cookies de Sesión se eliminan en cuanto se cierra el navegador web.",
+        "1": "Utilizamos tanto las Cookies de Sesión como las Persistentes para los fines que se indican a continuación:",
+        "2": "Cookies necesarias/esenciales",
+        "3": "Tipo: Cookies de Sesión",
+        "4": "Administradas por: Nosotros",
+        "5": "Finalidad: las Cookies son esenciales para prestar los servicios que están disponibles en el Sitio web y para permitirle utilizar algunas de las funciones. Ayudan a autenticar a los usuarios y a evitar el uso fraudulento de las cuentas de usuario. Sin estas cookies, los servicios que usted ha solicitado no podrán proporcionarse, y sólo utilizamos estas cookies para proporcionarle dichos servicios.",
+        "6": "Cookies de funcionalidad",
+        "7": "Tipo: Cookies persistentes",
+        "8": "Las Cookies nos permiten recordar las elecciones que usted hace cuando utiliza el Sitio web, como recordar sus datos de acceso o su preferencia de idioma. El objetivo de estas cookies es ofrecerle una experiencia más personal y evitar que tenga que volver a introducir sus preferencias cada vez que utilice el Sitio web."
+      }
+    },
+    "configuration": {
+      "title": "Opciones de configuración de cookies",
+      "text": {
+        "0": "Si prefiere evitar el uso de cookies en el Sitio web, primero debe desactivar el uso de cookies en su navegador y luego eliminar las cookies guardadas en su navegador que están asociadas a este Sitio web. Puede utilizar esta opción para evitar el uso de cookies en cualquier momento.",
+        "1": "Si no acepta nuestras cookies, es posible que tenga algunos inconvenientes en el uso del Sitio web y que algunas características no funcionen correctamente.",
+        "2": "Si desea eliminar las Cookies o indicar a su navegador que las elimine o rechace, visite las páginas de ayuda de su navegador.",
+        "3": "Para el navegador web Chrome, visite esta página de",
+        "4": "Para el navegador Internet Explorer, visite esta página de",
+        "5": "Para el navegador web Chrome, visite esta página de <a class=\"text-orange-500 duration-200 lg:hover:text-orange-700\" href=\"https://support.google.com/accounts/answer/32050\" target=\"_blank\" > Google </a>",
+        "6": "Para el navegador Internet Explorer, visite esta página de <a class=\"text-orange-500 duration-200 lg:hover:text-orange-700\" href=\"https://support.microsoft.com/es-es/topic/c%C3%B3mo-eliminar-archivos-de-cookies-en-internet-explorer-bca9446f-d873-78de-77ba-d42645fa52fc\" target=\"_blank\" > Microsoft </a>",
+        "7": "Para el navegador Firefox, visite esta página de <a class=\"text-orange-500 duration-200 lg:hover:text-orange-700\" href=\"https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox?redirectslug=delete-cookies-remove-info-websites-stored&redirectlocale=en-US\" target=\"_blank\" > Mozilla Org </a>",
+        "8": "Para el navegador web Safari, visite esta página de Apple: <a class=\"text-orange-500 duration-200 lg:hover:text-orange-700\" href=\"https://support.apple.com/es-es/guide/safari/sfri11471/mac\" target=\"_blank\" > Apple </a>",
+        "9": "Para cualquier otro navegador web, visite las páginas web oficiales de su navegador web."
+      }
+    },
+    "more_info": {
+      "title": "Más información",
+      "text": {
+        "0": "Puede obtener más información sobre las Cookies en los siguientes sitios web de terceros:"
+      }
+    },
+    "contact_us": {
+      "title": "Comuniquese con nosotros",
+      "text": {
+        "0": "Si tiene alguna pregunta sobre esta Política de Cookies, puede ponerse en contacto con nosotros:",
+        "1": "Por correo electrónico"
+      }
+    },
+    "main_text": {
+      "0": "En esta Política se explica qué son las Cookies y cómo las utilizamos. También detalle el uso que damos en nuestra página web.",
+      "1": "Las Cookies no suelen contener ninguna información que identifique personalmente al usuario, pero la información personal que almacenamos sobre usted puede vincularse a la información almacenada y obtenida de las cookies.",
+      "2": "Para más información sobre cómo utilizamos, almacenamos y velamos por la seguridad de sus datos personales, consulte nuestra Política de Privacidad.",
+      "3": "No almacenamos información personal confidencial, como direcciones de correo, contraseñas de cuentas, etc. en las cookies que utilizamos. Cuando visite nuestro sitio web por primera vez, utilizaremos una cookie para recordar su identidad y ahorrarle tiempo en su próxima visita."
+    }
+  }
+}
