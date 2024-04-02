@@ -27,13 +27,13 @@ import ServicesSection from "@/components/services-section"; */
 import { Bgtld } from "@/components/svg";
 /* import FixedSection from "@/components/fixed-section"; */
 import { Divider } from "@nextui-org/divider";
+import DestinationsCarousel from "@/components/destinations-carousel";
 
 export default function Home({ params: { locale } }: { params: { locale: string } }) {
   unstable_setRequestLocale(locale);
   const t = useTranslations("Home");
   return (
     <>
-      
       <HeroHome
         title={t.raw("hero.title")}
         background={{
@@ -52,8 +52,18 @@ export default function Home({ params: { locale } }: { params: { locale: string 
         }}
       />
 
+      <main className="flex flex-col items-center justify-between pt-20 md:min-h-[900px]">
+        {/* Ejemplo del carrusel con traducciones desde el servidor */}
+        <DestinationsCarousel
+          translations={{
+            title: t.raw("card_carousel.title"),
+            losAngeles: t.raw("card_carousel.losAngeles"),
+          }}
+        />
+      </main>
+
       {/* Slider de Destinos, alternando arriba/abajo */}
-      
+
       {/* <DestinationSliderSection
         pretitle={t("destination.pretitle")}
         title={t("destination.title")}
@@ -99,8 +109,8 @@ export default function Home({ params: { locale } }: { params: { locale: string 
         text={t.raw("tutorial.cta.text")}
         button={t("tutorial.cta.button")}
       />
-      <section id="aboutUs" className="space-y-4 pb-10 relative">
-        <Bgtld className="left-0 top-0 max-md:hidden absolute" />
+      <section id="aboutUs" className="relative space-y-4 pb-10">
+        <Bgtld className="absolute left-0 top-0 max-md:hidden" />
         <div className="w-full bg-primary-600 py-10">
           <div className="container">
             <div className="grid grid-cols-1 gap-4 rounded-xl bg-primary-500 p-5 text-white shadow-xl lg:grid-cols-2">
@@ -203,8 +213,9 @@ export default function Home({ params: { locale } }: { params: { locale: string 
             /> */}
 
             <div className="col-span-full flex flex-col items-center gap-x-4 gap-y-2 lg:flex-row lg:justify-center">
-              <span className="text-center text-black"
-              dangerouslySetInnerHTML={{
+              <span
+                className="text-center text-black"
+                dangerouslySetInnerHTML={{
                   __html: t.raw("tutorial.cta.text"),
                 }}
               />

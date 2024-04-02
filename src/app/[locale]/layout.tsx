@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Trirong } from "next/font/google";
+import { Poppins } from "next/font/google";
 import { locales } from "@/i18n";
 import { unstable_setRequestLocale } from "next-intl/server";
 import CookieConsent from "@/components/cookies-consent";
@@ -10,9 +10,10 @@ import { Providers } from "../providers";
 import { useTranslations } from "next-intl";
 import { headers } from "next/headers";
 
-const trirong = Trirong({
+const poppins = Poppins({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
+  style: ["normal", "italic"],
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata: Metadata = {
@@ -34,7 +35,7 @@ export default function RootLayout({
   const headList = headers();
   return (
     <html lang={locale}>
-      <body className={`${trirong.className}`}>
+      <body className={`${poppins.className}`}>
         <Providers>
           <Header
             currentLocale={locale}
