@@ -14,19 +14,21 @@ import TJ2 from "@/assets/Destino_TJ2.png";
 
 import "swiper/css";
 
-interface Props {
+/* interface Props {
   translations: {
     title: any;
     losAngeles: string;
   };
 }
-
-export default function DestinationsCarousel({ translations }: Props) {
+ */
+export default function DestinationsCarousel(/* { translations }: Props */) {
   return (
     <section className="section-container py-10">
       <div className="main-title title-container items-center pb-8 xl:pb-12">
         {/* <h2 dangerouslySetInnerHTML={{ __html: translations.title }} /> */}
-        <h2>Destinos</h2>
+        <h2 className="text-lime-500">
+          ¡Es momento <b>de viajar!</b>
+        </h2>
         <hr className="title-line w-20 border-secondary-500" />
       </div>
       <Swiper
@@ -47,12 +49,7 @@ export default function DestinationsCarousel({ translations }: Props) {
           <SubCard label="Veracruz" frontImage={LV1} backImage={LV2} />
         </SwiperSlide>
         <SwiperSlide className="aspect-[9/12] duration-200 xl:aspect-[9/16]">
-          <SubCard
-            label="Puebla"
-            reverse
-            frontImage={LA2}
-            backImage={LA1}
-          />
+          <SubCard label="Puebla" reverse frontImage={LA2} backImage={LA1} />
         </SwiperSlide>
         <SwiperSlide className="aspect-[9/12] duration-200 xl:aspect-[9/16]">
           <SubCard label="Xalapa" frontImage={TJ1} backImage={TJ2} />

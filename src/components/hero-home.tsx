@@ -28,12 +28,13 @@ export default function HeroHome({
   translations
 }: Props) {
   return (
-    <main className="relative h-[840px] w-full md:h-[550px] lg:h-[550px] xl:h-[550px] 2xl:max-h-[550px]">
+    <main className="relative h-[840px] w-full md:h-[550px] lg:h-[550px] xl:h-[850px] 2xl:h-[850px]">
+      <div className="bg-curves absolute -bottom-1 xl:h-56 w-full z-[2] bg-repeat-x"></div>
       {background.type === "static" && (
         <Image
           src={background.image}
           alt=""
-          className="z-0 h-full object-cover object-center md:max-h-[410px] xl:w-full 2xl:max-h-[550px]"
+          className="z-0 h-full object-cover object-center md:max-h-[410px] xl:w-full xl:h-[850px] 2xl:h-[850px]"
         />
       )}
       {background.type === "slider" && (
@@ -50,7 +51,7 @@ export default function HeroHome({
               <Image
                 src={image}
                 alt={`banner ${index + 1}`}
-                className="z-0 h-full object-cover object-center sm:max-h-[650px] md:max-h-[500px] xl:max-h-[550px] xl:w-full"
+                className="z-0 h-full object-cover object-center sm:max-h-[650px] md:max-h-[500px] xl:max-h-[550px] 2xl:max-h-[850px] xl:w-full"
               />
             </SwiperSlide>
           ))}
@@ -77,7 +78,7 @@ export default function HeroHome({
             )}
           </div>
           {withSearcher && (
-            <div className="mt-20 w-full rounded-xl shadow-lg sm:mt-20 lg:mt-20 xl:mt-36 2xl:mt-44">
+            <div className="mt-20 w-full rounded-xl shadow-lg sm:mt-20 lg:mt-20 xl:mt-36 2xl:mt-44 hidden">
               <Searcher
                 variant="transparent"
                 lang={translations.locale}

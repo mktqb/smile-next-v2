@@ -67,7 +67,7 @@ export default function Header({ translations, currentLocale }: Props) {
         )}
       >
         {/* Topbar */}
-        <div className="w-full bg-secondary-500">
+        {/* <div className="w-full bg-secondary-500">
           <section className="section-container item-center flex justify-between py-1 text-sm">
             <div className="flex">
               <div className="md:item-center mr-8 min-w-[130px] text-white md:grid">
@@ -111,9 +111,9 @@ export default function Header({ translations, currentLocale }: Props) {
               </div>
             </div>
           </section>
-        </div>
+        </div> */}
         {/* End Topbar */}
-        <div className="bg-header fixed left-0 z-[80] w-full pb-3 pt-4 shadow-lg backdrop-blur-lg">
+        <div className="bg-[#3cbc00] fixed left-0 z-[80] w-full pb-3 pt-4">
           <section className="section-container flex items-center justify-center min-[300px]:justify-between">
             {/* Logo que se muestra en disp muy pequeños, centrado. Oculto de 300 a más */}
             <button
@@ -122,21 +122,21 @@ export default function Header({ translations, currentLocale }: Props) {
             >
               <span className="sr-only">{translations.home}</span>
               <Image
-                  src={Logo}
-                  alt="bg"
-                  className="max-[350px]:w-[140px] w-[150px] md:w-[250px]"
-                />
+                src={Logo}
+                alt="bg"
+                className="w-[150px] max-[350px]:w-[140px] md:w-[160px] xl:w-[180px]"
+              />
             </button>
 
             {/* Logo que se muestra en disp no tan pequeños, centrado. Se muestra de 300 a más */}
             <Link href="/" className="hidden min-[300px]:block">
               <span className="sr-only">{translations.home}</span>
-              
+
               <Image
-                  src={Logo}
-                  alt="bg"
-                  className="max-[350px]:w-[140px] w-[150px] md:w-[250px]"
-                />
+                src={Logo}
+                alt="bg"
+                className="w-[150px] max-[350px]:w-[140px] md:w-[160px] xl:w-[180px]"
+              />
             </Link>
 
             <button

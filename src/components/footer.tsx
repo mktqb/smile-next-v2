@@ -10,7 +10,6 @@ import {
   FlagMexico,
   FlagUSA,
   Instagram,
-  Bgbrmd,
   PoweredByQuatrobus,
 } from "./svg";
 
@@ -34,17 +33,20 @@ const Footer = ({ translations }: Props) => {
   
   const path = usePathname();
   return (
-    <footer className="flex w-full flex-col bg-primary-600 duration-300 relative">
-    <Bgbrmd className="absolute right-0 bottom-0" />
+    <footer className="relative flex w-full flex-col bg-[#39bd00] duration-300">
       <div className="footer-curve"></div>
       <section className="section-container my-8 grid w-full grid-cols-1 gap-1 bg-transparent duration-300 sm:grid-cols-2 md:grid-cols-12 md:gap-4">
         <div className="col-span-full grid gap-4 text-gray-50 md:col-span-4">
           <Image
-                  src={Logo}
-                  alt="bg"
-                  className="max-[350px]:w-[140px] w-[150px] md:w-[250px]"
-                />
-          <p className="mt-4 text-sm md:w-10/12">{translations.text}</p>
+            src={Logo}
+            alt="bg"
+            className="w-[150px] max-[350px]:w-[140px] md:w-[180px] xl:w-[200px]"
+          />
+          <p className="mt-4 text-sm md:w-10/12">
+            Nuestro mayor objetivo es superar las expectativas de los clientes,
+            ofreciendo comodidad, puntualidad y seguridad en cada uno de los
+            servicios que ofrecemos a nuestros clientes.
+          </p>
           <div className="navbar-social flex w-full">
             <Link
               href="https://www.facebook.com/profile.php?id=61557278186039"
@@ -59,55 +61,51 @@ const Footer = ({ translations }: Props) => {
         {/* Nav bar */}
         <div className="mt-8 grid grid-cols-12 gap-5 md:col-span-8">
           <div className="col-span-7 text-gray-50 md:col-span-4">
-            <h3 className="mb-3 font-semibold">{translations.home}</h3>
+            <h3 className="mb-3 font-semibold">Menú</h3>
             <ul className="navbar-footer grid gap-1">
               <li>
-                <Link href="/">{translations.home}</Link>
+                <Link href="/">Inicio</Link>
               </li>
               <li>
-                <Link href="/faq">{translations.faq}</Link>
+                <Link href="/">Nosotros</Link>
               </li>
               <li>
-                <Link href="/cookie-policies">{translations.cookiePolicy}</Link>
+                <Link href="/">Terminales</Link>
               </li>
               <li>
-                <Link href="/travel-policies">
-                  {translations.travelPolicy}
-                </Link>
+                <Link href="/faq">Preguntas frecuentes</Link>
+              </li>
+              <li>
+                <Link href="/cookie-policies">Contáctanos</Link>
               </li>
             </ul>
           </div>
           <div className="col-span-5 grid grid-cols-1 gap-4 md:col-span-8 md:grid-cols-2">
             <div className="col-span-1 text-gray-50 md:col-span-1">
-              <h3 className="mb-3 font-semibold">
-                {translations.destinations}
-              </h3>
+              <h3 className="mb-3 font-semibold">Destinos</h3>
               <ul className="navbar-footer grid gap-1">
                 <li>
-                  <a>Inland Empire</a>
+                  <a>CDMX</a>
                 </li>
                 <li>
-                  <a>San Diego, CA</a>
+                  <a>Veracruz</a>
                 </li>
                 <li>
-                  <a>Tijuana, MX</a>
+                  <a>Puebla</a>
+                </li>
+                <li>
+                  <a>Xalapa</a>
                 </li>
               </ul>
             </div>
             <div className="col-span-1 text-gray-50 md:col-span-1">
-              <h3 className="mb-3 font-semibold">{translations.language}</h3>
+              <h3 className="mb-3 font-semibold">Legal</h3>
               <ul className="navbar-footer grid gap-1">
                 <li>
-                  <FlagUSA className="inline-flex text-lg" />
-                  <Link className="inline-flex pl-2" href={path} locale="en">
-                    {translations.english}
-                  </Link>
+                  <Link href="/travel-policies">Términos y condiciones</Link>
                 </li>
                 <li>
-                  <FlagMexico className="inline-flex text-lg" />
-                  <Link className="inline-flex pl-2" href={path} locale="es">
-                    {translations.spanish}
-                  </Link>
+                  <Link href="/travel-policies">Políticas de privacidad</Link>
                 </li>
               </ul>
             </div>
@@ -115,7 +113,7 @@ const Footer = ({ translations }: Props) => {
         </div>
         {/* Fin Nav bar */}
       </section>
-      <div className="col-span-full grid place-items-center gap-4 bg-transparent pb-4 pt-7 text-white">
+      <div className="col-span-full grid place-items-center gap-4 bg-[#2e7200] pb-4 pt-7 text-white">
         <PoweredByQuatrobus className="inline-flex text-xs" />
         <span className="text-center text-xs">{translations.copyright}</span>
       </div>
