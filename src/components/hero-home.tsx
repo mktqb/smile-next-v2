@@ -79,11 +79,11 @@ export default function HeroHome({
             )}
           </div>
           {withSearcher && (
-            <div className="mt-20 hidden w-full rounded-xl shadow-lg sm:mt-20 lg:mt-20 xl:mt-36 2xl:mt-44">
+            <div className="mt-20 w-full rounded-xl shadow-lg sm:mt-20 lg:mt-20 xl:mt-36 2xl:mt-44">
               <Searcher
                 variant="transparent"
                 lang={translations.locale}
-                url="https://private.zerimarexpress.com/"
+                url="https://privado.lathamperu.com.pe/"
               />
             </div>
           )}
