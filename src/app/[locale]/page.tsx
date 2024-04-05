@@ -98,7 +98,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
         </h2>
       </div>
       {/* Tutorial: Compra en 4 pasos */}
-      <div className="bg-tutorial parallax bg-primary-500">
+      <div className="bg-tutorial parallax bg-gradient-to-t from-[#022204] to-[#00d800]">
         <div className="footer-curve"></div>
         <section className="section-container relative z-10 grid grid-cols-1 gap-5 max-md:px-0 md:grid-cols-1 md:pb-32 md:pt-16 lg:grid-cols-1 xl:grid-cols-1">
           <div className="flex w-full flex-col items-center gap-1 pb-8 max-md:hidden">
@@ -225,9 +225,11 @@ export default function Home({ params: { locale } }: { params: { locale: string 
       <div id="terminals" className="scroll-m-20">
         <div className="relative h-min w-full place-items-center overflow-hidden bg-transparent max-sm:bg-zinc-100 md:my-0 md:bg-white">
           <TerminalsSection
-            translations={{ title: "Conoce nuestras terminales"/* t.raw("terminals_title") */ }}
+            translations={{
+              title:
+                "Conoce nuestras terminales" /* t.raw("terminals_title") */,
+            }}
           />
-          
         </div>
       </div>
 
@@ -261,7 +263,11 @@ export default function Home({ params: { locale } }: { params: { locale: string 
             className="z-20 w-2/3 -translate-y-5"
           />
           <div className="z-20">
-            <ButtonToScript transaltions={{ text: "Quiero viajar"/* t("fixed_route.button") */ }} />
+            <ButtonToScript
+              transaltions={{
+                text: "Quiero viajar" /* t("fixed_route.button") */,
+              }}
+            />
           </div>
         </div>
         <div className="z-[1] col-span-full grid place-items-center xl:col-span-2"></div>
@@ -393,11 +399,14 @@ export default function Home({ params: { locale } }: { params: { locale: string 
                   __html: t.raw("faq.title"),
                 }}
               /> */}
-              <h2 className="main-title text-center font-bold md:text-start">¿Tienes preguntas sobre nuestros servicios?</h2>
+              <h2 className="main-title text-center font-bold md:text-start">
+                ¿Tienes preguntas sobre nuestros servicios?
+              </h2>
             </div>
             <p className="text-center text-sm md:text-start md:text-lg">
               {/* {t("faq.text")} */}
-              Hemos reunido las preguntas más comunes para brindarte la información que necesitas de manera clara y concisa.
+              Hemos reunido las preguntas más comunes para brindarte la
+              información que necesitas de manera clara y concisa.
             </p>
             <Link href={"/faq"} className="main-button">
               {/* {t("faq.button")} */}

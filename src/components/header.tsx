@@ -16,7 +16,7 @@ import ChangeLocale from "./change-locale";
 } from "@nextui-org/react";
 import LanguageSwitch from "./language-switch"; */
 
-import Logo from "@/assets/LogoAV.png";
+import Logo from "@/assets/LogoAV3.png";
 
 interface Props {
   currentLocale: string;
@@ -113,7 +113,7 @@ export default function Header({ translations, currentLocale }: Props) {
           </section>
         </div> */}
         {/* End Topbar */}
-        <div className="fixed left-0 z-[80] w-full bg-white pb-3 pt-4">
+        <div className="fixed left-0 z-[80] w-full bg-white bg-gradient-to-t from-[#022204] to-[#00d800] pb-0 pt-0">
           <section className="section-container flex items-center justify-center min-[300px]:justify-between">
             {/* Logo que se muestra en disp muy pequeños, centrado. Oculto de 300 a más */}
             <button
@@ -124,11 +124,11 @@ export default function Header({ translations, currentLocale }: Props) {
               <Image
                 src={Logo}
                 alt="bg"
-                className="w-[150px] max-[350px]:w-[140px] md:w-[160px] xl:w-[180px]"
+                className="w-[150px] max-[350px]:w-[140px] md:w-[160px] xl:w-[250px]"
               />
             </button>
 
-            <div className="hidden items-center gap-3 text-sm text-black md:flex lg:text-base">
+            <div className="hidden items-center gap-3 text-sm text-white md:flex lg:text-base">
               <nav className="navbar-desktop">
                 {/* <Link href="/" className="text-shadow-xs">
                   {translations.home}
@@ -156,7 +156,7 @@ export default function Header({ translations, currentLocale }: Props) {
               <Image
                 src={Logo}
                 alt="bg"
-                className="w-[150px] max-[350px]:w-[140px] md:w-[160px] xl:w-[180px]"
+                className="w-[150px] max-[350px]:w-[140px] md:w-[160px] xl:w-[250px]"
               />
             </Link>
 
