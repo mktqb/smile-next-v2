@@ -128,6 +128,27 @@ export default function Header({ translations, currentLocale }: Props) {
               />
             </button>
 
+            <div className="hidden items-center gap-3 text-sm text-white md:flex lg:text-base">
+              <nav className="navbar-desktop">
+                {/* <Link href="/" className="text-shadow-xs">
+                  {translations.home}
+                  Inicio
+                </Link> */}
+                <Link href="/#nosotros" className="hover:text-[#6c00f7]">
+                  {/* {translations.destinations} */}
+                  Nosotros
+                </Link>
+                <Link href="/#destinos" className="hover:text-[#6c00f7]">
+                  {/* {translations.about_us} */}
+                  Destinos
+                </Link>
+                <Link href="/#terminales" className="hover:text-[#6c00f7]">
+                  {/* {translations.home} */}
+                  Terminales
+                </Link>
+              </nav>
+            </div>
+
             {/* Logo que se muestra en disp no tan pequeños, centrado. Se muestra de 300 a más */}
             <Link href="/" className="hidden min-[300px]:block">
               <span className="sr-only">{translations.home}</span>
@@ -149,21 +170,20 @@ export default function Header({ translations, currentLocale }: Props) {
             {/* Logo que se muestra en disp no tan pequeños, centrado. Se muestra de 300 a más */}
             <div className="hidden items-center gap-3 text-sm text-white md:flex lg:text-base">
               <nav className="navbar-desktop">
-                <Link href="/" className="text-shadow-xs">
-                  {translations.home}
+                <Link href="/#contacto" className="hover:text-[#6c00f7]">
+                  {/* {translations.destinations} */}
+                  Contáctanos
                 </Link>
-                <Link href="/#destination" className="text-shadow-xs">
-                  {translations.destinations}
+                <Link href="/#faq" className="hover:text-[#6c00f7]">
+                  {/* {translations.about_us} */}
+                  Preguntas frecuentes
                 </Link>
-                <Link href="/#aboutUs" className="text-shadow-xs">
-                  {translations.about_us}
-                </Link>
-                <Link href="/#contact_us" className="text-shadow-xs">
+                {/* <Link href="/#contact_us" className="text-shadow-xs">
                   {translations.contact_us}
                 </Link>
                 <Link href="/faq" className="text-shadow-xs">
                   {translations.faq}
-                </Link>
+                </Link> */}
               </nav>
             </div>
           </section>

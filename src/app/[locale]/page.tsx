@@ -73,7 +73,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
         }}
       />
 
-      <main className="flex flex-col items-center justify-between pt-20 md:min-h-[900px]">
+      <main className="flex flex-col items-center justify-between pt-20">
         {/* Ejemplo del carrusel con traducciones desde el servidor */}
         <DestinationsCarousel
         /* translations={{
@@ -100,7 +100,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
       {/* Tutorial: Compra en 4 pasos */}
       <div className="bg-tutorial parallax bg-lime-500">
         <div className="footer-curve"></div>
-        <section className="section-container relative z-10 grid grid-cols-1 gap-5 max-md:px-0 md:grid-cols-1 md:pb-32 md:pt-32 lg:grid-cols-1 xl:grid-cols-1">
+        <section className="section-container relative z-10 grid grid-cols-1 gap-5 max-md:px-0 md:grid-cols-1 md:pb-32 md:pt-16 lg:grid-cols-1 xl:grid-cols-1">
           <div className="flex w-full flex-col items-center gap-1 pb-8 max-md:hidden">
             <h2 className="main-title text-white">
               Compra tus boletos <b>en 4 pasos</b>
@@ -155,16 +155,20 @@ export default function Home({ params: { locale } }: { params: { locale: string 
             />
           </div>
           <div className="col-span-full flex flex-col items-center gap-x-4 gap-y-2 max-md:hidden lg:flex-row lg:justify-center xl:mt-4">
-            <span
+            {/* <span
               className="text-center text-white"
               dangerouslySetInnerHTML={{ __html: t.raw("tutorial.cta.text") }}
-            />
+            /> */}
+            <span>
+              <b>Consigue tus tickets</b> ¡en pocos minutos!
+            </span>
             <a
               href={process.env.PUBLIC_QUAWEB_URL}
               target="_blank"
               className="main-button"
             >
-              {t("tutorial.cta.button")}
+              {/* {t("tutorial.cta.button")} */}
+              Compra sin salir de casa
             </a>
           </div>
         </section>
@@ -205,11 +209,11 @@ export default function Home({ params: { locale } }: { params: { locale: string 
                 {t("about_us.button")}
               </a>
             </div>
-            <div className="h-min-[300px] flex aspect-[16/9] w-[100%] items-center justify-center overflow-hidden rounded-b-xl md:col-span-2 md:aspect-square md:rounded-xl xl:col-span-1 xl:aspect-[18/9]">
+            <div className="h-min-[300px] flex aspect-[16/9] w-[100%] items-center justify-center overflow-hidden rounded-b-3xl md:col-span-2 md:aspect-square md:rounded-xl xl:col-span-1 xl:aspect-[18/9]">
               <Image
                 src={Nosotros}
                 alt={"nosotros"}
-                className="center h-auto w-full -translate-y-6 object-cover object-center"
+                className="center h-auto w-full -translate-y-6 rounded-3xl border-8 border-lime-200 object-cover object-center"
               />
             </div>
           </section>
@@ -221,8 +225,9 @@ export default function Home({ params: { locale } }: { params: { locale: string 
       <div id="terminals" className="scroll-m-20">
         <div className="relative h-min w-full place-items-center overflow-hidden bg-transparent max-sm:bg-zinc-100 md:my-0 md:bg-white">
           <TerminalsSection
-            translations={{ title: t.raw("terminals_title") }}
+            translations={{ title: "Conoce nuestras terminales"/* t.raw("terminals_title") */ }}
           />
+          
         </div>
       </div>
 
@@ -234,16 +239,16 @@ export default function Home({ params: { locale } }: { params: { locale: string 
       >
         <div className="flex items-center gap-4 md:translate-x-32 xl:translate-x-0">
           <div className="flex-col items-center">
-            <h2 className="text-2xl font-bold text-orange-500">
+            <h2 className="text-2xl font-bold text-[#3dbd00]">
               {/* {t("fixed_route.title")} */}
               Rutas más visitadas
             </h2>
-            <h4 className="text-center text-sm xl:text-lg">
+            <h4 className="text-center text-sm text-[#2f7300] xl:text-lg">
               {/* {t("fixed_route.subtitle")} */}
               Compra tu boleto en la web
             </h4>
           </div>
-          <CustomFixed className="text-xl text-purple-950" />
+          <CustomFixed className="text-xl text-[#6c00f7]" />
         </div>
       </div>
 
@@ -256,7 +261,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
             className="z-20 w-2/3 -translate-y-5"
           />
           <div className="z-20">
-            <ButtonToScript transaltions={{ text: t("fixed_route.button") }} />
+            <ButtonToScript transaltions={{ text: "Quiero viajar"/* t("fixed_route.button") */ }} />
           </div>
         </div>
         <div className="z-[1] col-span-full grid place-items-center xl:col-span-2"></div>
@@ -270,10 +275,12 @@ export default function Home({ params: { locale } }: { params: { locale: string 
             <div className="flex items-center gap-4">
               <div className="flex-col items-center">
                 <h2 className="text-lg font-bold text-[#3bbd00]">
-                  {t("fixed_route.title")}
+                  {/* {t("fixed_route.title")} */}
+                  Rutas más visitadas
                 </h2>
                 <h4 className="text-center text-xs xl:text-lg">
-                  {t("fixed_route.subtitle")}
+                  {/* {t("fixed_route.subtitle")} */}
+                  Compra tu boleto en la web
                 </h4>
               </div>
               <CustomFixed className="text-xl text-primary-500" />
@@ -380,18 +387,21 @@ export default function Home({ params: { locale } }: { params: { locale: string 
           />
           <div className="order-1 col-span-1 flex flex-col items-center gap-4 text-white md:order-1 md:items-start lg:col-span-3 lg:gap-5">
             <div className="title-container items-center pb-4 md:items-start">
-              <h2
+              {/* <h2
                 className="main-title text-center font-bold md:text-start"
                 dangerouslySetInnerHTML={{
                   __html: t.raw("faq.title"),
                 }}
-              />
+              /> */}
+              <h2 className="main-title text-center font-bold md:text-start">¿Tienes preguntas sobre nuestros servicios?</h2>
             </div>
             <p className="text-center text-sm md:text-start md:text-lg">
-              {t("faq.text")}
+              {/* {t("faq.text")} */}
+              Hemos reunido las preguntas más comunes para brindarte la información que necesitas de manera clara y concisa.
             </p>
             <Link href={"/faq"} className="main-button">
-              {t("faq.button")}
+              {/* {t("faq.button")} */}
+              Ver preguntas
             </Link>
           </div>
         </section>

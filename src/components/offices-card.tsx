@@ -18,7 +18,7 @@ export default function OfficesComponent({ locale }: { locale: string }) {
             {offices.map((office) => (
               <button
                 key={office.id}
-                className={`mb-3 flex-grow space-y-2 rounded-3xl px-5 pb-6 pt-4 text-left text-sm font-medium shadow-lg last:mb-0 focus:outline-none md:px-6 ${selectedOffice === office ? " bg-orange-500 text-white" : "bg-white text-gray-800"}`}
+                className={`mb-3 flex-grow space-y-2 rounded-3xl px-5 pb-6 pt-4 text-left text-sm font-medium shadow-lg last:mb-0 focus:outline-none md:px-6 ${selectedOffice === office ? " bg-[#fa9500] text-white" : "bg-white text-gray-800"}`}
                 onClick={() => setSelectedOffice(office)}
               >
                 <h4 className="mb-4 text-lg font-semibold">

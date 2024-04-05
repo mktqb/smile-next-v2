@@ -29,12 +29,12 @@ export default function HeroHome({
 }: Props) {
   return (
     <main className="relative h-[840px] w-full md:h-[550px] lg:h-[550px] xl:h-[850px] 2xl:h-[850px]">
-      <div className="bg-curves absolute -bottom-1 xl:h-56 w-full z-[2] bg-repeat-x"></div>
+      <div className="bg-curves absolute -bottom-1 z-[2] w-full bg-repeat-x xl:h-56"></div>
       {background.type === "static" && (
         <Image
           src={background.image}
           alt=""
-          className="z-0 h-full object-cover object-center md:max-h-[410px] xl:w-full xl:h-[850px] 2xl:h-[850px]"
+          className="z-0 h-full object-cover object-center md:max-h-[410px] xl:h-[850px] xl:w-full 2xl:h-[850px]"
         />
       )}
       {background.type === "slider" && (
@@ -47,11 +47,12 @@ export default function HeroHome({
           className="h-full"
         >
           {background.image.map((image, index) => (
-            <SwiperSlide key={"home_wspr_" + index}>
+            <SwiperSlide key={"home_wspr_" + index} className="!relative">
+              <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-[#3cbc00]/75 via-transparent via-30% to-transparent"></div>
               <Image
                 src={image}
                 alt={`banner ${index + 1}`}
-                className="z-0 h-full object-cover object-center sm:max-h-[650px] md:max-h-[500px] xl:max-h-[550px] 2xl:max-h-[850px] xl:w-full"
+                className="z-0 h-full object-cover object-center sm:max-h-[650px] md:max-h-[500px] xl:max-h-[550px] xl:w-full 2xl:max-h-[850px]"
               />
             </SwiperSlide>
           ))}
@@ -78,7 +79,7 @@ export default function HeroHome({
             )}
           </div>
           {withSearcher && (
-            <div className="mt-20 w-full rounded-xl shadow-lg sm:mt-20 lg:mt-20 xl:mt-36 2xl:mt-44 hidden">
+            <div className="mt-20 hidden w-full rounded-xl shadow-lg sm:mt-20 lg:mt-20 xl:mt-36 2xl:mt-44">
               <Searcher
                 variant="transparent"
                 lang={translations.locale}
