@@ -4,7 +4,7 @@ import { Link, usePathname } from "@/navigation";
 import React from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import Logo from "@/assets/logoAV2.png";
+import Logo from "@/assets/LogoAV2.png";
 import {
   Facebook,
   FlagMexico,
