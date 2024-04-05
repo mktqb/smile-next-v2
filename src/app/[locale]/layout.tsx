@@ -17,7 +17,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Smile Bus",
+  title: "AV Express",
   description: "Home",
 };
 export function generateStaticParams() {

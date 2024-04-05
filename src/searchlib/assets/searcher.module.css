@@ -2,7 +2,7 @@
   @apply relative grid w-full grid-cols-1 place-items-center gap-5 rounded-2xl p-5 duration-300 md:grid-cols-2;
 }
 .searchContainerV {
-  @apply relative grid w-full grid-cols-1 place-items-center gap-5 rounded-2xl p-5 duration-300;
+  @apply relative grid w-full grid-cols-1 place-items-center gap-4 rounded-2xl p-5 duration-300;
 }
 .searchContainer.withPassengers {
   @apply lg:grid-cols-6 2xl:grid-cols-6;

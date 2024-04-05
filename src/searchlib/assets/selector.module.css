@@ -8,7 +8,7 @@
   @apply border-neutral-300 py-1.5;
 }
 .transparent.container {
-  @apply border-transparent py-2;
+  @apply border-transparent pt-2 pb-1;
 }
 .flat.container:not(.disabled),
 .transparent.container:not(.disabled) {
@@ -44,17 +44,17 @@
   @apply left-3 top-3;
 }
 .flat.label.focus {
-  @apply -top-2 left-2 px-1 text-xs;
+  @apply -top-2 left-2 px-1 text-[0.7rem];
 }
 :global(.dark) .flat.label.focus {
   @apply bg-neutral-800;
 }
 .transparent.label.focus {
-  @apply -top-0 left-2 px-1 text-xs;
+  @apply -top-0 left-2 px-1 text-[0.7rem];
 }
 
 .input {
-  @apply min-w-0 flex-1 border-none bg-transparent pl-2 text-sm outline-none text-black;
+  @apply min-w-0 flex-1 border-none bg-transparent pl-2 text-[0.85rem] outline-none text-black;
 }
 .transparent.input {
   @apply pt-3;

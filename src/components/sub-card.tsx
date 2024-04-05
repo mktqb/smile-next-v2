@@ -74,7 +74,7 @@ export default function SubCard({
                 )}
               </div>
               <div
-                className={`px-5 py-1 text-center uppercase tracking-[0.2em] text-white ${i === 0 ? "rounded-b-xl bg-secondary-500" : "rounded-t-xl bg-fuchsia-600"}`}
+                className={`px-5 py-1 text-center uppercase tracking-[0.2em] text-white ${i === 0 ? "rounded-b-xl bg-secondary-700" : "rounded-t-xl bg-primary-500"}`}
               >
                 {label}
               </div>

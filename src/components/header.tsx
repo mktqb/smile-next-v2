@@ -16,7 +16,7 @@ import ChangeLocale from "./change-locale";
 } from "@nextui-org/react";
 import LanguageSwitch from "./language-switch"; */
 
-import Logo from "@/assets/logo.png";
+import Logo from "@/assets/LogoAV.png";
 
 interface Props {
   currentLocale: string;
@@ -113,7 +113,7 @@ export default function Header({ translations, currentLocale }: Props) {
           </section>
         </div> */}
         {/* End Topbar */}
-        <div className="fixed left-0 z-[80] w-full bg-[#3cbc00] pb-3 pt-4">
+        <div className="fixed left-0 z-[80] w-full bg-white pb-3 pt-4">
           <section className="section-container flex items-center justify-center min-[300px]:justify-between">
             {/* Logo que se muestra en disp muy pequeños, centrado. Oculto de 300 a más */}
             <button
@@ -128,21 +128,21 @@ export default function Header({ translations, currentLocale }: Props) {
               />
             </button>
 
-            <div className="hidden items-center gap-3 text-sm text-white md:flex lg:text-base">
+            <div className="hidden items-center gap-3 text-sm text-black md:flex lg:text-base">
               <nav className="navbar-desktop">
                 {/* <Link href="/" className="text-shadow-xs">
                   {translations.home}
                   Inicio
                 </Link> */}
-                <Link href="/#nosotros" className="hover:text-[#6c00f7]">
+                <Link href="/#nosotros" className="hover:text-primary-500">
                   {/* {translations.destinations} */}
                   Nosotros
                 </Link>
-                <Link href="/#destinos" className="hover:text-[#6c00f7]">
+                <Link href="/#destinos" className="hover:text-primary-500">
                   {/* {translations.about_us} */}
                   Destinos
                 </Link>
-                <Link href="/#terminales" className="hover:text-[#6c00f7]">
+                <Link href="/#terminales" className="hover:text-primary-500">
                   {/* {translations.home} */}
                   Terminales
                 </Link>
@@ -170,11 +170,11 @@ export default function Header({ translations, currentLocale }: Props) {
             {/* Logo que se muestra en disp no tan pequeños, centrado. Se muestra de 300 a más */}
             <div className="hidden items-center gap-3 text-sm text-white md:flex lg:text-base">
               <nav className="navbar-desktop">
-                <Link href="/#contacto" className="hover:text-[#6c00f7]">
+                <Link href="/#contacto" className="hover:text-primary-500">
                   {/* {translations.destinations} */}
                   Contáctanos
                 </Link>
-                <Link href="/#faq" className="hover:text-[#6c00f7]">
+                <Link href="/#faq" className="hover:text-primary-500">
                   {/* {translations.about_us} */}
                   Preguntas frecuentes
                 </Link>

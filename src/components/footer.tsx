@@ -4,7 +4,7 @@ import { Link, usePathname } from "@/navigation";
 import React from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import Logo from "@/assets/logo.png";
+import Logo from "@/assets/logoAV2.png";
 import {
   Facebook,
   FlagMexico,
@@ -33,7 +33,7 @@ const Footer = ({ translations }: Props) => {
   
   const path = usePathname();
   return (
-    <footer className="relative flex w-full flex-col bg-[#39bd00] duration-300">
+    <footer className="relative flex w-full flex-col bg-primary-500 duration-300">
       <div className="footer-curve"></div>
       <section className="section-container my-8 grid w-full grid-cols-1 gap-1 bg-transparent duration-300 sm:grid-cols-2 md:grid-cols-12 md:gap-4">
         <div className="col-span-full grid gap-4 text-gray-50 md:col-span-4">
@@ -113,7 +113,7 @@ const Footer = ({ translations }: Props) => {
         </div>
         {/* Fin Nav bar */}
       </section>
-      <div className="col-span-full grid place-items-center gap-4 bg-[#2e7200] pb-4 pt-7 text-white">
+      <div className="col-span-full grid place-items-center gap-4 bg-primary-900 pb-4 pt-7 text-white">
         <PoweredByQuatrobus className="inline-flex text-xs" />
         <span className="text-center text-xs">{translations.copyright}</span>
       </div>

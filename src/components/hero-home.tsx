@@ -8,6 +8,11 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import { Searcher } from "@/searchlib/components/Searcher";
 
+import Banner01 from "@/assets/Banner-Inland-Empire.jpg";
+import Banner02 from "@/assets/Banner-San-Diego.jpg";
+import Banner03 from "@/assets/Banner-San-Ysidro.jpg";
+import Banner04 from "@/assets/Banner-Tijuana.jpg";
+
 interface Props {
   background:
     | { type: "static"; image: StaticImageData }
@@ -28,13 +33,16 @@ export default function HeroHome({
   translations
 }: Props) {
   return (
-    <main className="relative h-[840px] w-full md:h-[550px] lg:h-[550px] xl:h-[850px] 2xl:h-[850px]">
-      <div className="bg-curves absolute -bottom-1 z-[2] w-full bg-repeat-x xl:h-56"></div>
+    <main className="relative h-[840px] w-full md:h-[550px] lg:h-[550px] xl:h-[850px] 2xl:h-[880px]">
+      {/* <div className="header-curve "></div> */}
+      {/* <div className="header-curve-container absolute -bottom-1 z-[2] w-full bg-repeat-x xl:h-56">
+        <div className="header-curve-shape"></div>
+      </div> */}
       {background.type === "static" && (
         <Image
           src={background.image}
           alt=""
-          className="z-0 h-full object-cover object-center md:max-h-[410px] xl:h-[850px] xl:w-full 2xl:h-[850px]"
+          className="z-0 h-full object-cover object-center md:max-h-[410px]  xl:h-[850px] xl:w-full 2xl:h-[880px]"
         />
       )}
       {background.type === "slider" && (
@@ -46,7 +54,7 @@ export default function HeroHome({
           autoplay={{ delay: 5000 }}
           className="h-full"
         >
-          {background.image.map((image, index) => (
+          {/* {background.image.map((image, index) => (
             <SwiperSlide key={"home_wspr_" + index} className="!relative">
               <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-[#3cbc00]/75 via-transparent via-30% to-transparent"></div>
               <Image
@@ -55,16 +63,83 @@ export default function HeroHome({
                 className="z-0 h-full object-cover object-center sm:max-h-[650px] md:max-h-[500px] xl:max-h-[550px] xl:w-full 2xl:max-h-[850px]"
               />
             </SwiperSlide>
-          ))}
+          ))} */}
+          <SwiperSlide className="relative h-full w-full">
+            <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-secondary-500 via-transparent via-30% to-transparent max-xl:hidden"></div>
+            <Image
+              src={Banner01}
+              alt="main"
+              width={1920}
+              height={1080}
+              className="h-full object-cover object-center max-xl:max-w-none xl:w-full"
+              priority
+            />
+            <div className="absolute left-0 top-40 z-20 flex flex-col items-center gap-5 max-lg:w-full lg:left-1/2 lg:top-60 lg:-translate-x-24 xl:w-2/5 2xl:w-1/3">
+              <span className="text-center text-3xl font-bold text-white [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)] max-xl:text-balance lg:text-center lg:text-5xl">
+                Texto grande
+              </span>
+              <p className="mt-5 rounded-xl bg-white px-2 py-1 text-center text-xs font-bold text-primary-500 drop-shadow-2xl lg:px-5 lg:text-base">
+                Es momento de viajar
+              </p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="relative h-full w-full">
+            <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-secondary-500 via-transparent via-30% to-transparent max-xl:hidden"></div>
+            <Image
+              src={Banner02}
+              alt="CDMX"
+              width={1920}
+              height={1080}
+              className="h-full object-cover object-center max-xl:max-w-none xl:w-full"
+              priority
+            />
+            <div className="absolute left-0 top-40 z-20 grid w-full place-items-center lg:left-1/4 lg:top-72 lg:-translate-x-28 xl:-translate-x-64">
+              <span className="text-center text-6xl font-bold text-white underline decoration-primary-500 underline-offset-4 [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)]">
+                CDMX
+              </span>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="relative h-full w-full">
+            <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-secondary-500 via-transparent via-30% to-transparent max-xl:hidden"></div>
+            <Image
+              src={Banner03}
+              alt="Los Angeles"
+              width={1920}
+              height={1080}
+              className="h-full object-cover object-center max-xl:max-w-none xl:w-full"
+              priority
+            />
+            <div className="absolute left-0 top-40 z-20 grid w-full place-items-center lg:left-1/4 lg:top-72 lg:-translate-x-28 xl:-translate-x-64">
+              <span className="text-center text-6xl font-bold text-white underline decoration-primary-500 underline-offset-4 [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)]">
+                {/* {translations.losAngeles} */}
+              </span>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="relative h-full w-full">
+            <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-secondary-500 via-transparent via-30% to-transparent max-xl:hidden"></div>
+            <Image
+              src={Banner04}
+              alt="Tijuana"
+              width={1920}
+              height={1080}
+              className="h-full object-cover object-center max-xl:max-w-none xl:w-full"
+              priority
+            />
+            <div className="absolute left-0 top-40 z-20 grid w-full place-items-center lg:left-1/4 lg:top-72 lg:-translate-x-28 xl:-translate-x-64">
+              <span className="text-center text-6xl font-bold text-white underline decoration-primary-500 underline-offset-4 [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)]">
+                Tijuana
+              </span>
+            </div>
+          </SwiperSlide>
         </Swiper>
       )}
       <div
         className="absolute left-0 top-12 z-10 grid h-full w-full pt-44 max-[375px]:top-10
       sm:pt-32
-      md:top-20 md:pt-32 lg:pt-36 xl:pt-36 2xl:top-10 2xl:pt-52"
+      md:top-10 md:pt-32 lg:pt-36 xl:pt-36 2xl:top-10 2xl:pt-28"
       >
-        <div className="container flex flex-col">
-          <div className="flex flex-col items-center gap-3">
+        {/* <div className="container flex flex-col"> */}
+        {/* <div className="flex flex-col items-center gap-3">
             {title && (
               <h1
                 className="text-shadow-xl text-balance text-center text-3xl font-bold text-white xl:text-4xl"
@@ -77,17 +152,21 @@ export default function HeroHome({
                 dangerouslySetInnerHTML={{ __html: subtitle }}
               ></p>
             )}
-          </div>
-          {withSearcher && (
-            <div className="mt-20 w-full rounded-xl shadow-lg sm:mt-20 lg:mt-20 xl:mt-36 2xl:mt-44">
+          </div> */}
+        {withSearcher && (
+          <section className="section-container position-initial z-50 mt-12 max-lg:mt-96 max-lg:pt-4">
+            <div className="w-full lg:max-w-72 xl:max-w-[21rem]">
               <Searcher
+                url="https://websales.702shuttles.com"
                 variant="transparent"
+                vertical
                 lang={translations.locale}
-                url="https://privado.lathamperu.com.pe/"
               />
             </div>
-          )}
-        </div>
+          </section>
+        )}
+        {/*         </div>
+         */}{" "}
       </div>
     </main>
   );

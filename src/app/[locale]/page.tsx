@@ -98,7 +98,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
         </h2>
       </div>
       {/* Tutorial: Compra en 4 pasos */}
-      <div className="bg-tutorial parallax bg-lime-500">
+      <div className="bg-tutorial parallax bg-primary-500">
         <div className="footer-curve"></div>
         <section className="section-container relative z-10 grid grid-cols-1 gap-5 max-md:px-0 md:grid-cols-1 md:pb-32 md:pt-16 lg:grid-cols-1 xl:grid-cols-1">
           <div className="flex w-full flex-col items-center gap-1 pb-8 max-md:hidden">
@@ -191,14 +191,14 @@ export default function Home({ params: { locale } }: { params: { locale: string 
         <div className="relative mt-10 h-min w-full place-items-center overflow-hidden bg-transparent max-md:rounded-t-3xl max-sm:bg-white md:my-0 md:rounded-b-[5rem] md:bg-white">
           <section className="section-container grid w-full items-center gap-0 bg-transparent py-8 md:grid-cols-5 md:gap-10 md:py-14 xl:grid-cols-2 xl:gap-6">
             <div className="flex flex-col items-center gap-4 rounded-t-xl bg-white px-4 py-8 md:col-span-3 md:items-start md:bg-transparent md:p-0 lg:gap-4 xl:col-span-1">
-              <h1 className="main-title text-center text-lime-500">
+              <h1 className="main-title text-center text-black">
                 {/* {t("about_us.title")} */}¿Quiénes somos?
               </h1>
               <p
-                className="text-start text-sm text-green-800 max-md:text-justify md:text-base"
+                className="text-start text-sm text-black max-md:text-justify md:text-base"
                 dangerouslySetInnerHTML={{ __html: t.raw("about_us.text.0") }}
               />
-              <p className="hidden text-start text-sm text-green-800 md:block md:text-base">
+              <p className="hidden text-start text-sm text-black md:block md:text-base">
                 {t("about_us.text.1")}
               </p>
               <a
@@ -213,7 +213,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
               <Image
                 src={Nosotros}
                 alt={"nosotros"}
-                className="center h-auto w-full -translate-y-6 rounded-3xl border-8 border-lime-200 object-cover object-center"
+                className="center h-auto w-full -translate-y-6 rounded-lg object-cover object-center"
               />
             </div>
           </section>
@@ -239,11 +239,11 @@ export default function Home({ params: { locale } }: { params: { locale: string 
       >
         <div className="flex items-center gap-4 md:translate-x-32 xl:translate-x-0">
           <div className="flex-col items-center">
-            <h2 className="text-2xl font-bold text-[#3dbd00]">
+            <h2 className="text-2xl font-bold text-black">
               {/* {t("fixed_route.title")} */}
               Rutas más visitadas
             </h2>
-            <h4 className="text-center text-sm text-[#2f7300] xl:text-lg">
+            <h4 className="text-center text-sm text-black xl:text-lg">
               {/* {t("fixed_route.subtitle")} */}
               Compra tu boleto en la web
             </h4>
@@ -274,7 +274,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
           <div className="z-50 flex flex-col items-center gap-5">
             <div className="flex items-center gap-4">
               <div className="flex-col items-center">
-                <h2 className="text-lg font-bold text-[#3bbd00]">
+                <h2 className="text-lg font-bold text-black">
                   {/* {t("fixed_route.title")} */}
                   Rutas más visitadas
                 </h2>
@@ -283,7 +283,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
                   Compra tu boleto en la web
                 </h4>
               </div>
-              <CustomFixed className="text-xl text-primary-500" />
+              <CustomFixed className="text-xl text-black" />
             </div>
           </div>
         </section>
@@ -377,7 +377,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
       {/* por qué elegirnos */}
 
       {/* tienes preguntas */}
-      <div className="bg-faq dark:bg-faq-dark relative z-[11] grid h-min w-full place-items-center overflow-visible bg-lime-600 bg-cover bg-center bg-no-repeat max-md:rounded-b-2xl max-sm:pt-8 md:my-0">
+      <div className="bg-faq dark:bg-faq-dark relative z-[11] grid h-min w-full place-items-center overflow-visible bg-secondary-900 bg-cover bg-center bg-no-repeat max-md:rounded-b-2xl max-sm:pt-8 md:my-0">
         <div className="footer-curve"></div>
         <section className="section-container z-[1] grid w-full grid-cols-1 flex-col items-center gap-10 pb-0 md:flex-row lg:grid-cols-5 xl:gap-6">
           <Image
