@@ -207,15 +207,15 @@ body {
 
   /* Fixed routes */
     .fixed-route-bg {
-    @apply relative bg-primary-500;
+    @apply relative bg-gradient-to-t from-[#022204] to-[#00d800];
   }
   .fixed-route-bg::before {
     content: "";
-    @apply absolute right-0 top-0 h-10 w-1/3 rounded-bl-[50px] rounded-tr-xl bg-primary-900 duration-200 min-[480px]:h-16 md:rounded-bl-[90px] xl:w-1/2;
+    @apply absolute right-0 top-0 h-10 w-1/3 rounded-bl-[50px] rounded-tr-xl bg-gradient-to-r from-[#ffe100] to-[#ff8700] duration-200 min-[480px]:h-16 md:rounded-bl-[90px] xl:w-1/2;
   }
   .fixed-route-bg::after {
     content: "";
-    @apply absolute bottom-0 left-0 h-1/3 w-3/4 rounded-bl-xl rounded-tr-[80px] bg-primary-900 duration-200 min-[300px]:rounded-tr-[100px] md:h-1/2 md:w-1/2 md:rounded-tr-[300px] xl:w-1/3;
+    @apply absolute bottom-0 left-0 h-1/3 w-3/4 rounded-bl-xl rounded-tr-[80px] bg-gradient-to-l from-[#ffe100] to-[#ff8700] duration-200 min-[300px]:rounded-tr-[100px] md:h-1/2 md:w-1/2 md:rounded-tr-[300px] xl:w-1/3;
   }
   .fixed-route-clip {
     clip-path: polygon(
@@ -382,7 +382,7 @@ body {
   }
 
   .main-button {
-    @apply bg-[#6c00f7] text-white hover:bg-[#5500c3] hover:text-white;
+    @apply bg-gradient-to-r from-[#ffe100] to-[#ff8700] text-white hover:text-white;
     /* background-image: linear-gradient(145deg, #1f1f1f, #000); */
     /* box-shadow:
       0 4px 6px rgba(0, 0, 0, 0.1),
