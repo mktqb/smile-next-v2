@@ -29,7 +29,7 @@ export default function DestinationsCarousel(/* { translations }: Props */) {
         <h2 className="text-black">
           ¡Es momento <b>de viajar!</b>
         </h2>
-        <hr className="title-line w-20 border-secondary-500" />
+        <hr className="title-line w-20 border-primary-300" />
       </div>
       <Swiper
         spaceBetween={40}

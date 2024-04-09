@@ -57,15 +57,15 @@ export default function Home({ params: { locale } }: { params: { locale: string 
     <>
       <HeroHome
         title={t.raw("hero.title")}
-        background={{
+        /* background={{
           type: "slider",
-          image: [
+             image: [
             BannerInlandEmpire,
             BannerSanDiego,
             BannerSanYsidro,
             BannerTijuana,
           ],
-        }}
+        }} */
         subtitle={t.raw("hero.text")}
         withSearcher
         translations={{
@@ -98,7 +98,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
         </h2>
       </div>
       {/* Tutorial: Compra en 4 pasos */}
-      <div className="bg-tutorial parallax bg-gradient-to-t from-[#022204] to-[#00d800]">
+      <div className="bg-tutorial parallax">
         <div className="footer-curve"></div>
         <section className="section-container relative z-10 grid grid-cols-1 gap-5 max-md:px-0 md:grid-cols-1 md:pb-32 md:pt-16 lg:grid-cols-1 xl:grid-cols-1">
           <div className="flex w-full flex-col items-center gap-1 pb-8 max-md:hidden">
@@ -214,6 +214,32 @@ export default function Home({ params: { locale } }: { params: { locale: string 
                 src={Nosotros}
                 alt={"nosotros"}
                 className="center h-auto w-full -translate-y-6 rounded-lg object-cover object-center"
+              />
+            </div>
+          </section>
+          <section className="section-container grid w-full items-center gap-0 bg-transparent py-8 md:grid-cols-5 md:gap-10 md:py-14 xl:grid-cols-2 xl:gap-6">
+            <div className="flex flex-col items-center gap-4 rounded-t-xl bg-white px-4 py-8 md:col-span-3 md:items-start md:bg-transparent md:p-0 lg:gap-4 xl:col-span-1">
+              <h1 className="main-title text-center text-black">
+                {/* {t("about_us.title")} */}¿Quiénes somos?
+              </h1>
+              <p
+                className="text-start text-sm text-black max-md:text-justify md:text-base"
+                dangerouslySetInnerHTML={{ __html: t.raw("about_us.text.0") }}
+              />
+              <p className="hidden text-start text-sm text-black md:block md:text-base">
+                {t("about_us.text.1")}
+              </p>
+            </div>
+            <div className="h-min-[300px] flex aspect-[16/9] w-[100%] items-center justify-center overflow-hidden rounded-b-3xl md:col-span-2 md:aspect-square md:rounded-xl xl:col-span-1 xl:aspect-[18/9]">
+              <video
+                src="/Video_boleto.mp4"
+                loop
+                width={1920}
+                height={1080}
+                autoPlay
+                muted
+                playsInline
+                className="relative z-10 h-full w-full object-cover max-sm:object-[60%_50%]"
               />
             </div>
           </section>
@@ -383,7 +409,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
       {/* por qué elegirnos */}
 
       {/* tienes preguntas */}
-      <div className="bg-faq dark:bg-faq-dark relative z-[11] grid h-min w-full place-items-center overflow-visible bg-secondary-900 bg-cover bg-center bg-no-repeat max-md:rounded-b-2xl max-sm:pt-8 md:my-0">
+      <div className="bg-faq parallax relative z-[11] grid h-min w-full place-items-center overflow-visible bg-cover bg-center bg-no-repeat max-md:rounded-b-2xl max-sm:pt-8 md:my-0">
         <div className="footer-curve"></div>
         <section className="section-container z-[1] grid w-full grid-cols-1 flex-col items-center gap-10 pb-0 md:flex-row lg:grid-cols-5 xl:gap-6">
           <Image
@@ -423,10 +449,10 @@ export default function Home({ params: { locale } }: { params: { locale: string 
         id="contactUs"
         className="section-container mt-12 flex w-full scroll-m-36 flex-col items-center bg-white md:mt-28"
       >
-        <h3 className="main-title font-semibold text-green-700">
+        <h3 className="main-title font-semibold text-black">
           Habla con nosotros
         </h3>
-        <h4 className="text-sm text-green-700">
+        <h4 className="text-sm text-black">
           Conoce nuestras oficinas principales
         </h4>
       </section>

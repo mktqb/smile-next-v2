@@ -52,7 +52,7 @@ export default function OfficesComponent({ locale }: { locale: string }) {
           </div>
           {/* Fin: Seccion donde se muestran las oficinas */}
           {/* Inicio: Seccion donde se muestran los mapas */}
-          <div className="flex w-full flex-grow bg-lime-200 max-md:mt-4 max-md:aspect-[8/9] sm:rounded-3xl sm:p-4 md:w-6/12 lg:w-7/12 2xl:w-8/12">
+          <div className="flex w-full flex-grow bg-primary-300 max-md:mt-4 max-md:aspect-[8/9] sm:rounded-3xl sm:p-4 md:w-6/12 lg:w-7/12 2xl:w-8/12">
             <div className="relative h-full w-full">
               <div className="h-full w-full overflow-hidden sm:rounded-2xl">
                 <GoogleMaps
