@@ -23,8 +23,10 @@ interface Props {
   translations: {
     home: string;
     about_us: string;
-    contact_us: string;
     destinations: string;
+    terminal: string;
+    contact_us: string;
+
     faq: string;
     spanish: string;
     english: string;
@@ -135,16 +137,13 @@ export default function Header({ translations, currentLocale }: Props) {
                   Inicio
                 </Link> */}
                 <Link href="/#nosotros" className="hover:text-primary-500">
-                  {/* {translations.destinations} */}
-                  Nosotros
+                  {translations.about_us}
                 </Link>
                 <Link href="/#destinos" className="hover:text-primary-500">
-                  {/* {translations.about_us} */}
-                  Destinos
+                  {translations.destinations}
                 </Link>
                 <Link href="/#terminales" className="hover:text-primary-500">
-                  {/* {translations.home} */}
-                  Terminales
+                  {translations.terminal}
                 </Link>
               </nav>
             </div>
@@ -171,12 +170,10 @@ export default function Header({ translations, currentLocale }: Props) {
             <div className="hidden items-center gap-3 text-sm text-white md:flex lg:text-base">
               <nav className="navbar-desktop">
                 <Link href="/#contacto" className="hover:text-primary-500">
-                  {/* {translations.destinations} */}
-                  Contáctanos
+                  {translations.contact_us}
                 </Link>
                 <Link href="/#faq" className="hover:text-primary-500">
-                  {/* {translations.about_us} */}
-                  Preguntas frecuentes
+                  {translations.faq}
                 </Link>
                 {/* <Link href="/#contact_us" className="text-shadow-xs">
                   {translations.contact_us}

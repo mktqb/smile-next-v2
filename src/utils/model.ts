@@ -28,7 +28,7 @@ export const offices: Office[] = [
   {
     name: {
       es: "Oficina en Veracruz",
-      en: "Oficina en Veracruz",
+      en: "Veracruz Office",
     },
     address: "Av. Salvador Díaz Mirón 1892, Moderno, 91910, Veracruz",
     phone1: "+52 (55) 4944 5404",
@@ -44,7 +44,7 @@ export const offices: Office[] = [
   {
     name: {
       es: "Oficina en CDMX",
-      en: "Oficina en CDMX",
+      en: "CDMX Office",
     },
     address:
       "Lotería Nacional - Reforma 1, Tabacalera, Cuauhtémoc, 06030 Ciudad de México",

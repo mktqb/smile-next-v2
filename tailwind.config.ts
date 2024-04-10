@@ -22,12 +22,15 @@ const config: Config = {
       },
     },
     extend: {
+      fontFamily: {
+        taviraj: ["var(--font-taviraj)"],
+      },
       colors: {
         primary: {
           50: "#f2fdf0",
           100: "#ccffcc",
           200: "#ccff99",
-          300: "#66ff00",
+          300: "#00dd05",
           400: "#99cc66",
           500: "#67a547",
           600: "#339900",

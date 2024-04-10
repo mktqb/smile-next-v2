@@ -14,21 +14,20 @@ import Xalapa2 from "@/assets/Destino_xalapa2.jpg";
 
 import "swiper/css";
 
-/* interface Props {
+interface Props {
   translations: {
     title: any;
-    losAngeles: string;
   };
 }
- */
-export default function DestinationsCarousel(/* { translations }: Props */) {
+
+export default function DestinationsCarousel({ translations }: Props) {
   return (
     <section className="section-container py-10">
       <div className="main-title title-container items-center pb-8 xl:pb-12">
-        {/* <h2 dangerouslySetInnerHTML={{ __html: translations.title }} /> */}
-        <h2 className="text-black">
-          ¡Es momento <b>de viajar!</b>
-        </h2>
+        <h2
+          className="text-black"
+          dangerouslySetInnerHTML={{ __html: translations.title }}
+        />
         <hr className="title-line w-20 border-primary-300" />
       </div>
       <Swiper

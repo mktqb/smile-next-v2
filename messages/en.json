@@ -4,6 +4,7 @@
       "home": "Home",
       "about_us": "About Us",
       "destinations": "Destinations",
+      "terminal": "Terminals",
       "contact_us": "Contact Us",
       "faq": "FAQ",
       "terms": "Policies",
@@ -19,7 +20,7 @@
       "english": "English"
     },
     "footer": {
-      "text": "We meet the market's transportation needs with excellence, ensuring the complete satisfaction of our customers.",
+      "text": "In a concerted effort to improve service quality, AV Express is proud to announce its transition to Smile Bus. With a renewed vision and an unwavering commitment to customer satisfaction, we embark on this exciting journey to a new horizon of comfort and excellence in transportation. The destination is ours, but the experience is yours!",
       "menu": "Menu",
       "copyright": "Quatrobus © 2024. All rights reserved"
     },
@@ -34,6 +35,9 @@
     "hero": {
       "title": "<b>We prioritize your comfort</b> on every trip",
       "text": "Travel from the Inland Empire to the San Ysidro LPOE"
+    },
+    "destinations_carousel": {
+      "title": "It's time <b>to travel!</b>"
     },
     "destination": {
       "pretitle": "Our destinations",
@@ -60,7 +64,7 @@
         "title": "Register your payment method",
         "text": "Choose your payment method and complete the requested information. \nClick Process Payment. \nAnd ready!"
       },
-      "title": "Buy your ticket in 4 steps",
+      "title": "Buy your ticket <b>in 4 steps</b>",
       "cta": {
         "text": "<b>Get your tickets</b> in just a few minutes!",
         "button": "Shop without leaving home"
@@ -69,10 +73,17 @@
     "about_us": {
       "title": "Who are we?",
       "text": {
-        "0": "It all started with a personal experience that left a deep impression on one of the founding members, sparking his fascination with the travel industry after dealing with another service provider.",
-        "1": "This initial impulse was fueled by memories of childhood family trips to the airport, which led to the conviction that our true passion lay in passenger transportation."
+        "0": "Founded in November 2018, AV Express is a leading company in foreign passenger transportation, with different destinations in the Mexican Republic and connectivity to the USA. It stands out for its unique combination of tradition and innovation by departing from central bus stations and strategic points.",
+        "1": "Inspired by Veracruz, its name reflects its commitment to speed, efficiency and safety. Its goal is to exceed expectations, guaranteeing comfort, punctuality and safety on every trip, making them unforgettable."
       },
       "button": "Get to know us more here"
+    },
+    "transition": {
+      "title": "Transition process",
+      "text": {
+        "0": "<b>AV Express is</b> proud to announce its transition to Smile Bus. With a renewed vision and an unwavering commitment to customer satisfaction, we embark on this exciting journey to a new horizon of convenience and excellence in transportation.",
+        "1": "Through its new website, <b>AV Express</b> is revolutionizing the way you get around. With an intuitive design and enhanced features, you can now plan and book your trips more easily than ever before. From the comfort of your home or mobile device, access a hassle-free booking experience."
+      }
     },
     "terminals_title": "Do you know our <br /> <b class=\"text-2xl text-black\">terminals?</b>",
     "services": {
@@ -80,6 +91,26 @@
       "customer": "Customer service",
       "security": "Security",
       "travel": "Travel comfort"
+    },
+    "fixed_route": {
+      "title": "Most visited routes",
+      "subtitle": "Buy your ticket on the website",
+      "button": "I want to buy"
+    },
+    "why": {
+      "title": "Why <b>choose us?</b>",
+      "text": "AV Express is committed to offering its customers an exceptional experience on every trip. Our goal is to exceed expectations, ensuring comfort, safety and punctuality on every trip. We are here to make every trip memorable and seamless.",
+      "services": {
+        "title": "Onboard <b>services</b>",
+        "service01": "Onboard restrooms",
+        "service02": "Reclining seats",
+        "service03": "Air conditioning system",
+        "service04": "Heating system",
+        "service05": "Common folding screens",
+        "service06": "Cell phone charging port",
+        "service07": "Individual lighting",
+        "service08": "Charging staff"
+      }
     },
     "choose_us": {
       "title": "Why choose us?",
@@ -111,6 +142,10 @@
       "title": "Do you have questions about our services?",
       "text": "We've put together the most common questions to give you the information you need in a clear and concise way.",
       "button": "See all questions"
+    },
+    "contact_us": {
+      "title": "Talk to us",
+      "subtitle": "Meet our main offices"
     }
   },
   "Faq": {

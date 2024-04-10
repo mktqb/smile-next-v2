@@ -5,6 +5,8 @@ import React from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import Logo from "@/assets/LogoAV2.png";
+
+import ChangeLocale from "./change-locale";
 import {
   Facebook,
   FlagMexico,
@@ -14,6 +16,7 @@ import {
 } from "./svg";
 
 interface Props {
+  currentLocale: string;
   translations: {
     text: string;
     home: string;
@@ -29,25 +32,20 @@ interface Props {
     copyright: string;
   };
 }
-const Footer = ({ translations }: Props) => {
-  
+const Footer = ({ translations, currentLocale }: Props) => {
   const path = usePathname();
   return (
     <footer className="relative flex w-full flex-col bg-gradient-to-t from-[#022204] to-[#00d800] duration-300">
       <div className="footer-curve"></div>
       <section className="section-container my-8 grid w-full grid-cols-1 gap-1 bg-transparent duration-300 sm:grid-cols-2 md:grid-cols-12 md:gap-4">
-        <div className="col-span-full grid gap-4 text-gray-50 md:col-span-4">
+        <div className="col-span-full grid gap-4 text-gray-50 md:col-span-6">
           <Image
             src={Logo}
             alt="bg"
             className="w-[150px] max-[350px]:w-[140px] md:w-[180px] xl:w-[200px]"
           />
-          <p className="mt-4 text-sm md:w-10/12">
-            Nuestro mayor objetivo es superar las expectativas de los clientes,
-            ofreciendo comodidad, puntualidad y seguridad en cada uno de los
-            servicios que ofrecemos a nuestros clientes.
-          </p>
-          <div className="navbar-social flex w-full">
+          <p className="mt-4 text-sm md:w-10/12">{translations.text}</p>
+          {/* <div className="navbar-social flex w-full">
             <Link
               href="https://www.facebook.com/profile.php?id=61557278186039"
               target="_blank"
@@ -56,10 +54,10 @@ const Footer = ({ translations }: Props) => {
                 <Facebook />
               </div>
             </Link>
-          </div>
+          </div> */}
         </div>
         {/* Nav bar */}
-        <div className="mt-8 grid grid-cols-12 gap-5 md:col-span-8">
+        <div className="mt-8 grid grid-cols-12 gap-5 md:col-span-6">
           <div className="col-span-7 text-gray-50 md:col-span-4">
             <h3 className="mb-3 font-semibold">Menú</h3>
             <ul className="navbar-footer grid gap-1">
@@ -100,7 +98,7 @@ const Footer = ({ translations }: Props) => {
             </div>
             <div className="col-span-1 text-gray-50 md:col-span-1">
               <h3 className="mb-3 font-semibold">Legal</h3>
-              <ul className="navbar-footer grid gap-1">
+              <ul className="navbar-footer grid gap-1 mb-6">
                 <li>
                   <Link href="/travel-policies">Términos y condiciones</Link>
                 </li>
@@ -108,6 +106,14 @@ const Footer = ({ translations }: Props) => {
                   <Link href="/travel-policies">Políticas de privacidad</Link>
                 </li>
               </ul>
+              <ChangeLocale
+                currentLocale={currentLocale}
+                path={path}
+                translations={{
+                  english: translations.english,
+                  spanish: translations.spanish,
+                }}
+              />
             </div>
           </div>
         </div>

@@ -12,7 +12,7 @@ export default function OfficesComponent({ locale }: { locale: string }) {
   return (
     <>
       <section className="section-container mt-4 flex w-full flex-col items-center bg-white max-md:px-0 md:mt-4">
-        <div className="flex w-full flex-col gap-1 md:my-8 md:flex-row md:gap-4">
+        <div className="flex w-full flex-col gap-1 md:my-8 md:flex-row md:gap-4 xl:gap-5">
           {/* Inicio: Seccion donde se muestran las oficinas */}
           <div className="flex w-11/12 flex-grow flex-col max-md:mx-auto md:w-6/12 lg:w-5/12 2xl:w-4/12">
             {offices.map((office) => (
@@ -21,7 +21,13 @@ export default function OfficesComponent({ locale }: { locale: string }) {
                 className={`mb-5 flex-grow space-y-2 rounded-3xl px-5 pb-6 pt-6 text-left text-sm font-medium shadow-lg last:mb-0 focus:outline-none md:px-6 ${selectedOffice === office ? " bg-gradient-to-b from-secondary-700 to-secondary-800 text-white" : "bg-white text-gray-800"}`}
                 onClick={() => setSelectedOffice(office)}
               >
-                <h4 className="mb-4 text-lg font-semibold">
+                <h4
+                  className={`mb-4 text-lg font-semibold ${
+                    selectedOffice === office
+                      ? "text-white"
+                      : "text-primary-300"
+                  }`}
+                >
                   {office.name[locale as "en" | "es"]}
                 </h4>
                 <div className="flex items-start gap-1">
@@ -29,7 +35,7 @@ export default function OfficesComponent({ locale }: { locale: string }) {
                     className={`text-lg ${
                       selectedOffice === office
                         ? "text-white"
-                        : "text-primary-500"
+                        : "text-secondary-800"
                     }`}
                   />
                   <p className="w-full text-sm">{office.address}</p>
@@ -42,7 +48,7 @@ export default function OfficesComponent({ locale }: { locale: string }) {
                     className={`text-lg ${
                       selectedOffice === office
                         ? "text-white"
-                        : "text-primary-500"
+                        : "text-secondary-800"
                     }`}
                   />
                   <p>{office.phone1}</p>

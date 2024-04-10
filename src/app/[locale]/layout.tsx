@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Taviraj, Work_Sans } from "next/font/google";
 import { locales } from "@/i18n";
 import { unstable_setRequestLocale } from "next-intl/server";
 import CookieConsent from "@/components/cookies-consent";
@@ -10,9 +10,18 @@ import { Providers } from "../providers";
 import { useTranslations } from "next-intl";
 import { headers } from "next/headers";
 
-const poppins = Poppins({
+// Configura Taviraj
+const TavirajFont = Taviraj({
   subsets: ["latin"],
-  style: ["normal", "italic"],
+  style: ["italic"], // Solo incluir 'italic' si es el único estilo que usarás
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-taviraj",
+});
+
+// Configura Work Sans
+const workSans = Work_Sans({
+  subsets: ["latin"],
+  style: ["italic"], // Solo incluir 'italic' si es el único estilo que usarás
   weight: ["300", "400", "500", "600", "700", "800", "900"],
 });
 
@@ -35,7 +44,7 @@ export default function RootLayout({
   const headList = headers();
   return (
     <html lang={locale}>
-      <body className={`${poppins.className}`}>
+      <body className={`${workSans.className} ${TavirajFont.variable}`}>
         <Providers>
           <Header
             currentLocale={locale}
@@ -43,6 +52,7 @@ export default function RootLayout({
               home: t("Index.links.home"),
               about_us: t("Index.links.about_us"),
               destinations: t("Index.links.destinations"),
+              terminal: t("Index.links.terminal"),
               contact_us: t("Index.links.contact_us"),
               faq: t("Index.links.faq"),
               english: t("Index.locales.english"),
@@ -54,6 +64,7 @@ export default function RootLayout({
           />
           {children}
           <Footer
+            currentLocale={locale}
             translations={{
               text: t("Index.footer.text"),
               home: t("Index.links.home"),

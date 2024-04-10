@@ -4,6 +4,7 @@
       "home": "Inicio",
       "about_us": "Nosotros",
       "destinations": "Destinos",
+      "terminal": "Terminales",
       "contact_us": "Contáctanos",
       "faq": "Preguntas Frecuentes",
       "terms": "Policies",
@@ -19,7 +20,7 @@
       "english": "Inglés"
     },
     "footer": {
-      "text": "Cumplimos con excelencia las necesidades de transporte del mercado, asegurando la completa satisfacción de nuestros clientes.",
+      "text": "En un esfuerzo conjunto por mejorar la calidad del servicio, AV Express se enorgullece en anunciar su transición a Smile Bus. Con una visión renovada y un compromiso inquebrantable hacia la satisfacción del cliente,  nos embarcamos en este emocionante viaje hacia un nuevo horizonte de comodidad y excelencia en el transporte. ¡El destino es nuestro, pero la experiencia es tuya!",
       "menu": "Menú",
       "copyright": "Quatrobus © 2024. Todos los derechos reservados"
     },
@@ -34,6 +35,9 @@
     "hero": {
       "title": "<b>Priorizamos tu comodidad</b> <br class=\"max-md:hidden\" /> en cada viaje",
       "text": "Viajes desde Inland Empire hasta la Frontera de San Ysidro"
+    },
+    "destinations_carousel": {
+      "title": "¡Es momento <b>de viajar!</b>"
     },
     "destination": {
       "pretitle": "Nuestros destinos",
@@ -60,7 +64,7 @@
         "title": "Registra tu método de pago",
         "text": "Elige tu medio de pago y completa los datos solicitados. Haz clic en Procesar Pago. ¡Y listo!"
       },
-      "title": "Compra tu boleto en 4 pasos",
+      "title": "Compra tu boleto <b>en 4 pasos</b>",
       "cta": {
         "text": "<b>Consigue tus tickets</b> ¡en pocos minutos!",
         "button": "Compra sin salir de casa"
@@ -69,18 +73,40 @@
     "about_us": {
       "title": "¿Quiénes somos?",
       "text": {
-        "0": "Todo comenzó con una experiencia personal que dejó una profunda impresión en uno de los miembros fundadores, despertando su fascinación por la industria de los viajes después de tratar con otro proveedor de servicios.",
-        "1": "Este impulso inicial fue alimentado por recuerdos de viajes familiares al aeropuerto durante la infancia, lo que llevó a la convicción de que nuestra verdadera pasión residía en el transporte de pasajeros."
+        "0": "Fundada en noviembre de 2018, AV Express es una empresa líder en el transporte foráneo de pasajeros, con distintos destinos en la República Mexicana y conectividad a USA. Destaca por su combinación única de tradición e innovación al salir desde centrales de autobuses y puntos estratégicos.",
+        "1": "Inspirado en Veracruz, su nombre refleja su compromiso con rapidez, eficiencia y seguridad. Su objetivo es superar las expectativas, garantizando comodidad, puntualidad y seguridad en cada viaje, haciendo que sean inolvidables."
       },
       "button": "Conócenos más aquí"
     },
-    "terminals_title": "¿Conoces nuestros <br /> <b class=\"text-2xl text-black\">terminales?</b>",
-    "services": {
-      "personalized": "Servicio personalizado",
-      "customer": "Atención al cliente",
-      "security": "Seguridad",
-      "travel": "Comodidad al viajar"
+    "transition": {
+      "title": "Proceso de transición",
+      "text": {
+        "0": "<b>AV Express</b> se enorgullece en anunciar su transición a Smile Bus. Con una visión renovada y un compromiso inquebrantable hacia la satisfacción del cliente, nos embarcamos en este emocionante viaje hacia un nuevo horizonte de comodidad y excelencia en el transporte.",
+        "1": "A través de su nueva página web, <b>AV Express</b> está revolucionando la forma en que te desplazas. Con un diseño intuitivo y funciones mejoradas, ahora puedes planificar y reservar tus viajes con mayor facilidad que nunca. Desde la comodidad de tu hogar o dispositivo móvil, accede a una experiencia de reserva sin complicaciones."
+      }
     },
+    "terminals_title": "¿Conoces nuestros <br /> <b class=\"text-2xl text-black\">terminales?</b>",
+    "fixed_route": {
+      "title": "Rutas más visitadas",
+      "subtitle": "Compra tu boleto en la web",
+      "button": "quiero comprar"
+    },
+    "why": {
+      "title": "<b>¿Por qué</b> elegirnos?",
+      "text": "AV Express se compromete a ofrecer a sus clientes una experiencia excepcional en cada viaje. Nuestro objetivo es superar expectativas, garantizando comodidad, seguridad y puntualidad en cada trayecto. Estamos aquí para hacer que cada viaje sea memorable y sin contratiempos.",
+      "services": {
+        "title": "Servicios <b>a bordo</b>",
+        "service01": "Baños a bordo",
+        "service02": "Asientos reclinables",
+        "service03": "Sistema de aire acondicionado",
+        "service04": "Sistema de calefacción",
+        "service05": "Pantallas abatibles en común",
+        "service06": "Puerto para cargar celular",
+        "service07": "Luz individual",
+        "service08": "Staff de Cargadores"
+      }
+    },
+
     "choose_us": {
       "title": "¿Por qué elegirnos?",
       "why": {
@@ -111,7 +137,12 @@
       "title": "¿Tienes preguntas sobre nuestros servicios?",
       "text": "Hemos reunido las preguntas más comunes para brindarte la información que necesitas de manera clara y concisa.",
       "button": "Ver todas las preguntas"
+    },
+    "contact_us": {
+      "title": "Habla con nosotros",
+      "subtitle": "Conoce nuestras oficinas principales"
     }
+
   },
   "Faq": {
     "title": "Preguntas Frecuentes",
