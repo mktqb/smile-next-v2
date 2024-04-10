@@ -74,6 +74,7 @@
       },
       "button": "Get to know us more here"
     },
+    "terminals_title": "Do you know our <br /> <b class=\"text-2xl text-black\">terminals?</b>",
     "services": {
       "personalized": "Personalized service",
       "customer": "Customer service",

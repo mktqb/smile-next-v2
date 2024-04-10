@@ -242,11 +242,11 @@ export default function Home({ params: { locale } }: { params: { locale: string 
       {/* conoce nuestras Pricing Tarifas */}
       {/* conoce nuestras rutas */}
       <div id="terminals" className="scroll-m-20">
-        <div className="relative h-min w-full place-items-center overflow-hidden bg-transparent max-sm:bg-zinc-100 md:my-0 md:bg-white">
+        <div className="relative h-min w-full place-items-center overflow-hidden bg-primary-300 bg-transparent max-sm:bg-zinc-100 md:my-0 md:bg-primary-100">
+          <div className="footer-curve"></div>
           <TerminalsSection
             translations={{
-              title:
-                "Conoce nuestras terminales" /* t.raw("terminals_title") */,
+              title: t.raw("terminals_title"),
             }}
           />
         </div>
@@ -256,7 +256,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
 
       <div
         id="destinations"
-        className="grid w-full scroll-m-20 place-items-center py-4 max-sm:bg-zinc-100 sm:pb-5 md:pb-6 md:pt-20"
+        className="grid w-full scroll-m-20 place-items-center bg-primary-100 py-4 max-sm:bg-zinc-100 sm:pb-5 md:pb-6 md:pt-20"
       >
         <div className="flex items-center gap-4 md:translate-x-32 xl:translate-x-0">
           <div className="flex-col items-center">
@@ -269,7 +269,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
               Compra tu boleto en la web
             </h4>
           </div>
-          <CustomFixed className="text-xl text-[#6c00f7]" />
+          <CustomFixed className="text-xl text-primary-300" />
         </div>
       </div>
 
@@ -338,11 +338,11 @@ export default function Home({ params: { locale } }: { params: { locale: string 
 
       {/* por qué elegirnos */}
       <section className="section-container pt-10">
-        <h1 className="text-center text-xl font-bold text-green-600">
+        <h1 className="text-center text-xl font-bold text-black">
           {/* {t("why.title")} */}
           <b>¿Por qué</b> elegirnos?
         </h1>
-        <p className="text-pretty pt-5 text-center text-green-500 lg:px-16">
+        <p className="text-pretty pt-5 text-center text-black lg:px-16">
           La empresa se compromete a ofrecer a sus clientes una experiencia
           excepcional en cada viaje. Nuestro objetivo es superar expectativas,
           garantinzando comodidad, seguridad, y puntualidad en cada trayecto.
@@ -351,7 +351,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
         </p>
         <div className="mx-auto mb-6 grid w-10/12 grid-cols-1 gap-10 py-4">
           <div className="title-container items-center pb-8 text-white">
-            <h2 className="main-title text-green-700">
+            <h2 className="main-title text-black">
               <b>Por qué elegirnos</b>
             </h2>
             <hr className="title-line w-24 border-t-medium bg-purple-700" />

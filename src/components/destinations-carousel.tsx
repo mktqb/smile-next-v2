@@ -3,14 +3,14 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import SubCard from "./sub-card";
 
-import LV1 from "@/assets/Destino_LV.png";
-import LV2 from "@/assets/Destino_LV2.png";
-import LA1 from "@/assets/Destino_LA.png";
-import LA2 from "@/assets/Destino_LA2.png";
-import SD1 from "@/assets/Destino_SD.png";
-import SD2 from "@/assets/Destino_SD2.png";
-import TJ1 from "@/assets/Destino_TJ.png";
-import TJ2 from "@/assets/Destino_TJ2.png";
+import CDMX1 from "@/assets/Destino_cdmx.jpg";
+import CDMX2 from "@/assets/Destino_cdmx2.jpg";
+import Veracruz1 from "@/assets/Destino_veracruz.jpg";
+import Veracruz2 from "@/assets/Destino_veracruz2.jpg";
+import Puebla1 from "@/assets/Destino_puebla.jpg";
+import Puebla2 from "@/assets/Destino_puebla2.jpg";
+import Xalapa1 from "@/assets/Destino_xalapa.jpg";
+import Xalapa2 from "@/assets/Destino_xalapa2.jpg";
 
 import "swiper/css";
 
@@ -46,16 +46,26 @@ export default function DestinationsCarousel(/* { translations }: Props */) {
         }}
       >
         <SwiperSlide className="aspect-[9/12] duration-200 xl:aspect-[9/16]">
-          <SubCard label="Veracruz" frontImage={LV1} backImage={LV2} />
+          <SubCard label="CDMX" frontImage={CDMX1} backImage={CDMX2} />
         </SwiperSlide>
         <SwiperSlide className="aspect-[9/12] duration-200 xl:aspect-[9/16]">
-          <SubCard label="Puebla" reverse frontImage={LA2} backImage={LA1} />
+          <SubCard
+            label="Veracruz"
+            reverse
+            frontImage={Veracruz1}
+            backImage={Veracruz2}
+          />
         </SwiperSlide>
         <SwiperSlide className="aspect-[9/12] duration-200 xl:aspect-[9/16]">
-          <SubCard label="Xalapa" frontImage={TJ1} backImage={TJ2} />
+          <SubCard label="Puebla" frontImage={Puebla1} backImage={Puebla2} />
         </SwiperSlide>
         <SwiperSlide className="aspect-[9/12] duration-200 xl:aspect-[9/16]">
-          <SubCard label="CDMX" reverse frontImage={SD2} backImage={SD1} />
+          <SubCard
+            label="Xalapa"
+            reverse
+            frontImage={Xalapa1}
+            backImage={Xalapa2}
+          />
         </SwiperSlide>
       </Swiper>
     </section>

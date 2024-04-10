@@ -19,12 +19,18 @@ interface Props {
 
 export default function TerminalsSection({ translations }: Props) {
   return (
-    <section className="section-container flex grid-cols-1 grid-rows-4 flex-col gap-4 py-10 pt-16 [grid-auto-rows:_min-content] lg:grid lg:min-h-[600px] lg:grid-cols-5">
-      <div className="flex h-min items-center gap-5 lg:pl-5">
-        <h2 className="text-green-700">Conoce nuestras terminales</h2>
-        <CustomTerminals className="text-2xl text-purple-900" />
+    <section className="section-container flex grid-cols-1 grid-rows-4 flex-col gap-4 [grid-auto-rows:_min-content] lg:grid lg:min-h-[500px] lg:grid-cols-5">
+      <div className="flex h-min items-center gap-5 lg:pl-5 col-span-2 pt-10">
+        {/* <h2 className="text-black">Conoce nuestras terminales</h2> */}
+        <h2
+          className="text-black"
+          dangerouslySetInnerHTML={{
+            __html: translations.title,
+          }}
+        />
+        <CustomTerminals className="text-2xl text-primary-300" />
       </div>
-      <div className="row-span-2 overflow-hidden rounded-2xl border-5 border-lime-500 sm:px-20 lg:col-span-2 lg:col-start-1 lg:row-span-3 lg:row-start-2 lg:px-5 xl:pl-5 xl:pr-0">
+      <div className="row-span-2 overflow-hidden rounded-2xl border-5 border-lime-500 bg-white sm:px-20 lg:col-span-2 lg:col-start-1 lg:row-span-3 lg:row-start-2 lg:px-5 xl:pl-5 xl:pr-0">
         <Swiper
           modules={[Autoplay, Pagination]}
           pagination={{ type: "progressbar" }}
@@ -36,32 +42,32 @@ export default function TerminalsSection({ translations }: Props) {
           loop
         >
           <SwiperSlide className="p-3">
-            <span className="font-bold text-green-700">
+            <span className="font-bold text-black">
               Terminal Veracruz AV Express
             </span>
             <div className="flex items-center gap-2">
               <LocationOnOutline className="text-xs text-fuchsia-600" />
-              <span className="text-xs leading-tight text-green-700">
+              <span className="text-xs leading-tight text-black">
                 Av. Salvador Díaz Mirón 1892, Moreno, 91910 Veracruz, Veracruz
               </span>
             </div>
           </SwiperSlide>
           <SwiperSlide className="p-3">
-            <span className="font-bold text-green-700">Lotería Nacional</span>
+            <span className="font-bold text-black">Lotería Nacional</span>
             <div className="flex items-center gap-2">
               <LocationOnOutline className="text-xs text-fuchsia-600" />
-              <span className="text-xs leading-tight text-green-700">
+              <span className="text-xs leading-tight text-black">
                 Reforma 1, Tabacalera, Cuauhtémoc, 06030 Ciudad de México, CDMX
               </span>
             </div>
           </SwiperSlide>
           <SwiperSlide className="p-3">
-            <span className="font-bold text-green-700">
+            <span className="font-bold text-black">
               City Express Junior by Marriott Puebla
             </span>
             <div className="flex items-center gap-2">
               <LocationOnOutline className="text-xs text-fuchsia-600" />
-              <span className="text-xs leading-tight text-green-700">
+              <span className="text-xs leading-tight text-black">
                 Cto Juan Pablo II 1743, Reserva Territorial Atlixcáyotl, La
                 Noria, 72410 Heróica Puebla de Zaragoza, Puebla
               </span>
@@ -70,20 +76,20 @@ export default function TerminalsSection({ translations }: Props) {
           <SwiperSlide className="p-3">
             <div className="flex items-center gap-2">
               <LocationOnOutline className="text-xs text-fuchsia-600" />
-              <span className="font-bold text-green-700">
+              <span className="font-bold text-black">
                 Terminal Veracruz AV Express
               </span>
             </div>
-            <span className="text-xs leading-tight text-green-700">
+            <span className="text-xs leading-tight text-black">
               Av. Salvador Díaz Mirón 1892, Moreno, 91910 Veracruz, Veracruz
             </span>
           </SwiperSlide>
           <SwiperSlide className="p-3">
             <div className="flex items-center gap-2">
               <LocationOnOutline className="text-xs text-fuchsia-600" />
-              <span className="font-bold text-green-700">Lotería Nacional</span>
+              <span className="font-bold text-black">Lotería Nacional</span>
             </div>
-            <span className="text-xs leading-tight text-green-700">
+            <span className="text-xs leading-tight text-black">
               Reforma 1, Tabacalera, Cuauhtémoc, 06030 Ciudad de México, CDMX
             </span>
           </SwiperSlide>
