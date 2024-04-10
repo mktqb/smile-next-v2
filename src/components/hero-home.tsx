@@ -8,15 +8,16 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import { Searcher } from "@/searchlib/components/Searcher";
 
-import Banner01 from "@/assets/Banner-Inland-Empire.jpg";
-import Banner02 from "@/assets/Banner-San-Diego.jpg";
-import Banner03 from "@/assets/Banner-San-Ysidro.jpg";
-import Banner04 from "@/assets/Banner-Tijuana.jpg";
+import Banner01 from "@/assets/Banner_slogan.jpg";
+import Banner02 from "@/assets/Banner_puebla.jpg";
+import Banner03 from "@/assets/Banner_veracruz.jpg";
+import Banner04 from "@/assets/Banner_xalapa.jpg";
+import Banner05 from "@/assets/Banner-cdmx.jpg";
 
 interface Props {
-  background:
+  /* background:
     | { type: "static"; image: StaticImageData }
-    | { type: "slider"; image: StaticImageData[] };
+    | { type: "slider"; image: StaticImageData[] }; */
   title?: string | TrustedHTML;
   subtitle?: string | TrustedHTML;
   withSearcher?: boolean;
@@ -26,7 +27,7 @@ interface Props {
 }
 
 export default function HeroHome({
-  background,
+  /* background, */
   title,
   subtitle,
   withSearcher,
@@ -38,14 +39,14 @@ export default function HeroHome({
       {/* <div className="header-curve-container absolute -bottom-1 z-[2] w-full bg-repeat-x xl:h-56">
         <div className="header-curve-shape"></div>
       </div> */}
-      {background.type === "static" && (
+      {/* {background.type === "static" && (
         <Image
           src={background.image}
           alt=""
           className="z-0 h-full object-cover object-center md:max-h-[410px]  xl:h-[850px] xl:w-full 2xl:h-[880px]"
         />
-      )}
-      {background.type === "slider" && (
+      )} */}
+      {/* {background.type === "slider" && ( */}
         <Swiper
           slidesPerView={1}
           spaceBetween={0}
@@ -132,7 +133,7 @@ export default function HeroHome({
             </div>
           </SwiperSlide>
         </Swiper>
-      )}
+      {/* )} */}
       <div
         className="absolute left-0 top-12 z-10 grid h-full w-full pt-44 max-[375px]:top-10
       sm:pt-32

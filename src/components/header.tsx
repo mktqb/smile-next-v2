@@ -156,7 +156,7 @@ export default function Header({ translations, currentLocale }: Props) {
               <Image
                 src={Logo}
                 alt="bg"
-                className="w-[150px] max-[350px]:w-[140px] md:w-[160px] xl:w-[250px]"
+                className="w-[150px] max-[350px]:w-[140px] md:w-[160px] xl:w-[300px]"
               />
             </Link>
 

@@ -18,7 +18,7 @@ export default function OfficesComponent({ locale }: { locale: string }) {
             {offices.map((office) => (
               <button
                 key={office.id}
-                className={`mb-3 flex-grow space-y-2 rounded-3xl px-5 pb-6 pt-4 text-left text-sm font-medium shadow-lg last:mb-0 focus:outline-none md:px-6 ${selectedOffice === office ? " bg-[#fa9500] text-white" : "bg-white text-gray-800"}`}
+                className={`mb-5 flex-grow space-y-2 rounded-3xl px-5 pb-6 pt-6 text-left text-sm font-medium shadow-lg last:mb-0 focus:outline-none md:px-6 ${selectedOffice === office ? " bg-gradient-to-b from-secondary-700 to-secondary-800 text-white" : "bg-white text-gray-800"}`}
                 onClick={() => setSelectedOffice(office)}
               >
                 <h4 className="mb-4 text-lg font-semibold">
@@ -52,7 +52,7 @@ export default function OfficesComponent({ locale }: { locale: string }) {
           </div>
           {/* Fin: Seccion donde se muestran las oficinas */}
           {/* Inicio: Seccion donde se muestran los mapas */}
-          <div className="flex w-full flex-grow bg-[#14da18] max-md:mt-4 max-md:aspect-[8/9] sm:rounded-3xl sm:p-4 md:w-6/12 lg:w-7/12 2xl:w-8/12">
+          <div className="flex w-full flex-grow bg-primary-300 max-md:mt-4 max-md:aspect-[8/9] sm:rounded-3xl sm:p-4 md:w-6/12 lg:w-7/12 2xl:w-8/12">
             <div className="relative h-full w-full">
               <div className="h-full w-full overflow-hidden sm:rounded-2xl">
                 <GoogleMaps

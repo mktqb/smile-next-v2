@@ -355,6 +355,12 @@ body {
       @apply bg-cover bg-scroll bg-center bg-no-repeat;
     }
   }
+  .bg-faq {
+    background-image: url("../assets/Bgfaq.jpg");
+  }
+  .bg-tutorial {
+    background-image: url("../assets/Bg_tutorial.jpg");
+  }
   /* .bg-choice {
     background-image: url("../assets/Bg_choice.jpg");
   }
@@ -367,12 +373,7 @@ body {
   .bg-inland-dark {
     background-image: url("../assets/Bg_inland_dark.jpg");
   }
-  .bg-faq {
-    background-image: url("../assets/Bg_Faq.jpg");
-  }
-  .bg-faq-dark {
-    background-image: url("../assets/Bg_Faq_dark.jpg");
-  } */
+ */
 
   /* Buttons */
   .main-button,
@@ -382,7 +383,7 @@ body {
   }
 
   .main-button {
-    @apply bg-gradient-to-r from-[#ffe100] to-[#ff8700] text-white hover:text-white;
+    @apply bg-gradient-to-r from-secondary-700 via-secondary-800 via-75% to-secondary-900 text-white hover:text-white;
     /* background-image: linear-gradient(145deg, #1f1f1f, #000); */
     /* box-shadow:
       0 4px 6px rgba(0, 0, 0, 0.1),
