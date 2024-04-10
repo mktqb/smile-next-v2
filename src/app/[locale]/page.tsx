@@ -9,13 +9,6 @@ import { unstable_setRequestLocale } from "next-intl/server";
 import HumanFaq from "@/assets/Human_faq.png";
 import BusFrontal from "@/assets/Bus_Frontal.png";
 import Nosotros from "@/assets/Nosotros.png";
-/* 
-import HumanInland from "@/assets/Human_inland.png";
-*/
-import BannerInlandEmpire from "@/assets/Banner-Inland-Empire.jpg";
-import BannerSanDiego from "@/assets/Banner-San-Diego.jpg";
-import BannerSanYsidro from "@/assets/Banner-San-Ysidro.jpg";
-import BannerTijuana from "@/assets/Banner-Tijuana.jpg";
 
 /* 
 import Aboutus from "@/assets/Img_aboutus.jpg";
@@ -415,7 +408,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
           <Image
             src={HumanFaq}
             alt=""
-            className="z-30 order-2 mb-[-1px] w-40 max-sm:mx-auto md:order-2 md:-mt-20 md:w-80 lg:col-span-2 xl:w-[34rem]"
+            className="z-30 order-2 mb-[-1px] w-40 max-sm:mx-auto md:order-2 md:-mt-44 md:w-80 lg:col-span-2 xl:w-[34rem]"
           />
           <div className="order-1 col-span-1 flex flex-col items-center gap-4 text-white md:order-1 md:items-start lg:col-span-3 lg:gap-5">
             <div className="title-container items-center pb-4 md:items-start">
