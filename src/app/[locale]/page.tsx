@@ -8,7 +8,7 @@ import { unstable_setRequestLocale } from "next-intl/server";
 
 import HumanFaq from "@/assets/Human_faq.png";
 import BusFrontal from "@/assets/Bus_Frontal.png";
-import Nosotros from "@/assets/Nosotros.png";
+import Nosotros from "@/assets/Img_nosotros.jpg";
 
 /* 
 import Aboutus from "@/assets/Img_aboutus.jpg";
