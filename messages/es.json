@@ -302,16 +302,14 @@
     "travel_ticket": {
       "title": "Boleto de viaje",
       "text": {
-        "0": "A la emisión y firma del boleto de viaje el Pasajero es responsable de verificar que todos los datos consignados en este sean conformes (fechas, horarios, destinos y precios) y de acuerdo a su solicitud, y acepta las cláusulas generales de contratación de boletos de viaje.",
+        "0": "A la emisión del boleto de viaje el Pasajero es responsable de verificar que todos los datos consignados en este sean conformes y de acuerdo a su solicitud, y acepta las cláusulas generales de contratación de boletos de viaje.",
         "1": "El boleto de viaje es personal y no transferible, siendo el único comprobante válido para viajar, en la fecha y hora impresa.",
-        "2": "En caso de pérdida del boleto, el Pasajero podrá pedir un duplicado, asumiendo la responsabilidad de realizar el pago de $10 dólares por reimprimir nuevamente el boleto.",
-        "3": "Se aceptarán cambios, postergaciones y cancelaciones, hasta 3 horas antes de la fecha programada del viaje indicada en el boleto de viaje, por un costo de $25 dólares por boleto.",
-        "4": "Para realizar cualquier solicitud de cambio en el boleto dentro del plazo detallado anteriormente, es necesario presentar el boleto físico.",
-        "5": "Autobuses Los Chávez Inc. otorga un plazo máximo de 30 días para reprogramar boletos con viajes redondos con fecha abierta, contados desde la fecha inicial de viaje.",
-        "6": "En caso de que el boleto no se utilice en la fecha actualizada, el boleto quedará anulado y sin validez.",
-        "7": "Autobuses Los Chávez Inc. no otorga reembolsos ni devoluciones de dinero, solo postergaciones o reprogramaciones de acuerdo a las condiciones previas.",
-        "8": "Los boletos y/o pases de abordar presentados por cualquier persona distinta del nombre impreso se considerarán nulos y sin efecto y serán confiscados.",
-        "9": "Para completar la compra telefónica de su boleto, es necesario que el titular presente la tarjeta y una identificación. De lo contrario, no se entregará el boleto y se aplicará una penalización de $10.00, además de requerir un nuevo pago."
+        "2": "En caso de pérdida del boleto, el Pasajero podrá pedir un duplicado, asumiendo la responsabilidad de realizar el pago del gasto administrativo correspondiente del nuevo boleto impreso.",
+        "3": "Se aceptarán cambios y postergaciones, hasta 1 día antes de la fecha programada del viaje indicada en el boleto de viaje, sin costo alguno.",
+        "4": "Autobuses Expresos de Veracruz otorga un plazo máximo de 30 días para reprogramar el viaje, contados desde la fecha inicial de viaje. En caso de que el boleto no se utilice en la fecha actualizada, el boleto quedará anulado y sin validez.",
+        "5": "Autobuses Expresos de Veracruz no otorga reembolsos ni devoluciones de dinero, solo postergaciones o reprogramaciones de acuerdo a las condiciones previas.",
+        "6": "Los boletos y/o pases de abordar presentados por cualquier persona distinta del nombre impreso se considerarán nulos y sin efecto y serán confiscados.",
+        "7": "Las compras realizadas con tarjeta bancaria están sujetas a aprobación. Se requerirá una dirección completa de facturación y/o un número de identificación personal (PIN) para finalizar la compra."
       }
     },
     "travel_fares": {
@@ -319,94 +317,100 @@
       "text": {
         "0": "Los precios de los boletos están sujetos a cambios sin previo aviso.",
         "1": "Los descuentos y promociones no son acumulables ni combinables.",
-        "2": "Todas las tarifas se cotizan en dólares estadounidenses; a menos que se indique lo contrario."
+        "2": "Todas las tarifas se cotizan en pesos mexicanos.",
+        "3": "Durante la temporada vacacional, ofrecemos descuentos especiales para estudiantes y maestros. Los estudiantes pueden disfrutar de un descuento del 50%, mientras que los maestros tienen un descuento del 25% sobre el precio total de la tarifa vigente. Estos descuentos están disponibles únicamente en taquilla y es necesario presentar la credencial correspondiente para recibir el descuento.",
+        "4": "Para hacer válidos estos descuentos, la credencial debe cumplir con los siguientes requisitos:",
+        "5": "Debe presentarse en original, ya sea en formato físico o virtual, y estar vigente.",
+        "6": "Debe indicar claramente el estatus de estudiante, alumno, maestro, docente o profesor.",
+        "7": "Debe incluir el nombre del titular, una fotografía reciente, el nombre de la institución educativa y un sello (si corresponde)."
       }
     },
     "luggage": {
       "title": "Equipaje en cajuela e interior del autobús",
       "text": {
-        "0": "El Pasajero tiene derecho exclusivamente a 02 maletas de 35 libras cada una por boleto adulto o 01 maleta de 35 libras por boleto menor.",
-        "1": "Se considera exceso de equipaje o equipaje sobredimensionado a todo tipo de equipaje que no sea una maleta estándar. Ejemplos: televisiones, cajas, hieleras, carriolas, botes de pintura y entre otros.",
-        "2": "Siempre y cuando tenga ruedas, se permitirá llevar este tipo de equipaje, con un límite máximo de 2 unidades por persona.",
-        "3": "El exceso de equipaje será admitido cuando la capacidad del autobús lo permita, siendo sujeto a disponibilidad de espacio y su aceptación no es siempre garantizada.",
-        "4": "En caso de exceder el peso permitido en tu equipaje durante temporada alta como verano, se aplicará una tarifa por exceso de peso y se permitirá según disponibilidad de espacio.",
-        "5": "En cabina o al interior del autobús, únicamente se permite 01 pieza como equipaje de mano, el cual puede ser una mochila, bolsa o maletín con un máximo de 10 libras.",
-        "6": "No se permite viajar con cajas de cartón, contenedores de plásticos ni costales de lavandería.",
-        "7": "Autobuses Los Chávez Inc. no se responsabiliza por objetos de valor no declarados en el abordaje y transportados como equipaje.",
-        "8": "Autobuses Los Chávez Inc. no se hace responsable de equipaje extraviado sin etiqueta.",
-        "9": "En caso de extravío, Autobuses Los Chávez Inc. solo cubrirá la cantidad de $25 dólares por cada maleta presentando la etiqueta, durante el trayecto del viaje.",
-        "10": "Autobuses Los Chávez Inc. no se hace responsable de los artículos olvidados en autobuses o terminales, ni por la pérdida de equipajes en el interior del autobús. Su cuidado es de exclusiva responsabilidad del Pasajero.",
-        "11": "En la aduana cada Pasajero es responsable de cuidar y mover su propio equipaje hasta el autobús.",
-        "12": "Autobuses Los Chávez Inc. no se hace responsable del equipaje detenido por las autoridades aduaneras. No se aceptará responsabilidad alguna por la pérdida, rotura, daño o deterioro de ningún artículo transportado.",
-        "13": "El Pasajero es responsable de llevar toda la documentación requerida para poder cruzar las fronteras internacionales.",
-        "14": "Los conductores no están autorizados a esperar a los pasajeros más de 1 hora si el pasajero no lleva la documentación válida y vigente en los puntos de control aduanero.",
-        "15": "El Pasajero no podrá portar armas u objetos prohibidos por ley; que puedan poner en riesgo la seguridad de los pasajeros. Es obligación del pasajero permitir y dar todas las facilidades al personal de la empresa para que efectúe la revisión de su equipaje de mano y de su persona.",
-        "16": "No está permitido transportar en cajuela y/o cabina:",
-        "17": "Drogas ilegales, químicos y/o sustancias tóxicas",
-        "18": "Armas ilegales, armas de fuego, explosivos y/u objetos inflamables",
-        "19": "No se permite el transporte de mascotas."
+        "0": "El Pasajero tiene derecho exclusivamente a 01 maleta de 25kg por boleto.",
+        "1": "El exceso será admitido cuando la capacidad del autobús lo permita.",
+        "2": "En caso de exceder el peso permitido en tu equipaje durante temporada alta como verano, se aplicará una tarifa por exceso de peso y se permitirá según disponibilidad de espacio.",
+        "3": "En cabina o al interior del autobús, únicamente se permite 01 pieza como equipaje de mano, el cual puede ser una mochila, bolsa o maletín con un máximo de 10 kg.",
+        "4": "No se permite viajar con cajas de cartón, contenedores de plásticos ni costales de lavandería.",
+        "5": "Autobuses Expresos de Veracruz no se responsabiliza por objetos de valor no declarados en el abordaje y transportados como equipaje.",
+        "6": "Autobuses Expresos de Veracruz no se hace responsable de los artículos olvidados en autobuses o terminales, ni por la pérdida de equipajes en el interior del autobús. Su cuidado es de exclusiva responsabilidad del Pasajero.",
+        "7": "El Pasajero no podrá portar armas u objetos prohibidos por ley; que puedan poner en riesgo la seguridad de los pasajeros. Es obligación del pasajero permitir y dar todas las facilidades al personal de la empresa para que efectúe la revisión de su equipaje de mano y de su persona.",
+        "8": "No está permitido transportar en cajuela y/o cabina: Drogas ilegales, químicos y/o sustancias tóxicas",
+        "9": "Armas ilegales, armas de fuego, explosivos y/u objetos inflamables",
+        "10": "Se permite el transporte de mascotas en su propio transportador rígido, el cual debe cumplir con las regulaciones de seguridad pertinentes y estar correctamente acondicionada.",
+        "11": "Las mascotas deben permanecer en su transportador rígido durante todo el viaje. Se prohíbe llevar mascotas en el regazo de los pasajeros, sin transportador o fuera del mismo durante el viaje.",
+        "12": "Se permite el transporte de mascotas de tipo domésticas, que no estén en peligro de extinción según lo establecido por la SEMARNAT o PROFEPA, así como aquellas que no estén prohibidas por la ley.",
+        "13": "Ofrecemos transporte gratuito y sin costo a bordo del autobús para perros guía o debidamente entrenados, también conocidos como perros lazarillos."
+      }
+    },
+    "meantime": {
+      "title": "Durante el viaje",
+      "text": {
+        "0": "No se permite llevar equipaje en el asiento; el equipaje de mano debe colocarse en el compartimiento superior o debajo del asiento del pasajero para no bloquear el paso.",
+        "1": "Todos los pasajeros deben permanecer sentados hasta que el conductor del autobús les indique que pueden bajar de este.",
+        "2": "Está prohibido fumar en los autobuses u oficinas de Autobuses Expresos de Veracruz."
       }
     },
     "onboarding": {
       "title": "Proceso de abordaje o embarque",
       "text": {
         "0": "El embarque y desembarque de pasajeros solo se realizará en los terminales o estaciones autorizadas.",
-        "1": "El Pasajero deberá presentarse 1 hora antes de la hora de salida del autobús, para entregar su equipaje.",
-        "2": "En el abordaje, el Pasajero deberá presentar su boleto de viaje y documento de identidad."
+        "1": "El Pasajero deberá presentarse 1 hora antes de la hora de salida del autobús, para entregar su equipaje. Una vez salido el autobús no habrá lugar a postergación, ni devolución de dinero.",
+        "2": "En el abordaje, el Pasajero deberá presentar su boleto de viaje y documento de identidad.",
+        "3": "Con excepción de los asientos asignados por compra online, o para los pasajeros discapacitados y de edad avanzada, los asientos se asignan por orden de llegada y sin tener en cuenta raza, color, credo, origen nacional o cualquier otra característica protegida."
       }
     },
     "kids": {
       "title": "Menores",
       "text": {
-        "0": "Menores hasta los 6 años tienen acceso a una tarifa reducida cuando viajan acompañados de un adulto, siendo válido solamente en las oficinas principales ubicadas en Harwin, Rosenberg TX, así como en terminales y agencias en México. Sin embargo, aquellos Pasajeros que aborden en El Campo TX, Ganado TX, Victoria TX, Beeville TX, George West TX y Laredo TX estarán sujetos a tarifa de adulto.",
-        "1": "A partir de los 7 años, los menores pagan la tarifa de adulto abordando en la oficina principal, Harwin, Rosenberg Tx, terminales y agencias de México.",
-        "2": "Al comprar y/o recoger boletos para menores ya sea en la oficina, por teléfono o en la web presentar el acta de nacimiento o pasaporte para verificar la edad.",
-        "3": "Los pasajeros menores de 18 años no pueden viajar solos a menos que lo permitan los padres por medio de una carta de consentimiento de viaje notariada en la que autoricen al pasajero menor de edad a viajar con Autobuses Los Chávez Inc.",
-        "4": "Menores de 18 años de edad que no puedan valerse por sí mismos deberán ser acompañados por una persona mayor de 18 años.",
-        "5": "Por razones de seguridad, no se permite que los menores se sienten en las tres primeras filas del autobús.",
-        "6": "Se recomienda a los Pasajeros mantener a los menores alejados de los pasillos y supervisarlos en todo momento."
+        "0": "Niños entre los 3 y 12 años cumplidos tienen acceso a una tarifa reducida del 50% sobre el precio del boleto de adulto (entero). A partir de los 13 años en adelante, los menores deben viajar en su propio asiento y pagar la tarifa del boleto entero.",
+        "1": "Los menores de 3 años no pagan boleto, viajando en el mismo asiento que el adulto que lo acompaña. Solo está permitido un niño o bebé por adulto.",
+        "2": "Los pasajeros menores de 18 años no pueden viajar solos a menos que lo permitan los padres por medio de una carta de consentimiento de viaje notariada en la que autoricen al pasajero menor de edad a viajar con Autobuses Expresos de Veracruz.",
+        "3": "Menores de 18 años de edad que no puedan valerse por sí mismos deberán ser acompañados por una persona mayor de 18 años.",
+        "4": "Los pasajeros que viajen bajo la guía de Autobuses Expresos de Veracruz no podrán obtener boletos a tarifa reducida."
       }
     },
     "adults": {
       "title": "Adultos",
       "text": {
-        "0": "Las personas mayores de 60 años tienen acceso a un descuento de $5 dólares presentando una identificación (INAPAM, INSEN, IFE) al momento de comprar su boleto de viaje en persona.",
-        "1": "Personas adulto mayor o senior que no puedan valerse por sí mismas deberán ser acompañadas por una persona mayor de 18 años.",
-        "2": "El Pasajero no podrá viajar bajo la influencia de alcohol y/o estupefacientes; o cuando su estado de salud visiblemente no sea adecuado para viajar (salvo presentación de un certificado médico), perdiendo el valor de su boleto de viaje.",
-        "3": "Autobuses Los Chávez Inc. puede denegar servicios a los pasajeros si:",
-        "4": "El pasajero no cumple o se niega a cumplir con las normas y reglamentos establecidos por Autobuses Los Chávez Inc.",
-        "5": "El pasajero actúa de forma desordenada o violenta.",
-        "6": "El pasajero no está completamente vestido o está parcialmente desnudo.",
-        "7": "El pasajero obstaculiza las funciones del conductor.",
-        "8": "El comportamiento del pasajero es amenazador para él mismo o para otros pasajeros."
+        "0": "Los adultos senior o mayores de edad tienen acceso a un descuento del 50% sobre el precio total vigente del boleto de adulto (entero), presentando una identificación (INAPAM o INSEN) al momento de comprar su boleto de viaje en persona y abordar.",
+        "1": "Se otorgarán 02 descuentos por viaje conforme al DOF de 07/01/1982.",
+        "2": "Personas adulto mayor o senior que no puedan valerse por sí mismas deberán ser acompañadas por una persona mayor de 18 años.",
+        "3": "El Pasajero no podrá viajar bajo la influencia de alcohol y/o estupefacientes; o cuando su estado de salud visiblemente no sea adecuado para viajar (salvo presentación de un certificado médico), perdiendo el valor de su boleto de viaje.",
+        "4": "Autobuses Expresos de Veracruz puede denegar servicios a los pasajeros si:",
+        "5": "El pasajero no cumple o se niega a cumplir con las normas y reglamentos establecidos por Autobuses Expresos de Veracruz.",
+        "6": "El pasajero actúa de forma desordenada o violenta.",
+        "7": "El pasajero no está completamente vestido o está parcialmente desnudo.",
+        "8": "El pasajero obstaculiza las funciones del conductor.",
+        "9": "El comportamiento del pasajero es amenazador para él mismo o para otros pasajeros."
       }
     },
     "service": {
       "title": "Servicio",
       "text": {
         "0": "Los horarios programados se basan en las zonas horarias locales. Las fechas y horas de salida están sujetas a cambios.",
-        "1": "Autobuses Los Chávez Inc. no se responsabiliza de retrasos causados por averías, condiciones de la carretera, estado del tiempo o cualquier otra condición fuera del control del transportista.",
-        "2": "Autobuses Los Chávez Inc. no se responsabiliza de los gastos relacionados debido a retrasos.",
-        "3": "Autobuses Los Chávez Inc. no se responsabiliza por actos y negligencia cometidos por transportistas interlínea y/o de conexión dentro o fuera de las fronteras internacionales de los Estados Unidos.",
-        "4": "Autobuses Los Chávez Inc. se esfuerza por ofrecer conectividad a Internet durante todo el viaje. Es importante tener en cuenta que, en algunas áreas, puede haber una conexión deficiente o nula. Dado que el servicio es proporcionado por un tercero, la empresa no puede ofrecer compensaciones ni reembolsos por problemas de conectividad a Internet.",
-        "5": "Autobuses Los Chávez Inc. no se responsabiliza por falla o interrupción en la prestación de beneficios adicionales (como el WiFi, puerto de carga para dispositivos móviles, pantalla individual u otros) otorgados en calidad de cortesía, no siendo parte del servicio contratado.",
-        "6": "El pasajero cuenta con la cobertura de la póliza de seguro obligatorio contratada por Autobuses Los Chávez Inc."
+        "1": "Autobuses Expresos de Veracruz no se responsabiliza de retrasos causados por averías, condiciones de la carretera, estado del tiempo o cualquier otra condición fuera del control del transportista.",
+        "2": "Autobuses Expresos de Veracruz no se responsabiliza de los gastos relacionados debido a retrasos.",
+        "3": "Autobuses Expresos de Veracruz no se responsabiliza por actos y negligencia cometidos por transportistas interlínea y/o de conexión dentro o fuera de las fronteras internacionales de los Estados Unidos.",
+        "4": "Autobuses Expresos de Veracruz no se responsabiliza por falla o interrupción en la prestación de beneficios adicionales (como el WiFi, puerto de carga para dispositivos móviles, pantalla individual u otros) otorgados en calidad de cortesía, no siendo parte del servicio contratado.",
+        "5": "El pasajero cuenta con la cobertura de la póliza de seguro obligatorio contratada por Autobuses Expresos de Veracruz."
       }
     },
     "privacy": {
       "title": "Política de privacidad",
       "text": {
-        "0": "Autobuses Los Chávez Inc. no vende ni comparte información personal o financiera con terceros. Sin embargo, la información personal y/o financiera puede compartirse con terceros, según lo considere necesario para los siguientes propósitos:",
-        "1": "Procesamiento de tarjetas de crédito y fines de prevención de fraude necesarios para la compra de boletos.",
-        "2": "Fines legales o de cumplimiento con una agencia gubernamental, fuerzas policiales o citación, y/o requeridos por la ley.",
-        "3": "Autobuses Los Chávez Inc. recopila y utiliza el nombre completo, números de teléfono y dirección de correo electrónico con el fin de asegurar y comprar un boleto de autobús.",
-        "4": "El nombre completo se requiere para imprimirlo o mostrarlo digitalmente en el pase de abordar, entre otras cosas, para fines de seguridad.",
-        "5": "Los números de teléfono son necesarios, entre otras cosas, para la comunicación en caso de emergencia, actualización del itinerario y la confirmación de reservaciones por SMS.",
-        "6": "El correo electrónico es necesario para la entrega del boleto electrónico y/o políticas relativas a viajes, marketing y actualizaciones de itinerarios.",
-        "7": "Recopilamos, utilizamos y revelamos información personal para proporcionarle el servicio que ha solicitado y para ofrecerle servicios adicionales que creemos que pueden interesarle.",
-        "8": "Los fines para los que recopilamos la información personal se identificarán antes o en el momento de recopilarla. En determinadas circunstancias, los fines para los que se recopila la información pueden ser claros y el consentimiento puede estar implícito, como cuando se proporciona su nombre, dirección e información de pago como parte del proceso de compra de boletos.",
-        "9": "Nuestros servicios no están dirigidos a menores de 17 años. No recopilamos deliberadamente ninguna información personal identificable de niños menores de 17 años. En caso de que descubramos que un menor de 17 años nos ha proporcionado información personal, la eliminaremos inmediatamente de nuestros servidores.",
-        "10": "Si usted es padre, madre o tutor de un menor y tiene conocimiento de que su hijo nos ha proporcionado información personal, póngase en contacto con nosotros para que podamos tomar las medidas necesarias."
+        "0": "Autobubargpropósitos:",
+        "1": "Procesetos.",
+        "2": "Fines ueridos por la ley.",
+        "3": "Autobuautobús.",
+        "4": "El nomotras cosas, para fines de seguridad.",
+        "5": "Los núpor SMS.",
+        "6": "El coriajerarios.",
+        "7": "Recopiitnteresarle.",
+        "8": "Los firecop como cletos.",
+        "9": "Nuestrfamente de nuestros servidores.",
+        "10": "Si uso infsarias."
       }
     },
     "web": {
@@ -456,24 +460,13 @@
     "complaints": {
       "title": "Quejas por discriminación",
       "text": {
-        "0": "Si considera que Autobuses Los Chávez Inc. ha infringido sus derechos, puede presentar una queja enviando un formulario de queja Título VI. Autobuses Los Chávez Inc. investiga las quejas recibidas no más de 30 días después del presunto incidente. Autobuses Los Chávez Inc. procesará las quejas que estén completas.",
-        "1": "Podemos actualizar nuestra Políticas de vez en cuando. Por lo tanto, le recomendamos que revise esta página periódicamente para ver si ha habido cambios. Le notificaremos de los cambios publicando la nueva Política de Privacidad en esta página. Estos cambios entran en vigor inmediatamente después de su publicación en esta página.",
-        "2": "Si tiene preguntas o consultas con respecto a nuestra política de privacidad o nuestras prácticas, comuníquese con"
-      }
-    },
-    "meantime": {
-      "title": "Durante el viaje",
-      "text": {
-        "0": "No se permite llevar equipaje en el asiento; el equipaje de mano debe colocarse en el compartimiento superior o debajo del asiento del pasajero para no bloquear el paso.",
-        "1": "Todos los pasajeros deben permanecer sentados hasta que el conductor del autobús les indique que pueden bajar de este.",
-        "2": "Está prohibido fumar en los autobuses u oficinas de Autobuses Los Chávez Inc.",
-        "3": "Los Pasajeros pueden experimentar cambios en el autobús o en el número de asiento, dependiendo del origen y destino de su viaje.",
-        "4": "En caso de cambios, nuestro personal de oficina notificará a todos los pasajeros para garantizar un mejor servicio. Aunque algunas rutas cuentan con asientos asignados, haremos todo lo posible para acomodar a aquellos que viajan en grupos o en familia durante estas transferencias."
+        "0": "Si considera que Autobuses Expresos de Veracruz ha infringido sus derechos, puede presentar una queja enviando un formulario de queja Título VI. Autobuses Expresos de Veracruz investiga las quejas recibidas no más de 30 días después del presunto incidente. Autobuses Expresos de Veracruz procesará las quejas que estén completas.",
+        "1": "Si tiene preguntas o consultas con respecto a nuestra política de privacidad o nuestras prácticas, comuníquese con"
       }
     },
     "main": {
       "text": {
-        "0": "Las presentes cláusulas constituyen todos los términos y condiciones del contrato de transporte celebrado entre el Cliente/Pasajero y Autobuses Los Chávez Inc.",
+        "0": "Las presentes cláusulas constituyen todos los términos y condiciones del contrato de transporte celebrado entre el Cliente/Pasajero y Autobuses Expresos de Veracruz.",
         "1": "Al momento de expedirse el boleto de viaje, el Cliente/Pasajero acepta y se somete expresamente y con pleno conocimiento a las siguientes cláusulas generales de contratación y a la tabla de tarifas vigente al momento de la emisión del referido boleto:"
       }
     },

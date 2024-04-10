@@ -84,9 +84,6 @@ export default function Home({ params: { locale } }: { params: { locale: string 
       {/* FIN tienes preguntas */}
 
       <div className="flex w-full flex-col items-center gap-1 pb-5 md:hidden">
-        <h2 className="main-title text-black">
-          Compra tus boletos <b>en 4 pasos</b>
-        </h2>
         <h2
           className="main-title text-black"
           dangerouslySetInnerHTML={{ __html: t.raw("tutorial.title") }}

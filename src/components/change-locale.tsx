@@ -28,7 +28,7 @@ export default function ChangeLocale({
     <Dropdown placement="bottom">
       <DropdownTrigger>
         <div className="flex cursor-pointer items-center gap-1">
-          <Language className="text-xl" />
+          <Language className="text-xl" /> Idioma:
           <span className="uppercase">{currentLocale}</span>
         </div>
       </DropdownTrigger>
@@ -36,13 +36,13 @@ export default function ChangeLocale({
         <DropdownItem>
           <Link href={path} locale="en" className="flex items-center gap-4">
             <FlagUSA className="text-lg xl:text-xl" />
-            <span>{translations.english}</span>
+            <span className="text-black">{translations.english}</span>
           </Link>
         </DropdownItem>
         <DropdownItem>
           <Link href={path} locale="es" className="flex items-center gap-4">
             <FlagMexico className="text-lg xl:text-xl" />
-            <span>{translations.spanish}</span>
+            <span className="text-black">{translations.spanish}</span>
           </Link>
         </DropdownItem>
       </DropdownMenu>

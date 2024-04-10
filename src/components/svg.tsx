@@ -844,7 +844,7 @@ export function CustomFixedRoutes(props: SVGProps<SVGSVGElement>) {
       height="8em"
       x="0px"
       y="0px"
-      viewBox="0 0 511.3 232"
+      viewBox="0 0 1175.97 531.18"
       {...props}
     >
       <g>
@@ -1290,11 +1290,11 @@ export function CustomFixedRoutesMobile(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="9em"
+      width="7em"
       height="6em"
       x="0px"
       y="0px"
-      viewBox="0 0 569.1 270.9"
+      viewBox="0 0 651.8 532.8"
       {...props}
     >
       <g>

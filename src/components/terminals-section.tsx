@@ -20,7 +20,7 @@ interface Props {
 export default function TerminalsSection({ translations }: Props) {
   return (
     <section className="section-container flex grid-cols-1 grid-rows-4 flex-col gap-4 [grid-auto-rows:_min-content] lg:grid lg:min-h-[500px] lg:grid-cols-5">
-      <div className="flex h-min items-center gap-5 lg:pl-5 col-span-2 pt-10">
+      <div className="col-span-2 flex h-min items-center gap-5 pt-10 lg:pl-5">
         {/* <h2 className="text-black">Conoce nuestras terminales</h2> */}
         <h2
           className="text-black"
@@ -46,16 +46,20 @@ export default function TerminalsSection({ translations }: Props) {
               Terminal Veracruz AV Express
             </span>
             <div className="flex items-center gap-2">
-              <LocationOnOutline className="text-xs text-fuchsia-600" />
+              <span>
+                <LocationOnOutline className="text-xs text-secondary-700" />
+              </span>
               <span className="text-xs leading-tight text-black">
-                Av. Salvador Díaz Mirón 1892, Moreno, 91910 Veracruz, Veracruz
+                Av. Salvador Díaz Mirón 1892, Moderno, 91910 Veracruz, Veracruz
               </span>
             </div>
           </SwiperSlide>
           <SwiperSlide className="p-3">
             <span className="font-bold text-black">Lotería Nacional</span>
             <div className="flex items-center gap-2">
-              <LocationOnOutline className="text-xs text-fuchsia-600" />
+              <span>
+                <LocationOnOutline className="text-xs text-secondary-700" />
+              </span>
               <span className="text-xs leading-tight text-black">
                 Reforma 1, Tabacalera, Cuauhtémoc, 06030 Ciudad de México, CDMX
               </span>
@@ -66,32 +70,41 @@ export default function TerminalsSection({ translations }: Props) {
               City Express Junior by Marriott Puebla
             </span>
             <div className="flex items-center gap-2">
-              <LocationOnOutline className="text-xs text-fuchsia-600" />
+              <span>
+                <LocationOnOutline className="text-xs text-secondary-700" />
+              </span>
               <span className="text-xs leading-tight text-black">
-                Cto Juan Pablo II 1743, Reserva Territorial Atlixcáyotl, La
-                Noria, 72410 Heróica Puebla de Zaragoza, Puebla
+                Cto. Juan Pablo II 1743, Reserva Territorial Atlixcáyotl, La
+                Noria, 72410 Heroica Puebla de Zaragoza, Puebla
               </span>
             </div>
           </SwiperSlide>
           <SwiperSlide className="p-3">
+            <span className="font-bold text-black">
+              Omnibus turísticos Ocaso Xalapa
+            </span>
             <div className="flex items-center gap-2">
-              <LocationOnOutline className="text-xs text-fuchsia-600" />
-              <span className="font-bold text-black">
-                Terminal Veracruz AV Express
+              <span>
+                <LocationOnOutline className="text-xs text-secondary-700" />
+              </span>
+              <span className="text-xs leading-tight text-black">
+                Blvd. Jalapa-Banderilla 109, 21 de Marzo, 91010 Xalapa-Enríquez,
+                Veracruz
               </span>
             </div>
-            <span className="text-xs leading-tight text-black">
-              Av. Salvador Díaz Mirón 1892, Moreno, 91910 Veracruz, Veracruz
-            </span>
           </SwiperSlide>
           <SwiperSlide className="p-3">
-            <div className="flex items-center gap-2">
-              <LocationOnOutline className="text-xs text-fuchsia-600" />
-              <span className="font-bold text-black">Lotería Nacional</span>
-            </div>
-            <span className="text-xs leading-tight text-black">
-              Reforma 1, Tabacalera, Cuauhtémoc, 06030 Ciudad de México, CDMX
+            <span className="font-bold text-black">
+              Soriana Híper Boca del Río
             </span>
+            <div className="flex items-center gap-2">
+              <span>
+                <LocationOnOutline className="text-xs text-secondary-700" />
+              </span>
+              <span className="text-xs leading-tight text-black">
+                Calz Juan Pablo II 1350, Sutsem, 94299 Veracruz, Veracruz
+              </span>
+            </div>
           </SwiperSlide>
         </Swiper>
       </div>

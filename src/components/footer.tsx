@@ -4,7 +4,7 @@ import { Link, usePathname } from "@/navigation";
 import React from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import Logo from "@/assets/LogoAV2.png";
+import LogoAVSmile from "@/assets/LogoAVSmile.png";
 
 import ChangeLocale from "./change-locale";
 import {
@@ -40,9 +40,9 @@ const Footer = ({ translations, currentLocale }: Props) => {
       <section className="section-container my-8 grid w-full grid-cols-1 gap-1 bg-transparent duration-300 sm:grid-cols-2 md:grid-cols-12 md:gap-4">
         <div className="col-span-full grid gap-4 text-gray-50 md:col-span-6">
           <Image
-            src={Logo}
-            alt="bg"
-            className="w-[150px] max-[350px]:w-[140px] md:w-[180px] xl:w-[200px]"
+            src={LogoAVSmile}
+            alt="Logo AV Express | Smile Bus"
+            className="w-full max-[350px]:w-[140px] sm:w-[170px] md:w-[280px] xl:w-[400px] 2xl:w-[470px]"
           />
           <p className="mt-4 text-sm md:w-10/12">{translations.text}</p>
           {/* <div className="navbar-social flex w-full">
@@ -98,7 +98,7 @@ const Footer = ({ translations, currentLocale }: Props) => {
             </div>
             <div className="col-span-1 text-gray-50 md:col-span-1">
               <h3 className="mb-3 font-semibold">Legal</h3>
-              <ul className="navbar-footer grid gap-1 mb-6">
+              <ul className="navbar-footer mb-6 grid gap-1">
                 <li>
                   <Link href="/travel-policies">Términos y condiciones</Link>
                 </li>

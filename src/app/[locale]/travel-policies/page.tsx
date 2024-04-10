@@ -47,7 +47,7 @@ export default function Page({
         </div>
       </div>
       <section className="section-container grid grid-cols-1 place-items-center gap-4 py-10 pb-16 lg:my-10 lg:flex lg:place-items-start lg:gap-8">
-        <div className="top-36 col-span-1 flex h-full min-w-[350px] flex-col rounded-lg text-black shadow-lg lg:sticky dark:text-white">
+        <div className="top-36 col-span-1 flex h-full min-w-[350px] flex-col rounded-lg text-black shadow-lg lg:sticky">
           <Link className="selector" href="#travelTicket">
             1. {t("travel_ticket.title")}
           </Link>
@@ -91,12 +91,12 @@ export default function Page({
             14.{t("complaints.title")}
           </Link>
         </div>
-        <div className="col-span-1 mt-10 space-y-3 text-sm text-black lg:col-span-3 lg:mt-0 lg:text-base dark:text-white">
+        <div className="col-span-1 mt-10 space-y-3 text-sm text-black lg:col-span-3 lg:mt-0 lg:text-base">
           <p>{t("main.text.0")}</p>
           <p>{t("main.text.1")}</p>
           <h2
             id="travelTicket"
-            className="lg:croll-m-36 scroll-m-4 text-lg font-bold text-black dark:text-white"
+            className="lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
           >
             1. {t("travel_ticket.title")}
           </h2>
@@ -109,11 +109,9 @@ export default function Page({
             <li className="list-disc">{t("travel_ticket.text.5")}</li>
             <li className="list-disc">{t("travel_ticket.text.6")}</li>
             <li className="list-disc">{t("travel_ticket.text.7")}</li>
-            <li className="list-disc">{t("travel_ticket.text.8")}</li>
-            <li className="list-disc">{t("travel_ticket.text.9")}</li>
           </ul>
           <h2
-            className="lg:croll-m-36 scroll-m-4 text-lg font-bold text-black dark:text-white"
+            className="lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
             id="travelFares"
           >
             2. {t("travel_fares.title")}
@@ -124,7 +122,7 @@ export default function Page({
             <li className="list-disc">{t("travel_fares.text.2")}</li>
           </ul>
           <h2
-            className="lg:croll-m-36 scroll-m-4 text-lg font-bold text-black dark:text-white"
+            className="lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
             id="luggage"
           >
             3. {t("luggage.title")}
@@ -138,25 +136,19 @@ export default function Page({
             <li className="list-disc">{t("luggage.text.5")}</li>
             <li className="list-disc">{t("luggage.text.6")}</li>
             <li className="list-disc">{t("luggage.text.7")}</li>
-            <li className="list-disc">{t("luggage.text.8")}</li>
-            <li className="list-disc">{t("luggage.text.9")}</li>
-            <li className="list-disc">{t("luggage.text.10")}</li>
+            <li className="list-disc">
+              <span>{t("luggage.text.8")}</span>
+              <ul className="pl-6">
+                <li className="list-disc">{t("luggage.text.9")}</li>
+                <li className="list-disc">{t("luggage.text.10")}</li>
+              </ul>
+            </li>
             <li className="list-disc">{t("luggage.text.11")}</li>
             <li className="list-disc">{t("luggage.text.12")}</li>
             <li className="list-disc">{t("luggage.text.13")}</li>
-            <li className="list-disc">{t("luggage.text.14")}</li>
-            <li className="list-disc">{t("luggage.text.15")}</li>
-            <li className="list-disc">
-              <span>{t("luggage.text.16")}</span>
-              <ul className="pl-6">
-                <li className="list-disc">{t("luggage.text.17")}</li>
-                <li className="list-disc">{t("luggage.text.18")}</li>
-              </ul>
-            </li>
-            <li className="list-disc">{t("luggage.text.19")}</li>
           </ul>
           <h2
-            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black dark:text-white"
+            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
             id="meantime"
           >
             4. {t("meantime.title")}
@@ -165,11 +157,9 @@ export default function Page({
             <li className="list-disc">{t("meantime.text.0")}</li>
             <li className="list-disc">{t("meantime.text.1")}</li>
             <li className="list-disc">{t("meantime.text.2")}</li>
-            <li className="list-disc">{t("meantime.text.3")}</li>
-            <li className="list-disc">{t("meantime.text.4")}</li>
           </ul>
           <h2
-            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black dark:text-white"
+            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
             id="onboarding"
           >
             5. {t("onboarding.title")}
@@ -180,7 +170,7 @@ export default function Page({
             <li className="list-disc">{t("onboarding.text.2")}</li>
           </ul>
           <h2
-            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black dark:text-white"
+            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
             id="kids"
           >
             6. {t("kids.title")}
@@ -191,11 +181,9 @@ export default function Page({
             <li className="list-disc">{t("kids.text.2")}</li>
             <li className="list-disc">{t("kids.text.3")}</li>
             <li className="list-disc">{t("kids.text.4")}</li>
-            <li className="list-disc">{t("kids.text.5")}</li>
-            <li className="list-disc">{t("kids.text.6")}</li>
           </ul>
           <h2
-            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black dark:text-white"
+            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
             id="adults"
           >
             7. {t("adults.title")}
@@ -216,7 +204,7 @@ export default function Page({
             </li>
           </ul>
           <h2
-            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black dark:text-white"
+            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
             id="service"
           >
             8. {t("service.title")}
@@ -228,10 +216,9 @@ export default function Page({
             <li className="list-disc">{t("service.text.3")}</li>
             <li className="list-disc">{t("service.text.4")}</li>
             <li className="list-disc">{t("service.text.5")}</li>
-            <li className="list-disc">{t("service.text.6")}</li>
           </ul>
           <h2
-            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black dark:text-white"
+            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
             id="privacy"
           >
             9. {t("privacy.title")}
@@ -258,7 +245,7 @@ export default function Page({
             <li className="list-disc">{t("privacy.text.10")}</li>
           </ul>
           <h2
-            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black dark:text-white"
+            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
             id="web"
           >
             10. {t("web.title")}
@@ -279,7 +266,7 @@ export default function Page({
             <li className="list-disc">{t("web.text.12")}</li>
           </ul>
           <h2
-            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black dark:text-white"
+            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
             id="security"
           >
             11. {t("security.title")}
@@ -289,7 +276,7 @@ export default function Page({
             <li className="list-disc">{t("security.text.1")}</li>
           </ul>
           <h2
-            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black dark:text-white"
+            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
             id="providers"
           >
             12. {t("providers.title")}
@@ -306,7 +293,7 @@ export default function Page({
             <li className="list-disc">{t("providers.text.4")}</li>
           </ul>
           <h2
-            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black dark:text-white"
+            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
             id="errors"
           >
             13. {t("errors.title")}
@@ -318,7 +305,7 @@ export default function Page({
             <li className="list-disc">{t("errors.text.3")}</li>
           </ul>
           <h2
-            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black dark:text-white"
+            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
             id="complaints"
           >
             14. {t("complaints.title")}
@@ -326,11 +313,10 @@ export default function Page({
           <ul className="pl-6">
             <li className="list-disc">{t("complaints.text.0")}</li>
           </ul>
-          <p>{t("complaints.text.1")}</p>
           <p>
-            {t("complaints.text.2")}:{" "}
-            <a href="mailto:tickets@autobusesloschavez.com">
-              tickets@autobusesloschavez.com
+            {t("complaints.text.1")}:{" "}
+            <a href="mailto:tickets@avexpress.com">
+              tickets@avexpress.com
             </a>
           </p>
         </div>
