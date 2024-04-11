@@ -207,7 +207,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
             </div>
           </section>
           <section className="section-container grid w-full items-center gap-0 bg-transparent py-8 md:grid-cols-5 md:gap-10 md:py-14 xl:grid-cols-2 xl:gap-6">
-            <div className="h-min-[300px] order-2 flex aspect-[16/9] w-[100%] items-center justify-center overflow-hidden rounded-b-3xl md:col-span-2 md:aspect-square md:rounded-xl lg:order-1 xl:col-span-1 xl:aspect-[18/9]">
+            <div className="h-min-[300px] order-2 flex aspect-[16/9] w-[100%] items-center justify-center overflow-hidden rounded-b-3xl col-span-2 md:aspect-square md:rounded-xl lg:order-1 xl:col-span-1 xl:aspect-[18/9]">
               <video
                 src="/Video_boleto.mp4"
                 loop
@@ -216,7 +216,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
                 autoPlay
                 muted
                 playsInline
-                className="relative z-10 h-full w-full object-cover max-sm:object-[60%_50%]"
+                className="relative z-10 h-full w-full object-cover"
               />
             </div>
 
@@ -274,10 +274,10 @@ export default function Home({ params: { locale } }: { params: { locale: string 
           <div className="z-30 my-8">
             <div className="flex items-center gap-4 md:translate-x-32 xl:translate-x-0">
               <div className="flex-col items-center">
-                <h2 className="font-taviraj text-2xl font-bold text-black">
+                <h2 className="font-taviraj text-2xl font-bold text-white">
                   {t("fixed_route.title")}
                 </h2>
-                <h4 className="text-center font-taviraj text-sm text-black xl:text-lg">
+                <h4 className="text-center font-taviraj text-sm text-white xl:text-lg">
                   {t("fixed_route.subtitle")}
                 </h4>
               </div>

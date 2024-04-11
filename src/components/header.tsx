@@ -156,12 +156,12 @@ export default function Header({ translations, currentLocale }: Props) {
               <Image
                 src={Logo}
                 alt="Logo AV Express"
-                className="w-[150px] max-[350px]:w-[140px] md:w-[160px] xl:w-[300px] max-md:hidden"
+                className="max-md:hidden md:w-[160px] xl:w-[300px]"
               />
               <Image
                 src={LogoM}
                 alt="Logo AV Express"
-                className="w-[150px] max-[350px]:w-[140px] md:w-[160px] xl:w-[300px] md:hidden"
+                className="w-[180px] max-[350px]:w-[140px] md:hidden"
               />
             </Link>
 
@@ -229,7 +229,7 @@ export default function Header({ translations, currentLocale }: Props) {
           >
             {translations.home}
           </Link>
-          <Divider className="mx-2 w-[calc(100%_-_16px)] bg-secondary-700" />
+          <Divider className="mx-2 w-[calc(100%_-_16px)] bg-primary-300" />
           <Link
             onClick={() => setShowMenu(false)}
             className={clsx(
@@ -240,7 +240,7 @@ export default function Header({ translations, currentLocale }: Props) {
           >
             {translations.about_us}
           </Link>
-          <Divider className="mx-2 w-[calc(100%_-_16px)] bg-secondary-700" />
+          <Divider className="mx-2 w-[calc(100%_-_16px)] bg-primary-300" />
           {/* <Link
             onClick={() => setShowMenu(false)}
             className={clsx(
@@ -262,7 +262,7 @@ export default function Header({ translations, currentLocale }: Props) {
           >
             {translations.contact_us}
           </Link>
-          <Divider className="mx-2 w-[calc(100%_-_16px)] bg-secondary-700/70" />
+          <Divider className="mx-2 w-[calc(100%_-_16px)] bg-primary-300" />
           <Link
             onClick={() => setShowMenu(false)}
             className={clsx(
@@ -273,7 +273,7 @@ export default function Header({ translations, currentLocale }: Props) {
           >
             {translations.faq}
           </Link>
-          <Divider className="mx-2 w-[calc(100%_-_16px)] bg-secondary-700/70" />
+          <Divider className="mx-2 w-[calc(100%_-_16px)] bg-primary-300" />
           <Link
             onClick={() => setShowMenu(false)}
             className={clsx(
@@ -284,7 +284,7 @@ export default function Header({ translations, currentLocale }: Props) {
           >
             {translations.travelPolicy}
           </Link>
-          <Divider className="mx-2 w-[calc(100%_-_16px)] bg-secondary-700/70" />
+          <Divider className="mx-2 w-[calc(100%_-_16px)] bg-primary-300" />
           <Link
             onClick={() => setShowMenu(false)}
             className={clsx(

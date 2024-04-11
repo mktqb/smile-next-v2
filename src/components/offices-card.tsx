@@ -25,7 +25,7 @@ export default function OfficesComponent({ locale }: { locale: string }) {
                   className={`mb-4 text-lg font-semibold ${
                     selectedOffice === office
                       ? "text-white"
-                      : "text-primary-300"
+                      : "text-secondary-800"
                   }`}
                 >
                   {office.name[locale as "en" | "es"]}
