@@ -28,6 +28,7 @@ const workSans = Work_Sans({
 export const metadata: Metadata = {
   title: "AV Express",
   description: "Home",
+  icons: ["/favicon.ico"],
 };
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
