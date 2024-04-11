@@ -108,7 +108,7 @@ export default function TerminalsSection({ translations }: Props) {
           </SwiperSlide>
         </Swiper>
       </div>
-      <div className="row-start-4 grid place-items-center max-sm:h-44 max-[470px]:scale-125 lg:col-span-3 lg:col-start-3 lg:row-span-4 lg:row-start-1">
+      <div className="row-start-4 grid place-items-center max-[470px]:scale-125 lg:col-span-3 lg:col-start-3 lg:row-span-4 lg:row-start-1">
         <Image
           src={BusLateral}
           alt="bus"

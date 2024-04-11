@@ -19,7 +19,7 @@ interface Props {
 export default function TutorialCarousel({ translations }: Props) {
   return (
     <div className="grid w-full place-items-center pt-8">
-      <div className="h-full w-full overflow-hidden px-5">
+      <div className="h-fit w-full overflow-hidden md:px-5">
         <Swiper
           className="tutorial-carousel !pb-8"
           slidesPerView={1}
@@ -27,6 +27,23 @@ export default function TutorialCarousel({ translations }: Props) {
           modules={[Autoplay, Pagination]}
           autoplay={{
             delay: 5000,
+          }}
+          breakpoints={{
+            640: {
+              slidesPerView: 2,
+            },
+            768: {
+              slidesPerView: 2,
+            },
+            1024: {
+              slidesPerView: 3,
+            },
+            1280: {
+              slidesPerView: 4,
+            },
+            1536: {
+              slidesPerView: 4,
+            },
           }}
           loop
           pagination

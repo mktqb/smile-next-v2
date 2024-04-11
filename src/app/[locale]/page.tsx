@@ -91,7 +91,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
       </div>
       {/* Tutorial: Compra en 4 pasos */}
       <div className="bg-tutorial parallax">
-        <div className="footer-curve"></div>
+        <div className="footer-curve -translate-y-[1px]"></div>
         <section className="section-container relative z-10 grid grid-cols-1 gap-5 max-md:px-0 md:grid-cols-1 md:pb-32 md:pt-16 lg:grid-cols-1 xl:grid-cols-1">
           <div className="flex w-full flex-col items-center gap-1 pb-8 max-md:hidden">
             <h2
@@ -99,7 +99,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
               dangerouslySetInnerHTML={{ __html: t.raw("tutorial.title") }}
             />
           </div>
-          <div className="grid grid-cols-1 px-8 py-2 md:hidden">
+          <div className="grid grid-cols-1 px-8 py-2">
             <TutorialCarousel
               translations={[
                 {
@@ -125,7 +125,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
               ]}
             />
           </div>
-          <div className="hidden gap-5 rounded-lg bg-white/50 p-8 md:grid md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
+          {/* <div className="hidden gap-5 rounded-lg bg-white/50 p-8 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
             <TutorialCard
               count="01"
               title="¿A dónde vamos?"
@@ -146,7 +146,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
               title="Registra tu método de pago"
               text="Elige tu medio de pago y completa los datos solicitados. Haz clic en Procesar Pago. ¡Y listo!"
             />
-          </div>
+          </div> */}
           <div className="col-span-full flex flex-col items-center gap-x-4 gap-y-2 max-md:hidden lg:flex-row lg:justify-center xl:mt-4">
             <span
               className="text-center text-white"
@@ -177,10 +177,10 @@ export default function Home({ params: { locale } }: { params: { locale: string 
       </div>
       {/* quienes somos */}
       <div className="scroll-m-28" id="aboutUs">
-        <div className="relative mt-10 h-min w-full place-items-center overflow-hidden bg-transparent max-md:rounded-t-3xl max-sm:bg-white md:my-0 md:rounded-b-[5rem] md:bg-white">
+        <div className="relative mt-10 h-min w-full place-items-center overflow-hidden bg-transparent max-md:rounded-t-3xl max-sm:bg-primary-100 md:my-0 md:rounded-b-[5rem] md:bg-white">
           <section className="section-container grid w-full items-center gap-0 bg-transparent py-8 md:grid-cols-5 md:gap-10 md:py-14 xl:grid-cols-2 xl:gap-6">
             <div className="flex flex-col items-center gap-4 rounded-t-xl bg-white px-4 py-8 md:col-span-3 md:items-start md:bg-transparent md:p-0 lg:gap-4 xl:col-span-1">
-              <h1 className="main-title font-taviraj text-center text-black">
+              <h1 className="main-title text-center font-taviraj text-black">
                 {t("about_us.title")}
               </h1>
               <p
@@ -207,7 +207,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
             </div>
           </section>
           <section className="section-container grid w-full items-center gap-0 bg-transparent py-8 md:grid-cols-5 md:gap-10 md:py-14 xl:grid-cols-2 xl:gap-6">
-            <div className="h-min-[300px] flex aspect-[16/9] w-[100%] items-center justify-center overflow-hidden rounded-b-3xl md:col-span-2 md:aspect-square md:rounded-xl xl:col-span-1 xl:aspect-[18/9]">
+            <div className="h-min-[300px] order-2 flex aspect-[16/9] w-[100%] items-center justify-center overflow-hidden rounded-b-3xl md:col-span-2 md:aspect-square md:rounded-xl lg:order-1 xl:col-span-1 xl:aspect-[18/9]">
               <video
                 src="/Video_boleto.mp4"
                 loop
@@ -220,8 +220,8 @@ export default function Home({ params: { locale } }: { params: { locale: string 
               />
             </div>
 
-            <div className="flex flex-col items-center gap-4 rounded-t-xl bg-white px-4 py-8 md:col-span-3 md:items-start md:bg-transparent md:p-0 lg:gap-4 xl:col-span-1">
-              <h1 className="main-title font-taviraj text-center text-black">
+            <div className="order-1 flex flex-col items-center gap-4 rounded-t-xl bg-white px-4 py-8 md:col-span-3 md:items-start md:bg-transparent md:p-0 lg:order-2 lg:gap-4 xl:col-span-1">
+              <h1 className="main-title text-center font-taviraj text-black">
                 {t("transition.title")}
               </h1>
               <p
@@ -254,14 +254,14 @@ export default function Home({ params: { locale } }: { params: { locale: string 
 
       <div
         id="destinations"
-        className="grid w-full scroll-m-20 place-items-center bg-primary-100 py-4 max-sm:bg-zinc-100 sm:pb-5 md:pb-6 md:pt-20"
+        className="grid w-full scroll-m-20 place-items-center bg-primary-100 py-4 max-sm:bg-zinc-100 sm:pb-5 md:pb-6 md:pt-20 max-sm:hidden"
       >
         <div className="flex items-center gap-4 md:translate-x-32 xl:translate-x-0">
           <div className="flex-col items-center">
             <h2 className="font-taviraj text-2xl font-bold text-black">
               {t("fixed_route.title")}
             </h2>
-            <h4 className="font-taviraj text-center text-sm text-black xl:text-lg">
+            <h4 className="text-center font-taviraj text-sm text-black xl:text-lg">
               {t("fixed_route.subtitle")}
             </h4>
           </div>
@@ -271,11 +271,25 @@ export default function Home({ params: { locale } }: { params: { locale: string 
 
       <section className="section-container pb-8 pt-2 max-sm:rounded-b-3xl max-sm:bg-zinc-100 md:hidden">
         <div className="fixed-route-bg flex w-full flex-col items-center rounded-xl p-2 pb-4 text-white">
+          <div className="z-30 my-8">
+            <div className="flex items-center gap-4 md:translate-x-32 xl:translate-x-0">
+              <div className="flex-col items-center">
+                <h2 className="font-taviraj text-2xl font-bold text-black">
+                  {t("fixed_route.title")}
+                </h2>
+                <h4 className="text-center font-taviraj text-sm text-black xl:text-lg">
+                  {t("fixed_route.subtitle")}
+                </h4>
+              </div>
+              <CustomFixed className="text-xl text-white" />
+            </div>
+          </div>
+
           <CustomFixedRoutesMobile className="z-20 text-3xl duration-200 min-[400px]:text-4xl sm:text-5xl" />
           <Image
             src={BusFrontal}
             alt="bus"
-            className="z-20 w-2/3 -translate-y-5"
+            className="z-20 w-2/3 md:-translate-y-5"
           />
           <div className="z-20">
             <ButtonToScript
@@ -342,7 +356,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
         <p className="text-pretty pt-5 text-center text-black lg:px-16">
           {t("why.text")}
         </p>
-        <div className="mx-auto mb-6 grid w-10/12 grid-cols-1 gap-10 py-4">
+        <div className="mx-auto mb-6 mt-14 grid w-10/12 grid-cols-1 gap-10 py-4">
           <div className="main-title title-container items-center pb-8 xl:pb-12">
             <h2
               className="font-taviraj text-black"
