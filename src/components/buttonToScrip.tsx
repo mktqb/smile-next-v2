@@ -12,7 +12,7 @@ export default function ButtonToScript({ transaltions }: Props) {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
   return (
-    <button onClick={scrollToTop} className="inverse-button">
+    <button onClick={scrollToTop} className="inverse-button bg-white text-primary-300">
       {transaltions.text}
     </button>
   );

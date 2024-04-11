@@ -1,9 +1,9 @@
 .container {
   @apply relative flex w-full items-center rounded-lg border bg-white px-1 duration-200;
 }
-:global(.dark) .container {
+/* :global(.dark) .container {
   @apply bg-neutral-100;
-}
+} */
 .flat.container {
   @apply border-neutral-300 py-1.5;
 }
@@ -30,9 +30,9 @@
 .label {
   @apply absolute bg-white duration-200 text-black;
 }
-:global(.dark) .label {
+/* :global(.dark) .label {
   @apply bg-neutral-100 text-black;
-}
+} */
 .flat.label.error,
 .transparent.label.error {
   @apply text-red-500 dark:text-red-500;
@@ -46,9 +46,9 @@
 .flat.label.focus {
   @apply -top-2 left-2 px-1 text-[0.7rem];
 }
-:global(.dark) .flat.label.focus {
+/* :global(.dark) .flat.label.focus {
   @apply bg-neutral-800;
-}
+} */
 .transparent.label.focus {
   @apply -top-0 left-2 px-1 text-[0.7rem];
 }
@@ -75,29 +75,29 @@
 .btn {
   @apply hover:bg-primary-100;
 }
-:global(.dark) .btn {
+/* :global(.dark) .btn {
   @apply hover:bg-primary-800;
-}
+} */
 
 .option {
   @apply relative cursor-default select-none py-2 pl-10 pr-4 text-gray-900 duration-200;
 }
-:global(.dark) .option {
+/* :global(.dark) .option {
   @apply text-black;
-}
+} */
 .option.active {
   @apply bg-primary-100;
 }
-:global(.dark) .option.active {
+/* :global(.dark) .option.active {
   @apply bg-black;
-}
+} */
 
 .calendarPopover {
   @apply overflow-auto rounded-lg bg-white shadow-lg ring-1 ring-black/5;
 }
-:global(.dark) .calendarPopover {
+/* :global(.dark) .calendarPopover {
   @apply bg-neutral-800 ring-white/5;
-}
+} */
 .animateFadeIn {
   animation: fadeIn 0.1s ease-in forwards;
 }

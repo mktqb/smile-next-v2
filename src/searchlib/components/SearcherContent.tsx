@@ -230,12 +230,12 @@ export const SearchContent = ({
   return (
     <>
       {optionsPending && (
-        <div className="absolute left-0 top-0 z-50 flex h-full w-full flex-col items-center justify-center gap-5 rounded-2xl bg-neutral-800 bg-opacity-20 p-2 text-white backdrop-blur-sm 2xl:gap-0">
+        <div className="absolute left-0 top-0 z-50 flex h-full w-full flex-col items-center justify-center gap-5 rounded-2xl bg-opacity-20 p-2 text-white backdrop-blur-sm 2xl:gap-0">
           <MingcuteLoadingFill className="animate-spin text-4xl text-primary-100" />
         </div>
       )}
       {systemOptions && systemOptions.msg.startsWith("Web") && (
-        <div className="absolute left-0 top-0 z-50 flex h-full w-full select-none flex-col items-center justify-center gap-5 rounded-2xl bg-neutral-800 bg-opacity-20 p-2 text-neutral-800 backdrop-blur-sm duration-200 dark:text-white 2xl:gap-0">
+        <div className="absolute left-0 top-0 z-50 flex h-full w-full select-none flex-col items-center justify-center gap-5 rounded-2xl bg-opacity-20 p-2 text-neutral-800 backdrop-blur-sm duration-200 dark:text-white 2xl:gap-0">
           <span className="text-center text-sm font-bold">
             {lang === "es"
               ? "Estamos en mantenimiento"

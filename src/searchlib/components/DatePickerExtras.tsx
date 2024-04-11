@@ -9,7 +9,7 @@ export function RoundButton(props: ButtonProps) {
   return (
     <Button
       {...props}
-      className="dark:disabled:hover:bg-neutral-800 dark:disabled:text-gray-600 dark:text-gray-300 duration-200 dark:hover:bg-neutral-700 cursor-pointer disabled:hover:bg-white disabled:text-gray-300 w-9 h-9 outline-none disabled:cursor-default bg-transparent text-gray-600 border-0 rounded-full flex items-center justify-center hover:bg-gray-100 pressed:bg-gray-200"
+      className="cursor-pointer disabled:hover:bg-white disabled:text-gray-300 w-9 h-9 outline-none disabled:cursor-default bg-transparent text-gray-600 border-0 rounded-full flex items-center justify-center hover:bg-gray-100 pressed:bg-gray-200"
     />
   );
 }

@@ -89,7 +89,7 @@
     "fixed_route": {
       "title": "Rutas más visitadas",
       "subtitle": "Compra tu boleto en la web",
-      "button": "quiero comprar"
+      "button": "Quiero comprar"
     },
     "why": {
       "title": "<b>¿Por qué</b> elegirnos?",
@@ -281,20 +281,20 @@
   },
   "Metadata": {
     "home": {
-      "title": "AV Express | Home",
-      "description": "xxx."
+      "title": "AV Express | Te acompañamos en cada trayecto",
+      "description": "Te llevamos a CD México, Veracruz, Puebla y Xapala. Comprometidos con superar las expectativas de nuestros viajeros, ofreciendo un servicio excepcional de inicio a fin."
     },
     "faq": {
-      "title": "AV Express | Preguntas frecuentes",
-      "description": "xxx."
+      "title": "AV Express | Explora las Preguntas Frecuentes",
+      "description": "¿Necesitas ayuda? Consulta nuestras preguntas frecuentes que hemos recopilado para ti con información valiosa antes de viajar."
     },
     "travel_policies": {
       "title": "AV Express | Políticas de viaje",
-      "description": "xxx."
+      "description": "Conoce las políticas de reserva, cancelaciones, equipaje y más en nuestras políticas de viaje para asegurarte un trayecto seguro y cómodo con AV Express."
     },
     "privacy_policies": {
-      "title": "AV Express | Política de privacidad",
-      "description": "xxx."
+      "title": "AV Express | Nuestras políticas de cookies",
+      "description": "Explora nuestras políticas de cookies para entender su función en nuestro sitio web y controlar tus preferencias de privacidad en línea."
     }
   },
   "TravelPolicies": {
@@ -488,7 +488,7 @@
         "1": "Empresa (denominada como “la Empresa”, “Nosotros”, “Nos” o “Nuestro” en esta Política de Cookies) se refiere a <b>Autobuses Los Chavez</b>",
         "2": "“Usted” se refiere a la persona que accede o utiliza el Sitio web, o a una empresa, o a cualquier entidad jurídica en cuyo nombre dicha persona accede o utiliza el Sitio web, según corresponda.",
         "3": "“Cookies” significa archivos pequeños que se colocan en su computadora, dispositivo móvil o cualquier otro dispositivo por un sitio web, que contiene detalles de su historial de navegación en ese sitio web entre sus muchos usos.",
-        "4": "“Sitio web” se refiere a <b>(autobusesloschavez.com)</b>, accesible desde <b> <a href=\"https://autobusesloschavez.com/\" target=\"_blank\"> https://autobusesloschavez.com/ </a> </b>"
+        "4": "“Sitio web” se refiere a <b>(avexpress.mx/)</b>, accesible desde <b> <a href=\"https://avexpress.mx/\" target=\"_blank\"> https://avexpress.mx/ </a> </b>"
       }
     },
     "types": {

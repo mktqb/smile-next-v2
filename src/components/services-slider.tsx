@@ -52,7 +52,7 @@ export default function ServicesSlider({ items }: Props) {
                 <span className="text-5xl text-primary-300 group-hover:text-white">
                   {item.Icon}
                 </span>
-                <p className="text-center text-xs leading-tight text-primary-700 group-hover:text-white lg:text-base font-medium">
+                <p className="text-center text-xs font-medium leading-tight text-primary-700 group-hover:text-white lg:text-base">
                   {item.text}
                 </p>
               </div>
@@ -60,8 +60,8 @@ export default function ServicesSlider({ items }: Props) {
           ))}
         </Swiper>
       </div>
-      <div className="swiper-button-prev !top-[55%] !text-primary-500 duration-200 max-lg:!hidden lg:hover:scale-110"></div>
-      <div className="swiper-button-next !top-[55%] !text-primary-500 duration-200 max-lg:!hidden lg:hover:scale-110"></div>
+      <div className="swiper-button-prev !top-[55%] !text-secondary-800 duration-200 max-lg:!hidden lg:hover:scale-110"></div>
+      <div className="swiper-button-next !top-[55%] !text-secondary-800 duration-200 max-lg:!hidden lg:hover:scale-110"></div>
     </div>
   );
 }

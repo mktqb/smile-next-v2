@@ -137,7 +137,7 @@ export const DepartureSelector = ({
                 leaveTo="opacity-0"
                 afterLeave={() => setQuery("")}
               >
-                <Combobox.Options className="absolute z-[70] mt-1 max-h-60 w-full overflow-auto rounded-lg bg-white text-base shadow-lg ring-1 ring-black/5 focus:outline-none sm:text-sm dark:bg-neutral-800">
+                <Combobox.Options className="absolute z-[70] mt-1 max-h-60 w-full overflow-auto rounded-lg bg-white text-base shadow-lg ring-1 ring-black/5 focus:outline-none sm:text-sm">
                   {filteredData.length === 0 && query !== "" ? (
                     <div className="relative cursor-default select-none px-4 py-2 text-gray-700 dark:text-white">
                       {lang === "es" ? "No se encontro." : "Nothing found."}

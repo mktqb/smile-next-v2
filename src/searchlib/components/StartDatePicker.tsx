@@ -129,13 +129,13 @@ export const StartDatePicker = ({
               {(segment) => (
                 <DateSegment
                   segment={segment}
-                  className="rounded-sm px-0.5 tabular-nums caret-transparent outline-none placeholder-shown:italic focus:bg-primary-100 focus:text-neutral-800 dark:focus:bg-primary-800 dark:focus:text-white"
+                  className="rounded-sm px-0.5 tabular-nums caret-transparent outline-none placeholder-shown:italic focus:bg-primary-100 focus:text-neutral-800"
                 />
               )}
             </DateInput>
             {isDisabled ? (
               <div className={styles.iconContainer}>
-                <MingcuteLoadingFill className="h-5 w-5 text-white dark:text-neutral-800" />
+                <MingcuteLoadingFill className="h-5 w-5 text-white" />
                 <span className="sr-only">disabled</span>
               </div>
             ) : isLoading ? (
@@ -171,7 +171,7 @@ export const StartDatePicker = ({
                       >
                         <HeroiconsChevronLeft20Solid className="text-2xl" />
                       </RoundButton>
-                      <Heading className="flex-1 text-center font-semibold dark:text-gray-300" />
+                      <Heading className="flex-1 text-center font-semibold" />
                       <RoundButton slot="next">
                         <HeroiconsChevronRight20Solid className="text-2xl" />
                       </RoundButton>
@@ -179,7 +179,7 @@ export const StartDatePicker = ({
                     <CalendarGrid className="border-separate border-spacing-1">
                       <CalendarGridHeader>
                         {(day) => (
-                          <CalendarHeaderCell className="text-xs font-semibold text-gray-500 dark:text-gray-300">
+                          <CalendarHeaderCell className="text-xs font-semibold text-gray-500">
                             {day}
                           </CalendarHeaderCell>
                         )}
@@ -196,23 +196,23 @@ export const StartDatePicker = ({
                               isUnavailable,
                             }) =>
                               clsx(
-                                "flex h-7 w-7 items-center justify-center rounded-lg outline-none ring-primary-500 duration-200 focus-visible:ring-1 dark:text-gray-300",
+                                "flex h-7 w-7 items-center justify-center rounded-lg outline-none ring-primary-500 duration-200 focus-visible:ring-1",
                                 isDisabled &&
                                   !isOutsideMonth &&
-                                  "text-gray-300 dark:text-gray-600",
+                                  "text-gray-300",
                                 isOutsideMonth &&
-                                  "text-gray-300 dark:text-gray-600",
+                                  "text-gray-300",
                                 isUnavailable &&
-                                  "text-gray-300 dark:text-gray-600",
+                                  "text-gray-300",
                                 isSelected &&
                                   isHovered &&
-                                  "!bg-primary-300 dark:!bg-primary-700",
+                                  "!bg-primary-300",
                                 (!isDisabled ??
                                   (isOutsideMonth && !isDisabled)) &&
                                   isHovered &&
-                                  "bg-neutral-200 dark:bg-neutral-600",
+                                  "bg-neutral-200",
                                 isSelected &&
-                                  "bg-primary-100 dark:bg-primary-800",
+                                  "bg-primary-100",
                               )
                             }
                           />
