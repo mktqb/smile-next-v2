@@ -31,7 +31,7 @@ export default function FaqsSection({ translations }: Props) {
               "w-full rounded-xl px-3 py-4 shadow-xl duration-200 lg:text-start",
               selected === i && "bg-neutral-600 text-white",
               selected !== i &&
-                "bg-white text-black dark:bg-neutral-800 dark:text-white",
+                "bg-white text-black",
             )}
           >
             {t.title}
@@ -52,14 +52,14 @@ export default function FaqsSection({ translations }: Props) {
               title={faq.question}
               classNames={{
                 heading:
-                  "duration-200 bg-neutral-300 dark:bg-neutral-800 text-black dark:text-white data-[open]:bg-neutral-600 data-[open]:text-white data-[open]:mb-0 rounded-xl px-3 mb-1",
+                  "duration-200 bg-neutral-300 text-black data-[open]:bg-neutral-600 data-[open]:text-white data-[open]:mb-0 rounded-xl px-3 mb-1",
                 title: "duration-200 data-[open]:text-white",
                 indicator: "data-[open=true]:text-white",
                 content:
-                  "px-3 bg-neutral-100 dark:bg-neutral-900 mb-1 text-black dark:text-white",
+                  "px-3 bg-neutral-100 mb-1 text-black",
               }}
             >
-              <div className="space-y-3 text-black dark:text-white">
+              <div className="space-y-3 text-black">
                 {faq.answer.map((a, i_a) => (
                   <>
                     {typeof a === "string" && <p key={i_a}>{a}</p>}

@@ -112,7 +112,7 @@ export default function TerminalsSection({ translations }: Props) {
         <Image
           src={BusLateral}
           alt="bus"
-          className="translate-x-16 max-md:h-full max-md:object-contain sm:translate-x-28 md:translate-x-40 lg:translate-x-0"
+          className="translate-x-16 max-md:-translate-y-7 max-md:h-full max-md:object-contain sm:translate-x-28 md:translate-x-40 lg:translate-x-0"
         />
       </div>
     </section>

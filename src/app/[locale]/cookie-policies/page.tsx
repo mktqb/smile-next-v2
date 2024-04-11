@@ -44,7 +44,7 @@ export default function Page({
         </div>
       </div>
       <section className="section-container grid grid-cols-1 place-items-center gap-4 py-10 pb-16 lg:my-10 lg:flex lg:place-items-start lg:gap-8">
-        <div className="top-36 col-span-1 flex h-full min-w-[350px] flex-col rounded-lg text-black shadow-lg lg:sticky dark:text-white">
+        <div className="top-36 col-span-1 flex h-full min-w-[350px] flex-col rounded-lg text-black shadow-lg lg:sticky">
           <Link className="selector" href="#interpretation">
             {t("interpretation.title")}
           </Link>
@@ -64,14 +64,14 @@ export default function Page({
             {t("contact_us.title")}
           </Link>
         </div>
-        <div className="col-span-1 mt-10 space-y-3 text-sm text-black lg:col-span-3 lg:mt-0 lg:text-base dark:text-white">
+        <div className="col-span-1 mt-10 space-y-3 text-sm text-black lg:col-span-3 lg:mt-0 lg:text-base">
           <p>{t("main_text.0")}</p>
           <p>{t("main_text.1")}</p>
           <p>{t("main_text.2")}</p>
           <p>{t("main_text.3")}</p>
           <h2
             id="interpretation"
-            className="scroll-m-4 text-lg font-bold text-black lg:scroll-m-36 dark:text-white"
+            className="scroll-m-4 text-lg font-bold text-black lg:scroll-m-36"
           >
             {t("interpretation.title")}
           </h2>
@@ -79,7 +79,7 @@ export default function Page({
           <p>{t("interpretation.text.1")}</p>
           <h2
             id="definition"
-            className="scroll-m-4 text-lg font-bold text-black lg:scroll-m-36 dark:text-white"
+            className="scroll-m-4 text-lg font-bold text-black lg:scroll-m-36"
           >
             {t("definition.title")}
           </h2>
@@ -98,7 +98,7 @@ export default function Page({
           </ul>
           <h2
             id="types"
-            className="scroll-m-4 text-lg font-bold text-black lg:scroll-m-36 dark:text-white"
+            className="scroll-m-4 text-lg font-bold text-black lg:scroll-m-36"
           >
             {t("types.title")}
           </h2>
@@ -114,7 +114,7 @@ export default function Page({
           <p className="pt-4">{t("types.text.8")}</p>
           <h2
             id="configuration"
-            className="scroll-m-4 text-lg font-bold text-black lg:scroll-m-36 dark:text-white"
+            className="scroll-m-4 text-lg font-bold text-black lg:scroll-m-36"
           >
             {t("configuration.title")}
           </h2>
@@ -150,7 +150,7 @@ export default function Page({
           <p>{t("configuration.text.9")}</p>
           <h2
             id="moreInfo"
-            className="scroll-m-4 text-lg font-bold text-black lg:scroll-m-36 dark:text-white"
+            className="scroll-m-4 text-lg font-bold text-black lg:scroll-m-36"
           >
             {t("more_info.title")}
           </h2>
@@ -159,7 +159,7 @@ export default function Page({
             <li className="list-disc">
               Network Advertising Initiative:{" "}
               <a
-                className="text-black duration-200 lg:hover:text-orange-700 dark:text-white"
+                className="text-black duration-200 lg:hover:text-orange-700"
                 href="http://www.networkadvertising.org/"
                 target="_blank"
               >
@@ -169,7 +169,7 @@ export default function Page({
           </ul>
           <h2
             id="contactUs"
-            className="scroll-m-4 text-lg font-bold text-black lg:scroll-m-36 dark:text-white"
+            className="scroll-m-4 text-lg font-bold text-black lg:scroll-m-36"
           >
             {t("contact_us.title")}
           </h2>

@@ -241,17 +241,28 @@ export default function Header({ translations, currentLocale }: Props) {
             {translations.about_us}
           </Link>
           <Divider className="mx-2 w-[calc(100%_-_16px)] bg-primary-300" />
-          {/* <Link
+          <Link
             onClick={() => setShowMenu(false)}
             className={clsx(
               "w-full",
-              path === "/services" && "bg-secondary-500/5 text-secondary-500"
+              path === "/services" && "bg-neutral-800 text-white",
             )}
-            href="/#services"
+            href="/#destinations"
           >
-            {translations.services}
+            {translations.destinations}
           </Link>
-          <Divider className="mx-2 w-[calc(100%_-_16px)] bg-white/70" /> */}
+          <Divider className="mx-2 w-[calc(100%_-_16px)] bg-primary-300" />
+          <Link
+            onClick={() => setShowMenu(false)}
+            className={clsx(
+              "w-full",
+              path === "/services" && "bg-neutral-800 text-white",
+            )}
+            href="/#terminal"
+          >
+            {translations.terminal}
+          </Link>
+          <Divider className="mx-2 w-[calc(100%_-_16px)] bg-primary-300" />
           <Link
             onClick={() => setShowMenu(false)}
             className={clsx(

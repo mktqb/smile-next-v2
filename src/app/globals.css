@@ -67,7 +67,7 @@ body {
 
 .swiper-pagination-progressbar-fill {
   /* background-color: #e32324 !important; */
-  @apply !bg-orange-600;
+  @apply !bg-secondary-800;
 }
 @layer components {
 

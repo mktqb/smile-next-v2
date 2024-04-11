@@ -25,7 +25,7 @@ export default function DestinationsCarousel({ translations }: Props) {
     <section className="section-container py-10">
       <div className="main-title title-container items-center pb-8 xl:pb-12">
         <h2
-          className="text-black"
+          className="font-taviraj text-black"
           dangerouslySetInnerHTML={{ __html: translations.title }}
         />
         <hr className="title-line w-20 border-primary-300" />

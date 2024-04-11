@@ -11,7 +11,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const t = await getTranslations({ locale });
   return {
-    title: t("Metadata.travel_policies.title"),
+    title: t("Metadata.faq.title"),
     description: t("Metadata.faq.description"),
   };
 }

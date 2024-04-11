@@ -65,7 +65,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
         }}
       />
 
-      <main className="flex flex-col items-center justify-between pt-20">
+      <main className="flex flex-col items-center justify-between pt-5 md:pt-20">
         {/* Ejemplo del carrusel con traducciones desde el servidor */}
         <DestinationsCarousel
           translations={{
@@ -85,7 +85,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
 
       <div className="flex w-full flex-col items-center gap-1 pb-5 md:hidden">
         <h2
-          className="main-title text-black"
+          className="main-title font-taviraj text-black"
           dangerouslySetInnerHTML={{ __html: t.raw("tutorial.title") }}
         />
       </div>
@@ -95,7 +95,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
         <section className="section-container relative z-10 grid grid-cols-1 gap-5 max-md:px-0 md:grid-cols-1 md:pb-32 md:pt-16 lg:grid-cols-1 xl:grid-cols-1">
           <div className="flex w-full flex-col items-center gap-1 pb-8 max-md:hidden">
             <h2
-              className="main-title text-white"
+              className="main-title font-taviraj text-white"
               dangerouslySetInnerHTML={{ __html: t.raw("tutorial.title") }}
             />
           </div>
@@ -180,7 +180,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
         <div className="relative mt-10 h-min w-full place-items-center overflow-hidden bg-transparent max-md:rounded-t-3xl max-sm:bg-primary-100 md:my-0 md:rounded-b-[5rem] md:bg-white">
           <section className="section-container grid w-full items-center gap-0 bg-transparent py-8 max-lg:pb-0 md:grid-cols-5 md:gap-10 md:py-14 xl:grid-cols-2 xl:gap-6">
             <div className="flex flex-col items-center gap-4 rounded-t-xl bg-white px-4 py-8 md:col-span-3 md:items-start md:bg-transparent md:p-0 lg:gap-4 xl:col-span-1">
-              <h1 className="main-title text-center font-taviraj text-black">
+              <h1 className="main-title text-center font-taviraj font-semibold text-black">
                 {t("about_us.title")}
               </h1>
               <p
@@ -207,7 +207,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
             </div>
           </section>
           <section className="section-container grid w-full items-center gap-0 bg-transparent py-8 max-lg:pt-0 md:grid-cols-5 md:gap-10 md:py-14 xl:grid-cols-2 xl:gap-6">
-            <div className="h-min-[300px] order-2 flex aspect-[16/9] w-[100%] items-center justify-center overflow-hidden rounded-b-3xl col-span-2 md:aspect-square md:rounded-xl lg:order-1 xl:col-span-1 xl:aspect-[18/9]">
+            <div className="h-min-[300px] order-2 col-span-2 flex aspect-[16/9] w-[100%] items-center justify-center overflow-hidden rounded-b-3xl md:aspect-square md:rounded-xl lg:order-1 xl:col-span-1 xl:aspect-[18/9]">
               <video
                 src="/Video_boleto.mp4"
                 loop
@@ -221,7 +221,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
             </div>
 
             <div className="order-1 flex flex-col items-center gap-4 rounded-t-xl bg-white px-4 py-8 md:col-span-3 md:items-start md:bg-transparent md:p-0 lg:order-2 lg:gap-4 xl:col-span-1">
-              <h1 className="main-title text-center font-taviraj text-black">
+              <h1 className="main-title text-center font-taviraj font-semibold text-black">
                 {t("transition.title")}
               </h1>
               <p
@@ -254,7 +254,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
 
       <div
         id="destinations"
-        className="grid w-full scroll-m-20 place-items-center bg-primary-100 py-4 max-sm:bg-zinc-100 sm:pb-5 md:pb-6 md:pt-20 max-sm:hidden"
+        className="grid w-full scroll-m-20 place-items-center bg-primary-100 py-4 max-sm:hidden max-sm:bg-zinc-100 sm:pb-5 md:pb-6 md:pt-20"
       >
         <div className="flex items-center gap-4 md:translate-x-32 xl:translate-x-0">
           <div className="flex-col items-center">
@@ -269,7 +269,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
         </div>
       </div>
 
-      <section className="section-container pb-8 pt-2 max-sm:rounded-b-3xl max-sm:bg-gradient-to-b from-zinc-100 to-white md:hidden max-md:px-3">
+      <section className="section-container from-zinc-100 to-white pb-8 pt-2 max-md:px-3 max-sm:rounded-b-3xl max-sm:bg-gradient-to-b md:hidden">
         <div className="fixed-route-bg flex w-full flex-col items-center rounded-xl p-2 pb-4 text-white">
           <div className="z-30 my-8">
             <div className="flex items-center gap-4 md:translate-x-32 xl:translate-x-0">
@@ -346,7 +346,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
 
       {/* por qué elegirnos */}
       <section className="section-container py-10">
-        <div className="main-title title-container items-center pb-8 xl:pb-12">
+        <div className="main-title title-container items-center pb-6 xl:pb-8 mt-4">
           <h2
             className="font-taviraj text-black"
             dangerouslySetInnerHTML={{ __html: t.raw("why.title") }}
@@ -357,7 +357,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
           {t("why.text")}
         </p>
         <div className="mx-auto mb-6 mt-14 grid w-10/12 grid-cols-1 gap-10 py-4">
-          <div className="main-title title-container items-center pb-8 xl:pb-12">
+          <div className="main-title title-container items-center pb-6 xl:pb-8">
             <h2
               className="font-taviraj text-black"
               dangerouslySetInnerHTML={{ __html: t.raw("why.services.title") }}
@@ -447,7 +447,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
         id="contactUs"
         className="section-container mt-12 flex w-full scroll-m-36 flex-col items-center bg-white md:mt-28"
       >
-        <div className="main-title title-container items-center pb-8 xl:pb-12">
+        <div className="main-title title-container items-center pb-6 xl:pb-8">
           <h2
             className="font-taviraj text-black"
             dangerouslySetInnerHTML={{ __html: t.raw("contact_us.title") }}

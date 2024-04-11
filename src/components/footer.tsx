@@ -65,10 +65,10 @@ const Footer = ({ translations, currentLocale }: Props) => {
                 <Link href="/">Inicio</Link>
               </li>
               <li>
-                <Link href="/">Nosotros</Link>
+                <Link href="/#aboutUs">Nosotros</Link>
               </li>
               <li>
-                <Link href="/">Terminales</Link>
+                <Link href="/#terminals">Terminales</Link>
               </li>
               <li>
                 <Link href="/faq">Preguntas frecuentes</Link>
@@ -80,7 +80,7 @@ const Footer = ({ translations, currentLocale }: Props) => {
                 <Link href="/travel-policies">Términos y condiciones</Link>
               </li>
               <li className="md:hidden">
-                <Link href="/travel-policies">Políticas de cookies</Link>
+                <Link href="/cookie-policies">Políticas de cookies</Link>
               </li>
             </ul>
           </div>
