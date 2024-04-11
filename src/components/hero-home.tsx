@@ -12,7 +12,7 @@ import Banner01 from "@/assets/Banner_slogan.jpg";
 import Banner02 from "@/assets/Banner_puebla.jpg";
 import Banner03 from "@/assets/Banner_veracruz.jpg";
 import Banner04 from "@/assets/Banner_xalapa.jpg";
-import Banner05 from "@/assets/Banner-cdmx.jpg";
+import Banner05 from "@/assets/Banner_cdmx.jpg";
 
 interface Props {
   /* background:
@@ -76,7 +76,7 @@ export default function HeroHome({
             priority
           />
           <div className="absolute left-0 top-40 z-20 flex flex-col items-center gap-5 max-lg:w-full lg:left-1/2 lg:top-60 lg:-translate-x-24 xl:w-2/5 2xl:w-1/3">
-            <span className="font-taviraj text-center text-3xl font-bold text-white [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)] max-xl:text-balance lg:text-center lg:text-5xl">
+            <span className="text-center font-taviraj text-3xl font-bold text-white [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)] max-xl:text-balance lg:text-center lg:text-5xl">
               Te acompañamos en cada trayecto
             </span>
             <p className="mt-5 rounded-xl bg-white px-2 py-1 text-center text-xs font-bold text-primary-300 drop-shadow-2xl lg:px-5 lg:text-base xl:text-lg">
@@ -88,6 +88,54 @@ export default function HeroHome({
           <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-black via-secondary-400/40 via-30% to-transparent to-40% max-xl:hidden"></div>
           <Image
             src={Banner02}
+            alt="Puebla"
+            width={1920}
+            height={1080}
+            className="h-full object-cover object-center max-xl:max-w-none xl:w-full"
+            priority
+          />
+          <div className="absolute left-0 top-40 z-20 grid w-full place-items-center lg:left-1/4 lg:top-72 lg:-translate-x-28 xl:-translate-x-64">
+            <span className="text-center text-6xl font-bold text-white underline decoration-primary-300 underline-offset-4 [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)]">
+              Puebla
+            </span>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="relative h-full w-full">
+          <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-black via-secondary-400/40 via-30% to-transparent to-40% max-xl:hidden"></div>
+          <Image
+            src={Banner03}
+            alt="Veracruz"
+            width={1920}
+            height={1080}
+            className="h-full object-cover object-center max-xl:max-w-none xl:w-full"
+            priority
+          />
+          <div className="absolute left-0 top-40 z-20 grid w-full place-items-center lg:left-1/4 lg:top-72 lg:-translate-x-28 xl:-translate-x-64">
+            <span className="text-center text-6xl font-bold text-white underline decoration-primary-300 underline-offset-4 [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)]">
+              Veracruz
+            </span>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="relative h-full w-full">
+          <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-black via-secondary-400/40 via-30% to-transparent to-40% max-xl:hidden"></div>
+          <Image
+            src={Banner04}
+            alt="Xalapa"
+            width={1920}
+            height={1080}
+            className="h-full object-cover object-center max-xl:max-w-none xl:w-full"
+            priority
+          />
+          <div className="absolute left-0 top-40 z-20 grid w-full place-items-center lg:left-1/4 lg:top-72 lg:-translate-x-28 xl:-translate-x-64">
+            <span className="text-center text-6xl font-bold text-white underline decoration-primary-300 underline-offset-4 [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)]">
+              Xalapa
+            </span>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="relative h-full w-full">
+          <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-black via-secondary-400/40 via-30% to-transparent to-40% max-xl:hidden"></div>
+          <Image
+            src={Banner05}
             alt="CDMX"
             width={1920}
             height={1080}
@@ -97,38 +145,6 @@ export default function HeroHome({
           <div className="absolute left-0 top-40 z-20 grid w-full place-items-center lg:left-1/4 lg:top-72 lg:-translate-x-28 xl:-translate-x-64">
             <span className="text-center text-6xl font-bold text-white underline decoration-primary-300 underline-offset-4 [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)]">
               CDMX
-            </span>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="relative h-full w-full">
-          <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-black via-secondary-400/40 via-30% to-transparent to-40% max-xl:hidden"></div>
-          <Image
-            src={Banner03}
-            alt="Los Angeles"
-            width={1920}
-            height={1080}
-            className="h-full object-cover object-center max-xl:max-w-none xl:w-full"
-            priority
-          />
-          <div className="absolute left-0 top-40 z-20 grid w-full place-items-center lg:left-1/4 lg:top-72 lg:-translate-x-28 xl:-translate-x-64">
-            <span className="text-center text-6xl font-bold text-white underline decoration-primary-300 underline-offset-4 [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)]">
-              {/* {translations.losAngeles} */}
-            </span>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="relative h-full w-full">
-          <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-black via-secondary-400/40 via-30% to-transparent to-40% max-xl:hidden"></div>
-          <Image
-            src={Banner04}
-            alt="Tijuana"
-            width={1920}
-            height={1080}
-            className="h-full object-cover object-center max-xl:max-w-none xl:w-full"
-            priority
-          />
-          <div className="absolute left-0 top-40 z-20 grid w-full place-items-center lg:left-1/4 lg:top-72 lg:-translate-x-28 xl:-translate-x-64">
-            <span className="text-center text-6xl font-bold text-white underline decoration-primary-300 underline-offset-4 [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)]">
-              Tijuana
             </span>
           </div>
         </SwiperSlide>

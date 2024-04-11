@@ -161,7 +161,7 @@ export default function Header({ translations, currentLocale }: Props) {
               <Image
                 src={LogoM}
                 alt="Logo AV Express"
-                className="w-[180px] max-[350px]:w-[140px] md:hidden"
+                className="w-[200px] max-[350px]:w-[140px] md:hidden"
               />
             </Link>
 
