@@ -76,6 +76,12 @@ const Footer = ({ translations, currentLocale }: Props) => {
               <li>
                 <Link href="/cookie-policies">Contáctanos</Link>
               </li>
+              <li className="md:hidden">
+                <Link href="/travel-policies">Términos y condiciones</Link>
+              </li>
+              <li className="md:hidden">
+                <Link href="/travel-policies">Políticas de cookies</Link>
+              </li>
             </ul>
           </div>
           <div className="col-span-5 grid grid-cols-1 gap-4 md:col-span-8 md:grid-cols-2">
@@ -97,8 +103,8 @@ const Footer = ({ translations, currentLocale }: Props) => {
               </ul>
             </div>
             <div className="col-span-1 text-gray-50 md:col-span-1">
-              <h3 className="mb-3 font-semibold">Legal</h3>
-              <ul className="navbar-footer mb-6 grid gap-1">
+              <h3 className="mb-3 font-semibold max-md:hidden">Legal</h3>
+              <ul className="navbar-footer mb-6 grid gap-1 max-md:hidden">
                 <li>
                   <Link href="/travel-policies">Términos y condiciones</Link>
                 </li>

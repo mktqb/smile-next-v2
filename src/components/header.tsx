@@ -17,6 +17,7 @@ import ChangeLocale from "./change-locale";
 import LanguageSwitch from "./language-switch"; */
 
 import Logo from "@/assets/LogoAV3.png";
+import LogoM from "@/assets/LogoAVM.png";
 
 interface Props {
   currentLocale: string;
@@ -115,8 +116,8 @@ export default function Header({ translations, currentLocale }: Props) {
           </section>
         </div> */}
         {/* End Topbar */}
-        <div className="fixed left-0 z-[80] w-full bg-white bg-gradient-to-t from-[#022204] to-[#00d800] pb-0 pt-0">
-          <section className="section-container flex items-center justify-center min-[300px]:justify-between">
+        <div className="fixed left-0 z-[80] w-full bg-gradient-to-t from-primary-800 to-[#00d800] pb-0 pt-0">
+          <section className="section-container flex items-center justify-center max-md:pl-0 min-[300px]:justify-between">
             {/* Logo que se muestra en disp muy pequeños, centrado. Oculto de 300 a más */}
             <button
               className="min-[300px]:hidden"
@@ -154,8 +155,13 @@ export default function Header({ translations, currentLocale }: Props) {
 
               <Image
                 src={Logo}
-                alt="bg"
-                className="w-[150px] max-[350px]:w-[140px] md:w-[160px] xl:w-[300px]"
+                alt="Logo AV Express"
+                className="w-[150px] max-[350px]:w-[140px] md:w-[160px] xl:w-[300px] max-md:hidden"
+              />
+              <Image
+                src={LogoM}
+                alt="Logo AV Express"
+                className="w-[150px] max-[350px]:w-[140px] md:w-[160px] xl:w-[300px] md:hidden"
               />
             </Link>
 
@@ -203,7 +209,7 @@ export default function Header({ translations, currentLocale }: Props) {
         />
         <div
           className={clsx(
-            "navbar-mobile absolute right-0 top-0 z-[90] flex h-dvh w-full flex-col bg-black text-white duration-400 min-[380px]:w-2/3 min-[450px]:w-1/2 sm:w-1/3",
+            "navbar-mobile absolute right-0 top-0 z-[90] flex h-dvh w-full flex-col bg-white text-black duration-400 min-[380px]:w-2/3 min-[450px]:w-1/2 sm:w-1/3",
             !showMenu && "translate-x-full",
           )}
         >
@@ -218,15 +224,12 @@ export default function Header({ translations, currentLocale }: Props) {
           </div>
           <Link
             onClick={() => setShowMenu(false)}
-            className={clsx(
-              "w-full",
-              path === "/" && "bg-neutral-800 text-white",
-            )}
+            className={clsx("w-full", path === "/" && "bg-white text-black")}
             href="/"
           >
             {translations.home}
           </Link>
-          <Divider className="mx-2 w-[calc(100%_-_16px)] bg-white/70" />
+          <Divider className="mx-2 w-[calc(100%_-_16px)] bg-secondary-700" />
           <Link
             onClick={() => setShowMenu(false)}
             className={clsx(
@@ -237,7 +240,7 @@ export default function Header({ translations, currentLocale }: Props) {
           >
             {translations.about_us}
           </Link>
-          <Divider className="mx-2 w-[calc(100%_-_16px)] bg-white/70" />
+          <Divider className="mx-2 w-[calc(100%_-_16px)] bg-secondary-700" />
           {/* <Link
             onClick={() => setShowMenu(false)}
             className={clsx(
@@ -259,7 +262,7 @@ export default function Header({ translations, currentLocale }: Props) {
           >
             {translations.contact_us}
           </Link>
-          <Divider className="mx-2 w-[calc(100%_-_16px)] bg-white/70" />
+          <Divider className="mx-2 w-[calc(100%_-_16px)] bg-secondary-700/70" />
           <Link
             onClick={() => setShowMenu(false)}
             className={clsx(
@@ -270,7 +273,7 @@ export default function Header({ translations, currentLocale }: Props) {
           >
             {translations.faq}
           </Link>
-          <Divider className="mx-2 w-[calc(100%_-_16px)] bg-white/70" />
+          <Divider className="mx-2 w-[calc(100%_-_16px)] bg-secondary-700/70" />
           <Link
             onClick={() => setShowMenu(false)}
             className={clsx(
@@ -281,7 +284,7 @@ export default function Header({ translations, currentLocale }: Props) {
           >
             {translations.travelPolicy}
           </Link>
-          <Divider className="mx-2 w-[calc(100%_-_16px)] bg-white/70" />
+          <Divider className="mx-2 w-[calc(100%_-_16px)] bg-secondary-700/70" />
           <Link
             onClick={() => setShowMenu(false)}
             className={clsx(

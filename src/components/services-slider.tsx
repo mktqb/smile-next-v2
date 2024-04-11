@@ -48,7 +48,7 @@ export default function ServicesSlider({ items }: Props) {
         >
           {items.map((item, index) => (
             <SwiperSlide key={index} className="h-full-w-full px-3">
-              <div className="group flex aspect-square min-h-[118px] flex-col items-center justify-center gap-2 rounded-xl bg-primary-500 p-4 text-white shadow-xl duration-200 lg:bg-white lg:text-primary-900 lg:hover:bg-orange-500 lg:hover:bg-gradient-to-t lg:hover:from-[#ff8700] lg:hover:to-[#ffe100] lg:hover:text-black">
+              <div className="group flex aspect-square min-h-[118px] flex-col items-center justify-center gap-2 rounded-xl p-4 text-white shadow-xl duration-200 lg:bg-white lg:text-primary-900 lg:hover:bg-orange-500 lg:hover:bg-gradient-to-t lg:hover:from-[#ff8700] lg:hover:to-[#ffe100] lg:hover:text-black">
                 <span className="text-5xl text-primary-300 group-hover:text-white">
                   {item.Icon}
                 </span>

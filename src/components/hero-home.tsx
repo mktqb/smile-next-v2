@@ -155,7 +155,7 @@ export default function HeroHome({
             )}
           </div> */}
         {withSearcher && (
-          <section className="section-container position-initial z-50 mt-12 max-lg:mt-96 max-lg:pt-4">
+          <section className="section-container position-initial z-50 mt-20 max-lg:pt-4">
             <div className="w-full lg:max-w-72 xl:max-w-[21rem]">
               <Searcher
                 url="https://websales.702shuttles.com"
