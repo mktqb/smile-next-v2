@@ -30,7 +30,7 @@ export default function TerminalsSection({ translations }: Props) {
         />
         <CustomTerminals className="text-2xl text-primary-300" />
       </div>
-      <div className="row-span-2 overflow-hidden rounded-2xl border-5 border-primary-300 bg-white sm:px-20 lg:col-span-2 lg:col-start-1 lg:row-span-3 lg:row-start-2 lg:px-5 xl:pl-5 xl:pr-0">
+      <div className="row-span-2 overflow-hidden rounded-2xl border-5 border-primary-300 bg-white sm:px-20 lg:col-span-2 lg:col-start-1 lg:row-span-3 lg:row-start-2 lg:px-5 xl:pl-3 xl:pr-0">
         <Swiper
           modules={[Autoplay, Pagination]}
           pagination={{ type: "progressbar" }}
@@ -41,11 +41,11 @@ export default function TerminalsSection({ translations }: Props) {
           className="!h-96 w-full rounded-xl !py-2 lg:!h-full"
           loop
         >
-          <SwiperSlide className="p-3">
+          <SwiperSlide className="p-2 md:p-3">
             <span className="font-bold text-black">
               Terminal Veracruz AV Express
             </span>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-1">
               <span>
                 <LocationOnOutline className="text-xs text-secondary-700" />
               </span>
@@ -54,9 +54,9 @@ export default function TerminalsSection({ translations }: Props) {
               </span>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="p-3">
+          <SwiperSlide className="p-2 md:p-3">
             <span className="font-bold text-black">Lotería Nacional</span>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-1">
               <span>
                 <LocationOnOutline className="text-xs text-secondary-700" />
               </span>
@@ -65,11 +65,11 @@ export default function TerminalsSection({ translations }: Props) {
               </span>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="p-3">
+          <SwiperSlide className="p-2 md:p-3">
             <span className="font-bold text-black">
               City Express Junior by Marriott Puebla
             </span>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-1">
               <span>
                 <LocationOnOutline className="text-xs text-secondary-700" />
               </span>
@@ -79,11 +79,11 @@ export default function TerminalsSection({ translations }: Props) {
               </span>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="p-3">
+          <SwiperSlide className="p-2 md:p-3">
             <span className="font-bold text-black">
               Omnibus turísticos Ocaso Xalapa
             </span>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-1">
               <span>
                 <LocationOnOutline className="text-xs text-secondary-700" />
               </span>
@@ -93,11 +93,11 @@ export default function TerminalsSection({ translations }: Props) {
               </span>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="p-3">
+          <SwiperSlide className="p-2 md:p-3">
             <span className="font-bold text-black">
               Soriana Híper Boca del Río
             </span>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-1">
               <span>
                 <LocationOnOutline className="text-xs text-secondary-700" />
               </span>
@@ -112,7 +112,7 @@ export default function TerminalsSection({ translations }: Props) {
         <Image
           src={BusLateral}
           alt="bus"
-          className="translate-x-16 max-md:-translate-y-7 max-md:h-full max-md:object-contain sm:translate-x-28 md:translate-x-40 lg:translate-x-0"
+          className="translate-x-3 max-md:h-full max-md:-translate-y-7 max-md:object-contain sm:translate-x-28 md:translate-x-40 lg:translate-x-0"
         />
       </div>
     </section>

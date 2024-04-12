@@ -9,14 +9,26 @@ import "swiper/css/pagination";
 import TutorialCard from "./tutorial-card";
 
 interface Props {
-  translations: {
-    count: string;
-    title: string;
-    text: string;
-  }[];
+  title0: string;
+  text0: string;
+  title1: string;
+  text1: string;
+  title2: string;
+  text2: string;
+  title3: string;
+  text3: string;
 }
 
-export default function TutorialCarousel({ translations }: Props) {
+export default function TutorialCarousel({
+  title0,
+  text0,
+  title1,
+  text1,
+  title2,
+  text2,
+  title3,
+  text3,
+}: Props) {
   return (
     <div className="grid w-full place-items-center pt-8">
       <div className="h-fit w-full overflow-hidden md:px-5">
@@ -49,32 +61,16 @@ export default function TutorialCarousel({ translations }: Props) {
           pagination
         >
           <SwiperSlide className="relative h-full w-full">
-            <TutorialCard
-              count="01"
-              title="¿A dónde vamos?"
-              text="Elige tanto tu ciudad de origen y destino, como las fechas de tu viaje"
-            />
+            <TutorialCard count="01" title={title0} text={text0} />
           </SwiperSlide>
           <SwiperSlide className="relative h-full w-full">
-            <TutorialCard
-              count="02"
-              title="Escoge el horario y tus asientos"
-              text="Selecciona precio y horarios de salida y llegada para tu viaje, junto con tus asientos"
-            />
+            <TutorialCard count="02" title={title1} text={text1} />
           </SwiperSlide>
           <SwiperSlide className="relative h-full w-full">
-            <TutorialCard
-              count="03"
-              title="Completa los datos del pasajero"
-              text="Revisa los detalles de tu viaje e ingresa la información de los pasajeros"
-            />
+            <TutorialCard count="03" title={title2} text={text2} />
           </SwiperSlide>
           <SwiperSlide className="relative h-full w-full">
-            <TutorialCard
-              count="04"
-              title="Registra tu método de pago"
-              text="Elige tu medio de pago y completa los datos solicitados. Haz clic en Procesar Pago. ¡Y listo!"
-            />
+            <TutorialCard count="04" title={title3} text={text3} />
           </SwiperSlide>
         </Swiper>
       </div>

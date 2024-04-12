@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { Facebook, FlagUSA, Instagram, MdiClose, MdiMenu } from "./svg";
+import { FlagMexico, FlagUSA, MdiClose, MdiMenu } from "./svg";
 import { usePathname, Link } from "@/navigation";
 import Image from "next/image";
 
@@ -33,7 +33,7 @@ interface Props {
     english: string;
     travelPolicy: string;
     cookies: string;
-    /*language: string; */
+    language: string;
   };
 }
 
@@ -306,6 +306,20 @@ export default function Header({ translations, currentLocale }: Props) {
           >
             {translations.cookies}
           </Link>
+          <Divider className="mx-2 w-[calc(100%_-_16px)] bg-primary-300" />
+          <div className="flex items-center justify-between px-5 py-3">
+            <span className="pb-1">{translations.language}</span>
+            <div className="flex items-center gap-3">
+              <Link href={path} locale="en" className="flex">
+                <FlagUSA className="text-lg" />
+                <span className="pb-1 pl-1">EN</span>
+              </Link>
+              <Link href={path} locale="es" className="flex">
+                <FlagMexico className="text-lg" />
+                <span className="pb-1 pl-1">ES</span>
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </>

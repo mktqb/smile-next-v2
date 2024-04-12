@@ -35,7 +35,7 @@ export default function HeroHome({
   translations
 }: Props) {
   return (
-    <main className="relative h-[840px] w-full md:h-[550px] lg:h-[550px] xl:h-[850px] 2xl:h-[880px]">
+    <main className="relative h-[740px] w-full md:h-[550px] lg:h-[550px] xl:h-[850px] 2xl:h-[880px]">
       <div className="bg-curves absolute bottom-0 z-[2] w-full bg-bottom bg-repeat-x xl:h-56"></div>
       {/* <div className="header-curve-container absolute -bottom-1 z-[2] w-full bg-repeat-x xl:h-56">
         <div className="header-curve-shape"></div>

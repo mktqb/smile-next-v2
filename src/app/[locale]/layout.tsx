@@ -58,7 +58,7 @@ export default function RootLayout({
               faq: t("Index.links.faq"),
               english: t("Index.locales.english"),
               spanish: t("Index.locales.spanish"),
-              /* language: t("Index.links.language"), */
+              language: t("Index.locales.language"),
               travelPolicy: t("Index.links.travel_policy"),
               cookies: t("Index.links.cookies"),
             }}

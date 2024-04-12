@@ -114,28 +114,14 @@ export default function Home({ params: { locale } }: { params: { locale: string 
           </div>
           <div className="grid grid-cols-1 px-8 py-2">
             <TutorialCarousel
-              translations={[
-                {
-                  count: "01",
-                  title: "¿A dónde vamos?",
-                  text: "Elige tanto tu ciudad de origen y destino, como las fechas de tu viaje",
-                },
-                {
-                  count: "02",
-                  title: "Escoge el horario y tus asientos",
-                  text: "Selecciona precio y horarios de salida y llegada para tu viaje, junto con tus asientos",
-                },
-                {
-                  count: "03",
-                  title: "Completa los datos del pasajero",
-                  text: "Revisa los detalles de tu viaje e ingresa la información de los pasajeros",
-                },
-                {
-                  count: "04",
-                  title: "Registra tu método de pago",
-                  text: "Elige tu medio de pago y completa los datos solicitados. Haz clic en Procesar Pago. ¡Y listo!",
-                },
-              ]}
+              title0={t("tutorial.0.title")}
+              text0={t("tutorial.0.text")}
+              title1={t("tutorial.1.title")}
+              text1={t("tutorial.1.text")}
+              title2={t("tutorial.2.title")}
+              text2={t("tutorial.2.text")}
+              title3={t("tutorial.3.title")}
+              text3={t("tutorial.3.text")}
             />
           </div>
           {/* <div className="hidden gap-5 rounded-lg bg-white/50 p-8 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
