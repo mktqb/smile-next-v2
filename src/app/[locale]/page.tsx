@@ -239,7 +239,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
 
       {/* conoce nuestras Pricing Tarifas */}
       {/* conoce nuestras rutas */}
-      <div id="terminals" className="scroll-m-20">
+      <div id="terminal" className="scroll-m-20">
         <div className="relative h-min w-full place-items-center overflow-hidden bg-primary-300 bg-transparent max-sm:bg-zinc-100 md:my-0 md:bg-primary-100">
           <div className="footer-curve"></div>
           <TerminalsSection

@@ -137,13 +137,13 @@ export default function Header({ translations, currentLocale }: Props) {
                   {translations.home}
                   Inicio
                 </Link> */}
-                <Link href="/#nosotros" className="hover:text-primary-500">
+                <Link href="/#aboutUs" className="hover:text-primary-500">
                   {translations.about_us}
                 </Link>
-                <Link href="/#destinos" className="hover:text-primary-500">
+                <Link href="/#destinations" className="hover:text-primary-500">
                   {translations.destinations}
                 </Link>
-                <Link href="/#terminales" className="hover:text-primary-500">
+                <Link href="/#terminal" className="hover:text-primary-500">
                   {translations.terminal}
                 </Link>
               </nav>
@@ -178,7 +178,7 @@ export default function Header({ translations, currentLocale }: Props) {
                 <Link href="/#contacto" className="hover:text-primary-500">
                   {translations.contact_us}
                 </Link>
-                <Link href="/#faq" className="hover:text-primary-500">
+                <Link href="/faq" className="hover:text-primary-500">
                   {translations.faq}
                 </Link>
                 {/* <Link href="/#contact_us" className="text-shadow-xs">

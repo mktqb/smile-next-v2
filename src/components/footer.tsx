@@ -68,7 +68,7 @@ const Footer = ({ translations, currentLocale }: Props) => {
                 <Link href="/#aboutUs">Nosotros</Link>
               </li>
               <li>
-                <Link href="/#terminals">Terminales</Link>
+                <Link href="/#terminal">Terminales</Link>
               </li>
               <li>
                 <Link href="/faq">Preguntas frecuentes</Link>
