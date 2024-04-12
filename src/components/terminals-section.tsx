@@ -30,7 +30,7 @@ export default function TerminalsSection({ translations }: Props) {
         />
         <CustomTerminals className="text-2xl text-primary-300" />
       </div>
-      <div className="row-span-2 overflow-hidden rounded-2xl border-5 border-lime-500 bg-white sm:px-20 lg:col-span-2 lg:col-start-1 lg:row-span-3 lg:row-start-2 lg:px-5 xl:pl-5 xl:pr-0">
+      <div className="row-span-2 overflow-hidden rounded-2xl border-5 border-primary-300 bg-white sm:px-20 lg:col-span-2 lg:col-start-1 lg:row-span-3 lg:row-start-2 lg:px-5 xl:pl-5 xl:pr-0">
         <Swiper
           modules={[Autoplay, Pagination]}
           pagination={{ type: "progressbar" }}

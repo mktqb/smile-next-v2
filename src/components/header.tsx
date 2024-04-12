@@ -175,7 +175,7 @@ export default function Header({ translations, currentLocale }: Props) {
             {/* Logo que se muestra en disp no tan pequeños, centrado. Se muestra de 300 a más */}
             <div className="hidden items-center gap-3 text-sm text-white md:flex lg:text-base">
               <nav className="navbar-desktop">
-                <Link href="/#contacto" className="hover:text-primary-500">
+                <Link href="/#contacto" className="hover:text-secondary-300">
                   {translations.contact_us}
                 </Link>
                 <Link href="/faq" className="hover:text-primary-500">

@@ -174,7 +174,7 @@ export default function HeroHome({
           <section className="section-container position-initial z-50 mt-20 max-lg:pt-4">
             <div className="w-full lg:max-w-72 xl:max-w-[21rem]">
               <Searcher
-                url="https://websales.702shuttles.com"
+                url="https://privado.avexpress.mx/"
                 variant="transparent"
                 vertical
                 lang={translations.locale}

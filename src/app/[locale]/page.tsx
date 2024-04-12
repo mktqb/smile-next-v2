@@ -444,7 +444,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
       {/* <span id="contact-us"></span> */}
       {/* <ContactUs locale={locale as "en" | "es"} /> */}
       <section
-        id="contactUs"
+        id="contacto"
         className="section-container mt-12 flex w-full scroll-m-36 flex-col items-center bg-white md:mt-28"
       >
         <div className="main-title title-container items-center pb-6 xl:pb-8">

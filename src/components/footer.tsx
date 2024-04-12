@@ -74,7 +74,7 @@ const Footer = ({ translations, currentLocale }: Props) => {
                 <Link href="/faq">Preguntas frecuentes</Link>
               </li>
               <li>
-                <Link href="/cookie-policies">Contáctanos</Link>
+                <Link href="/#contacto">Contáctanos</Link>
               </li>
               <li className="md:hidden">
                 <Link href="/travel-policies">Términos y condiciones</Link>
