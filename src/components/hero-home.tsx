@@ -66,7 +66,7 @@ export default function HeroHome({
             </SwiperSlide>
           ))} */}
         <SwiperSlide className="relative h-full w-full">
-          <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-black via-secondary-400/40 via-30% to-transparent to-40% max-xl:hidden"></div>
+          <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-black via-secondary-400/20 via-30% to-transparent to-40% max-xl:hidden"></div>
           <Image
             src={Banner01}
             alt="main"
@@ -85,7 +85,7 @@ export default function HeroHome({
           </div>
         </SwiperSlide>
         <SwiperSlide className="relative h-full w-full">
-          <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-black via-secondary-400/40 via-30% to-transparent to-40% max-xl:hidden"></div>
+          <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-black via-secondary-400/20 via-30% to-transparent to-40% max-xl:hidden"></div>
           <Image
             src={Banner02}
             alt="Puebla"
@@ -101,7 +101,7 @@ export default function HeroHome({
           </div>
         </SwiperSlide>
         <SwiperSlide className="relative h-full w-full">
-          <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-black via-secondary-400/40 via-30% to-transparent to-40% max-xl:hidden"></div>
+          <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-black via-secondary-400/20 via-30% to-transparent to-40% max-xl:hidden"></div>
           <Image
             src={Banner03}
             alt="Veracruz"
@@ -117,7 +117,7 @@ export default function HeroHome({
           </div>
         </SwiperSlide>
         <SwiperSlide className="relative h-full w-full">
-          <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-black via-secondary-400/40 via-30% to-transparent to-40% max-xl:hidden"></div>
+          <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-black via-secondary-400/20 via-30% to-transparent to-40% max-xl:hidden"></div>
           <Image
             src={Banner04}
             alt="Xalapa"
@@ -133,7 +133,7 @@ export default function HeroHome({
           </div>
         </SwiperSlide>
         <SwiperSlide className="relative h-full w-full">
-          <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-black via-secondary-400/40 via-30% to-transparent to-40% max-xl:hidden"></div>
+          <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-black via-secondary-400/20 via-30% to-transparent to-40% max-xl:hidden"></div>
           <Image
             src={Banner05}
             alt="CDMX"

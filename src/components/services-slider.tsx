@@ -60,8 +60,8 @@ export default function ServicesSlider({ items }: Props) {
           ))}
         </Swiper>
       </div>
-      <div className="swiper-button-prev !top-[55%] !text-secondary-800 duration-200 max-lg:!hidden lg:hover:scale-110"></div>
-      <div className="swiper-button-next !top-[55%] !text-secondary-800 duration-200 max-lg:!hidden lg:hover:scale-110"></div>
+      <div className="swiper-button-prev !top-[55%] !text-secondary-600 duration-200 max-lg:!hidden lg:hover:scale-110"></div>
+      <div className="swiper-button-next !top-[55%] !text-secondary-600 duration-200 max-lg:!hidden lg:hover:scale-110"></div>
     </div>
   );
 }
