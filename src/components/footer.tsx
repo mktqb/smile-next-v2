@@ -62,31 +62,33 @@ const Footer = ({ translations, currentLocale }: Props) => {
             <h3 className="mb-3 font-semibold">Menú</h3>
             <ul className="navbar-footer grid gap-1">
               <li>
-                <Link href="/">Inicio</Link>
+                <Link href="/">{translations.home}</Link>
               </li>
               <li>
-                <Link href="/#aboutUs">Nosotros</Link>
+                <Link href="/#aboutUs">{translations.about_us}</Link>
               </li>
               <li>
                 <Link href="/#terminal">Terminales</Link>
               </li>
               <li>
-                <Link href="/faq">Preguntas frecuentes</Link>
+                <Link href="/faq">{translations.faq}</Link>
               </li>
               <li>
-                <Link href="/#contacto">Contáctanos</Link>
+                <Link href="/#contacto">{translations.contact_us}</Link>
               </li>
               <li className="md:hidden">
-                <Link href="/travel-policies">Términos y condiciones</Link>
+                <Link href="/travel-policies">{translations.travelPolicy}</Link>
               </li>
               <li className="md:hidden">
-                <Link href="/cookie-policies">Políticas de cookies</Link>
+                <Link href="/cookie-policies">{translations.cookiePolicy}</Link>
               </li>
             </ul>
           </div>
           <div className="col-span-5 grid grid-cols-1 gap-4 md:col-span-8 md:grid-cols-2">
             <div className="col-span-1 text-gray-50 md:col-span-1">
-              <h3 className="mb-3 font-semibold">Destinos</h3>
+              <h3 className="mb-3 font-semibold">
+                {translations.destinations}
+              </h3>
               <ul className="navbar-footer grid gap-1">
                 <li>
                   <a>CDMX</a>
@@ -106,10 +108,14 @@ const Footer = ({ translations, currentLocale }: Props) => {
               <h3 className="mb-3 font-semibold max-md:hidden">Legal</h3>
               <ul className="navbar-footer mb-6 grid gap-1 max-md:hidden">
                 <li>
-                  <Link href="/travel-policies">Términos y condiciones</Link>
+                  <Link href="/travel-policies">
+                    {translations.travelPolicy}
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/travel-policies">Políticas de privacidad</Link>
+                  <Link href="/cookie-policies">
+                    {translations.cookiePolicy}
+                  </Link>
                 </li>
               </ul>
               <ChangeLocale

@@ -1,6 +1,7 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
 import SubCard from "./sub-card";
 
 import CDMX1 from "@/assets/Destino_cdmx.jpg";
@@ -13,6 +14,7 @@ import Xalapa1 from "@/assets/Destino_xalapa.jpg";
 import Xalapa2 from "@/assets/Destino_xalapa2.jpg";
 
 import "swiper/css";
+import "swiper/css/pagination";
 
 interface Props {
   translations: {
@@ -34,6 +36,10 @@ export default function DestinationsCarousel({ translations }: Props) {
         spaceBetween={40}
         slidesPerView={1}
         draggable
+        modules={[Pagination]}
+        pagination={{
+          dynamicBullets: true,
+        }}
         className="cardCarousel xl:!overflow-visible"
         breakpoints={{
           640: {
@@ -41,6 +47,9 @@ export default function DestinationsCarousel({ translations }: Props) {
           },
           1024: {
             slidesPerView: 4,
+            pagination: {
+              dynamicBullets: false,
+            },
           },
         }}
       >

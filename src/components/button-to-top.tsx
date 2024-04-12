@@ -23,7 +23,7 @@ export default function ButtonToTop() {
   return (
     <button
       onClick={scrollToTop}
-      className={`${visible ? "pointer-events-auto opacity-100" : "pointer-events-none opacity-0"} fixed bottom-10 right-5 grid place-items-center rounded-full bg-black p-1 text-white shadow-xl duration-300`}
+      className={`${visible ? "pointer-events-auto opacity-100" : "pointer-events-none opacity-0"} fixed bottom-10 right-5 z-[90] grid place-items-center rounded-full bg-black p-1 text-white shadow-xl duration-300`}
     >
       <MdiChevronDown className="rotate-180 text-3xl" />
     </button>

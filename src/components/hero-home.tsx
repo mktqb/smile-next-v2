@@ -23,6 +23,7 @@ interface Props {
   withSearcher?: boolean;
   translations: {
     locale: "es" | "en";
+    slogan: string;
   };
 }
 
@@ -77,7 +78,7 @@ export default function HeroHome({
           />
           <div className="absolute left-0 top-40 z-20 flex flex-col items-center gap-5 max-lg:w-full lg:left-1/2 lg:top-60 lg:-translate-x-24 xl:w-2/5 2xl:w-1/3">
             <span className="text-center font-taviraj text-3xl font-bold text-white [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)] max-xl:text-balance lg:text-center lg:text-5xl">
-              Te acompañamos en cada trayecto
+              {translations.slogan}
             </span>
             <p className="mt-1 rounded-xl bg-white px-2 py-1 text-center text-xs font-bold text-primary-300 drop-shadow-2xl md:mt-5 lg:px-5 lg:text-base xl:text-lg">
               CDMX, Veracruz, Puebla y Xalapa

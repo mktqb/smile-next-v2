@@ -71,7 +71,7 @@ export default function Page({
           <p>{t("main_text.3")}</p>
           <h2
             id="interpretation"
-            className="scroll-m-4 text-lg font-bold text-black lg:scroll-m-36"
+            className="scroll-m-4 text-lg font-bold text-primary-300 lg:scroll-m-36"
           >
             {t("interpretation.title")}
           </h2>
@@ -79,7 +79,7 @@ export default function Page({
           <p>{t("interpretation.text.1")}</p>
           <h2
             id="definition"
-            className="scroll-m-4 text-lg font-bold text-black lg:scroll-m-36"
+            className="scroll-m-4 text-lg font-bold text-primary-300 lg:scroll-m-36"
           >
             {t("definition.title")}
           </h2>
@@ -98,7 +98,7 @@ export default function Page({
           </ul>
           <h2
             id="types"
-            className="scroll-m-4 text-lg font-bold text-black lg:scroll-m-36"
+            className="scroll-m-4 text-lg font-bold text-primary-300 lg:scroll-m-36"
           >
             {t("types.title")}
           </h2>
@@ -114,7 +114,7 @@ export default function Page({
           <p className="pt-4">{t("types.text.8")}</p>
           <h2
             id="configuration"
-            className="scroll-m-4 text-lg font-bold text-black lg:scroll-m-36"
+            className="scroll-m-4 text-lg font-bold text-primary-300 lg:scroll-m-36"
           >
             {t("configuration.title")}
           </h2>
@@ -150,7 +150,7 @@ export default function Page({
           <p>{t("configuration.text.9")}</p>
           <h2
             id="moreInfo"
-            className="scroll-m-4 text-lg font-bold text-black lg:scroll-m-36"
+            className="scroll-m-4 text-lg font-bold text-primary-300 lg:scroll-m-36"
           >
             {t("more_info.title")}
           </h2>
@@ -169,7 +169,7 @@ export default function Page({
           </ul>
           <h2
             id="contactUs"
-            className="scroll-m-4 text-lg font-bold text-black lg:scroll-m-36"
+            className="scroll-m-4 text-lg font-bold text-primary-300 lg:scroll-m-36"
           >
             {t("contact_us.title")}
           </h2>

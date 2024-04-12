@@ -17,7 +17,7 @@ interface Props {
 export default function ServicesSlider({ items }: Props) {
   return (
     <div className="relative grid h-40 w-full place-items-center">
-      <div className="absolute left-0 top-0 h-fit w-full overflow-x-hidden lg:px-10">
+      <div className="absolute left-0 top-0 h-fit w-full overflow-x-hidden lg:px-14">
         <Swiper
           slidesPerView={2}
           wrapperClass="pb-10"

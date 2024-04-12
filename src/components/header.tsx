@@ -156,12 +156,12 @@ export default function Header({ translations, currentLocale }: Props) {
               <Image
                 src={Logo}
                 alt="Logo AV Express"
-                className="max-md:hidden md:w-[160px] xl:w-[300px]"
+                className="max-md:hidden md:w-[300px] xl:w-[350px] 2xl:w-[400px]"
               />
               <Image
                 src={LogoM}
                 alt="Logo AV Express"
-                className="w-[200px] max-[350px]:w-[140px] md:hidden"
+                className="w-[240px] max-[350px]:w-[200px] md:hidden"
               />
             </Link>
 

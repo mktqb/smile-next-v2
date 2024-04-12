@@ -96,7 +96,7 @@ export default function Page({
           <p>{t("main.text.1")}</p>
           <h2
             id="travelTicket"
-            className="lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
+            className="lg:croll-m-36 scroll-m-4 text-lg font-bold text-primary-300"
           >
             1. {t("travel_ticket.title")}
           </h2>
@@ -111,7 +111,7 @@ export default function Page({
             <li className="list-disc">{t("travel_ticket.text.7")}</li>
           </ul>
           <h2
-            className="lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
+            className="lg:croll-m-36 scroll-m-4 text-lg font-bold text-primary-300"
             id="travelFares"
           >
             2. {t("travel_fares.title")}
@@ -122,7 +122,7 @@ export default function Page({
             <li className="list-disc">{t("travel_fares.text.2")}</li>
           </ul>
           <h2
-            className="lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
+            className="lg:croll-m-36 scroll-m-4 text-lg font-bold text-primary-300"
             id="luggage"
           >
             3. {t("luggage.title")}
@@ -148,7 +148,7 @@ export default function Page({
             <li className="list-disc">{t("luggage.text.13")}</li>
           </ul>
           <h2
-            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
+            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-primary-300"
             id="meantime"
           >
             4. {t("meantime.title")}
@@ -159,7 +159,7 @@ export default function Page({
             <li className="list-disc">{t("meantime.text.2")}</li>
           </ul>
           <h2
-            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
+            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-primary-300"
             id="onboarding"
           >
             5. {t("onboarding.title")}
@@ -170,7 +170,7 @@ export default function Page({
             <li className="list-disc">{t("onboarding.text.2")}</li>
           </ul>
           <h2
-            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
+            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-primary-300"
             id="kids"
           >
             6. {t("kids.title")}
@@ -183,7 +183,7 @@ export default function Page({
             <li className="list-disc">{t("kids.text.4")}</li>
           </ul>
           <h2
-            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
+            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-primary-300"
             id="adults"
           >
             7. {t("adults.title")}
@@ -204,7 +204,7 @@ export default function Page({
             </li>
           </ul>
           <h2
-            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
+            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-primary-300"
             id="service"
           >
             8. {t("service.title")}
@@ -218,7 +218,7 @@ export default function Page({
             <li className="list-disc">{t("service.text.5")}</li>
           </ul>
           <h2
-            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
+            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-primary-300"
             id="privacy"
           >
             9. {t("privacy.title")}
@@ -245,7 +245,7 @@ export default function Page({
             <li className="list-disc">{t("privacy.text.10")}</li>
           </ul>
           <h2
-            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
+            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-primary-300"
             id="web"
           >
             10. {t("web.title")}
@@ -266,7 +266,7 @@ export default function Page({
             <li className="list-disc">{t("web.text.12")}</li>
           </ul>
           <h2
-            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
+            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-primary-300"
             id="security"
           >
             11. {t("security.title")}
@@ -276,7 +276,7 @@ export default function Page({
             <li className="list-disc">{t("security.text.1")}</li>
           </ul>
           <h2
-            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
+            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-primary-300"
             id="providers"
           >
             12. {t("providers.title")}
@@ -293,7 +293,7 @@ export default function Page({
             <li className="list-disc">{t("providers.text.4")}</li>
           </ul>
           <h2
-            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
+            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-primary-300"
             id="errors"
           >
             13. {t("errors.title")}
@@ -305,7 +305,7 @@ export default function Page({
             <li className="list-disc">{t("errors.text.3")}</li>
           </ul>
           <h2
-            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-black"
+            className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-primary-300"
             id="complaints"
           >
             14. {t("complaints.title")}

@@ -4,8 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { useTranslations } from "next-intl";
-import { unstable_setRequestLocale } from "next-intl/server";
-
+import type { Metadata } from "next/types";
+import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
 import HumanFaq from "@/assets/Human_faq.png";
 import BusFrontal from "@/assets/Bus_Frontal.png";
 import Nosotros from "@/assets/Img_nosotros.jpg";
@@ -42,6 +42,18 @@ import TutorialCard from "@/components/tutorial-card";
 import TutorialCarousel from "@/components/tutorial-carousel";
 import OfficesComponent from "@/components/offices-card";
 
+export async function generateMetadata({
+  params: { locale },
+}: {
+  params: { locale: string };
+}): Promise<Metadata> {
+  const t = await getTranslations({ locale });
+  return {
+    title: t("Metadata.home.title"),
+    description: t("Metadata.home.description"),
+  };
+}
+
 export default function Home({ params: { locale } }: { params: { locale: string } }) {
   unstable_setRequestLocale(locale);
   const t = useTranslations("Home");
@@ -62,6 +74,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
         withSearcher
         translations={{
           locale: locale as "es" | "en",
+          slogan: t("hero.slogan"),
         }}
       />
 
@@ -252,10 +265,8 @@ export default function Home({ params: { locale } }: { params: { locale: string 
 
       {/* <FixedSection /> */}
 
-      <div
-        id="destinations"
-        className="grid w-full scroll-m-20 place-items-center bg-primary-100 py-4 max-sm:hidden max-sm:bg-zinc-100 sm:pb-5 md:pb-6 md:pt-20"
-      >
+      <span id="destinations" className="scroll-m-20"></span>
+      <div className="grid w-full scroll-m-20 place-items-center bg-primary-100 py-4 max-sm:hidden max-sm:bg-zinc-100 sm:pb-5 md:pb-6 md:pt-20">
         <div className="flex items-center gap-4 md:translate-x-32 xl:translate-x-0">
           <div className="flex-col items-center">
             <h2 className="font-taviraj text-2xl font-bold text-black">
@@ -346,7 +357,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
 
       {/* por qué elegirnos */}
       <section className="section-container py-10">
-        <div className="main-title title-container items-center pb-6 xl:pb-8 mt-4">
+        <div className="main-title title-container mt-4 items-center pb-6 xl:pb-8">
           <h2
             className="font-taviraj text-black"
             dangerouslySetInnerHTML={{ __html: t.raw("why.title") }}

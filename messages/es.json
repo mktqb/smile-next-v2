@@ -33,6 +33,7 @@
   },
   "Home": {
     "hero": {
+      "slogan": "Te acompañamos en cada trayecto",
       "title": "<b>Priorizamos tu comodidad</b> <br class=\"max-md:hidden\" /> en cada viaje",
       "text": "Viajes desde Inland Empire hasta la Frontera de San Ysidro"
     },
@@ -73,16 +74,16 @@
     "about_us": {
       "title": "¿Quiénes somos?",
       "text": {
-        "0": "Fundada en noviembre de 2018, AV Express es una empresa líder en el transporte foráneo de pasajeros, con distintos destinos en la República Mexicana y conectividad a USA. Destaca por su combinación única de tradición e innovación al salir desde centrales de autobuses y puntos estratégicos.",
+        "0": "Fundada en noviembre de 2018, AV Express es una empresa líder en el transporte foráneo de pasajeros, con distintos destinos en la República Mexicana y conectividad a USA. <br class=\"md:hidden\" /> <br class=\"md:hidden\" /> Destaca por su combinación única de tradición e innovación al salir desde centrales de autobuses y puntos estratégicos.",
         "1": "Inspirado en Veracruz, su nombre refleja su compromiso con rapidez, eficiencia y seguridad. Su objetivo es superar las expectativas, garantizando comodidad, puntualidad y seguridad en cada viaje, haciendo que sean inolvidables."
       },
-      "button": "Conócenos más aquí"
+      "button": "Viaja con nosotros"
     },
     "transition": {
       "title": "Proceso de transición",
       "text": {
-        "0": "<b>AV Express</b> se enorgullece en anunciar su transición a Smile Bus. Con una visión renovada y un compromiso inquebrantable hacia la satisfacción del cliente, nos embarcamos en este emocionante viaje hacia un nuevo horizonte de comodidad y excelencia en el transporte.",
-        "1": "A través de su nueva página web, <b>AV Express</b> está revolucionando la forma en que te desplazas. Con un diseño intuitivo y funciones mejoradas, ahora puedes planificar y reservar tus viajes con mayor facilidad que nunca. Desde la comodidad de tu hogar o dispositivo móvil, accede a una experiencia de reserva sin complicaciones."
+        "0": "<b class=\"text-primary-300\">AV Express</b> se enorgullece en anunciar su transición a <b>Smile Bus</b>. <br class=\"md:hidden\" /> <br class=\"md:hidden\" />Con una visión renovada y un compromiso inquebrantable hacia la satisfacción del cliente, nos embarcamos en este emocionante viaje hacia un nuevo horizonte de comodidad y excelencia en el transporte.",
+        "1": "A través de su nueva página web, <b class=\"text-primary-300\">AV Express</b> está revolucionando la forma en que te desplazas. Con un diseño intuitivo y funciones mejoradas, ahora puedes planificar y reservar tus viajes con mayor facilidad que nunca. Desde la comodidad de tu hogar o dispositivo móvil, accede a una experiencia de reserva sin complicaciones."
       }
     },
     "terminals_title": "¿Conoces nuestros <br /> <b class=\"text-2xl text-black\">terminales?</b>",
@@ -298,7 +299,7 @@
     }
   },
   "TravelPolicies": {
-    "title": "Politicas de viaje",
+    "title": "Políticas de viaje",
     "travel_ticket": {
       "title": "Boleto de viaje",
       "text": {
@@ -470,10 +471,10 @@
         "1": "Al momento de expedirse el boleto de viaje, el Cliente/Pasajero acepta y se somete expresamente y con pleno conocimiento a las siguientes cláusulas generales de contratación y a la tabla de tarifas vigente al momento de la emisión del referido boleto:"
       }
     },
-    "subtitle": "Conoce nuestros terminos y condificones"
+    "subtitle": "Conoce nuestros términos y condiciones"
   },
   "CookiePolicies": {
-    "title": "Politicas de Cookies",
+    "title": "Políticas de Cookies",
     "interpretation": {
       "title": "Interpretación",
       "text": {

@@ -127,7 +127,7 @@ body {
   }
 
   .selector {
-    @apply border-b border-neutral-400 bg-white  p-2 text-sm duration-200 first:rounded-t-lg last:rounded-b-lg last:border-none lg:hover:bg-neutral-500 lg:hover:text-white;
+    @apply border-b border-primary-300 bg-white  p-2 text-sm duration-200 first:rounded-t-lg last:rounded-b-lg last:border-none lg:hover:bg-primary-100 lg:hover:text-black;
   }
   /* Navbars */
   .navbar-desktop a {
@@ -146,7 +146,7 @@ body {
     @apply pr-0;
   }
   .navbar-mobile a {
-    @apply uppercase px-5 py-3;
+    @apply px-5 py-3;
   }
 
   .navbar-social {
@@ -182,6 +182,10 @@ body {
 
   .logo-shadow {
     filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.5));
+  }
+  .text-shadow-xxs {
+    color: #FFF;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   }
   .text-shadow-xs {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
