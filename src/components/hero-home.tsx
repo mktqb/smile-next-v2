@@ -24,6 +24,7 @@ interface Props {
   translations: {
     locale: "es" | "en";
     slogan: string;
+    text: string;
   };
 }
 
@@ -81,7 +82,7 @@ export default function HeroHome({
               {translations.slogan}
             </span>
             <p className="mt-1 rounded-xl bg-white px-2 py-1 text-center text-xs font-bold text-primary-300 drop-shadow-2xl md:mt-5 lg:px-5 lg:text-base xl:text-lg">
-              CDMX, Veracruz, Puebla y Xalapa
+              {translations.text}
             </p>
           </div>
         </SwiperSlide>

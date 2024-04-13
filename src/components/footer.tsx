@@ -122,6 +122,7 @@ const Footer = ({ translations, currentLocale }: Props) => {
                 currentLocale={currentLocale}
                 path={path}
                 translations={{
+                  language: translations.language,
                   english: translations.english,
                   spanish: translations.spanish,
                 }}

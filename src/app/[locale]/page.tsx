@@ -75,6 +75,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
         translations={{
           locale: locale as "es" | "en",
           slogan: t("hero.slogan"),
+          text: t("hero.text"),
         }}
       />
 
@@ -177,8 +178,8 @@ export default function Home({ params: { locale } }: { params: { locale: string 
       {/* quienes somos */}
       <div className="scroll-m-28" id="aboutUs">
         <div className="relative mt-10 h-min w-full place-items-center overflow-hidden bg-transparent max-md:rounded-t-3xl max-sm:bg-primary-100 md:my-0 md:rounded-b-[5rem] md:bg-white">
-          <section className="section-container grid w-full items-center gap-0 bg-transparent py-8 max-lg:pb-0 md:grid-cols-5 md:gap-10 md:py-14 xl:grid-cols-2 xl:gap-6">
-            <div className="flex flex-col items-center gap-4 rounded-t-xl bg-white px-4 py-8 md:col-span-3 md:items-start md:bg-transparent md:p-0 lg:gap-4 xl:col-span-1">
+          <section className="section-container grid w-full items-center gap-0 bg-transparent py-8 max-lg:pb-0 max-md:px-8 md:grid-cols-5 md:gap-10 md:py-14 xl:grid-cols-2 xl:gap-6">
+            <div className="flex flex-col items-center gap-4 rounded-t-xl bg-white px-6 py-8 md:col-span-3 md:items-start md:bg-transparent md:p-0 lg:gap-4 xl:col-span-1">
               <h1 className="main-title text-center font-taviraj font-semibold text-black">
                 {t("about_us.title")}
               </h1>
@@ -205,7 +206,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
               />
             </div>
           </section>
-          <section className="section-container grid w-full items-center gap-0 bg-transparent py-8 max-lg:pt-0 md:grid-cols-5 md:gap-10 md:py-14 xl:grid-cols-2 xl:gap-6">
+          <section className="section-container grid w-full items-center gap-0 bg-transparent py-8 max-lg:pt-0 max-md:px-8 md:grid-cols-5 md:gap-10 md:py-14 xl:grid-cols-2 xl:gap-6">
             <div className="h-min-[300px] order-2 col-span-2 flex aspect-[16/9] w-[100%] items-center justify-center overflow-hidden rounded-b-3xl md:aspect-square md:rounded-xl lg:order-1 xl:col-span-1 xl:aspect-[18/9]">
               <video
                 src="/Video_boleto.mp4"
@@ -219,7 +220,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
               />
             </div>
 
-            <div className="order-1 flex flex-col items-center gap-4 rounded-t-xl bg-white px-4 py-8 md:col-span-3 md:items-start md:bg-transparent md:p-0 lg:order-2 lg:gap-4 xl:col-span-1">
+            <div className="order-1 flex flex-col items-center gap-4 rounded-t-xl bg-white px-6 py-8 md:col-span-3 md:items-start md:bg-transparent md:p-0 lg:order-2 lg:gap-4 xl:col-span-1">
               <h1 className="main-title text-center font-taviraj font-semibold text-black">
                 {t("transition.title")}
               </h1>

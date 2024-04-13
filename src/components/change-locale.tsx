@@ -14,6 +14,7 @@ interface Props {
   currentLocale: string;
   path: string;
   translations: {
+    language: string;
     spanish: string;
     english: string;
   };
@@ -28,7 +29,7 @@ export default function ChangeLocale({
     <Dropdown placement="bottom">
       <DropdownTrigger>
         <div className="flex cursor-pointer items-center gap-1">
-          <Language className="text-xl" /> Idioma:
+          <Language className="text-xl" /> {translations.language}:
           <span className="uppercase">{currentLocale}</span>
         </div>
       </DropdownTrigger>

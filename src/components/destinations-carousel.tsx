@@ -1,7 +1,7 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import SubCard from "./sub-card";
 
 import CDMX1 from "@/assets/Destino_cdmx.jpg";
@@ -36,9 +36,12 @@ export default function DestinationsCarousel({ translations }: Props) {
         spaceBetween={40}
         slidesPerView={1}
         draggable
-        modules={[Pagination]}
+        modules={[Autoplay, Pagination]}
+        autoplay={{
+          delay: 3000,
+        }}
         pagination={{
-          dynamicBullets: true,
+          dynamicBullets: false,
         }}
         className="cardCarousel xl:!overflow-visible"
         breakpoints={{
@@ -49,6 +52,9 @@ export default function DestinationsCarousel({ translations }: Props) {
             slidesPerView: 4,
             pagination: {
               dynamicBullets: false,
+            },
+            autoplay: {
+              delay: 3000,
             },
           },
         }}
