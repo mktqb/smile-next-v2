@@ -392,7 +392,7 @@ export default function Home({
             <p className="text-center text-sm md:text-start md:text-lg">
               {t("faq.text")}
             </p>
-            <Link href={"/faq"} className="main-button">
+            <Link href="/es/faq" className="main-button">
               {t("faq.button")}
             </Link>
           </div>

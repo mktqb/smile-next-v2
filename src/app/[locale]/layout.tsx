@@ -35,7 +35,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "AV Express",
   description: "Home",
-  icons: ["/favicon.ico"],
+  icons: ["/favicon-smile.png"],
 };
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));

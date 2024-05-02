@@ -18,14 +18,12 @@ export default function OfficesComponent({ locale }: { locale: string }) {
             {offices.map((office) => (
               <button
                 key={office.id}
-                className={`mb-5 flex-grow space-y-2 rounded-3xl px-5 pb-6 pt-6 text-left text-sm font-medium shadow-lg last:mb-0 focus:outline-none md:px-6 ${selectedOffice === office ? " bg-gradient-to-b from-secondary-700 to-secondary-800 text-white" : "bg-white text-gray-800"}`}
+                className={`mb-5 flex-grow space-y-2 rounded-3xl px-5 pb-6 pt-6 text-left text-sm font-medium shadow-lg last:mb-0 focus:outline-none md:px-6 ${selectedOffice === office ? " bg-[#21D840] text-white" : "bg-white text-gray-800"}`}
                 onClick={() => setSelectedOffice(office)}
               >
                 <h4
                   className={`mb-4 text-lg font-semibold ${
-                    selectedOffice === office
-                      ? "text-white"
-                      : "text-secondary-800"
+                    selectedOffice === office ? "text-white" : "text-[#21D840]"
                   }`}
                 >
                   {office.name[locale as "en" | "es"]}
@@ -35,7 +33,7 @@ export default function OfficesComponent({ locale }: { locale: string }) {
                     className={`text-lg ${
                       selectedOffice === office
                         ? "text-white"
-                        : "text-secondary-800"
+                        : "text-[#21D840]"
                     }`}
                   />
                   <p className="w-full text-sm">{office.address}</p>
@@ -48,7 +46,7 @@ export default function OfficesComponent({ locale }: { locale: string }) {
                     className={`text-lg ${
                       selectedOffice === office
                         ? "text-white"
-                        : "text-secondary-800"
+                        : "text-[#21D840]"
                     }`}
                   />
                   <p>{office.phone1}</p>

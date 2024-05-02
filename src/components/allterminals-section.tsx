@@ -4,7 +4,7 @@ import Image from "next/image";
 
 // Asume que la estructura de datos de las oficinas se mantiene igual.
 import { Office, offices, Terminal, terminals } from "@/utils/model";
-import { LocationOnOutline, ArrowDown, CloseCircle, ClockCircle } from "./svg";
+import { LocationOnOutline, ArrowDown, CloseCircle, ClockCircle, ChatInfo, LogosGoogleMaps } from "./svg";
 import GoogleMaps from "@/components/google-maps";
 import Link from "next/link";
 
@@ -43,7 +43,7 @@ export default function AllTerminals({ locale }: { locale: string }) {
                     }`}
                   />
                   <p
-                    className={`w-full text-sm  ${
+                    className={`w-full text-sm font-normal  ${
                       selectedTerminal === office
                         ? "text-white"
                         : "text-[#407002]"
@@ -64,13 +64,13 @@ export default function AllTerminals({ locale }: { locale: string }) {
                   <div className="flex justify-between gap-1">
                     <div className="flex flex-col">
                       <div className="flex items-start gap-1">
-                        <LocationOnOutline className="text-lg text-primary-500" />
+                        <ChatInfo className="text-lg text-[#DA089F]" />
                         <p className="w-full text-sm text-black">
                           Referencia: {selectedTerminal.ref1}
                         </p>
                       </div>
                       <div className="flex items-start gap-1">
-                        <ClockCircle className="pl-[1px] pt-[3px] text-[1.17rem] leading-[1.85rem] text-primary-500" />
+                        <ClockCircle className="pl-[1px] pt-[3px] text-[1.17rem] leading-[1.85rem] text-transparent" />
                         <p className="w-full text-sm text-black">
                           Acceso: {selectedTerminal.ref2}
                         </p>
@@ -81,12 +81,11 @@ export default function AllTerminals({ locale }: { locale: string }) {
                         <Link
                           target="_blank"
                           className="text-3xl text-primary-500"
-                          // href={`${selectedTerminal.url}`}
-                          href="#"
+                          href={`${selectedTerminal.maps}`}
                         >
-                          <LocationOnOutline />
+                          <LogosGoogleMaps />
                         </Link>
-                        <span className="text-center text-xs">Google Maps</span>
+                        {/* <span className="text-center text-xs">Google Maps</span> */}
                       </div>
                     </div>
                   </div>
