@@ -86,7 +86,7 @@
         "1": "A través de su nueva página web, <b class=\"text-primary-300\">AV Express</b> está revolucionando la forma en que te desplazas. Con un diseño intuitivo y funciones mejoradas, ahora puedes planificar y reservar tus viajes con mayor facilidad que nunca. Desde la comodidad de tu hogar o dispositivo móvil, accede a una experiencia de reserva sin complicaciones."
       }
     },
-    "terminals_title": "¿Conoces nuestros <br /> <b class=\"text-2xl text-black\">terminales?</b>",
+    "terminals_title": "¿Conoces nuestros <b class=\"text-2xl text-black\">terminales?</b>",
     "fixed_route": {
       "title": "Rutas más visitadas",
       "subtitle": "Compra tu boleto en la web",

@@ -86,7 +86,7 @@
         "1": "Through its new website, <b class=\"text-primary-300\">AV Express</b> is revolutionizing the way you get around. With an intuitive design and enhanced features, you can now plan and book your trips more easily than ever before. From the comfort of your home or mobile device, access a hassle-free booking experience."
       }
     },
-    "terminals_title": "Do you know our <br /> <b class=\"text-2xl text-black\">terminals?</b>",
+    "terminals_title": "Do you know our <b class=\"text-2xl text-black\">terminals?</b>",
     "services": {
       "personalized": "Personalized service",
       "customer": "Customer service",

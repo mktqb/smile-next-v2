@@ -182,34 +182,6 @@ export default function Home({ params: { locale } }: { params: { locale: string 
               />
             </div>
           </section>
-          {/* <section className="section-container grid w-full items-center gap-0 bg-transparent py-8 max-lg:pt-0 max-md:px-8 md:grid-cols-5 md:gap-10 md:py-14 xl:grid-cols-2 xl:gap-6">
-            <div className="h-min-[300px] order-2 col-span-2 flex aspect-[16/9] w-[100%] items-center justify-center overflow-hidden rounded-b-3xl md:aspect-square md:rounded-xl lg:order-1 xl:col-span-1 xl:aspect-[18/9]">
-              <video
-                src="/Video_boleto.mp4"
-                loop
-                width={1920}
-                height={1080}
-                autoPlay
-                muted
-                playsInline
-                className="relative z-10 h-full w-full object-cover"
-              />
-            </div>
-
-            <div className="order-1 flex flex-col items-center gap-4 rounded-t-xl bg-white px-6 py-8 md:col-span-3 md:items-start md:bg-transparent md:p-0 lg:order-2 lg:gap-4 xl:col-span-1">
-              <h1 className="main-title text-center font-taviraj font-semibold text-black">
-                {t("transition.title")}
-              </h1>
-              <p
-                className="text-start text-sm text-black max-md:text-justify md:text-base"
-                dangerouslySetInnerHTML={{ __html: t.raw("transition.text.0") }}
-              />
-              <p
-                className="hidden text-start text-sm text-black md:block md:text-base"
-                dangerouslySetInnerHTML={{ __html: t.raw("transition.text.1") }}
-              />
-            </div>
-          </section> */}
         </div>
       </div>
 
@@ -218,15 +190,24 @@ export default function Home({ params: { locale } }: { params: { locale: string 
       <div id="terminal" className="scroll-m-20">
         <div className="relative h-min w-full place-items-center overflow-hidden bg-primary-300 bg-transparent max-sm:bg-zinc-100 md:my-0 md:bg-primary-100">
           <div className="footer-curve"></div>
-          <TerminalsSection
-            translations={{
-              title: t.raw("terminals_title"),
-            }}
-          />
+          <section className="section-container flex flex-col gap-4 [grid-auto-rows:_min-content] lg:grid">
+            <div className="grid w-full scroll-m-20 place-items-center bg-primary-100 py-4 max-sm:hidden max-sm:bg-zinc-100 sm:pb-5 md:pb-6 md:pt-20">
+              <div className="flex items-center gap-4 md:translate-x-32 xl:translate-x-0">
+                <div className="flex-col items-center">
+                  <h2
+                    className="font-taviraj text-2xl font-bold text-black"
+                    dangerouslySetInnerHTML={{
+                      __html: t.raw("terminals_title"),
+                    }}
+                  />
+                </div>
+                <CustomFixed className="text-xl text-primary-300" />
+              </div>
+            </div>
+          </section>
+          <AllTerminals locale={locale} />
         </div>
       </div>
-
-      <AllTerminals locale={locale} />
 
       {/* <FixedSection /> */}
 
