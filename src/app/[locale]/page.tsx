@@ -8,7 +8,6 @@ import type { Metadata } from "next/types";
 import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
 import HumanFaq from "@/assets/Human_faq.png";
 import BusFrontal from "@/assets/Bus_frontal.png";
-import Nosotros from "@/assets/Img_nosotros.jpg";
 import BusLateral from "@/assets/Bus_perfil.png";
 
 import {
