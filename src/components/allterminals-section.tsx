@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Image from "next/image";
 
 // Asume que la estructura de datos de las oficinas se mantiene igual.
 import { Office, offices, Terminal, terminals } from "@/utils/model";
@@ -56,7 +57,7 @@ export default function AllTerminals({ locale }: { locale: string }) {
           </div>
           {/* Fin: Seccion donde se muestran las Terminales Desktop */}
           {/* Inicio: Seccion donde se muestran los mapas */}
-          <div className="flex w-full flex-grow bg-primary-300 max-md:mt-4 max-md:aspect-[8/9] sm:rounded-3xl md:w-6/12 lg:w-7/12 2xl:w-[60%]">
+          <div className="flex w-full flex-grow max-md:mt-4 max-md:aspect-[8/9] sm:rounded-3xl md:w-6/12 lg:w-7/12 2xl:w-[60%]">
             <div className="relative h-full w-full">
               <div className="hidden w-full bg-primary-100 pb-2 md:block">
                 <div className="w-full rounded-2xl bg-white px-6 pb-3 pt-4">
@@ -80,7 +81,8 @@ export default function AllTerminals({ locale }: { locale: string }) {
                         <Link
                           target="_blank"
                           className="text-3xl text-primary-500"
-                          href={`${selectedTerminal.url}`}
+                          // href={`${selectedTerminal.url}`}
+                          href="#"
                         >
                           <LocationOnOutline />
                         </Link>
@@ -91,13 +93,17 @@ export default function AllTerminals({ locale }: { locale: string }) {
                 </div>
               </div>
               <div className="h-full w-full overflow-hidden sm:rounded-2xl">
-                {/* <Image src={office.url} alt="" className="" /> */}
-                <Link
+                <Image
+                  src={selectedTerminal.url}
+                  alt="image"
+                  className="h-auto w-full rounded-2xl object-cover object-center"
+                />
+                {/* <Link
                   className="text-3xl text-primary-500"
                   href={`${selectedTerminal.url}`}
                 >
                   {selectedTerminal.url}
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

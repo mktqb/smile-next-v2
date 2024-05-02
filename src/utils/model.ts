@@ -1,7 +1,9 @@
+import TestImage from "@/assets/Img_nosotros.jpg";
+import { StaticImageData } from "next/image";
 export interface Terminal {
   name: string;
   address: string;
-  url: string;
+  url: StaticImageData;
   ref1: string;
   ref2: string;
   id: string;
@@ -73,7 +75,7 @@ export const terminals: Terminal[] = [
   {
     name: "Lotería Nacional",
     address: "Reforma 1 Tabacalera, cuatemoc",
-    url: "https://maps.app.goo.gl/nppJM3aVVRRFQzFB8",
+    url: TestImage,
     ref1: "",
     ref2: "",
     id: "t1",
@@ -81,7 +83,7 @@ export const terminals: Terminal[] = [
   {
     name: "City Express Junior by Marriot Puebla",
     address: "Reforma 1 Tabacalera, cuatemoc",
-    url: "https://maps.app.goo.gl/BuFMka9iBNtHtkV48",
+    url: TestImage,
     ref1: "",
     ref2: "",
     id: "t2",
@@ -89,7 +91,7 @@ export const terminals: Terminal[] = [
   {
     name: "Soriana Híper Boca del Río",
     address: "Reforma 1 Tabacalera, cuatemoc",
-    url: "www.maps.com",
+    url: TestImage,
     ref1: "",
     ref2: "",
     id: "t3",
@@ -97,7 +99,7 @@ export const terminals: Terminal[] = [
   {
     name: "Terminal Veracruz AV Express",
     address: "Reforma 1 Tabacalera, cuatemoc",
-    url: "www.maps.com",
+    url: TestImage,
     ref1: "",
     ref2: "",
     id: "t4",
@@ -105,7 +107,7 @@ export const terminals: Terminal[] = [
   {
     name: "Omnibus turísticos Ocaso Xalapa",
     address: "Reforma 1 Tabacalera, cuatemoc",
-    url: "https://maps.app.goo.gl/pPmELT91cDkf3Wip9",
+    url: TestImage,
     ref1: "Enfrente de la torre orgullo Veracruzano",
     ref2: "El acceso es por lateral del puente boulevar Xalapa - Banderilla",
     id: "t5",
