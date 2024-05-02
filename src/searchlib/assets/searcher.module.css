@@ -20,7 +20,7 @@
 } */
 .transparent.searchContainer,
 .transparent.searchContainerV {
-  @apply bg-white bg-opacity-25 backdrop-blur-md;
+  @apply bg-white bg-opacity-50 backdrop-blur-none;
 }
 /* :global(.dark) .transparent.searchContainer,
 :global(.dark) .transparent.searchContainerV {
@@ -78,7 +78,7 @@
 }
 
 .searchContainerV .formButton {
-  @apply relative col-span-1 w-full rounded-lg bg-gradient-to-t from-primary-800 to-[#00d800] font-semibold uppercase text-white duration-200 lg:!col-span-1;
+  @apply relative col-span-1 w-full rounded-lg bg-[#591BE5] font-semibold uppercase text-white duration-200 lg:!col-span-1;
 }
 
 .formButton {

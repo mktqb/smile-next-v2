@@ -8,10 +8,6 @@ import LogoAVSmile from "@/assets/LogoAVSmile.png";
 
 import ChangeLocale from "./change-locale";
 import {
-  Facebook,
-  FlagMexico,
-  FlagUSA,
-  Instagram,
   PoweredByQuatrobus,
 } from "./svg";
 

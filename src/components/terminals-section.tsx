@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import BusLateral from "@/assets/Bus_Perfil.png";
+import BusLateral from "@/assets/Bus_perfil.png";
 import { CallOutline, CustomTerminals, LocationOnOutline } from "./svg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";

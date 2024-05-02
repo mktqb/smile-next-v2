@@ -22,9 +22,9 @@ const config: Config = {
       },
     },
     extend: {
-      fontFamily: {
+      /* fontFamily: {
         taviraj: ["var(--font-taviraj)"],
-      },
+      }, */
       colors: {
         primary: {
           50: "#f2fdf0",

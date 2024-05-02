@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { FlagMexico, FlagUSA, MdiClose, MdiMenu } from "./svg";
+import { FlagMexico, FlagUSA, LogoSmileBus, MdiClose, MdiMenu } from "./svg";
 import { usePathname, Link } from "@/navigation";
 import Image from "next/image";
 
@@ -16,8 +16,8 @@ import ChangeLocale from "./change-locale";
 } from "@nextui-org/react";
 import LanguageSwitch from "./language-switch"; */
 
-import Logo from "@/assets/LogoAV3.png";
-import LogoM from "@/assets/LogoAVM.png";
+import Logo from "@/assets/logo.png";
+/* import LogoM from "@/assets/LogoAVM.png"; */
 
 interface Props {
   currentLocale: string;
@@ -116,7 +116,7 @@ export default function Header({ translations, currentLocale }: Props) {
           </section>
         </div> */}
         {/* End Topbar */}
-        <div className="fixed left-0 z-[80] w-full bg-gradient-to-t from-primary-800 to-[#00d800] pb-0 pt-0">
+        <div className="fixed left-0 z-[80] w-full bg-[#21D840] pb-0 pt-0">
           <section className="section-container flex items-center justify-center max-md:pl-0 min-[300px]:justify-between">
             {/* Logo que se muestra en disp muy pequeños, centrado. Oculto de 300 a más */}
             <button
@@ -124,11 +124,12 @@ export default function Header({ translations, currentLocale }: Props) {
               onClick={() => setShowMenu(true)}
             >
               <span className="sr-only">{translations.home}</span>
-              <Image
+              {/* <Image
                 src={Logo}
                 alt="bg"
-                className="w-[150px] max-[350px]:w-[140px] md:w-[160px] xl:w-[250px]"
-              />
+                className="w-[150px] max-[350px]:w-[140px] md:w-[160px] xl:w-[180px]"
+              /> */}
+              <LogoSmileBus className="w-[150px] max-[350px]:w-[140px] md:w-[160px] xl:w-[180px]" />
             </button>
 
             <div className="hidden items-center gap-3 text-sm text-white md:flex lg:text-base">
@@ -153,16 +154,12 @@ export default function Header({ translations, currentLocale }: Props) {
             <Link href="/" className="hidden min-[300px]:block">
               <span className="sr-only">{translations.home}</span>
 
-              <Image
+              {/* <Image
                 src={Logo}
                 alt="Logo AV Express"
-                className="max-md:hidden md:w-[300px] xl:w-[350px] 2xl:w-[400px]"
-              />
-              <Image
-                src={LogoM}
-                alt="Logo AV Express"
-                className="w-[240px] max-[350px]:w-[200px] md:hidden"
-              />
+                className="w-[150px] max-[350px]:w-[140px] md:w-[160px] xl:w-[180px]"
+              /> */}
+              <LogoSmileBus className="w-[150px] max-[350px]:w-[140px] md:w-[160px] xl:w-[180px]" />
             </Link>
 
             <button

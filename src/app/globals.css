@@ -103,8 +103,9 @@ body {
     width: 100%;
     height: 150px;
     background-color: white;
-    clip-path: polygon(0% 0%, 100% 0%, 50% 70%);
+    clip-path: ellipse(65% 100% at 50% 0%);
     @apply hidden md:block;
+
   }
   /* Titles */
   .main-title {
@@ -139,7 +140,7 @@ body {
     /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9); */
   }
   .navbar-desktop a:hover {
-    @apply hover:text-secondary-500 decoration-secondary-500 underline;
+    @apply hover:text-[#591BE5] decoration-[#591BE5] underline;
   }
 
   .navbar-mobile {
@@ -211,7 +212,7 @@ body {
 
   /* Fixed routes */
     .fixed-route-bg {
-    @apply relative bg-gradient-to-t from-[#022204] to-[#00d800];
+    @apply relative bg-[#00d800];
   }
   .fixed-route-bg::before {
     content: "";
@@ -387,31 +388,14 @@ body {
   }
 
   .main-button {
-    @apply bg-gradient-to-r from-secondary-700 via-secondary-800 via-75% to-secondary-900 text-white hover:text-white;
-    /* background-image: linear-gradient(145deg, #1f1f1f, #000); */
-    /* box-shadow:
-      0 4px 6px rgba(0, 0, 0, 0.1),
-      inset 0 1px 0 rgba(0, 0, 0, 0.3),
-      inset 0 -2px 1px rgba(0, 0, 0, 0.2);
-    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25); */
+    @apply bg-[#6c00f7] text-white hover:bg-[#5500c3] hover:text-white;
   }
 
   .secondary-button {
     @apply bg-neutral-800 dark:bg-neutral-700 text-white border border-white lg:hover:bg-neutral-700;
-    /* background-image: linear-gradient(145deg, #338afe, #005dfe); */
-    box-shadow:
-      0 4px 6px rgba(0, 0, 0, 0.2),
-      inset 0 1px 0 rgba(103, 168, 254, 0.4),
-      inset 0 -2px 1px rgba(0, 0, 0, 0.3);
-    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.35);
   }
 
   .absolute-button-black {
     @apply bg-black text-white lg:hover:bg-neutral-950;
-    box-shadow:
-      0 4px 6px rgba(0, 0, 0, 0.1),
-      inset 0 1px 0 rgba(255, 255, 255, 0.3),
-      inset 0 -2px 1px rgba(0, 0, 0, 0.2);
-    text-shadow: 0 -1px 1px rgba(4, 0, 40, 0.25);
   }
 }

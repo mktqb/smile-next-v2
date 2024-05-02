@@ -1,3 +1,12 @@
+export interface Terminal {
+  name: string;
+  address: string;
+  url: string;
+  ref1: string;
+  ref2: string;
+  id: string;
+}
+
 export interface Office {
   name: {
     es: string;
@@ -15,14 +24,14 @@ export interface Office {
   id: string;
 }
 
-export interface Terminal {
+/* export interface Terminal {
   name: string;
   location: string;
   phones: {
     text: string;
     link: string;
   }[];
-}
+} */
 
 export const offices: Office[] = [
   {
@@ -62,114 +71,43 @@ export const offices: Office[] = [
 
 export const terminals: Terminal[] = [
   {
-    name: "Matehuala",
-    location: "San Luis de Potosí, México",
-    phones: [{ text: "486-980-0697", link: "tel:+527869800697" }],
+    name: "Lotería Nacional",
+    address: "Reforma 1 Tabacalera, cuatemoc",
+    url: "https://maps.app.goo.gl/nppJM3aVVRRFQzFB8",
+    ref1: "",
+    ref2: "",
+    id: "t1",
   },
   {
-    name: "San Diego",
-    location: "Guanajuato, México",
-    phones: [{ text: "418-684-0464", link: "tel:+524186840464" }],
+    name: "City Express Junior by Marriot Puebla",
+    address: "Reforma 1 Tabacalera, cuatemoc",
+    url: "https://maps.app.goo.gl/BuFMka9iBNtHtkV48",
+    ref1: "",
+    ref2: "",
+    id: "t2",
   },
   {
-    name: "Dolores Hidalgo",
-    location: "Guanajuato, México",
-    phones: [{ text: "418-185-4340", link: "tel:+524181854340" }],
+    name: "Soriana Híper Boca del Río",
+    address: "Reforma 1 Tabacalera, cuatemoc",
+    url: "www.maps.com",
+    ref1: "",
+    ref2: "",
+    id: "t3",
   },
   {
-    name: "San Miguel",
-    location: "Guanajuato, México",
-    phones: [
-      { text: "415-153-2132", link: "tel:+524151532132" },
-      { text: "415-104-0263", link: "tel:+524151040263" },
-      { text: "415-121-8019", link: "tel:+524151218019" },
-    ],
+    name: "Terminal Veracruz AV Express",
+    address: "Reforma 1 Tabacalera, cuatemoc",
+    url: "www.maps.com",
+    ref1: "",
+    ref2: "",
+    id: "t4",
   },
   {
-    name: "Celaya",
-    location: "Guanajuato, México",
-    phones: [{ text: "461-215-1393", link: "tel:+524612151393" }],
-  },
-  {
-    name: "Salamanca",
-    location: "Guanajuato, México",
-    phones: [{ text: "464-649-3061", link: "tel:+524646493091" }],
-  },
-  {
-    name: "SalvaTierra",
-    location: "Guanajuato, México",
-    phones: [{ text: "466-663-1398", link: "tel:+524666631398" }],
-  },
-  {
-    name: "Villa Hidalgo",
-    location: "San Luis de Potosí, México",
-    phones: [
-      { text: "486-855-2439", link: "tel:+524868552439" },
-      { text: "444-662-8711", link: "tel:+524446628711" },
-      { text: "444-418-7161", link: "tel:+524444187161" },
-    ],
-  },
-  {
-    name: "Yuriria",
-    location: "Guanajuato, México",
-    phones: [{ text: "445-168-2231", link: "tel:+524451682231" }],
-  },
-  {
-    name: "Moroleon",
-    location: "Guanajuato, México",
-    phones: [{ text: "445-445-2121", link: "tel:+524454452121" }],
-  },
-  {
-    name: "Cuitzeo",
-    location: "Michoacán, México",
-    phones: [
-      { text: "455-357-1391", link: "tel:+524553571391" },
-      { text: "455-357-1396", link: "tel:+524553571396" },
-      { text: "455-357-1397", link: "tel:+524553571397" },
-    ],
-  },
-  {
-    name: "Morelia",
-    location: "Michoacán, México",
-    phones: [{ text: "445-168-2231", link: "tel:+524451682231" }],
-  },
-  {
-    name: "San Felipe",
-    location: "Guanajuato, México",
-    phones: [{ text: "428-685-2734", link: "tel:+524286852734" }],
-  },
-  {
-    name: "Ocampo",
-    location: "Guanajuato, México",
-    phones: [{ text: "428-142-8102", link: "tel:+524281428102" }],
-  },
-  {
-    name: "La Escondida",
-    location: "Guanajuato, México",
-    phones: [
-      { text: "477-256-4228", link: "tel:+524772564228" },
-      { text: "428-107-2938", link: "tel:+524281072938" },
-    ],
-  },
-  {
-    name: "Gachupines",
-    location: "Guanajuato, México",
-    phones: [{ text: "428-102-1013", link: "tel:+524281021013" }],
-  },
-  {
-    name: "Ojuelos",
-    location: "Jalisco, México",
-    phones: [
-      { text: "496-137-4828", link: "tel:+524961374828" },
-      { text: "196-129-1356", link: "tel:+521961291356" },
-    ],
-  },
-  {
-    name: "Rosenberg",
-    location: "Texas, USA",
-    phones: [
-      { text: "346-988-1857", link: "tel:+13469881857" },
-      { text: "832-798-8302", link: "tel:+18327988302" },
-    ],
+    name: "Omnibus turísticos Ocaso Xalapa",
+    address: "Reforma 1 Tabacalera, cuatemoc",
+    url: "https://maps.app.goo.gl/pPmELT91cDkf3Wip9",
+    ref1: "Enfrente de la torre orgullo Veracruzano",
+    ref2: "El acceso es por lateral del puente boulevar Xalapa - Banderilla",
+    id: "t5",
   },
 ];

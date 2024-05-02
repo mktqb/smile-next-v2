@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Taviraj, Work_Sans } from "next/font/google";
+import { Poppins } from "next/font/google";
+/* import { Taviraj, Work_Sans, Poppins } from "next/font/google"; */
 import { locales } from "@/i18n";
 import { unstable_setRequestLocale } from "next-intl/server";
 import CookieConsent from "@/components/cookies-consent";
@@ -11,17 +12,23 @@ import { useTranslations } from "next-intl";
 import { headers } from "next/headers";
 
 // Configura Taviraj
-const TavirajFont = Taviraj({
+/* const TavirajFont = Taviraj({
   subsets: ["latin"],
   style: ["italic"], // Solo incluir 'italic' si es el único estilo que usarás
   weight: ["300", "400", "500", "600", "700", "800", "900"],
   variable: "--font-taviraj",
-});
+}); */
 
 // Configura Work Sans
-const workSans = Work_Sans({
+/* const workSans = Work_Sans({
   subsets: ["latin"],
   style: ["italic"], // Solo incluir 'italic' si es el único estilo que usarás
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
+}); */
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  style: ["normal", "italic"],
   weight: ["300", "400", "500", "600", "700", "800", "900"],
 });
 
@@ -45,7 +52,7 @@ export default function RootLayout({
   const headList = headers();
   return (
     <html lang={locale}>
-      <body className={`${workSans.className} ${TavirajFont.variable}`}>
+      <body className={`${poppins.className}`}>
         <Providers>
           <Header
             currentLocale={locale}

@@ -7,18 +7,9 @@ import { useTranslations } from "next-intl";
 import type { Metadata } from "next/types";
 import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
 import HumanFaq from "@/assets/Human_faq.png";
-import BusFrontal from "@/assets/Bus_Frontal.png";
+import BusFrontal from "@/assets/Bus_frontal.png";
 import Nosotros from "@/assets/Img_nosotros.jpg";
 
-/* 
-import Aboutus from "@/assets/Img_aboutus.jpg";
-import DestinationSliderSection from "@/components/destination-slider-section";
-import PopularRoutesCard from "@/components/popular-routes-card";
-import ContactUs from "@/components/contactus-section"; */
-
-/* import ElegirnosCard from "@/components/elegirnos-card";
-import ElegirnosCarousel from "@/components/elegirnos-carousel";
-import ServicesSection from "@/components/services-section"; */
 import {
   CustomFixed,
   CustomFixedRoutes,
@@ -32,7 +23,7 @@ import {
   CustomIndividualLight,
   CustomHeating,
 } from "@/components/svg";
-/* import FixedSection from "@/components/fixed-section"; */
+
 import { Divider } from "@nextui-org/divider";
 import DestinationsCarousel from "@/components/destinations-carousel";
 import TerminalsSection from "@/components/terminals-section";
@@ -41,6 +32,7 @@ import ServicesSlider from "@/components/services-slider";
 import TutorialCard from "@/components/tutorial-card";
 import TutorialCarousel from "@/components/tutorial-carousel";
 import OfficesComponent from "@/components/offices-card";
+import AllTerminals from "@/components/allterminals-section";
 
 export async function generateMetadata({
   params: { locale },
@@ -99,7 +91,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
 
       <div className="flex w-full flex-col items-center gap-1 pb-5 md:hidden">
         <h2
-          className="main-title font-taviraj text-black"
+          className="main-title text-black"
           dangerouslySetInnerHTML={{ __html: t.raw("tutorial.title") }}
         />
       </div>
@@ -109,7 +101,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
         <section className="section-container relative z-10 grid grid-cols-1 gap-5 max-md:px-0 md:grid-cols-1 md:pb-32 md:pt-16 lg:grid-cols-1 xl:grid-cols-1">
           <div className="flex w-full flex-col items-center gap-1 pb-8 max-md:hidden">
             <h2
-              className="main-title font-taviraj text-white"
+              className="main-title text-white"
               dangerouslySetInnerHTML={{ __html: t.raw("tutorial.title") }}
             />
           </div>
@@ -125,28 +117,6 @@ export default function Home({ params: { locale } }: { params: { locale: string 
               text3={t("tutorial.3.text")}
             />
           </div>
-          {/* <div className="hidden gap-5 rounded-lg bg-white/50 p-8 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
-            <TutorialCard
-              count="01"
-              title="¿A dónde vamos?"
-              text="Elige tanto tu ciudad de origen y destino, como las fechas de tu viaje"
-            />
-            <TutorialCard
-              count="02"
-              title="Escoge el horario y tus asientos"
-              text="Selecciona precio y horarios de salida y llegada para tu viaje, junto con tus asientos"
-            />
-            <TutorialCard
-              count="03"
-              title="Completa los datos del pasajero"
-              text="Revisa los detalles de tu viaje e ingresa la información de los pasajeros"
-            />
-            <TutorialCard
-              count="04"
-              title="Registra tu método de pago"
-              text="Elige tu medio de pago y completa los datos solicitados. Haz clic en Procesar Pago. ¡Y listo!"
-            />
-          </div> */}
           <div className="col-span-full flex flex-col items-center gap-x-4 gap-y-2 max-md:hidden lg:flex-row lg:justify-center xl:mt-4">
             <span
               className="text-center text-white"
@@ -180,7 +150,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
         <div className="relative mt-10 h-min w-full place-items-center overflow-hidden bg-transparent max-md:rounded-t-3xl max-sm:bg-primary-100 md:my-0 md:rounded-b-[5rem] md:bg-white">
           <section className="section-container grid w-full items-center gap-0 bg-transparent py-8 max-lg:pb-0 max-md:px-8 md:grid-cols-5 md:gap-10 md:py-14 xl:grid-cols-2 xl:gap-6">
             <div className="flex flex-col items-center gap-4 rounded-t-xl bg-white px-6 py-8 md:col-span-3 md:items-start md:bg-transparent md:p-0 lg:gap-4 xl:col-span-1">
-              <h1 className="main-title text-center font-taviraj font-semibold text-black">
+              <h1 className="main-title text-center font-semibold text-black">
                 {t("about_us.title")}
               </h1>
               <p
@@ -250,6 +220,8 @@ export default function Home({ params: { locale } }: { params: { locale: string 
         </div>
       </div>
 
+      <AllTerminals locale={locale} />
+
       {/* <FixedSection /> */}
 
       <span id="destinations" className="scroll-m-20"></span>
@@ -307,7 +279,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
           <div className="z-50 flex flex-col items-center gap-5">
             <div className="flex items-center gap-4">
               <div className="flex-col items-center">
-                <h2 className="text-lg font-bold text-black">
+                <h2 className="text-lg font-bold text-[#591BE5]">
                   {t("fixed_route.title")}
                 </h2>
                 <h4 className="text-center text-xs xl:text-lg">
@@ -346,7 +318,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
       <section className="section-container py-10">
         <div className="main-title title-container mt-4 items-center pb-6 xl:pb-8">
           <h2
-            className="font-taviraj text-black"
+            className="text-[#DA089F]"
             dangerouslySetInnerHTML={{ __html: t.raw("why.title") }}
           />
           <hr className="title-line w-20 border-primary-300" />
@@ -357,7 +329,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
         <div className="mx-auto mb-6 mt-14 grid w-10/12 grid-cols-1 gap-10 py-4">
           <div className="main-title title-container items-center pb-6 xl:pb-8">
             <h2
-              className="font-taviraj text-black"
+              className="text-[#DA089F]"
               dangerouslySetInnerHTML={{ __html: t.raw("why.services.title") }}
             />
             <hr className="title-line w-20 border-primary-300" />
@@ -424,9 +396,6 @@ export default function Home({ params: { locale } }: { params: { locale: string 
                   __html: t.raw("faq.title"),
                 }}
               />
-              {/* <h2 className="main-title text-center font-bold md:text-start">
-                ¿Tienes preguntas sobre nuestros servicios?
-              </h2> */}
             </div>
             <p className="text-center text-sm md:text-start md:text-lg">
               {t("faq.text")}
