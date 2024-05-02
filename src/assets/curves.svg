@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 2560 165">
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 2560 282">
   <defs>
     <style>
       .cls-1 {
@@ -8,5 +8,5 @@
       }
     </style>
   </defs>
-  <path class="cls-1" d="M1281.5,158C709,158,216.8,93,0,0v165h2560V1.2c-218.3,92.4-708.6,156.8-1278.5,156.8Z"/>
+  <path class="cls-1" d="M1281.5,154.7C709,154.7,216.8,102.9,0,0v282h2560V1.4c-218.3,102.2-708.6,153.4-1278.5,153.4Z"/>
 </svg>

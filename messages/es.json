@@ -20,7 +20,7 @@
       "english": "Inglés"
     },
     "footer": {
-      "text": "En un esfuerzo conjunto por mejorar la calidad del servicio, AV Express se enorgullece en anunciar su transición a Smile Bus. Con una visión renovada y un compromiso inquebrantable hacia la satisfacción del cliente,  nos embarcamos en este emocionante viaje hacia un nuevo horizonte de comodidad y excelencia en el transporte. ¡El destino es nuestro, pero la experiencia es tuya!",
+      "text": "En un esfuerzo conjunto por mejorar la calidad del servicio, SmileBus se enorgullece en anunciar su transición a Smile Bus. Con una visión renovada y un compromiso inquebrantable hacia la satisfacción del cliente,  nos embarcamos en este emocionante viaje hacia un nuevo horizonte de comodidad y excelencia en el transporte. ¡El destino es nuestro, pero la experiencia es tuya!",
       "menu": "Menú",
       "copyright": "Quatrobus © 2024. Todos los derechos reservados"
     },
@@ -94,7 +94,7 @@
     },
     "why": {
       "title": "<b>¿Por qué</b> elegirnos?",
-      "text": "AV Express se compromete a ofrecer a sus clientes una experiencia excepcional en cada viaje. Nuestro objetivo es superar expectativas, garantizando comodidad, seguridad y puntualidad en cada trayecto. Estamos aquí para hacer que cada viaje sea memorable y sin contratiempos.",
+      "text": "SmileBus se compromete a ofrecer a sus clientes una experiencia excepcional en cada viaje. Nuestro objetivo es superar expectativas, garantizando comodidad, seguridad y puntualidad en cada trayecto. Estamos aquí para hacer que cada viaje sea memorable y sin contratiempos.",
       "services": {
         "title": "Servicios <b>a bordo</b>",
         "service01": "Baños a bordo",
@@ -282,19 +282,19 @@
   },
   "Metadata": {
     "home": {
-      "title": "AV Express | Te acompañamos en cada trayecto",
+      "title": "SmileBus | Viajar debe ser siempre seguro y divertido",
       "description": "Te llevamos a CD México, Veracruz, Puebla y Xapala. Comprometidos con superar las expectativas de nuestros viajeros, ofreciendo un servicio excepcional de inicio a fin."
     },
     "faq": {
-      "title": "AV Express | Explora las Preguntas Frecuentes",
+      "title": "SmileBus | Explora las Preguntas Frecuentes",
       "description": "¿Necesitas ayuda? Consulta nuestras preguntas frecuentes que hemos recopilado para ti con información valiosa antes de viajar."
     },
     "travel_policies": {
-      "title": "AV Express | Políticas de viaje",
-      "description": "Conoce las políticas de reserva, cancelaciones, equipaje y más en nuestras políticas de viaje para asegurarte un trayecto seguro y cómodo con AV Express."
+      "title": "SmileBus | Políticas de viaje",
+      "description": "Conoce las políticas de reserva, cancelaciones, equipaje y más en nuestras políticas de viaje para asegurarte un trayecto seguro y cómodo con SmileBus."
     },
     "privacy_policies": {
-      "title": "AV Express | Nuestras políticas de cookies",
+      "title": "SmileBus | Nuestras políticas de cookies",
       "description": "Explora nuestras políticas de cookies para entender su función en nuestro sitio web y controlar tus preferencias de privacidad en línea."
     }
   },
@@ -486,7 +486,7 @@
       "title": "Definición",
       "text": {
         "0": "A los efectos de la presente Política de Cookies",
-        "1": "Empresa (denominada como “la Empresa”, “Nosotros”, “Nos” o “Nuestro” en esta Política de Cookies) se refiere a <b>AV Express</b>",
+        "1": "Empresa (denominada como “la Empresa”, “Nosotros”, “Nos” o “Nuestro” en esta Política de Cookies) se refiere a <b>SmileBus</b>",
         "2": "“Usted” se refiere a la persona que accede o utiliza el Sitio web, o a una empresa, o a cualquier entidad jurídica en cuyo nombre dicha persona accede o utiliza el Sitio web, según corresponda.",
         "3": "“Cookies” significa archivos pequeños que se colocan en su computadora, dispositivo móvil o cualquier otro dispositivo por un sitio web, que contiene detalles de su historial de navegación en ese sitio web entre sus muchos usos.",
         "4": "“Sitio web” se refiere a <b>(avexpress.mx/)</b>, accesible desde <b> <a href=\"https://avexpress.mx/\" target=\"_blank\"> https://avexpress.mx/ </a> </b>"

@@ -9,6 +9,7 @@ import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
 import HumanFaq from "@/assets/Human_faq.png";
 import BusFrontal from "@/assets/Bus_frontal.png";
 import Nosotros from "@/assets/Img_nosotros.jpg";
+import BusLateral from "@/assets/Bus_perfil.png";
 
 import {
   CustomFixed,
@@ -169,14 +170,19 @@ export default function Home({ params: { locale } }: { params: { locale: string 
               </a>
             </div>
             <div className="h-min-[300px] flex aspect-[16/9] w-[100%] items-center justify-center overflow-hidden rounded-b-3xl md:col-span-2 md:aspect-square md:rounded-xl xl:col-span-1 xl:aspect-[18/9]">
-              <Image
+              {/* <Image
                 src={Nosotros}
                 alt={"nosotros"}
                 className="center h-auto w-full -translate-y-6 rounded-lg object-cover object-center"
+              /> */}
+              <Image
+                src={BusLateral}
+                alt="bus"
+                className="translate-x-3 max-md:h-full max-md:-translate-y-7 max-md:object-contain sm:translate-x-28 md:translate-x-40 lg:translate-x-0"
               />
             </div>
           </section>
-          <section className="section-container grid w-full items-center gap-0 bg-transparent py-8 max-lg:pt-0 max-md:px-8 md:grid-cols-5 md:gap-10 md:py-14 xl:grid-cols-2 xl:gap-6">
+          {/* <section className="section-container grid w-full items-center gap-0 bg-transparent py-8 max-lg:pt-0 max-md:px-8 md:grid-cols-5 md:gap-10 md:py-14 xl:grid-cols-2 xl:gap-6">
             <div className="h-min-[300px] order-2 col-span-2 flex aspect-[16/9] w-[100%] items-center justify-center overflow-hidden rounded-b-3xl md:aspect-square md:rounded-xl lg:order-1 xl:col-span-1 xl:aspect-[18/9]">
               <video
                 src="/Video_boleto.mp4"
@@ -203,7 +209,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
                 dangerouslySetInnerHTML={{ __html: t.raw("transition.text.1") }}
               />
             </div>
-          </section>
+          </section> */}
         </div>
       </div>
 
@@ -318,21 +324,21 @@ export default function Home({ params: { locale } }: { params: { locale: string 
       <section className="section-container py-10">
         <div className="main-title title-container mt-4 items-center pb-6 xl:pb-8">
           <h2
-            className="text-[#DA089F]"
+            className="text-[#21D840]"
             dangerouslySetInnerHTML={{ __html: t.raw("why.title") }}
           />
-          <hr className="title-line w-20 border-primary-300" />
+          <hr className="title-line w-20 border-[#591BE5]" />
         </div>
-        <p className="text-pretty pt-5 text-center text-black lg:px-16">
+        <p className="text-pretty pt-5 text-center text-[#407101] lg:px-16">
           {t("why.text")}
         </p>
         <div className="mx-auto mb-6 mt-14 grid w-10/12 grid-cols-1 gap-10 py-4">
           <div className="main-title title-container items-center pb-6 xl:pb-8">
             <h2
-              className="text-[#DA089F]"
+              className="text-[#21D840]"
               dangerouslySetInnerHTML={{ __html: t.raw("why.services.title") }}
             />
-            <hr className="title-line w-20 border-primary-300" />
+            <hr className="title-line w-20 border-[#591BE5]" />
           </div>
           <ServicesSlider
             items={[

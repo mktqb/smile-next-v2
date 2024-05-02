@@ -70,7 +70,7 @@ export default function TutorialCarousel({
                 <h3 className="text-xl font-bold text-[#21D840] group-hover:text-white xl:text-xl 2xl:text-2xl">
                   {title0}
                 </h3>
-                <p className="text-pretty text-sm text-black group-hover:text-white xl:text-base">
+                <p className="text-pretty text-sm text-[#407101] group-hover:text-white xl:text-base">
                   {text0}
                 </p>
               </div>
@@ -86,7 +86,7 @@ export default function TutorialCarousel({
                 <h3 className="text-xl font-bold text-[#21D840] group-hover:text-white xl:text-xl 2xl:text-2xl">
                   {title1}
                 </h3>
-                <p className="text-pretty text-sm text-black group-hover:text-white xl:text-base">
+                <p className="text-pretty text-sm text-[#407101] group-hover:text-white xl:text-base">
                   {text1}
                 </p>
               </div>
@@ -94,7 +94,7 @@ export default function TutorialCarousel({
           </SwiperSlide>
           <SwiperSlide className="relative h-full w-full">
             {/* <TutorialCard count="03" title={title2} text={text2} /> */}
-            <div className="group flex h-full flex-col items-start justify-between rounded-lg bg-white p-6 hover:bg-[#F1DE55]  max-md:h-full max-md:gap-5 min-[375px]:min-h-[236px] lg:aspect-[9/14] lg:duration-200 xl:aspect-[9/16]">
+            <div className="group flex h-full flex-col items-start justify-between rounded-lg bg-white p-6 hover:bg-[#21D840]  max-md:h-full max-md:gap-5 min-[375px]:min-h-[236px] lg:aspect-[9/14] lg:duration-200 xl:aspect-[9/16]">
               <h2 className="text-3xl font-bold text-[#21D840] group-hover:text-white md:text-4xl lg:text-5xl">
                 03
               </h2>
@@ -102,7 +102,7 @@ export default function TutorialCarousel({
                 <h3 className="text-xl font-bold text-[#21D840] group-hover:text-white xl:text-xl 2xl:text-2xl">
                   {title2}
                 </h3>
-                <p className="text-pretty text-sm text-black group-hover:text-white xl:text-base">
+                <p className="text-pretty text-sm text-[#407101] group-hover:text-white xl:text-base">
                   {text2}
                 </p>
               </div>
@@ -118,7 +118,7 @@ export default function TutorialCarousel({
                 <h3 className="text-xl font-bold text-[#21D840] group-hover:text-white xl:text-xl 2xl:text-2xl">
                   {title3}
                 </h3>
-                <p className="text-pretty text-sm text-black group-hover:text-white xl:text-base">
+                <p className="text-pretty text-sm text-[#407101] group-hover:text-white xl:text-base">
                   {text3}
                 </p>
               </div>

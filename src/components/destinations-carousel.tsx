@@ -27,10 +27,10 @@ export default function DestinationsCarousel({ translations }: Props) {
     <section className="section-container py-10">
       <div className="main-title title-container items-center pb-8 xl:pb-12">
         <h2
-          className="font-taviraj text-black"
+          className="font-taviraj text-[#21D840]"
           dangerouslySetInnerHTML={{ __html: translations.title }}
         />
-        <hr className="title-line w-20 border-primary-300" />
+        <hr className="title-line w-20 border-[#591BE5]" />
       </div>
       <Swiper
         spaceBetween={40}
