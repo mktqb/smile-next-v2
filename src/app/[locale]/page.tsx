@@ -47,7 +47,11 @@ export async function generateMetadata({
   };
 }
 
-export default function Home({ params: { locale } }: { params: { locale: string } }) {
+export default function Home({
+  params: { locale },
+}: {
+  params: { locale: string };
+}) {
   unstable_setRequestLocale(locale);
   const t = useTranslations("Home");
   return (
@@ -169,16 +173,18 @@ export default function Home({ params: { locale } }: { params: { locale: string 
                 {t("about_us.button")}
               </a>
             </div>
-            <div className="h-min-[300px] flex aspect-[16/9] w-[100%] items-center justify-center overflow-hidden rounded-b-3xl md:col-span-2 md:aspect-square md:rounded-xl xl:col-span-1 xl:aspect-[18/9]">
-              {/* <Image
-                src={Nosotros}
-                alt={"nosotros"}
-                className="center h-auto w-full -translate-y-6 rounded-lg object-cover object-center"
-              /> */}
+            <div className="h-min-[300px] relative flex w-full items-center justify-center rounded-b-3xl max-md:aspect-[16/9] md:col-span-2 md:h-full xl:col-span-1">
+              <div className="absolute left-0 top-0 h-full w-max max-md:hidden">
+                <Image
+                  src={BusLateral}
+                  alt={"nosotros"}
+                  className="h-full w-auto"
+                />
+              </div>
               <Image
                 src={BusLateral}
                 alt="bus"
-                className="translate-x-3 max-md:h-full max-md:-translate-y-7 max-md:object-contain sm:translate-x-28 md:translate-x-40 lg:translate-x-0"
+                className="h-full translate-x-3 max-md:-translate-y-7 max-md:object-contain sm:translate-x-28 md:hidden"
               />
             </div>
           </section>
@@ -218,7 +224,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
             <h2 className="font-taviraj text-2xl font-bold text-black">
               {t("fixed_route.title")}
             </h2>
-            <h4 className="text-center font-taviraj text-sm text-black xl:text-lg">
+            <h4 className="font-taviraj text-center text-sm text-black xl:text-lg">
               {t("fixed_route.subtitle")}
             </h4>
           </div>
@@ -234,7 +240,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
                 <h2 className="font-taviraj text-2xl font-bold text-white">
                   {t("fixed_route.title")}
                 </h2>
-                <h4 className="text-center font-taviraj text-sm text-white xl:text-lg">
+                <h4 className="font-taviraj text-center text-sm text-white xl:text-lg">
                   {t("fixed_route.subtitle")}
                 </h4>
               </div>

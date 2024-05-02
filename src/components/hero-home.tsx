@@ -15,9 +15,6 @@ import Banner04 from "@/assets/Banner_xalapa.jpg";
 import Banner05 from "@/assets/Banner_cdmx.jpg";
 
 interface Props {
-  /* background:
-    | { type: "static"; image: StaticImageData }
-    | { type: "slider"; image: StaticImageData[] }; */
   title?: string | TrustedHTML;
   subtitle?: string | TrustedHTML;
   withSearcher?: boolean;
@@ -29,27 +26,14 @@ interface Props {
 }
 
 export default function HeroHome({
-  /* background, */
   title,
   subtitle,
   withSearcher,
-  translations
+  translations,
 }: Props) {
   return (
-    <main className="relative h-[740px] w-full md:h-[550px] lg:h-[550px] xl:h-[850px] 2xl:h-[880px]">
-      <div className="bg-curves absolute bottom-0 z-[2] w-full bg-repeat-x lg:h-56 xl:h-72 2xl:h-80"></div>
-      {/* <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-b from-black to-transparent max-lg:via-transparent md:[clip-path:_ellipse(100%_100%_at_50%_0%)]"></div> */}
-      {/* <div className="header-curve-container absolute -bottom-1 z-[2] w-full bg-repeat-x xl:h-56">
-        <div className="header-curve-shape"></div>
-      </div> */}
-      {/* {background.type === "static" && (
-        <Image
-          src={background.image}
-          alt=""
-          className="z-0 h-full object-cover object-center md:max-h-[410px]  xl:h-[850px] xl:w-full 2xl:h-[880px]"
-        />
-      )} */}
-      {/* {background.type === "slider" && ( */}
+    <main className="relative h-[740px] w-full md:h-[550px] lg:h-[550px] xl:h-[850px] xl:[clip-path:_ellipse(100%_90%_at_50%_0%)] 2xl:h-[880px]">
+      {/* <div className="absolute bottom-0 left-0 z-10 h-1/4 w-full bg-white [clip-path:_ellipse(60%_75%_at_50%_0%)]"></div> */}
       <Swiper
         slidesPerView={1}
         spaceBetween={0}
@@ -58,16 +42,6 @@ export default function HeroHome({
         autoplay={{ delay: 5000 }}
         className="h-full"
       >
-        {/* {background.image.map((image, index) => (
-            <SwiperSlide key={"home_wspr_" + index} className="!relative">
-              <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-[#3cbc00]/75 via-transparent via-30% to-transparent"></div>
-              <Image
-                src={image}
-                alt={`banner ${index + 1}`}
-                className="z-0 h-full object-cover object-center sm:max-h-[650px] md:max-h-[500px] xl:max-h-[550px] xl:w-full 2xl:max-h-[850px]"
-              />
-            </SwiperSlide>
-          ))} */}
         <SwiperSlide className="relative h-full w-full">
           <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-black via-secondary-400/20 via-30% to-transparent to-40% max-xl:hidden"></div>
           <Image
@@ -79,7 +53,7 @@ export default function HeroHome({
             priority
           />
           <div className="absolute left-0 top-40 z-20 flex flex-col items-center gap-5 max-lg:w-full lg:left-1/2 lg:top-60 lg:-translate-x-24 xl:w-2/5 2xl:w-1/3">
-            <span className="text-center font-taviraj text-3xl font-bold text-white [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)] max-xl:text-balance lg:text-center lg:text-5xl">
+            <span className="font-taviraj text-center text-3xl font-bold text-white [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)] max-xl:text-balance lg:text-center lg:text-5xl">
               {translations.slogan}
             </span>
             <p className="mt-1 rounded-xl bg-white px-2 py-1 text-center text-xs font-bold text-primary-300 drop-shadow-2xl md:mt-5 lg:px-5 lg:text-base xl:text-lg">
@@ -98,7 +72,7 @@ export default function HeroHome({
             priority
           />
           <div className="absolute left-0 top-40 z-20 grid w-full place-items-center lg:left-1/4 lg:top-72 lg:-translate-x-28 xl:-translate-x-64">
-            <span className="text-center font-taviraj text-6xl font-bold text-white underline decoration-primary-300 underline-offset-4 [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)]">
+            <span className="font-taviraj text-center text-6xl font-bold text-white underline decoration-primary-300 underline-offset-4 [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)]">
               Puebla
             </span>
           </div>
@@ -114,7 +88,7 @@ export default function HeroHome({
             priority
           />
           <div className="absolute left-0 top-40 z-20 grid w-full place-items-center lg:left-1/4 lg:top-72 lg:-translate-x-28 xl:-translate-x-64">
-            <span className="text-center font-taviraj text-6xl font-bold text-white underline decoration-primary-300 underline-offset-4 [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)]">
+            <span className="font-taviraj text-center text-6xl font-bold text-white underline decoration-primary-300 underline-offset-4 [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)]">
               Veracruz
             </span>
           </div>
@@ -130,7 +104,7 @@ export default function HeroHome({
             priority
           />
           <div className="absolute left-0 top-40 z-20 grid w-full place-items-center lg:left-1/4 lg:top-72 lg:-translate-x-28 xl:-translate-x-64">
-            <span className="text-center font-taviraj text-6xl font-bold text-white underline decoration-primary-300 underline-offset-4 [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)]">
+            <span className="font-taviraj text-center text-6xl font-bold text-white underline decoration-primary-300 underline-offset-4 [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)]">
               Xalapa
             </span>
           </div>
@@ -146,33 +120,14 @@ export default function HeroHome({
             priority
           />
           <div className="absolute left-0 top-40 z-20 grid w-full place-items-center lg:left-1/4 lg:top-72 lg:-translate-x-28 xl:-translate-x-64">
-            <span className="text-center font-taviraj text-6xl font-bold text-white underline decoration-primary-300 underline-offset-4 [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)]">
+            <span className="font-taviraj text-center text-6xl font-bold text-white underline decoration-primary-300 underline-offset-4 [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)]">
               CDMX
             </span>
           </div>
         </SwiperSlide>
       </Swiper>
-      {/* )} */}
-      <div
-        className="absolute left-0 top-12 z-10 grid h-full w-full pt-44 max-[375px]:top-10
-      sm:pt-32
-      md:top-10 md:pt-32 lg:pt-36 xl:pt-36 2xl:top-10 2xl:pt-28"
-      >
-        {/* <div className="container flex flex-col"> */}
-        {/* <div className="flex flex-col items-center gap-3">
-            {title && (
-              <h1
-                className="text-shadow-xl text-balance text-center text-3xl font-bold text-white xl:text-4xl"
-                dangerouslySetInnerHTML={{ __html: title }}
-              ></h1>
-            )}
-            {subtitle && (
-              <p
-                className="text-shadow-xs text-center font-bold text-white xl:text-lg"
-                dangerouslySetInnerHTML={{ __html: subtitle }}
-              ></p>
-            )}
-          </div> */}
+
+      <div className="absolute left-0 top-12 z-10 grid h-full w-full pt-44 max-[375px]:top-10 sm:pt-32 md:top-10 md:pt-32 lg:pt-36 xl:pt-36 2xl:top-10 2xl:pt-28">
         {withSearcher && (
           <section className="section-container position-initial z-50 mt-20 max-lg:pt-4">
             <div className="w-full lg:max-w-72 xl:max-w-[21rem]">
@@ -185,8 +140,6 @@ export default function HeroHome({
             </div>
           </section>
         )}
-        {/*         </div>
-         */}{" "}
       </div>
     </main>
   );
