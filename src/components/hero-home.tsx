@@ -132,7 +132,7 @@ export default function HeroHome({
           <section className="section-container position-initial z-50 mt-20 max-lg:pt-4">
             <div className="w-full lg:max-w-72 xl:max-w-[21rem]">
               <Searcher
-                url="https://privado.avexpress.mx/"
+                url="https://privado.smilebus.com.mx/"
                 variant="transparent"
                 vertical
                 lang={translations.locale}

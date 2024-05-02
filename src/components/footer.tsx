@@ -3,8 +3,8 @@
 import { Link, usePathname } from "@/navigation";
 import React from "react";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
-import LogoAVSmile from "@/assets/LogoAVSmile.png";
+/* import LogoAVSmile from "@/assets/LogoAVSmile.png"; */
+import LogoSmileBus from "@/assets/Logo-SmileBus.png";
 
 import ChangeLocale from "./change-locale";
 import {
@@ -36,7 +36,7 @@ const Footer = ({ translations, currentLocale }: Props) => {
       <section className="section-container my-8 grid w-full grid-cols-1 gap-1 bg-transparent duration-300 sm:grid-cols-2 md:grid-cols-12 md:gap-4">
         <div className="col-span-full grid gap-4 text-gray-50 md:col-span-6">
           <Image
-            src={LogoAVSmile}
+            src={LogoSmileBus}
             alt="Logo AV Express | Smile Bus"
             className="w-full max-[350px]:w-[140px] sm:w-[170px] md:w-[280px] xl:w-[400px] 2xl:w-[470px]"
           />

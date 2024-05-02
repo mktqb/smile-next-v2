@@ -124,20 +124,11 @@ export default function Header({ translations, currentLocale }: Props) {
               onClick={() => setShowMenu(true)}
             >
               <span className="sr-only">{translations.home}</span>
-              {/* <Image
-                src={Logo}
-                alt="bg"
-                className="w-[150px] max-[350px]:w-[140px] md:w-[160px] xl:w-[180px]"
-              /> */}
-              <LogoSmileBus className="w-[150px] max-[350px]:w-[140px] md:w-[160px] xl:w-[180px]" />
+              <LogoSmileBus className="my-2 w-[150px] max-[350px]:w-[140px] md:w-[160px] xl:w-[180px]" />
             </button>
 
             <div className="hidden items-center gap-3 text-sm text-white md:flex lg:text-base">
               <nav className="navbar-desktop">
-                {/* <Link href="/" className="text-shadow-xs">
-                  {translations.home}
-                  Inicio
-                </Link> */}
                 <Link href="/#aboutUs" className="hover:text-primary-500">
                   {translations.about_us}
                 </Link>
@@ -154,12 +145,7 @@ export default function Header({ translations, currentLocale }: Props) {
             <Link href="/" className="hidden min-[300px]:block">
               <span className="sr-only">{translations.home}</span>
 
-              {/* <Image
-                src={Logo}
-                alt="Logo AV Express"
-                className="w-[150px] max-[350px]:w-[140px] md:w-[160px] xl:w-[180px]"
-              /> */}
-              <LogoSmileBus className="w-[150px] max-[350px]:w-[140px] md:w-[160px] xl:w-[180px]" />
+              <LogoSmileBus className="my-2 w-[150px] max-[350px]:w-[140px] md:w-[160px] xl:w-[180px]" />
             </Link>
 
             <button
