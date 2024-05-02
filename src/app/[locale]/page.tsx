@@ -176,13 +176,13 @@ export default function Home({
               <div className="absolute left-0 top-0 h-full w-max max-md:hidden">
                 <Image
                   src={BusLateral}
-                  alt={"nosotros"}
+                  alt="Smile Bus"
                   className="h-full w-auto"
                 />
               </div>
               <Image
                 src={BusLateral}
-                alt="bus"
+                alt="Smile Bus"
                 className="h-full translate-x-3 max-md:-translate-y-7 max-md:object-contain sm:translate-x-28 md:hidden"
               />
             </div>
@@ -223,7 +223,7 @@ export default function Home({
             <h2 className="font-taviraj text-2xl font-bold text-black">
               {t("fixed_route.title")}
             </h2>
-            <h4 className="font-taviraj text-center text-sm text-black xl:text-lg">
+            <h4 className="text-center font-taviraj text-sm text-black xl:text-lg">
               {t("fixed_route.subtitle")}
             </h4>
           </div>
@@ -239,7 +239,7 @@ export default function Home({
                 <h2 className="font-taviraj text-2xl font-bold text-white">
                   {t("fixed_route.title")}
                 </h2>
-                <h4 className="font-taviraj text-center text-sm text-white xl:text-lg">
+                <h4 className="text-center font-taviraj text-sm text-white xl:text-lg">
                   {t("fixed_route.subtitle")}
                 </h4>
               </div>
@@ -287,7 +287,7 @@ export default function Home({
           <div className="z-[1] col-span-1 max-md:mb-4">
             <Image
               src={BusFrontal}
-              alt={"bus frontal"}
+              alt="Smile Bus"
               className="z-[1] mt-4 px-4 sm:px-8 md:-mt-32 md:px-0"
             />
           </div>
