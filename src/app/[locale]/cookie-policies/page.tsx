@@ -177,7 +177,9 @@ export default function Page({
           <ul className="pl-6">
             <li className="list-disc">
               {t("contact_us.text.1")}:{" "}
-              <a href="mailto:ventas01@avexpress.mx">ventas01@avexpress.mx</a>
+              <a href="mailto:ventas01@avexpress.mx">
+                ventas01@smilebus.com.mx
+              </a>
             </li>
           </ul>
         </div>

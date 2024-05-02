@@ -31,7 +31,7 @@ interface Props {
 const Footer = ({ translations, currentLocale }: Props) => {
   const path = usePathname();
   return (
-    <footer className="relative flex w-full flex-col bg-gradient-to-t from-[#022204] to-[#00d800] duration-300">
+    <footer className="relative flex w-full flex-col bg-gradient-to-t from-[#00d800] to-[#21D840] duration-300">
       <div className="footer-curve -translate-y-[1px]"></div>
       <section className="section-container my-8 grid w-full grid-cols-1 gap-1 bg-transparent duration-300 sm:grid-cols-2 md:grid-cols-12 md:gap-4">
         <div className="col-span-full grid gap-4 text-gray-50 md:col-span-6">

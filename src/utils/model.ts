@@ -1,4 +1,7 @@
 import TestImage from "@/assets/Img_nosotros.jpg";
+
+
+
 import { StaticImageData } from "next/image";
 export interface Terminal {
   name: string;

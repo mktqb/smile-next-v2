@@ -315,7 +315,9 @@ export default function Page({
           </ul>
           <p>
             {t("complaints.text.1")}:{" "}
-            <a href="mailto:ventas01@avexpress.mx">ventas01@avexpress.mx</a>
+            <a href="mailto:ventas01@smilebus.com.mx">
+              ventas01@smilebus.com.mx
+            </a>
           </p>
         </div>
       </section>

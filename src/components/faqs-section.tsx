@@ -30,8 +30,8 @@ export default function FaqsSection({ translations }: Props) {
             className={clsx(
               "w-full rounded-xl px-3 py-4 shadow-xl duration-200 lg:text-start",
               selected === i &&
-                "text-shadow-xxs bg-gradient-to-b from-secondary-500 to-secondary-800 font-semibold text-white",
-              selected !== i && "bg-white text-black",
+                "text-shadow-xxs bg-[#21D840] font-semibold text-white",
+              selected !== i && "bg-white text-[#407101]",
             )}
           >
             {t.title}
@@ -52,13 +52,13 @@ export default function FaqsSection({ translations }: Props) {
               title={faq.question}
               classNames={{
                 heading:
-                  "duration-200 bg-neutral-200 text-black data-[open]:bg-gradient-to-b data-[open]:from-secondary-500 data-[open]:to-secondary-800 data-[open]:text-white data-[open]:mb-0 data-[open]:font-semibold data-[open]:mb-0 rounded-xl px-3 mb-1",
+                  "duration-200 bg-neutral-200 text-[#407101] data-[open]:bg-[#21D840] data-[open]:text-white data-[open]:mb-0 data-[open]:font-semibold data-[open]:mb-0 rounded-xl px-3 mb-1",
                 title: "duration-200 data-[open]:text-shadow-xxs",
                 indicator: "data-[open=true]:text-white",
-                content: "px-3 bg-neutral-100 mb-1 text-black",
+                content: "px-3 bg-neutral-100 mb-1 text-[#407101]",
               }}
             >
-              <div className="space-y-3 text-black">
+              <div className="space-y-3 text-[#407101]">
                 {faq.answer.map((a, i_a) => (
                   <>
                     {typeof a === "string" && <p key={i_a}>{a}</p>}
