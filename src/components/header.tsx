@@ -29,6 +29,7 @@ interface Props {
     contact_us: string;
 
     faq: string;
+    privacy: string;
     spanish: string;
     english: string;
     travelPolicy: string;
@@ -39,97 +40,29 @@ interface Props {
 
 export default function Header({ translations, currentLocale }: Props) {
   const path = usePathname();
-  const [position, setPosition] = useState(1000);
-  const [visibleHeader, setVisibleHeader] = useState(true);
   const [showMenu, setShowMenu] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      let moving = window.scrollY;
-      if (moving <= 0) {
-        setVisibleHeader(true);
-      } else {
-        setVisibleHeader(moving === 0)
-      }
- 
-      setPosition(moving);
-    };
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  });
 
   return (
     <>
-      <header
-        className={clsx(
-          "fixed top-0 z-[70] w-full duration-400",
-          !visibleHeader && "-translate-y-full",
-        )}
-      >
-        {/* Topbar */}
-        {/* <div className="w-full bg-secondary-500">
-          <section className="section-container item-center flex justify-between py-1 text-sm">
-            <div className="flex">
-              <div className="md:item-center mr-8 min-w-[130px] text-white md:grid">
-                <span className="text-xs max-md:hidden">
-                  {translations.contact_us}:
-                </span>{" "}
-                <span className="-translate-x-2 translate-y-1 text-lg max-sm:inline-block sm:hidden">
-                  <FlagUSA />
-                </span>
-                <Link
-                  className="text-nowrap font-semibold"
-                  href="tel:+1(951)569-2869"
-                >
-                  +1 (951) 569-2869
-                </Link>
-              </div>
-            </div>
-            <div className="hidden items-center text-center text-white md:flex">
-              <div className="navbar-social item-center hidden w-full lg:flex">
-                <Link
-                  href="https://www.facebook.com/profile.php?id=61557278186039"
-                  target="_blank"
-                >
-                  <div className="social-container facebook">
-                    <Facebook />
-                  </div>
-                </Link>
-                <Link href="https://www.instagram.com/702shuttles">
-                  <div className="social-container instagram">
-                    <Instagram />
-                  </div>
-                </Link>
-                <ChangeLocale
-                  currentLocale={currentLocale}
-                  path={path}
-                  translations={{
-                    english: translations.english,
-                    spanish: translations.spanish,
-                  }}
-                />
-              </div>
-            </div>
-          </section>
-        </div> */}
-        {/* End Topbar */}
-        <div className="fixed left-0 z-[80] w-full bg-[#21D840] pb-0 pt-0">
-          <section className="section-container flex items-center justify-center min-[300px]:justify-between">
+      <header className="fixed top-0 z-[70] w-full duration-400">
+        <div className="w-full bg-[#21D840]">
+          <section className="section-container flex items-center justify-between py-3">
             {/* Logo que se muestra en disp muy pequeños, centrado. Oculto de 300 a más */}
-            <button
-              className="min-[300px]:hidden"
-              onClick={() => setShowMenu(true)}
-            >
+            <button className="" onClick={() => setShowMenu(true)}>
               <span className="sr-only">{translations.home}</span>
-              <LogoSmileBus className="my-2 w-[150px] max-[350px]:w-[140px] md:w-[160px] xl:w-[180px]" />
+              <LogoSmileBus className="my-2 w-[150px] duration-300 hover:-rotate-6 hover:scale-110 max-[350px]:w-[140px] md:w-[160px] xl:w-[180px]" />
+            </button>
+            <button
+              onClick={() => setShowMenu(true)}
+              className="place-items-center text-white min-[300px]:grid md:hidden"
+            >
+              <MdiMenu className="text-3xl" />
             </button>
 
+            {/* Logo que se muestra en disp no tan pequeños, centrado. Se muestra de 300 a más */}
             <div className="hidden items-center gap-3 text-sm text-white md:flex lg:text-base">
               <nav className="navbar-desktop">
-                <Link href="/#aboutUs" className="hover:text-primary-500">
+                <Link href="/#aboutUs" className="hover:text-primary-500 hidden">
                   {translations.about_us}
                 </Link>
                 <Link href="/#destinations" className="hover:text-primary-500">
@@ -138,38 +71,15 @@ export default function Header({ translations, currentLocale }: Props) {
                 <Link href="/#terminal" className="hover:text-primary-500">
                   {translations.terminal}
                 </Link>
-              </nav>
-            </div>
-
-            {/* Logo que se muestra en disp no tan pequeños, centrado. Se muestra de 300 a más */}
-            <Link href="/" className="hidden min-[300px]:block">
-              <span className="sr-only">{translations.home}</span>
-
-              <LogoSmileBus className="my-2 w-[150px] max-[350px]:w-[140px] md:w-[160px] xl:w-[180px]" />
-            </Link>
-
-            <button
-              onClick={() => setShowMenu(true)}
-              className="hidden place-items-center text-white min-[300px]:grid md:hidden"
-            >
-              <MdiMenu className="text-3xl" />
-            </button>
-
-            {/* Logo que se muestra en disp no tan pequeños, centrado. Se muestra de 300 a más */}
-            <div className="hidden items-center gap-3 text-sm text-white md:flex lg:text-base">
-              <nav className="navbar-desktop">
                 <Link href="/#contacto" className="hover:text-secondary-300">
                   {translations.contact_us}
                 </Link>
                 <Link href="/faq" className="hover:text-primary-500">
                   {translations.faq}
                 </Link>
-                {/* <Link href="/#contact_us" className="text-shadow-xs">
-                  {translations.contact_us}
+                <Link href="/" className="hover:text-primary-500">
+                  {translations.privacy}
                 </Link>
-                <Link href="/faq" className="text-shadow-xs">
-                  {translations.faq}
-                </Link> */}
               </nav>
             </div>
           </section>

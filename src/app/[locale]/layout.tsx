@@ -63,6 +63,7 @@ export default function RootLayout({
               terminal: t("Index.links.terminal"),
               contact_us: t("Index.links.contact_us"),
               faq: t("Index.links.faq"),
+              privacy: t("Index.links.privacy"),
               english: t("Index.locales.english"),
               spanish: t("Index.locales.spanish"),
               language: t("Index.locales.language"),

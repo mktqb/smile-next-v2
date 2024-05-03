@@ -12,7 +12,7 @@
 }
 .flat.container:not(.disabled),
 .transparent.container:not(.disabled) {
-  @apply border-[#21D840] hover:border-[#21D840];
+  @apply border-white hover:border-[#21D840];
 }
 .flat.container.loading,
 .transparent.container.loading {
