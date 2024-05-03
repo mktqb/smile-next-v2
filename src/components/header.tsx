@@ -44,9 +44,9 @@ export default function Header({ translations, currentLocale }: Props) {
   return (
     <>
       <header className="fixed top-0 z-[70] w-full duration-400">
-        <div className="w-full bg-[#21D840] relative">
-          <Mancha className="absolute -right-5 top-0 text-[#03A9EA] text-[10rem] z-10" />
-          <section className="section-container relative flex items-center justify-between py-3 z-20">
+        <div className="relative w-full bg-[#21D840]">
+          <Mancha className="absolute -right-5 top-0 z-10 text-[10rem] text-[#DA089F]" />
+          <section className="section-container relative z-20 flex items-center justify-between py-3">
             {/* Logo que se muestra en disp muy pequeños, centrado. Oculto de 300 a más */}
             <button className="" onClick={() => setShowMenu(true)}>
               <span className="sr-only">{translations.home}</span>
@@ -68,21 +68,15 @@ export default function Header({ translations, currentLocale }: Props) {
                 >
                   {translations.about_us}
                 </Link>
-                <Link href="/#destinations">
-                  {translations.destinations}
-                </Link>
-                <Link href="/#terminal">
-                  {translations.terminal}
-                </Link>
+                <Link href="/#destinations">{translations.destinations}</Link>
+                <Link href="/#terminal">{translations.terminal}</Link>
                 <Link href="/#contacto" className="max-lg:hidden">
                   {translations.contact_us}
                 </Link>
                 <Link href="/faq" className="max-lg:hidden">
                   {translations.faq}
                 </Link>
-                <Link href="/">
-                  {translations.privacy}
-                </Link>
+                <Link href="/">{translations.privacy}</Link>
               </nav>
             </div>
           </section>
