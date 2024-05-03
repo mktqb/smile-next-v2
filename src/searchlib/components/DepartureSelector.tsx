@@ -119,7 +119,7 @@ export const DepartureSelector = ({
                     className={`group ${styles.btn} ${styles.iconContainer}`}
                   >
                     <HeroiconsMapPin20Solid
-                      className="h-5 w-5 text-neutral-500 duration-200 group-hover:text-black"
+                      className="h-5 w-5 text-[#21D840] duration-200 group-hover:text-black"
                       aria-hidden="true"
                     />
                   </Combobox.Button>

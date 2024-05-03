@@ -141,7 +141,7 @@ export default function HeroHome({
 
       <div className="absolute left-0 top-12 z-10 grid h-full w-full pt-44 max-[375px]:top-10 sm:pt-32 md:top-10 md:pt-32 lg:pt-36 xl:pt-36 2xl:top-10 2xl:pt-28">
         {withSearcher && (
-          <section className="section-container position-initial z-50 mt-20 max-lg:pt-4">
+          <section className="section-container position-initial z-50 mt-16 max-lg:pt-4">
             <div className="w-full lg:max-w-72 xl:max-w-[26rem]">
               <Searcher
                 url="https://privado.smilebus.com.mx/"

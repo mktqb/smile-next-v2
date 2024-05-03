@@ -152,7 +152,7 @@ export default function Home({
       {/* quienes somos */}
       <div className="scroll-m-28" id="aboutUs">
         <div className="relative mt-10 h-min w-full place-items-center overflow-hidden bg-transparent max-md:rounded-t-3xl max-sm:bg-primary-100 md:my-0 md:rounded-b-[5rem] md:bg-white">
-          <section className="section-container grid w-full items-center gap-0 bg-transparent py-8 max-lg:pb-0 max-md:px-8 md:grid-cols-5 md:gap-10 md:py-14 xl:grid-cols-2 xl:gap-6">
+          <section className="section-container grid w-full items-center gap-0 bg-transparent py-8 max-lg:pb-0 max-md:px-8 md:grid-cols-5 md:gap-10 md:pt-14 md:pb-8 xl:grid-cols-2 xl:gap-6">
             <div className="flex flex-col items-center gap-4 rounded-t-xl bg-white px-6 py-8 md:col-span-3 md:items-start md:bg-transparent md:p-0 lg:gap-4 xl:col-span-1">
               <h1 className="main-title text-center font-semibold text-black">
                 {t("about_us.title")}

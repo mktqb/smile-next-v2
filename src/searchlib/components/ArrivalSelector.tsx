@@ -104,11 +104,11 @@ export const ArrivalSelector = ({
               />
               {isDisabled ? (
                 <div className={styles.iconContainer}>
-                  <MingcuteLoadingFill className="h-5 w-5 text-neutral-800 dark:text-neutral-800" />
+                  <MingcuteLoadingFill className="h-5 w-5 text-[#21D840] dark:text-[#21D840]" />
                 </div>
               ) : isLoading ? (
                 <div className={styles.iconContainer}>
-                  <MingcuteLoadingFill className="h-5 w-5 animate-spin text-neutral-800" />
+                  <MingcuteLoadingFill className="h-5 w-5 animate-spin text-[#21D840]" />
                 </div>
               ) : error ? (
                 <div className={styles.iconContainer}>
@@ -131,7 +131,7 @@ export const ArrivalSelector = ({
                     className={`group ${styles.btn} ${styles.iconContainer}`}
                   >
                     <HeroiconsMapPin20Solid
-                      className="h-5 w-5 text-gray-400 duration-200 group-hover:text-black"
+                      className="h-5 w-5 text-[#21D840] duration-200 group-hover:text-black"
                       aria-hidden="true"
                     />
                   </Combobox.Button>

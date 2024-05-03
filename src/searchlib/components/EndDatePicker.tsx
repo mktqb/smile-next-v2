@@ -123,7 +123,7 @@ export const EndDatePicker = ({
                 <Button
                   className={`group/button ${styles.iconContainer} ${styles.btn}`}
                 >
-                  <HeroiconsCalendar20Solid className="h-5 w-5 text-gray-400 duration-200 group-hover/button:text-primary-600" />
+                  <HeroiconsCalendar20Solid className="h-5 w-5 text-[#21D840] duration-200 group-hover/button:text-primary-600" />
                 </Button>
               </>
             )}
