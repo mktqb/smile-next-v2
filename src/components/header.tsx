@@ -45,7 +45,7 @@ export default function Header({ translations, currentLocale }: Props) {
     <>
       <header className="fixed top-0 z-[70] w-full duration-400">
         <div className="relative w-full bg-[#21D840]">
-          <Mancha className="absolute -right-5 top-0 z-10 text-[10rem] text-[#DA089F]" />
+          <Mancha className="absolute -right-5 top-0 z-10 text-[6rem] md:text-[10rem] 2xl:text-[12rem] text-[#DA089F]" />
           <section className="section-container relative z-20 flex items-center justify-between py-3">
             {/* Logo que se muestra en disp muy pequeños, centrado. Oculto de 300 a más */}
             <button className="" onClick={() => setShowMenu(true)}>

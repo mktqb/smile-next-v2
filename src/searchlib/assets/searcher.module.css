@@ -78,11 +78,11 @@
 }
 
 .searchContainerV .formButton {
-  @apply relative col-span-1 w-full rounded-lg bg-[#591BE5] font-semibold uppercase text-white duration-200 lg:!col-span-1;
+  @apply relative col-span-1 w-full rounded-lg bg-[#DA089F] font-semibold uppercase text-white duration-200 lg:!col-span-1;
 }
 
 .formButton {
-  @apply relative col-span-1 w-full rounded-lg bg-neutral-950 font-semibold uppercase text-white duration-200 md:col-span-2 md:hover:bg-black 2xl:!col-span-1;
+  @apply relative col-span-1 w-full rounded-lg bg-[#DA089F] font-semibold uppercase text-white duration-200 md:col-span-2 md:hover:bg-black 2xl:!col-span-1;
 }
 .flat.formButton {
   @apply h-10;
@@ -94,7 +94,7 @@
   @apply lg:col-span-6;
 }
 .formButton.disabled {
-  @apply grayscale disabled:cursor-not-allowed disabled:hover:bg-primary-500;
+  @apply disabled:cursor-not-allowed disabled:hover:bg-[#DA089F]/80;
 }
 
 .searchContainerV .passengersInput {

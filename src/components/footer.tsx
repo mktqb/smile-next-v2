@@ -8,6 +8,7 @@ import LogoSmileBus from "@/assets/Logo-SmileBus.png";
 
 import ChangeLocale from "./change-locale";
 import {
+  Mancha2,
   PoweredByQuatrobus,
 } from "./svg";
 
@@ -33,7 +34,8 @@ const Footer = ({ translations, currentLocale }: Props) => {
   return (
     <footer className="relative flex w-full flex-col bg-gradient-to-t from-[#00d800] to-[#21D840] duration-300">
       <div className="footer-curve -translate-y-[1px]"></div>
-      <section className="section-container my-8 grid w-full grid-cols-1 gap-1 bg-transparent duration-300 sm:grid-cols-2 md:grid-cols-12 md:gap-4">
+      <Mancha2 className="absolute bottom-0 left-0 z-10 text-[5rem] text-[#ffe031] md:text-[8rem] 2xl:text-[10rem]" />
+      <section className="section-container relative z-20 my-8 grid w-full grid-cols-1 gap-1 bg-transparent duration-300 sm:grid-cols-2 md:grid-cols-12 md:gap-4">
         <div className="col-span-full grid gap-4 text-gray-50 md:col-span-6">
           <Image
             src={LogoSmileBus}
@@ -128,7 +130,7 @@ const Footer = ({ translations, currentLocale }: Props) => {
         </div>
         {/* Fin Nav bar */}
       </section>
-      <div className="col-span-full grid place-items-center gap-4 bg-transparent pb-4 pt-7 text-white">
+      <div className="relative z-20 col-span-full grid place-items-center gap-4 bg-transparent pb-4 pt-7 text-white">
         <PoweredByQuatrobus className="inline-flex text-xs" />
         <span className="text-center text-xs">{translations.copyright}</span>
       </div>
