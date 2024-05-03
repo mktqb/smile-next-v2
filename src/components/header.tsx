@@ -117,7 +117,7 @@ export default function Header({ translations, currentLocale }: Props) {
         </div> */}
         {/* End Topbar */}
         <div className="fixed left-0 z-[80] w-full bg-[#21D840] pb-0 pt-0">
-          <section className="section-container flex items-center justify-center max-md:pl-0 min-[300px]:justify-between">
+          <section className="section-container flex items-center justify-center min-[300px]:justify-between">
             {/* Logo que se muestra en disp muy pequeños, centrado. Oculto de 300 a más */}
             <button
               className="min-[300px]:hidden"

@@ -39,7 +39,7 @@ export default function HeroHome({
         spaceBetween={0}
         modules={[Autoplay, EffectFade]}
         effect="fade"
-        autoplay={{ delay: 5000 }}
+        autoplay={{ delay: 6000 }}
         className="h-full"
       >
         <SwiperSlide className="relative h-full w-full">
@@ -53,10 +53,10 @@ export default function HeroHome({
             priority
           />
           <div className="absolute left-0 top-40 z-20 flex flex-col items-center gap-5 max-lg:w-full lg:left-1/2 lg:top-60 lg:-translate-x-24 xl:w-2/5 2xl:w-1/3">
-            <span className="font-taviraj text-center text-3xl font-bold text-white [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)] max-xl:text-balance lg:text-center lg:text-5xl">
+            <span className="text-center font-taviraj text-3xl font-bold text-white [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)] max-xl:text-balance lg:text-center lg:text-5xl">
               {translations.slogan}
             </span>
-            <p className="mt-1 rounded-xl bg-white px-2 py-1 text-center text-xs font-bold text-primary-300 drop-shadow-2xl md:mt-5 lg:px-5 lg:text-base xl:text-lg">
+            <p className="mt-1 rounded-xl bg-white px-2 py-1 text-center text-sm font-bold text-primary-300 drop-shadow-2xl md:mt-5 lg:px-5 lg:text-base xl:text-lg">
               {translations.text}
             </p>
           </div>
@@ -72,9 +72,12 @@ export default function HeroHome({
             priority
           />
           <div className="absolute left-0 top-40 z-20 grid w-full place-items-center lg:left-1/4 lg:top-72 lg:-translate-x-28 xl:-translate-x-64">
-            <span className="font-taviraj text-center text-6xl font-bold text-white underline decoration-primary-300 underline-offset-4 [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)]">
+            <span className="text-center font-taviraj text-6xl font-bold text-white underline decoration-primary-300 underline-offset-4 [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)]">
               Puebla
             </span>
+            <p className="mt-1 rounded-xl bg-white px-2 py-1 text-center text-sm font-bold text-primary-300 drop-shadow-2xl md:mt-5 lg:px-5 lg:text-base xl:text-lg">
+              {translations.slogan}
+            </p>
           </div>
         </SwiperSlide>
         <SwiperSlide className="relative h-full w-full">
@@ -88,9 +91,12 @@ export default function HeroHome({
             priority
           />
           <div className="absolute left-0 top-40 z-20 grid w-full place-items-center lg:left-1/4 lg:top-72 lg:-translate-x-28 xl:-translate-x-64">
-            <span className="font-taviraj text-center text-6xl font-bold text-white underline decoration-primary-300 underline-offset-4 [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)]">
+            <span className="text-center font-taviraj text-6xl font-bold text-white underline decoration-primary-300 underline-offset-4 [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)]">
               Veracruz
             </span>
+            <p className="mt-1 rounded-xl bg-white px-2 py-1 text-center text-sm font-bold text-primary-300 drop-shadow-2xl md:mt-5 lg:px-5 lg:text-base xl:text-lg">
+              {translations.slogan}
+            </p>
           </div>
         </SwiperSlide>
         <SwiperSlide className="relative h-full w-full">
@@ -104,9 +110,12 @@ export default function HeroHome({
             priority
           />
           <div className="absolute left-0 top-40 z-20 grid w-full place-items-center lg:left-1/4 lg:top-72 lg:-translate-x-28 xl:-translate-x-64">
-            <span className="font-taviraj text-center text-6xl font-bold text-white underline decoration-primary-300 underline-offset-4 [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)]">
+            <span className="text-center font-taviraj text-6xl font-bold text-white underline decoration-primary-300 underline-offset-4 [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)]">
               Xalapa
             </span>
+            <p className="mt-1 rounded-xl bg-white px-2 py-1 text-center text-sm font-bold text-primary-300 drop-shadow-2xl md:mt-5 lg:px-5 lg:text-base xl:text-lg">
+              {translations.slogan}
+            </p>
           </div>
         </SwiperSlide>
         <SwiperSlide className="relative h-full w-full">
@@ -120,9 +129,12 @@ export default function HeroHome({
             priority
           />
           <div className="absolute left-0 top-40 z-20 grid w-full place-items-center lg:left-1/4 lg:top-72 lg:-translate-x-28 xl:-translate-x-64">
-            <span className="font-taviraj text-center text-6xl font-bold text-white underline decoration-primary-300 underline-offset-4 [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)]">
+            <span className="text-center font-taviraj text-6xl font-bold text-white underline decoration-primary-300 underline-offset-4 [text-shadow:_0_5px_10px_rgba(0,_0,_0,_0.5)]">
               CDMX
             </span>
+            <p className="mt-1 rounded-xl bg-white px-2 py-1 text-center text-sm font-bold text-primary-300 drop-shadow-2xl md:mt-5 lg:px-5 lg:text-base xl:text-lg">
+              {translations.slogan}
+            </p>
           </div>
         </SwiperSlide>
       </Swiper>
@@ -130,7 +142,7 @@ export default function HeroHome({
       <div className="absolute left-0 top-12 z-10 grid h-full w-full pt-44 max-[375px]:top-10 sm:pt-32 md:top-10 md:pt-32 lg:pt-36 xl:pt-36 2xl:top-10 2xl:pt-28">
         {withSearcher && (
           <section className="section-container position-initial z-50 mt-20 max-lg:pt-4">
-            <div className="w-full lg:max-w-72 xl:max-w-[21rem]">
+            <div className="w-full lg:max-w-72 xl:max-w-[23rem]">
               <Searcher
                 url="https://privado.smilebus.com.mx/"
                 variant="transparent"

@@ -8,11 +8,11 @@
   @apply border-neutral-300 py-1.5;
 }
 .transparent.container {
-  @apply border-transparent pt-2 pb-1;
+  @apply border-3 pt-3 pb-1;
 }
 .flat.container:not(.disabled),
 .transparent.container:not(.disabled) {
-  @apply hover:border-neutral-500;
+  @apply border-[#21D840] hover:border-[#21D840];
 }
 .flat.container.loading,
 .transparent.container.loading {
@@ -44,7 +44,7 @@
   @apply left-3 top-3;
 }
 .flat.label.focus {
-  @apply -top-2 left-2 px-1 text-[0.7rem];
+  @apply -top-2 left-2 px-1 pt-1 text-[0.7rem];
 }
 /* :global(.dark) .flat.label.focus {
   @apply bg-neutral-800;

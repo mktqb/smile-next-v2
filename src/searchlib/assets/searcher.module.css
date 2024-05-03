@@ -20,7 +20,7 @@
 } */
 .transparent.searchContainer,
 .transparent.searchContainerV {
-  @apply bg-white bg-opacity-50 backdrop-blur-none;
+  @apply bg-white bg-opacity-35 backdrop-blur-sm;
 }
 /* :global(.dark) .transparent.searchContainer,
 :global(.dark) .transparent.searchContainerV {
