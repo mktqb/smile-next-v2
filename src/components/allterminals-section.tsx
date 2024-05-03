@@ -22,7 +22,7 @@ export default function AllTerminals({ locale }: { locale: string }) {
             {terminals.map((office) => (
               <button
                 key={office.id}
-                className={`mb-0 flex-grow space-y-1 px-5 pb-5 pt-5 text-left text-sm font-medium first:rounded-t-2xl last:rounded-b-2xl focus:outline-none md:px-5 ${selectedTerminal === office ? " bg-[#21D840] text-white" : "bg-white text-gray-800"}`}
+                className={`mb-0 flex-grow space-y-1 px-5 pb-3 pt-3 text-left text-sm font-medium first:rounded-t-2xl last:rounded-b-2xl focus:outline-none md:px-5 md:pb-5 md:pt-5 ${selectedTerminal === office ? " bg-[#21D840] text-white" : "bg-white text-gray-800"}`}
                 onClick={() => setSelectedTerminal(office)}
               >
                 <h4
@@ -44,9 +44,7 @@ export default function AllTerminals({ locale }: { locale: string }) {
                   />
                   <p
                     className={`w-full text-sm font-normal  ${
-                      selectedTerminal === office
-                        ? "text-white"
-                        : "text-[#407002]"
+                      selectedTerminal === office ? "text-white" : "text-black"
                     }`}
                   >
                     {office.address}
@@ -57,10 +55,10 @@ export default function AllTerminals({ locale }: { locale: string }) {
           </div>
           {/* Fin: Seccion donde se muestran las Terminales Desktop */}
           {/* Inicio: Seccion donde se muestran los mapas */}
-          <div className="flex w-full flex-grow max-md:mt-4 max-md:aspect-[8/9] sm:rounded-3xl md:w-6/12 lg:w-7/12 2xl:w-[60%]">
+          <div className="flex w-11/12 flex-grow max-md:mx-auto max-md:mt-4 max-md:aspect-[7/9] sm:rounded-3xl md:w-6/12 lg:w-7/12 2xl:w-[60%]">
             <div className="relative h-full w-full">
-              <div className="hidden w-full bg-primary-100 pb-2 md:block">
-                <div className="w-full rounded-2xl bg-white px-6 pb-3 pt-4">
+              <div className="w-full bg-primary-100 md:pb-2">
+                <div className="w-full rounded-t-2xl bg-white px-4 md:px-6 pb-3 pt-4 md:rounded-2xl">
                   <div className="flex justify-between gap-1">
                     <div className="flex flex-col">
                       <div className="flex items-start gap-1">
@@ -76,7 +74,7 @@ export default function AllTerminals({ locale }: { locale: string }) {
                         </p>
                       </div>
                     </div>
-                    <div className="flex gap-6">
+                    <div className="flex gap-6 justify-center items-center">
                       <div className="bg-red grid aspect-square h-fit w-fit">
                         <Link
                           target="_blank"
@@ -91,11 +89,11 @@ export default function AllTerminals({ locale }: { locale: string }) {
                   </div>
                 </div>
               </div>
-              <div className="h-full w-full overflow-hidden sm:rounded-2xl">
+              <div className="h-full w-full overflow-hidden rounded-b-2xl md:rounded-2xl">
                 <Image
                   src={selectedTerminal.url}
                   alt="image"
-                  className="h-auto w-full rounded-2xl object-cover object-center"
+                  className="h-auto w-full rounded-b-2xl object-cover object-center md:rounded-2xl"
                 />
                 {/* <Link
                   className="text-3xl text-primary-500"
