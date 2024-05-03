@@ -132,15 +132,15 @@ body {
   }
   /* Navbars */
   .navbar-desktop a {
-    @apply px-3 text-base font-medium text-white tracking-[0.05em];
+    @apply px-3 py-2 text-base font-medium text-white tracking-[0.05em];
     /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9); */
   }
   .navbar-desktop a:last-child {
-    @apply pr-0;
+    @apply pr-3;
     /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9); */
   }
   .navbar-desktop a:hover {
-    @apply hover:text-[#591BE5] decoration-[#591BE5] underline;
+    @apply hover:text-white hover:bg-[#DA089F] rounded-2xl;
   }
 
   .navbar-mobile {

@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { FlagMexico, FlagUSA, LogoSmileBus, MdiClose, MdiMenu } from "./svg";
+import { FlagMexico, FlagUSA, LogoSmileBus, MdiClose, MdiMenu, Mancha } from "./svg";
 import { usePathname, Link } from "@/navigation";
 import Image from "next/image";
 
@@ -15,7 +15,6 @@ import ChangeLocale from "./change-locale";
   DropdownTrigger,
 } from "@nextui-org/react";
 import LanguageSwitch from "./language-switch"; */
-
 import Logo from "@/assets/logo.png";
 /* import LogoM from "@/assets/LogoAVM.png"; */
 
@@ -45,8 +44,9 @@ export default function Header({ translations, currentLocale }: Props) {
   return (
     <>
       <header className="fixed top-0 z-[70] w-full duration-400">
-        <div className="w-full bg-[#21D840]">
-          <section className="section-container flex items-center justify-between py-3">
+        <div className="w-full bg-[#21D840] relative">
+          <Mancha className="absolute -right-5 top-0 text-[#03A9EA] text-[10rem] z-10" />
+          <section className="section-container relative flex items-center justify-between py-3 z-20">
             {/* Logo que se muestra en disp muy pequeños, centrado. Oculto de 300 a más */}
             <button className="" onClick={() => setShowMenu(true)}>
               <span className="sr-only">{translations.home}</span>
@@ -62,22 +62,25 @@ export default function Header({ translations, currentLocale }: Props) {
             {/* Logo que se muestra en disp no tan pequeños, centrado. Se muestra de 300 a más */}
             <div className="hidden items-center gap-3 text-sm text-white md:flex lg:text-base">
               <nav className="navbar-desktop">
-                <Link href="/#aboutUs" className="hover:text-primary-500 hidden">
+                <Link
+                  href="/#aboutUs"
+                  className="hidden hover:text-primary-500"
+                >
                   {translations.about_us}
                 </Link>
-                <Link href="/#destinations" className="hover:text-primary-500">
+                <Link href="/#destinations">
                   {translations.destinations}
                 </Link>
-                <Link href="/#terminal" className="hover:text-primary-500">
+                <Link href="/#terminal">
                   {translations.terminal}
                 </Link>
-                <Link href="/#contacto" className="hover:text-secondary-300">
+                <Link href="/#contacto" className="max-lg:hidden">
                   {translations.contact_us}
                 </Link>
-                <Link href="/faq" className="hover:text-primary-500">
+                <Link href="/faq" className="max-lg:hidden">
                   {translations.faq}
                 </Link>
-                <Link href="/" className="hover:text-primary-500">
+                <Link href="/">
                   {translations.privacy}
                 </Link>
               </nav>

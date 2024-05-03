@@ -1,7 +1,6 @@
 import TestImage from "@/assets/Img_nosotros.jpg";
 import Terminal1 from "@/assets/Terminal1.jpg";
 import Terminal2 from "@/assets/Terminal2.jpg";
-import Terminal3 from "@/assets/Terminal3.jpg";
 import Terminal4 from "@/assets/Terminal4.jpg";
 import Terminal5 from "@/assets/Terminal5.jpg";
 
@@ -98,15 +97,6 @@ export const terminals: Terminal[] = [
     ref1: "Se encuentra al lado de Walmart Express La Noria",
     ref2: "Por Cto Juan Pablo II",
     id: "t2",
-  },
-  {
-    name: "Soriana Híper Boca del Río",
-    address: "Calz. Juan Pablo II 1350, Sutsem, 94299 Veracruz, Veracruz",
-    url: Terminal3,
-    maps: "https://maps.app.goo.gl/BuFMka9iBNtHtkV48",
-    ref1: "",
-    ref2: "",
-    id: "t3",
   },
   {
     name: "Terminal Veracruz AV Express / Smile Bus",
