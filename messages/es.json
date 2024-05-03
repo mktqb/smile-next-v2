@@ -75,8 +75,8 @@
     "about_us": {
       "title": "¿Quiénes somos?",
       "text": {
-        "0": "Fundada en noviembre de 2018, AV Express es una empresa líder en el transporte foráneo de pasajeros, con distintos destinos en la República Mexicana y conectividad a USA. <br class=\"md:hidden\" /> <br class=\"md:hidden\" /> Destaca por su combinación única de tradición e innovación al salir desde centrales de autobuses y puntos estratégicos.",
-        "1": "Inspirado en Veracruz, su nombre refleja su compromiso con rapidez, eficiencia y seguridad. Su objetivo es superar las expectativas, garantizando comodidad, puntualidad y seguridad en cada viaje, haciendo que sean inolvidables."
+        "0": "Fundada en noviembre de 2018, Autobuses Expresos de Veracruz, ahora SMILE BUS, es una empresa líder en el transporte foráneo de pasajeros, generando movilidad entre Veracruz, Xalapa, Puebla y La Ciudad de México.",
+        "1": "Destaca por su modelo innovador de acercarse al pasajero, con diferentes puntos estratégicos de abordaje. Su objetivo, es superar las expectativas de sus pasajeros, garantizando comodidad, puntualidad y seguridad en cada viaje, haciendo que sean experiencias inolvidables."
       },
       "button": "Viaja con nosotros"
     },
@@ -144,7 +144,6 @@
       "title": "Habla con nosotros",
       "subtitle": "Conoce nuestras oficinas principales"
     }
-
   },
   "Faq": {
     "title": "Preguntas Frecuentes",
@@ -540,6 +539,117 @@
       "1": "Las Cookies no suelen contener ninguna información que identifique personalmente al usuario, pero la información personal que almacenamos sobre usted puede vincularse a la información almacenada y obtenida de las cookies.",
       "2": "Para más información sobre cómo utilizamos, almacenamos y velamos por la seguridad de sus datos personales, consulte nuestra Política de Privacidad.",
       "3": "No almacenamos información personal confidencial, como direcciones de correo, contraseñas de cuentas, etc. en las cookies que utilizamos. Cuando visite nuestro sitio web por primera vez, utilizaremos una cookie para recordar su identidad y ahorrarle tiempo en su próxima visita."
+    }
+  },
+  "AvisoPrivacidad": {
+    "title": "Aviso de Privacidad de clientes",
+    "text": "El presente aviso de privacidad en lo sucesivo “EL AVISO” se emite en cumplimiento a lo dispuesto por el artículo 15 de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares en lo sucesivo “LA LEY”, y sus correlativos del Reglamento de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares en lo sucesivo “EL REGLAMENTO”, y se pone a disposición de los usuarios que entreguen datos o información de carácter personal a AUTOBUSES EXPRESOS DE VERACRUZ, en lo sucesivo “Smile Bus”.",
+    "responsable": {
+      "title": "Responsable de la protección de sus Datos Personales",
+      "text": {
+        "0": "“Smile Bus”, con domicilio para recibir notificaciones en Corredor Industrial Número Exterior 3, Numero Interior Edif. Corp. 21 Colonia Frac industrial Sahagún, Municipio Tepeapulco, Código Postal 43998, Hidalgo, México; es responsable, del tratamiento de sus datos personales.",
+        "1": "“Smile Bus” en su carácter de responsable del tratamiento de datos personales observa los principios de licitud, consentimiento, información, calidad, finalidad, lealtad, proporcionalidad y responsabilidad, tal y como lo establece “LA LEY”."
+      }
+    },
+    "forma": {
+      "title": "Forma y medios de contacto",
+      "text": "Para contactarnos, usted deberá presentar una solicitud redactada en idioma español, dirigida a la OFICINA DE PROTECCIÓN DE DATOS PERSONALES DE “Smile Bus”, y hacerla llegar de manera presencial o por correo postal a la dirección: Corredor Industrial Número Exterior 3, Numero Interior Edif. Corp. 21 Colonia Frac industrial Sahagún, Municipio Tepeapulco, Código Postal 43998, Hidalgo, México."
+    },
+    "datos": {
+      "title": "Datos personales que recabamos y medios de obtención de Datos Personales",
+      "text": {
+        "0": "Los datos personales que recabamos de los usuarios para dar cumplimiento a los fines descritos en el presente “AVISO”, son recabados de manera directa, cuando usted nos los proporciona a través de nuestros puntos de venta, nuestra página web www.smilebus.com.mx, aplicaciones móviles, redes sociales oficiales, servicios de mensajería instantánea por internet, centros de atención, quejas y sugerencias, de manera telefónica y por correo electrónico, y cuando obtenemos información a través de otras fuentes de acceso público permitidas por “LA LEY” y “EL REGLAMENTO”.",
+        "1": "Los datos que recabamos son los siguientes:",
+        "2": "De las personas físicas: Nombre completo y apellidos, género (masculino o femenino), imagen, fecha de nacimiento, nacionalidad, número de teléfono fijo, número de celular, correo electrónico, domicilio, credenciales o contraseñas de redes sociales o buscadores (cuando usted decida registrarse como usuario de nuestras herramientas tecnológicas mediante redes sociales o buscadores), edad e identificación oficial. En cuanto a los datos de carácter patrimonial, tales como el Registro Federal de Contribuyentes (RFC), domicilio fiscal y datos e información de pago, usted al hacer uso de esta información para adquirir alguno de nuestros productos o servicios, otorga su consentimiento expreso para el tratamiento de estos datos conforme a lo dispuesto en el artículo 8 de “LA LEY”.",
+        "3": "De las personas morales: Del representante o apoderado legal, nombre completo y apellidos, identificación oficial, firma, correo electrónico, clave única de registro de población, fecha de nacimiento, teléfono, domicilio y nacionalidad. En cuanto a los datos de carácter patrimonial o financiero de la empresa, como el Registro Federal de Contribuyentes (RFC), domicilio fiscal y datos e información de pago, el apoderado o representante legal, al hacer uso de esta información para adquirir alguno de nuestros productos o servicios, otorga su consentimiento expreso para el tratamiento de estos datos conforme a lo dispuesto en el artículo 8 de “LA LEY”.",
+        "4": "Le informamos que “Smile Bus” no almacena ninguna información de tarjetas de débito, crédito o método de pago como parte del procesamiento de pago. “Smile Bus” transmite la información de las tarjetas de débito, crédito o método de pago directamente con su Banco o a la plataforma de pago que esté utilizando.",
+        "5": "Asimismo, toda vez que “LA LEY” permite otras fuentes de allegarnos de información como lo son directorios telefónicos y de servicios, físicos o electrónicos, los datos que por dichos medios podemos obtener son nombre y apellidos, teléfono, correo electrónico y domicilio."
+      }
+    },
+    "personales": {
+      "title": "Datos Personales de terceros y menores de edad",
+      "text": {
+        "0": "“Smile Bus” podrá recabar y dar tratamiento a datos personales de identificación y contacto de terceras personas, tales como su nombre completo, correo electrónico y número telefónico, cuando usted o dichos terceros los proporcionen para fines relacionados con los productos y/o servicios contratados en nombre de dichos terceros, por lo que al proporcionarlos usted reconoce haber informado a estos terceros sobre el uso de sus datos personales y haber obtenido de forma previa el consentimiento de estos últimos para que “Smile Bus” pueda tratarlos para los fines antes señalados",
+        "1": "“Smile Bus” no recaba ni trata datos personales de menores de edad, por lo que usted reconoce que al momento de proporcionar sus datos es mayor de edad, cuenta con plena capacidad jurídica y ha leído el presente aviso de privacidad. En el caso de que como excepción se recaben y traten datos personales de menores de edad o de personas con incapacidad natural o legal establecida por ley, como el nombre y la edad, estos se recabarán o tratarán previo consentimiento de la persona que ejerza la patria potestad, o la tutela o representación legal, de conformidad con las leyes aplicables.",
+        "2": "Si “Smile Bus” identifica que un menor de edad o persona con incapacidad natural o legal ha proporcionado sus datos personales sin el consentimiento de quién ejerce su patria potestad o de su tutor o representante legal, o que, por error humano o técnico, se han recabado datos personales de menores de edad o de personas con incapacidad natural o legal, dichos datos personales serán eliminados de las bases de datos que los contengan en cuanto se tenga conocimiento de ello."
+      }
+    },
+    "sensibles": {
+      "title": "Datos personales sensibles",
+      "text": "“Smile Bus” no recabará ni dará tratamiento a datos personales sensibles de ninguna clase."
+    },
+    "finalidades": {
+      "title": "Finalidades del Tratamiento de los Datos Personales",
+      "text": {
+        "0": "Sus datos personales serán utilizados para las siguientes finalidades:",
+        "1": "Finalidades Primarias: Finalidades que dieron origen y son necesarias para la existencia, mantenimiento y cumplimiento de la relación jurídica entre usted y “Smile Bus”:",
+        "2": "Identificación y contacto.",
+        "3": "Contratación, seguimiento, actualización, confirmación y generación de histórico de los productos y/o servicios contratados.",
+        "4": "Creación, actualización, personalización, mantenimiento y autenticación de su cuenta de usuario",
+        "5": "Atención de dudas, quejas, comentarios, sugerencias, aclaraciones y seguimiento a las mismas.",
+        "6": "De seguridad de las personas, al adquirir un producto o servicio, usted podría ser videograbado o fotografiado, por lo que se le informa que las imágenes provenientes de las videograbaciones o fotografías estarán protegidas por “LA LEY” y “EL REGLAMENTO”, y serán conservadas en las bases de datos por un período de diez días naturales, concluido dicho periodo las videograbaciones o fotografías serán formateadas o eliminadas.",
+        "7": "Validación crediticia y de pago y evaluación del riesgo de fraude de las transacciones.",
+        "8": "Facturación de los servicios o productos contratados.",
+        "9": "Cumplimiento de obligaciones legales y normativas, así como de requerimientos de autoridades gubernamentales o judiciales, Federales, Estatales o Municipales y/o entidades regulatorias.",
+        "10": "Finalidades Secundarias: Finalidades distintas y que no dan origen a la relación jurídica entre usted y “Smile Bus”, pero que nos son de suma utilidad para brindarle un mejor servicio y desarrollar nuevos productos y servicios:",
+        "11": "Evaluación de la calidad del servicio a través de encuestas, realizar estudios sobre hábitos de consumo y preferencias.",
+        "12": "Participación en concursos, sorteos, eventos y promociones. Le informamos que, en el caso de que usted participe en dichas actividades, “Smile Bus” podrá recabar su imagen a través de videos y/o fotografías y publicarlas a través de distintos medios de difusión tanto físicos como electrónicos, así como sus datos personales, tales como nombre completo y apellidos, fecha de nacimiento, correo electrónico, dirección y número telefónico, para en su caso documentar su participación o realizar la entrega del premio o incentivo que corresponda.",
+        "13": "Informarle y/u ofrecerle la gama de productos y servicios que comercializa “Smile Bus” y comunicarle promociones.",
+        "14": "Mercadotecnia y prospección comercial.",
+        "15": "Realizar tratamientos de técnicas de análisis masivo de datos para realizar actividades de perfilamiento y mejor conocimiento del cliente.",
+        "16": "La prestación de los servicios y/o la creación de una cuenta implica el consentimiento pleno y sin reservas de los usuarios para el tratamiento de sus Datos Personales de acuerdo con el presente Aviso de Privacidad.",
+        "17": "En caso que usted desee manifestar OPOSICIÓN a que sus datos personales sean tratados para las finalidades secundarias antes descritas, deberá de enviar un correo electrónico a la dirección datos.personales@smilebus.com.mx o presentar una solicitud por escrito, en idioma español a la siguiente dirección: Corredor Industrial Número Exterior 3, Numero Interior Edif. Corp. 21 Colonia Frac industrial Sahagún, Municipio Tepeapulco, Código Postal 43998, Hidalgo, México., manifestando a qué finalidad o finalidades secundarias se opone."
+      }
+    },
+    "limitaciones": {
+      "title": "Limitaciones al uso de datos",
+      "text": {
+        "0": "Usted puede limitar el uso o divulgación de sus datos personales haciéndonos llegar una solicitud por escrito en idioma español, dirigida a la OFICINA DE PROTECCIÓN DE DATOS PERSONALES DE “Smile Bus”, al correo electrónico datos.personales@smilebus.com.mx o a la siguiente dirección: Corredor Industrial Número Exterior 3, Numero Interior Edif. Corp. 21 Colonia Frac industrial Sahagún, Municipio Tepeapulco, Código Postal 43998, Hidalgo, México, en donde nos mencione su intención de limitar el uso o divulgación de sus datos personales e indique datos necesarios como: nombre completo y apellidos, copia simple de su identificación oficial, número de cliente (en caso de tener uno), número telefónico y domicilio o correo electrónico.",
+        "1": "Además del procedimiento contemplado en el párrafo anterior, usted podrá cancelar su suscripción a los correos electrónicos que le enviemos con finalidades promocionales, mercadotécnicas y/o de publicidad, dando clic a la liga que se acompaña a cada uno de dichos correos, la cual se encuentra en la parte inferior de los mismos."
+      }
+    },
+    "derechos": {
+      "title": "Derechos ARCO",
+      "text": "Usted o su representante legal debidamente acreditado podrán ejercer, cuando procedan, los derechos de acceso, rectificación, cancelación u oposición en lo sucesivo “DERECHOS ARCO” que la “ley” prevé, mediante el mecanismo que a continuación se describe; es importante mencionarle que el ejercicio de cualquiera de los “DERECHOS ARCO”, no impide el ejercicio de otro derecho."
+    },
+    "mecanismos": {
+      "title": "Mecanismos para el ejercicio de los Derechos ARCO y la revocación del consentimiento para el tratamiento de sus datos personales.",
+      "text": {
+        "0": "El ejercicio de los “DERECHOS ARCO” así como la revocación de su consentimiento para el tratamiento de sus datos personales se realizará a través de la presentación de la solicitud respectiva, que por escrito y en idioma español deba presentar el titular de los datos personales o su representante legal, en atención a la OFICINA DE PROTECCIÓN DE DATOS PERSONALES DE “Smile Bus” a la dirección ubicada en Corredor Industrial Número Exterior 3, Numero Interior Edif. Corp. 21 Colonia Frac industrial Sahagún, Municipio Tepeapulco, Código Postal 43998, Hidalgo, México (los gastos de envío correrán por cuenta del solicitante), o bien al correo electrónico datos.personales@smilebus.com.mx",
+        "1": "Su solicitud deberá indicar nombre completo y apellidos, copia simple, legible y vigente de su identificación oficial o en caso de utilizar medios electrónicos, deberá adjuntar la versión digitalizada de la misma (escaneo), correo electrónico o domicilio que designe para notificaciones y algún número telefónico de contacto. Si su solicitud es presentada por su representante legal, deberá adicionalmente, acompañar a su solicitud, los documentos oficiales que acrediten dicha representación.",
+        "2": "En caso de que la información proporcionada en su solicitud sea errónea o insuficiente para atenderla, o bien no se acompañen los documentos de acreditación correspondientes, se le hará un requerimiento dentro de los cinco días hábiles siguientes a la recepción de su solicitud, para que aporte los elementos o documentos necesarios para dar trámite a la misma. Usted contará con un plazo de diez días hábiles para atender dicho requerimiento, contados a partir del día siguiente en que haya sido emitido por la OFICINA DE PROTECCIÓN DE DATOS PERSONALES DE “Smile Bus”. En caso de no dar respuesta a dicho requerimiento en el plazo otorgado, su solicitud se tendrá por no presentada.",
+        "3": "Cumplidos los requisitos que se señalan con anterioridad, en un plazo máximo de veinte días hábiles contados a partir de la fecha de recepción de su solicitud de “DERECHOS ARCO”, así como de revocación del tratamiento de datos personales, la OFICINA DE PROTECCIÓN DE DATOS PERSONALES DE “Smile Bus” dará contestación sobre la procedencia de la misma, mediante correo electrónico dirigido a su persona a la dirección de correo electrónico que haya indicado en la propia solicitud, o bien enviando una notificación al domicilio que haya indicado para tales efectos (los veinte días se darán por cumplidos al momento de entregar el documento al servicio postal). Si la solicitud resulta procedente, está se hará efectiva dentro de los quince días hábiles siguientes a la fecha en que se comunica la respuesta sobre la procedencia de la misma."
+      }
+    },
+    "transferencia": {
+      "title": "Transferencia de datos nacional e internacional",
+      "text": {
+        "0": "Sus datos personales no serán transferidos nacional o internacionalmente a terceros sin su consentimiento, salvo por lo dispuesto en el artículo 37 de “LEY”:",
+        "1": "Cuando la transferencia se realice entre sociedades controladoras, subsidiarias o afiliadas bajo el control común de “Smile Bus”, o a una sociedad matriz o a cualquier sociedad del mismo grupo de “Smile Bus” que opere bajo los mismos procesos y políticas internas.",
+        "2": "Cuando la transferencia sea necesaria para la prevención o el diagnóstico médico, la prestación de asistencia sanitaria, tratamiento médico o la gestión de servicios sanitarios.",
+        "3": "Cuando la transferencia sea necesaria por virtud de un contrato celebrado o por celebrar que sea en su interés, por “Smile Bus” y un tercero, con la finalidad de otorgarle beneficios.",
+        "4": "Cuando la transferencia sea precisa para el mantenimiento o cumplimiento de una relación jurídica entre “Smile Bus” y usted, tales como los proveedores, instituciones bancarias y crediticias, cámaras de comercio, y entre otras.",
+        "5": "Cuando la transferencia sea necesaria o legalmente exigida para la salvaguarda de un interés público, o para la procuración o administración de justicia"
+      }
+    },
+    "informacion": {
+      "title": "Información en Internet",
+      "text": "Hacemos de su conocimiento que contamos con tecnologías electrónicas (cookies y web beacons), en nuestra página de internet: www.smilebus.com.mx, por lo que cuando usted accede a nuestro Portal en Internet, es recibida por nuestra parte, información referente a como es su tipo de navegador y sistema operativo, las páginas de Internet que ha visitado recientemente, los vínculos que recientemente ha seguido, la dirección IP de su computadora y el sitio que cerró antes de entrar a nuestra página de internet. Usted puede deshabilitar o ajustar el uso de estas tecnologías siguiendo los procedimientos del navegador de internet que utiliza para acceder a nuestro sitio web."
+    },
+    "exclusion": {
+      "title": "Exclusión de responsabilidad de nuestro sitio de internet o aplicativo",
+      "text": "Hacemos de su conocimiento que contamos con tecnologías electrónicas (cookies y web beacons), en nuestra página de internet: www.smilebus.com.mx, por lo que cuando usted accede a nuestro Portal en Internet, es recibida por nuestra parte, información referente a como es su tipo de navegador y sistema operativo, las páginas de Internet que ha visitado recientemente, los vínculos que recientemente ha seguido, la dirección IP de su computadora y el sitio que cerró antes de entrar a nuestra página de internet. Usted puede deshabilitar o ajustar el uso de estas tecnologías siguiendo los procedimientos del navegador de internet que utiliza para acceder a nuestro sitio web."
+    },
+    "conservacion": {
+      "title": "Conservación de datos",
+      "text": {
+        "0": "“Smile Bus” conservará su información durante el tiempo que la necesite para el propósito para el que se recabo, a menos que nos solicite la eliminación de la misma, y, en tal caso, siempre que “Smile Bus” ya no tenga la necesidad de conservar su información por otros motivos. “Smile Bus” podrá conservar sus datos personales por períodos más prolongados que los que requieren las leyes aplicables, si es de nuestro interés comercial legítimo y las leyes no lo prohíben.",
+        "1": "Tenga en cuenta que cuando hayamos recabado su información personal en función de su consentimiento y usted retire dicho consentimiento, o ejerza sus derechos ARCO (a suprimir su información personal), es posible que mantengamos su información bloqueada y disponible tanto tiempo como se requiera para cumplir con las leyes aplicables y para que “Smile Bus” cumpla con sus responsabilidades derivadas del procesamiento de sus datos."
+      }
+    },
+    "modificaciones": {
+      "title": "Modificaciones al presente aviso de privacidad",
+      "text": "“Smile Bus” se reserva el derecho de efectuar en cualquier tiempo modificaciones o actualizaciones al presente “AVISO”. Las modificaciones que se efectúen se pondrán a disposición de los usuarios a través de alguno o algunos de los siguientes medios: anuncios visibles en nuestros taquillas o establecimientos, vía nuestro sitio de internet www.smilebus.com.mx, aplicaciones móviles, vía correo electrónico a la dirección más reciente que tengamos de usted, por medio de carteles, grabaciones sonoras, de video o personalmente por medio de nuestros encargados, al momento de acudir a cualquiera de nuestras instalaciones."
     }
   }
 }

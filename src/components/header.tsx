@@ -70,13 +70,13 @@ export default function Header({ translations, currentLocale }: Props) {
                 </Link>
                 <Link href="/#destinations">{translations.destinations}</Link>
                 <Link href="/#terminal">{translations.terminal}</Link>
-                <Link href="/#contacto" className="max-lg:hidden">
+                <Link href="/#contacto" className="max-2xl:hidden">
                   {translations.contact_us}
                 </Link>
                 <Link href="/faq" className="max-lg:hidden">
                   {translations.faq}
                 </Link>
-                <Link href="/">{translations.privacy}</Link>
+                <Link href="/aviso-de-privacidad">{translations.privacy}</Link>
               </nav>
             </div>
           </section>
