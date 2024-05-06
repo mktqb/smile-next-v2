@@ -388,7 +388,7 @@ body {
   }
 
   .main-button {
-    @apply bg-[#6c00f7] text-white hover:bg-[#5500c3] hover:text-white;
+    @apply bg-[#DA089F] text-white hover:bg-[#DA089F] hover:text-white;
   }
 
   .secondary-button {
