@@ -151,11 +151,7 @@ export default function Page({
                 {
                   question: t("conditions.faq.3.question"),
                   answer: [t("conditions.faq.3.answer.0")],
-                },
-                {
-                  question: t("conditions.faq.4.question"),
-                  answer: [t("conditions.faq.4.answer.0")],
-                },
+                }
               ],
             },
           ]}

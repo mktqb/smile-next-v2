@@ -266,12 +266,6 @@
           }
         },
         "3": {
-          "question": "¿Cuentan con servicios de alimentación a bordo?",
-          "answer": {
-            "0": "Sí, ofrecemos servicios de alimentación a bordo para garantizar una experiencia cómoda y satisfactoria durante tu viaje. Consulta mayor información en nuestras oficinas."
-          }
-        },
-        "4": {
           "question": "¿Cuáles son los horarios de atención en las oficinas?",
           "answer": {
             "0": "Te atendemos en nuestras oficinas de lunes a domingo de 7:00 a.m. a 8:00 p.m."

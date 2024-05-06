@@ -271,12 +271,6 @@
           }
         },
         "3": {
-          "question": "Do you have food services on board?",
-          "answer": {
-            "0": "Yes, we offer food services on board to guarantee a comfortable and satisfactory experience during your trip. Consult our offices for more information."
-          }
-        },
-        "4": {
           "question": "What are the office hours?",
           "answer": {
             "0": "We serve you in our offices from Monday to Sunday from 7:00 a.m. to 8:00 p.m."
