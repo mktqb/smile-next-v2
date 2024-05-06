@@ -8,7 +8,18 @@ import { LocationOnOutline, ArrowDown, CloseCircle, ClockCircle, ChatInfo, Logos
 import GoogleMaps from "@/components/google-maps";
 import Link from "next/link";
 
-export default function AllTerminals({ locale }: { locale: string }) {
+interface Props {
+  translations: {
+    locale: "en" | "es";
+  };
+}
+
+
+export default function AllTerminals(
+  
+  /* { locale }: { locale: string } */
+  { translations }: Props
+) {
   const [selectedTerminal, setSelectedTerminal] = useState<Terminal>(
     terminals[0],
   );
@@ -58,23 +69,23 @@ export default function AllTerminals({ locale }: { locale: string }) {
           <div className="flex w-11/12 flex-grow max-md:mx-auto max-md:mt-4 max-md:aspect-[7/9] sm:rounded-3xl md:w-6/12 lg:w-7/12 2xl:w-[60%]">
             <div className="relative h-full w-full">
               <div className="w-full bg-primary-100 md:pb-2">
-                <div className="w-full rounded-t-2xl bg-white px-4 md:px-6 pb-3 pt-4 md:rounded-2xl">
+                <div className="w-full rounded-t-2xl bg-white px-4 pb-3 pt-4 md:rounded-2xl md:px-6">
                   <div className="flex justify-between gap-1">
                     <div className="flex flex-col">
                       <div className="flex items-start gap-1">
                         <ChatInfo className="text-lg text-[#DA089F]" />
                         <p className="w-full text-sm text-black">
-                          Referencia: {selectedTerminal.ref1}
+                          {selectedTerminal.ref1[translations.locale]}
                         </p>
                       </div>
                       <div className="flex items-start gap-1">
                         <ClockCircle className="pl-[1px] pt-[3px] text-[1.17rem] leading-[1.85rem] text-transparent" />
                         <p className="w-full text-sm text-black">
-                          Acceso: {selectedTerminal.ref2}
+                          {selectedTerminal.ref2[translations.locale]}
                         </p>
                       </div>
                     </div>
-                    <div className="flex gap-6 justify-center items-center">
+                    <div className="flex items-center justify-center gap-6">
                       <div className="bg-red grid aspect-square h-fit w-fit">
                         <Link
                           target="_blank"

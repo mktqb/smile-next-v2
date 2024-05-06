@@ -11,8 +11,14 @@ export interface Terminal {
   address: string;
   url: StaticImageData;
   maps: string;
-  ref1: string;
-  ref2: string;
+  ref1: {
+    es: string;
+    en: string;
+  };
+  ref2: {
+    es: string;
+    en: string;
+  };
   id: string;
 }
 
@@ -32,15 +38,6 @@ export interface Office {
   url: string;
   id: string;
 }
-
-/* export interface Terminal {
-  name: string;
-  location: string;
-  phones: {
-    text: string;
-    link: string;
-  }[];
-} */
 
 export const offices: Office[] = [
   {
@@ -84,8 +81,14 @@ export const terminals: Terminal[] = [
     address: "Reforma 1 Tabacalera, cuauhtémoc, 06030 Ciudad de México, CDMX",
     url: Terminal1,
     maps: "https://maps.app.goo.gl/nppJM3aVVRRFQzFB8",
-    ref1: "Se encuentra frente a torre caballito",
-    ref2: "Por Av. de la República",
+    ref1: {
+      es: "Referencia: Se encuentra frente a Torre Caballito",
+      en: "Reference: It is located in front of Torre Caballito",
+    },
+    ref2: {
+      es: "El ingreso es por Av. de la República",
+      en: "The entrance is through Avenida de la República",
+    },
     id: "t1",
   },
   {
@@ -94,8 +97,14 @@ export const terminals: Terminal[] = [
       "Cto. Juan Pablo II 1743, Reserva Territorial Atlixcáyotl, La Noria, 72410 Heróica Puebla de Zaragoza",
     url: Terminal2,
     maps: "https://maps.app.goo.gl/BuFMka9iBNtHtkV48",
-    ref1: "Se encuentra al lado de Walmart Express La Noria",
-    ref2: "Por Cto Juan Pablo II",
+    ref1: {
+      es: "Referencia: Se encuentra al lado de Walmart Express La Noria",
+      en: "Reference: It is located next to Walmart Express La Noria",
+    },
+    ref2: {
+      es: "El ingreso es por Cto Juan Pablo II",
+      en: "The entrance is through Cto Juan Pablo II",
+    },
     id: "t2",
   },
   {
@@ -103,17 +112,30 @@ export const terminals: Terminal[] = [
     address: "Av. Salvador Díaz Mirón 1892, Moderno, 91910 Veracruz Veracruz",
     url: Terminal4,
     maps: "https://maps.app.goo.gl/BuFMka9iBNtHtkV48",
-    ref1: "Se encuentra al lado del ex cine Buñuel",
-    ref2: "Por Av. Salvador Díaz Mirón",
+    ref1: {
+      es: "Referencia: Se encuentra al lado del ex cine Buñuel",
+      en: "Reference: It is located next to the former Buñuel cinema.",
+    },
+    ref2: {
+      es: "El ingreso es por Av. Salvador Díaz Mirón",
+      en: "The entrance is through Av. Salvador Díaz Mirón",
+    },
     id: "t4",
   },
   {
     name: "Omnibus turísticos Ocaso Smile Bus Xalapa",
-    address: "Bldv. Jalapa-Benderilla 109, 21 de marzo, 91010 Xalapa-Enríquez, Veracruz",
+    address:
+      "Bldv. Jalapa-Benderilla 109, 21 de marzo, 91010 Xalapa-Enríquez, Veracruz",
     url: Terminal5,
     maps: "https://maps.app.goo.gl/pPmELT91cDkf3Wip9",
-    ref1: "Frente de la torre orgullo Veracruzano",
-    ref2: "Por lateral del puente boulevar Xalapa - Banderilla",
+    ref1: {
+      es: "Referencia: Se encuentra frente a la torre Orgullo Veracruzano",
+      en: "Reference: It is located in front of the Orgullo Veracruzano tower",
+    },
+    ref2: {
+      es: "El ingreso es por la lateral del puente boulevar Xalapa - Banderilla",
+      en: "The entrance is from the side of the Xalapa - Banderilla boulevard bridge.",
+    },
     id: "t5",
   },
 ];

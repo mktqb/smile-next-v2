@@ -3,20 +3,9 @@
 import React, { useEffect, useState } from "react";
 import { FlagMexico, FlagUSA, LogoSmileBus, MdiClose, MdiMenu, Mancha } from "./svg";
 import { usePathname, Link } from "@/navigation";
-import Image from "next/image";
 
 import clsx from "clsx";
 import { Divider } from "@nextui-org/divider";
-import ChangeLocale from "./change-locale";
-/* import {
-  Dropdown,
-  DropdownItem,
-  DropdownMenu,
-  DropdownTrigger,
-} from "@nextui-org/react";
-import LanguageSwitch from "./language-switch"; */
-import Logo from "@/assets/logo.png";
-/* import LogoM from "@/assets/LogoAVM.png"; */
 
 interface Props {
   currentLocale: string;
@@ -48,10 +37,10 @@ export default function Header({ translations, currentLocale }: Props) {
           <Mancha className="absolute -right-5 top-0 z-10 text-[6rem] md:text-[10rem] 2xl:text-[12rem] text-[#DA089F]" />
           <section className="section-container relative z-20 flex items-center justify-between py-3">
             {/* Logo que se muestra en disp muy pequeños, centrado. Oculto de 300 a más */}
-            <button className="" onClick={() => setShowMenu(true)}>
+            <a href="/">
               <span className="sr-only">{translations.home}</span>
               <LogoSmileBus className="my-2 w-[150px] duration-300 hover:-rotate-6 hover:scale-110 max-[350px]:w-[140px] md:w-[160px] xl:w-[180px]" />
-            </button>
+            </a>
             <button
               onClick={() => setShowMenu(true)}
               className="place-items-center text-white min-[300px]:grid md:hidden"
