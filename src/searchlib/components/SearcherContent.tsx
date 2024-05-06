@@ -181,6 +181,17 @@ export const SearchContent = ({
   });
 
   useEffect(() => {
+    const data = datesOw.data?.data.ow;
+    if (!data) return;
+    setter(
+      "startDate",
+      new Date(datesOw.data?.data.ow[0].travelDateReal!)
+        .toISOString()
+        .split("T")[0],
+    );
+  }, [datesOw, datesOw.data, setter]);
+
+  useEffect(() => {
     refetchSysOptions();
   }, [url]);
 
