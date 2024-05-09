@@ -50,7 +50,8 @@ export const StartDatePicker = ({
 }: DatePickerProps) => {
   const { setter } = useSearch();
 
-  const [controller, setController] = useState(today(getLocalTimeZone()));
+  // const [controller, setController] = useState(today(getLocalTimeZone()));
+  const [controller, setController] = useState<CalendarDate>();
 
   useEffect(() => {
     console.log(error);
@@ -200,19 +201,14 @@ export const StartDatePicker = ({
                                 isDisabled &&
                                   !isOutsideMonth &&
                                   "text-gray-300",
-                                isOutsideMonth &&
-                                  "text-gray-300",
-                                isUnavailable &&
-                                  "text-gray-300",
-                                isSelected &&
-                                  isHovered &&
-                                  "!bg-primary-300",
+                                isOutsideMonth && "text-gray-300",
+                                isUnavailable && "text-gray-300",
+                                isSelected && isHovered && "!bg-primary-300",
                                 (!isDisabled ??
                                   (isOutsideMonth && !isDisabled)) &&
                                   isHovered &&
                                   "bg-neutral-200",
-                                isSelected &&
-                                  "bg-primary-100",
+                                isSelected && "bg-primary-100",
                               )
                             }
                           />
