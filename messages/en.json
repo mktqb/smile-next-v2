@@ -546,5 +546,116 @@
       },
       "title": "Types of cookies"
     }
+  },
+  "AvisoPrivacidad": {
+    "title": "Customer Privacy Notice",
+    "text": "This privacy notice hereinafter referred to as “THE NOTICE” is issued in compliance with the provisions of article 15 of the Federal Law for the Protection of Personal Data in Possession of Individuals hereinafter referred to as “THE LAW”, and its correlatives of the Regulation of the Federal Law for the Protection of Personal Data in Possession of Individuals, hereinafter referred to as “THE REGULATION”, and is made available to users who provide personal data or information to AUTOBUSES EXPRESOS DE VERACRUZ, hereinafter referred to as “Smile Bus”.",
+    "responsable": {
+      "title": "Responsible for the protection of your Personal Data",
+      "text": {
+        "0": "“Smile Bus”, with domicile to receive notifications in Corredor Industrial Exterior Number 3, Number Interior Building Corp. 21 Colonia Frac Industrial Sahagún, Municipality Tepeapulco, Postal Code 43998, Hidalgo, Mexico; is responsible for the treatment of your personal data.",
+        "1": "“Smile Bus” in its capacity as responsible for the processing of personal data observes the principles of legality, consent, information, quality, purpose, loyalty, proportionality and responsibility, as established by “THE LAW”."
+      }
+    },
+    "forma": {
+      "title": "Means of communication",
+      "text": "To contact us, you must submit a request written in Spanish, addressed to the PERSONAL DATA PROTECTION OFFICE OF “Smile Bus”, and send it in person or by mail to the following address: Corredor Industrial Exterior Number 3, Interior Building Number Corp. 21 Colonia Frac Industrial Sahagún, Municipality Tepeapulco, Postal Code 43998, Hidalgo, Mexico."
+    },
+    "datos": {
+      "title": "Personal data we collect and the means by which we obtain Personal Data",
+      "text": {
+        "0": "The personal data we collect from users to comply with the purposes described in this “NOTICE” are collected directly, when you provide them to us through our points of sale, our web page www.smilebus.com.mx, mobile applications, official social networks, instant messaging services via internet, customer service centers, complaints and suggestions, by telephone and email, and when we obtain information through other sources of public access permitted by “THE LAW” and “THE REGULATIONS”.",
+        "1": "The data we collect is as follows:",
+        "2": "From individuals: Full name and surname, gender (male or female), image, date of birth, nationality, landline phone number, cell phone number, email, address, credentials or passwords for social networks or search engines (when you decide to register as a user of our technological tools through social networks or search engines), age and official identification. As for the data of patrimonial character, such as the Federal Taxpayers Registry (RFC), fiscal address and data and payment information, when you make use of this information to acquire any of our products or services, you give your express consent for the treatment of this data in accordance with the provisions of article 8 of “THE LAW”.",
+        "3": "For legal entities: Of the representative or legal representative, full name and surname, official identification, signature, e-mail, unique population registry code, date of birth, telephone number, address and nationality. Regarding the company's patrimonial or financial data, such as the Federal Taxpayers Registry (RFC), fiscal address and payment data and information, the attorney-in-fact or legal representative, when making use of this information to acquire any of our products or services, grants his express consent for the treatment of this data in accordance with the provisions of article 8 of “THE LAW”.",
+        "4": "We inform you that “Smile Bus” does not store any debit, credit card or payment method information as part of payment processing. “Smile Bus” transmits debit, credit card or payment method information directly with your Bank or to the payment platform you are using.",
+        "5": "Likewise, since “THE LAW” allows other sources of information such as telephone and service directories, physical or electronic, the data that we can obtain by such means are name and surname, telephone, e-mail and address."
+      }
+    },
+    "personales": {
+      "title": "Personal Data of third parties and minors",
+      "text": {
+        "0": "“Smile Bus” may collect and process personal identification and contact data of third parties, such as your full name, email and telephone number, when you or such third parties provide them for purposes related to the products and/or services contracted on behalf of such third parties, so that by providing them you acknowledge having informed these third parties about the use of your personal data and having previously obtained the consent of the latter so that “Smile Bus” may process them for the purposes mentioned above.",
+        "1": "“Smile Bus” does not collect or process personal data of minors, so you acknowledge that at the time of providing your data you are of legal age, have full legal capacity and have read this privacy notice. In the event that, as an exception, personal data of minors or persons with natural or legal incapacity established by law, such as name and age, is collected and processed, such data will be collected or processed with the prior consent of the person exercising parental authority, or guardianship or legal representation, in accordance with applicable laws.",
+        "2": "If “Smile Bus” identifies that a minor or person with natural or legal incapacity has provided their personal data without the consent of the person exercising parental authority or their guardian or legal representative, or that, by human or technical error, personal data of minors or persons with natural or legal incapacity have been collected, such personal data will be deleted from the databases containing them as soon as it becomes known."
+      }
+    },
+    "sensibles": {
+      "title": "Sensitive personal data",
+      "text": "“Smile Bus” will not collect or process sensitive personal data of any kind."
+    },
+    "finalidades": {
+      "title": "Purposes of Personal Data Processing",
+      "text": {
+        "0": "Your personal data will be used for the following purposes:",
+        "1": "Primary Purposes: Purposes that gave rise to and are necessary for the existence, maintenance and fulfillment of the legal relationship between you and “Smile Bus”:",
+        "2": "Identification and contact.",
+        "3": "Contracting, follow-up, updating, confirmation and generation of history of the products and/or services contracted.",
+        "4": "Creating, updating, customizing, maintaining and authenticating your user account",
+        "5": "Attention to doubts, complaints, comments, suggestions, clarifications and follow-up.",
+        "6": "For the security of persons, when acquiring a product or service, you may be videotaped or photographed, for which reason you are informed that the images from the video recordings or photographs will be protected by “THE LAW” and “THE REGULATIONS”, and will be kept in the databases for a period of ten calendar days, after which time the video recordings or photographs will be formatted or eliminated.",
+        "7": "Credit and payment validation and fraud risk assessment of transactions.",
+        "8": "Invoicing of contracted services or products.",
+        "9": "Compliance with legal and regulatory obligations, as well as requirements of governmental or judicial authorities, Federal, State or Municipal and/or regulatory entities.",
+        "10": "Secondary Purposes: Different purposes that do not give rise to the legal relationship between you and “Smile Bus”, but that are extremely useful for us to provide you with a better service and develop new products and services:",
+        "11": "Evaluation of service quality through surveys, studies on consumer habits and preferences.",
+        "12": "Participation in contests, sweepstakes, events and promotions. We inform you that, in the event that you participate in such activities, “Smile Bus” may collect your image through videos and/or photographs and publish them through different media both physical and electronic, as well as your personal data, such as full name and surname, date of birth, email, address and telephone number, in order to document your participation or deliver the corresponding prize or incentive.",
+        "13": "Inform you and/or offer you the range of products and services marketed by “Smile Bus” and communicate promotions.",
+        "14": "Marketing and commercial prospecting.",
+        "15": "Perform massive data analysis techniques to carry out profiling activities and improve customer knowledge.",
+        "16": "The provision of the services and/or the creation of an account implies the full and unreserved consent of the users to the processing of their Personal Data in accordance with this Privacy Notice.",
+        "17": "In the event that you wish to OPPOSE that your personal data be processed for the secondary purposes described above, you must send an email to datos.personales@smilebus.com.mx or submit a written request in Spanish to the following address: Corredor Industrial Exterior Number 3, Number Interior Building Corp. 21 Colonia Frac Industrial Sahagún, Municipality Tepeapulco, Postal Code 43998, Hidalgo, Mexico, stating the purpose or secondary purposes to which you object."
+      }
+    },
+    "limitaciones": {
+      "title": "Limitations on the use of data",
+      "text": {
+        "0": "You may limit the use or disclosure of your personal data by sending us a written request in Spanish language, addressed to the PERSONAL DATA PROTECTION OFFICE OF “Smile Bus”, to the e-mail datos.personales@smilebus.com.mx or to the following address: Corredor Industrial Número Exterior 3, Numero Interior Edif. Corp. 21 Colonia Frac Industrial Sahagún, Municipality Tepeapulco, Postal Code 43998, Hidalgo, Mexico, where you mention your intention to limit the use or disclosure of your personal data and indicate necessary information such as: full name and surname, simple copy of your official identification, customer number (in case you have one), telephone number and address or e-mail.",
+        "1": "In addition to the procedure referred to in the preceding paragraph, you may unsubscribe from the e-mails we send you for promotional, marketing and/or advertising purposes by clicking on the link that accompanies each of these e-mails, which is located at the bottom of the e-mails."
+      }
+    },
+    "derechos": {
+      "title": "ARCO Rights",
+      "text": "You or your duly accredited legal representative may exercise, when appropriate, the rights of access, rectification, cancellation or opposition hereinafter “ARCO RIGHTS” that the “LAW” provides, through the mechanism described below; it is important to mention that the exercise of any of the “ARCO RIGHTS” does not prevent the exercise of another right."
+    },
+    "mecanismos": {
+      "title": "Mechanisms for the exercise of ARCO Rights and the revocation of consent for the processing of your personal data.",
+      "text": {
+        "0": "The exercise of the “ARCO RIGHTS” as well as the revocation of your consent for the processing of your personal data will be made through the presentation of the respective request, which in writing and in Spanish language must be submitted by the owner of the personal data or his legal representative, to the attention of the PERSONAL DATA PROTECTION OFFICE OF “Smile Bus” to the address located at Corredor Industrial Exterior Number 3, Interior Number Edif. Corp. 21 Colonia Frac Industrial Sahagún, Municipio Tepeapulco, Código Postal 43998, Hidalgo, Mexico (shipping costs will be paid by the applicant), or to the e-mail address datos.personales@smilebus.com.mx.",
+        "1": "Your request must include your full name and surname, a simple, legible and valid copy of your official identification or in case of using electronic means, you must attach a digitalized version of the same (scan), e-mail or address you designate for notifications and a contact telephone number. If your application is submitted by your legal representative, you must additionally attach to your application, the official documents proving such representation.",
+        "2": "In the event that the information provided in your request is erroneous or insufficient to fulfill it, or if the corresponding accreditation documents are not provided, you will be requested within five business days following the receipt of your request, to provide the necessary elements or documents to process it. You will have a period of ten working days to respond to such request, counted from the day after it has been issued by the PERSONAL DATA PROTECTION OFFICE OF “Smile Bus”. If you do not respond to such request within the given period, your request will be deemed not to have been submitted.",
+        "3": "Once the aforementioned requirements have been met, within a maximum period of twenty working days from the date of receipt of your request for “ARCO RIGHTS”, as well as the revocation of the processing of personal data, the PERSONAL DATA PROTECTION OFFICE OF “Smile Bus” will respond to your request by e-mail to the e-mail address you have indicated in the request itself, or by sending a notification to the address you have indicated for such purposes (the twenty days will be deemed fulfilled at the time of delivery of the request), by means of an e-mail to the e-mail address indicated in the request itself, or by sending a notification to the address indicated for such purposes (the twenty days will be deemed to have elapsed upon delivery of the document to the postal service). If the request is granted, it will be effective within fifteen working days following the date on which the response on the validity of the request is communicated."
+      }
+    },
+    "transferencia": {
+      "title": "National and international data transfer",
+      "text": {
+        "0": "Your personal data will not be transferred nationally or internationally to third parties without your consent, except as provided in Article 37 of “LAW”:",
+        "1": "When the transfer is made between controlling companies, subsidiaries or affiliates under the common control of “Smile Bus”, or to a parent company or to any company of the same group of “Smile Bus” that operates under the same internal processes and policies.",
+        "2": "When the transfer is necessary for prevention or medical diagnosis, the provision of health care, medical treatment or the management of health services.",
+        "3": "When the transfer is necessary by virtue of a contract entered into or to be entered into that is in your interest, by “Smile Bus” and a third party, with the purpose of granting you benefits.",
+        "4": "When the transfer is necessary for the maintenance or fulfillment of a legal relationship between “Smile Bus” and you, such as suppliers, banking and credit institutions, chambers of commerce, among others.",
+        "5": "When the transfer is necessary or legally required for the safeguarding of a public interest, or for the procurement or administration of justice."
+      }
+    },
+    "informacion": {
+      "title": "Information on the Internet",
+      "text": "We inform you that we have electronic technologies (cookies and web beacons) on our website: www.smilebus.com.mx, so that when you access our website, we receive information about your browser type and operating system, the web pages you have recently visited, the links you have recently followed, the IP address of your computer and the site you closed before entering our website. You can disable or adjust the use of these technologies by following the procedures of the Internet browser you use to access our website."
+    },
+    "exclusion": {
+      "title": "Exclusion of liability of our website or application",
+      "text": "We inform you that we have electronic technologies (cookies and web beacons) on our website: www.smilebus.com.mx, so that when you access our website, we receive information about your browser type and operating system, the web pages you have recently visited, the links you have recently followed, the IP address of your computer and the site you closed before entering our website. You can disable or adjust the use of these technologies by following the procedures of the Internet browser you use to access our website."
+    },
+    "conservacion": {
+      "title": "Data Retention",
+      "text": {
+        "0": "“Smile Bus” will retain your information for as long as it is needed for the purpose for which it was collected, unless you request us to delete it, and, in such case, provided that “Smile Bus” no longer has a need to retain your information for other reasons. “Smile Bus” may retain your personal data for longer periods than those required by applicable laws, if it is in our legitimate business interest and the laws do not prohibit it.",
+        "1": "Please note that where we have collected your personal information based on your consent and you withdraw such consent, or exercise your ARCO rights (to delete your personal information), we may keep your information blocked and available as long as required to comply with applicable laws and for “Smile Bus” to fulfill its responsibilities arising from the processing of your data."
+      }
+    },
+    "modificaciones": {
+      "title": "Changes to this privacy notice",
+      "text": "“Smile Bus” reserves the right to modify or update this “NOTICE” at any time. The modifications that are made will be made available to users through one or some of the following means: visible announcements in our ticket offices or establishments, via our website www.smilebus.com.mx, mobile applications, via email to the most recent address we have for you, by means of posters, sound recordings, video or personally through our managers, at the time of going to any of our facilities."
+    }
   }
 }
