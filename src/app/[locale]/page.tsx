@@ -395,8 +395,6 @@ export default function Home({
       </div>
       {/* FIN tienes preguntas */}
 
-      {/* <span id="contact-us"></span> */}
-      {/* <ContactUs locale={locale as "en" | "es"} /> */}
       <section
         id="contacto"
         className="section-container mt-12 flex w-full scroll-m-36 flex-col items-center bg-white md:mt-28"
@@ -409,10 +407,6 @@ export default function Home({
           <hr className="title-line w-20 border-primary-300" />
           <h3 className="text-sm text-black">{t("contact_us.subtitle")}</h3>
         </div>
-        {/* <h3 className="main-title font-semibold text-black">
-          {t("contact_us.subtitle")}
-        </h3>
-        <h4 className="text-sm text-black">{t("contact_us.title")}</h4> */}
       </section>
       <OfficesComponent locale={locale} />
     </>

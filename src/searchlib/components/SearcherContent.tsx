@@ -64,7 +64,7 @@ export const SearchContent = ({
     params.append(
       "departureDate",
       type === "US"
-        ? `${newStrtDate[1]}/${newStrtDate[0]}/${newStrtDate[2]}`
+        ? `${newStrtDate[1]}/${newStrtDate[2]}/${newStrtDate[0]}`
         : newStrtDate.reverse().join("/"),
     );
     if (endDate) {
@@ -72,7 +72,7 @@ export const SearchContent = ({
       params.append(
         "returnDate",
         type === "US"
-          ? `${newEndDate[1]}/${newEndDate[0]}/${newEndDate[2]}`
+          ? `${newEndDate[1]}/${newEndDate[2]}/${newEndDate[0]}`
           : newEndDate.reverse().join("/"),
       );
       params.append("rbtnTravelway", "1");
@@ -180,7 +180,7 @@ export const SearchContent = ({
     ],
   });
 
-  useEffect(() => {
+/*   useEffect(() => {
     const data = datesOw.data?.data.ow;
     if (!data) return;
     setter(
@@ -189,7 +189,7 @@ export const SearchContent = ({
         .toISOString()
         .split("T")[0],
     );
-  }, [datesOw, datesOw.data, setter]);
+  }, [datesOw, datesOw.data, setter]); */
 
   useEffect(() => {
     refetchSysOptions();

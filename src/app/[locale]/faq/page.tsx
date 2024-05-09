@@ -55,7 +55,6 @@ export default function Page({
                   question: t("luggage.faq.1.question"),
                   answer: [
                     t("luggage.faq.1.answer.0"),
-                    /* { type: "raw", content: t.raw("luggage.faq.1.answer.1") }, */
                     t("luggage.faq.1.answer.1"),
                     t("luggage.faq.1.answer.2"),
                   ],
@@ -157,15 +156,7 @@ export default function Page({
           ]}
         />
       </section>
-      {/* <section className="section-container">
-        <h2 className="pt-14 text-xl font-bold">{t("general_info.title")}</h2>
-        <p
-          className="pt-5 font-light"
-          dangerouslySetInnerHTML={{
-            __html: t.raw("general_info.text"),
-          }}
-        />
-      </section> */}
+
     </>
   );
 }
