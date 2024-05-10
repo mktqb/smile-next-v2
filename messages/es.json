@@ -645,5 +645,12 @@
       "title": "Modificaciones al presente aviso de privacidad",
       "text": "“Smile Bus” se reserva el derecho de efectuar en cualquier tiempo modificaciones o actualizaciones al presente “AVISO”. Las modificaciones que se efectúen se pondrán a disposición de los usuarios a través de alguno o algunos de los siguientes medios: anuncios visibles en nuestros taquillas o establecimientos, vía nuestro sitio de internet www.smilebus.com.mx, aplicaciones móviles, vía correo electrónico a la dirección más reciente que tengamos de usted, por medio de carteles, grabaciones sonoras, de video o personalmente por medio de nuestros encargados, al momento de acudir a cualquiera de nuestras instalaciones."
     }
+  },
+  "Blog": {
+    "title": "Blog",
+    "text": "Las novedades de Smile Bus",
+    "prev": "Previo",
+    "next": "Siguiente",
+    "date": "Publicado:"
   }
 }

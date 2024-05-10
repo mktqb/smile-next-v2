@@ -40,9 +40,6 @@ export default function Page({
             <h1 className="text-center text-2xl font-bold text-white lg:text-4xl">
               {t("title")}
             </h1>
-            {/* <p className="text-center text-sm text-white lg:text-lg">
-              {t("subtitle")}
-            </p> */}
           </div>
         </div>
       </div>
@@ -113,21 +110,7 @@ export default function Page({
           </h2>
           <p>{t("limitaciones.text.0")}</p>
           <p>{t("limitaciones.text.1")}</p>
-          {/* <ul className="pl-6">
-            <li className="list-disc">{t("adults.text.0")}</li>
-            <li className="list-disc">{t("adults.text.1")}</li>
-            <li className="list-disc">{t("adults.text.2")}</li>
-            <li className="list-disc">
-              <span>{t("adults.text.3")}</span>
-              <ul className="pl-6">
-                <li className="list-disc">{t("adults.text.4")}</li>
-                <li className="list-disc">{t("adults.text.5")}</li>
-                <li className="list-disc">{t("adults.text.6")}</li>
-                <li className="list-disc">{t("adults.text.7")}</li>
-                <li className="list-disc">{t("adults.text.8")}</li>
-              </ul>
-            </li>
-          </ul> */}
+
           <h2 className="text-orange lg:croll-m-36 scroll-m-4 text-lg font-bold text-primary-300">
             6. {t("derechos.title")}
           </h2>

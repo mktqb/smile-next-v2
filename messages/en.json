@@ -657,5 +657,14 @@
       "title": "Changes to this privacy notice",
       "text": "“Smile Bus” reserves the right to modify or update this “NOTICE” at any time. The modifications that are made will be made available to users through one or some of the following means: visible announcements in our ticket offices or establishments, via our website www.smilebus.com.mx, mobile applications, via email to the most recent address we have for you, by means of posters, sound recordings, video or personally through our managers, at the time of going to any of our facilities."
     }
+  },
+  "Blog": {
+    "title": "Blog",
+    "text": "Newsletter",
+    "prev": "Prev",
+    "next": "Next",
+    "date": "Posted:",
+    "viewmore": "View more",
+    "discovermore": "Discover more"
   }
 }

@@ -11,21 +11,6 @@ import { Providers } from "../providers";
 import { useTranslations } from "next-intl";
 import { headers } from "next/headers";
 
-// Configura Taviraj
-/* const TavirajFont = Taviraj({
-  subsets: ["latin"],
-  style: ["italic"], // Solo incluir 'italic' si es el único estilo que usarás
-  weight: ["300", "400", "500", "600", "700", "800", "900"],
-  variable: "--font-taviraj",
-}); */
-
-// Configura Work Sans
-/* const workSans = Work_Sans({
-  subsets: ["latin"],
-  style: ["italic"], // Solo incluir 'italic' si es el único estilo que usarás
-  weight: ["300", "400", "500", "600", "700", "800", "900"],
-}); */
-
 const poppins = Poppins({
   subsets: ["latin"],
   style: ["normal", "italic"],

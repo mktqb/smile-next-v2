@@ -2,30 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-} */
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-} */
-
 body {
-  /* color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb)); 
-  background: rgb(var(--foreground-end-rgb));*/
-  /* background-color: #21d840; */
   background-color: #FFF;
   color: #FFF;
 }
@@ -40,7 +17,6 @@ body {
 }
 /* swiper */
 .swiper-pagination-bullet-active {
-  /* background-color: #000 !important; */
   @apply !bg-black
 }
 
@@ -66,7 +42,6 @@ body {
 }
 
 .swiper-pagination-progressbar-fill {
-  /* background-color: #e32324 !important; */
   @apply !bg-secondary-800;
 }
 @layer components {
@@ -336,12 +311,10 @@ body {
   /* Icon animations */
   .icono-entrando {
     transform: translate(0, 0);
-    /* opacity: 1; */
   }
 
   .icono-saliendo {
     transform: translate(100%, 50%);
-    /* opacity: 0; */
   }
 
   /* Backgrounds */
@@ -366,19 +339,6 @@ body {
   .bg-tutorial {
     background-image: url("../assets/Bg_tutorial.jpg");
   }
-  /* .bg-choice {
-    background-image: url("../assets/Bg_choice.jpg");
-  }
-  .bg-choice-dark {
-    background-image: url("../assets/Bg_choice_dark.jpg");
-  }
-  .bg-inland {
-    background-image: url("../assets/Bg_inland.jpg");
-  }
-  .bg-inland-dark {
-    background-image: url("../assets/Bg_inland_dark.jpg");
-  }
- */
 
   /* Buttons */
   .main-button,

@@ -67,20 +67,12 @@ export default function Home({
       />
 
       <main className="flex flex-col items-center justify-between pt-5 md:pt-20">
-        {/* Ejemplo del carrusel con traducciones desde el servidor */}
         <DestinationsCarousel
           translations={{
             title: t.raw("destinations_carousel.title"),
           }}
         />
       </main>
-
-      {/* Slider de Destinos, alternando arriba/abajo */}
-
-      {/* <DestinationSliderSection
-        pretitle={t("destination.pretitle")}
-        title={t("destination.title")}
-      /> */}
 
       {/* FIN tienes preguntas */}
 
@@ -208,8 +200,6 @@ export default function Home({
           />
         </div>
       </div>
-
-      {/* <FixedSection /> */}
 
       <span id="destinations" className="scroll-m-20"></span>
       <div className="grid w-full scroll-m-20 place-items-center bg-primary-100 py-4 max-sm:hidden max-sm:bg-zinc-100 sm:pb-5 md:pb-6 md:pt-20">
