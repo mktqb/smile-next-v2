@@ -290,6 +290,10 @@
     "privacy_policies": {
       "title": "SmileBus | Nuestras políticas de cookies",
       "description": "Explora nuestras políticas de cookies para entender su función en nuestro sitio web y controlar tus preferencias de privacidad en línea."
+    },
+    "blog": {
+      "title": "SmileBus | Blog",
+      "description": "Blog"
     }
   },
   "TravelPolicies": {

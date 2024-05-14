@@ -295,6 +295,10 @@
     "privacy_policies": {
       "title": "Smile Bus | Our Travel Policies",
       "description": "Explore our cookie policies to understand their function on our website and control your online privacy preferences."
+    },
+    "blog": {
+      "title": "SmileBus | Blog",
+      "description": "Blog"
     }
   },
   "TravelPolicies": {
