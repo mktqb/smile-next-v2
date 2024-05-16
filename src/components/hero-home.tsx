@@ -8,9 +8,9 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import { Searcher } from "@/searchlib/components/Searcher";
 
-import BannerSalsaFest2024 from "@/assets/Banner_SalsaFest2024.jpg";
+/* import BannerSalsaFest2024 from "@/assets/Banner_SalsaFest2024.jpg";
 import LogoSalsaFest2024 from "@/assets/logo_salsa.png";
-import LogoSalsaFest2024Mobile from "@/assets/logo_salsa_mobile.png";
+import LogoSalsaFest2024Mobile from "@/assets/logo_salsa_mobile.png"; */
 import Banner01 from "@/assets/Banner_slogan.jpg";
 import Banner02 from "@/assets/Banner_puebla.jpg";
 import Banner03 from "@/assets/Banner_veracruz.jpg";
@@ -46,7 +46,7 @@ export default function HeroHome({
         className="h-full"
         loop
       >
-        <SwiperSlide className="relative h-full w-full">
+        {/* <SwiperSlide className="relative h-full w-full">
           <div className="absolute left-0 top-0 z-10 h-full w-full max-xl:hidden"></div>
           <Image
             src={BannerSalsaFest2024}
@@ -70,7 +70,7 @@ export default function HeroHome({
               priority
             />
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide className="relative h-full w-full">
           <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-black via-secondary-400/20 via-30% to-transparent to-40% max-xl:hidden"></div>
           <Image
@@ -90,31 +90,7 @@ export default function HeroHome({
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="relative h-full w-full">
-          <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-black via-secondary-400/20 via-30% to-transparent to-40% max-xl:hidden"></div>
-          <Image
-            src={BannerSalsaFest2024}
-            alt="main"
-            width={1920}
-            height={1080}
-            className="h-full object-cover object-center max-xl:max-w-none xl:w-full"
-            priority
-          />
-          <div className="absolute left-0 top-40 z-20 flex flex-col items-center gap-5 max-lg:w-full md:top-40 lg:left-1/2 lg:top-36 lg:-translate-x-24 xl:w-2/5 2xl:w-1/3">
-            <Image
-              src={LogoSalsaFest2024}
-              alt="Logo SalsaFest Veracruz 2024"
-              className="h-full object-cover object-center max-xl:max-w-[400px] max-lg:hidden xl:w-full xl:max-w-[500px]"
-              priority
-            />
-            <Image
-              src={LogoSalsaFest2024Mobile}
-              alt="Logo SalsaFest Veracruz 2024"
-              className="h-full object-cover object-center max-xl:max-w-[400px] lg:hidden xl:w-full xl:max-w-[500px]"
-              priority
-            />
-          </div>
-        </SwiperSlide>
+
         <SwiperSlide className="relative h-full w-full">
           <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-black via-secondary-400/20 via-30% to-transparent to-40% max-xl:hidden"></div>
           <Image
@@ -134,31 +110,7 @@ export default function HeroHome({
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="relative h-full w-full">
-          <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-black via-secondary-400/20 via-30% to-transparent to-40% max-xl:hidden"></div>
-          <Image
-            src={BannerSalsaFest2024}
-            alt="main"
-            width={1920}
-            height={1080}
-            className="h-full object-cover object-center max-xl:max-w-none xl:w-full"
-            priority
-          />
-          <div className="absolute left-0 top-40 z-20 flex flex-col items-center gap-5 max-lg:w-full md:top-40 lg:left-1/2 lg:top-40 lg:-translate-x-24 xl:w-2/5 2xl:w-1/3">
-            <Image
-              src={LogoSalsaFest2024}
-              alt="Logo SalsaFest Veracruz 2024"
-              className="h-full object-cover object-center max-xl:max-w-[400px] max-lg:hidden xl:w-full xl:max-w-[500px]"
-              priority
-            />
-            <Image
-              src={LogoSalsaFest2024Mobile}
-              alt="Logo SalsaFest Veracruz 2024"
-              className="h-full object-cover object-center max-xl:max-w-[400px] lg:hidden xl:w-full xl:max-w-[500px]"
-              priority
-            />
-          </div>
-        </SwiperSlide>
+
         <SwiperSlide className="relative h-full w-full">
           <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-black via-secondary-400/20 via-30% to-transparent to-40% max-xl:hidden"></div>
           <Image
@@ -178,31 +130,7 @@ export default function HeroHome({
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="relative h-full w-full">
-          <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-black via-secondary-400/20 via-30% to-transparent to-40% max-xl:hidden"></div>
-          <Image
-            src={BannerSalsaFest2024}
-            alt="main"
-            width={1920}
-            height={1080}
-            className="h-full object-cover object-center max-xl:max-w-none xl:w-full"
-            priority
-          />
-          <div className="absolute left-0 top-40 z-20 flex flex-col items-center gap-5 max-lg:w-full md:top-40 lg:left-1/2 lg:top-40 lg:-translate-x-24 xl:w-2/5 2xl:w-1/3">
-            <Image
-              src={LogoSalsaFest2024}
-              alt="Logo SalsaFest Veracruz 2024"
-              className="h-full object-cover object-center max-xl:max-w-[400px] max-lg:hidden xl:w-full xl:max-w-[500px]"
-              priority
-            />
-            <Image
-              src={LogoSalsaFest2024Mobile}
-              alt="Logo SalsaFest Veracruz 2024"
-              className="h-full object-cover object-center max-xl:max-w-[400px] lg:hidden xl:w-full xl:max-w-[500px]"
-              priority
-            />
-          </div>
-        </SwiperSlide>
+
         <SwiperSlide className="relative h-full w-full">
           <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-black via-secondary-400/20 via-30% to-transparent to-40% max-xl:hidden"></div>
           <Image
@@ -222,31 +150,7 @@ export default function HeroHome({
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="relative h-full w-full">
-          <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-black via-secondary-400/20 via-30% to-transparent to-40% max-xl:hidden"></div>
-          <Image
-            src={BannerSalsaFest2024}
-            alt="main"
-            width={1920}
-            height={1080}
-            className="h-full object-cover object-center max-xl:max-w-none xl:w-full"
-            priority
-          />
-          <div className="absolute left-0 top-40 z-20 flex flex-col items-center gap-5 max-lg:w-full md:top-40 lg:left-1/2 lg:top-40 lg:-translate-x-24 xl:w-2/5 2xl:w-1/3">
-            <Image
-              src={LogoSalsaFest2024}
-              alt="Logo SalsaFest Veracruz 2024"
-              className="h-full object-cover object-center max-xl:max-w-[400px] max-lg:hidden xl:w-full xl:max-w-[500px]"
-              priority
-            />
-            <Image
-              src={LogoSalsaFest2024Mobile}
-              alt="Logo SalsaFest Veracruz 2024"
-              className="h-full object-cover object-center max-xl:max-w-[400px] lg:hidden xl:w-full xl:max-w-[500px]"
-              priority
-            />
-          </div>
-        </SwiperSlide>
+
         <SwiperSlide className="relative h-full w-full">
           <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-t from-black via-secondary-400/20 via-30% to-transparent to-40% max-xl:hidden"></div>
           <Image
