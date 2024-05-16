@@ -36,13 +36,12 @@ export default function HeroHome({
 }: Props) {
   return (
     <main className="relative h-[780px] w-full [clip-path:_ellipse(150%_100%_at_50%_0%)] md:h-[820px] lg:h-[680px] lg:[clip-path:_ellipse(100%_90%_at_50%_0%)] xl:h-[850px] 2xl:h-[880px]">
-      {/* <div className="absolute bottom-0 left-0 z-10 h-1/4 w-full bg-white [clip-path:_ellipse(60%_75%_at_50%_0%)]"></div> */}
       <Swiper
         slidesPerView={1}
         spaceBetween={0}
         modules={[Autoplay, EffectFade]}
         effect="fade"
-        /* autoplay={{ delay: 6000 }} */
+        autoplay={{ delay: 6000 }}
         className="h-full"
         loop
       >
