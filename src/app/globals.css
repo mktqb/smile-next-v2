@@ -154,6 +154,23 @@ body {
     @apply text-sm hover:text-white;
   }
 
+  /* Blog */
+  .article-listed {
+    @apply relative box-border flex flex-col overflow-hidden rounded-large border bg-content1 text-neutral-900 outline-none transition-transform-background motion-reduce:transition-none;
+  }
+  .article-listed .title {
+    @apply text-shadow-md mt-2 text-2xl font-medium text-white;
+  }
+  .article-listed .abstract {
+    @apply text-shadow-xxs text-white;
+  }
+  .article-listed .imagen {
+    @apply relative z-0 h-full w-full rounded-large object-cover shadow-none shadow-black/5 !duration-300 transition-transform-opacity motion-reduce:transition-none;
+  }
+  .article-posted b,
+  .article-posted strong {
+    @apply font-medium;
+  }
   /* Shadows */
 
   .logo-shadow {

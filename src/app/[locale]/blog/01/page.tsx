@@ -7,7 +7,7 @@ import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
 import BannerCookies from "@/assets/Banner_cookies.jpg";
 import Blog01 from "@/assets/blog-01.png";
 import Blog02 from "@/assets/blog-02.png";
-import Blog03 from "@/assets/blog-03.png";
+import Blog03 from "@/assets/Banner_puebla.jpg";
 import { Link } from "@/navigation";
 import ButtonToTop from "@/components/button-to-top";
 
@@ -51,7 +51,7 @@ export default function Page({
         <div className="grid gap-8 md:grid-cols-3">
           <article className="col-span-2 text-neutral-900 md:pr-8">
             <h3 className="mb-5 mt-2 text-center text-4xl font-medium">
-              Turismo en Veracruz por el día de México en Veracruz
+              ¿Cuáles son los mejores lugares que ver en Veracruz México?
             </h3>
             <a>
               <Image
@@ -72,7 +72,7 @@ export default function Page({
               </span>
             </div>
             <h3 className="mt-5 text-2xl font-medium">
-              Turismo en Veracruz por el día de México en Veracruz
+              ¿Qué ver y hacer en Veracruz México?
             </h3>
             <p className="mt-2 text-lg font-light">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -84,7 +84,7 @@ export default function Page({
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
             <h3 className="mt-5 text-2xl font-medium">
-              Turismo en Veracruz por el día de México en Veracruz
+              ¿Qué ofrece México a los turistas?
             </h3>
             <p className="mt-2 text-lg font-light">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -114,14 +114,14 @@ export default function Page({
                   className="mb-5 h-auto max-w-full rounded"
                 />
               </a>
-              <span className="rounded bg-[#DA089F] px-1 text-xs text-white">
+              {/* <span className="rounded bg-[#DA089F] px-1 text-xs text-white">
                 Turismo
               </span>{" "}
               <span className="rounded bg-[#03A9EA] px-1 text-xs text-white">
                 Ofertas
-              </span>
+              </span> */}
               <h3 className="mt-2 text-xl font-medium">
-                Turismo en Veracruz por el día de México en Veracruz
+                ¿Cuáles son los mejores lugares que ver en Veracruz México?
               </h3>
               <p className="mt-2">
                 Texto resumen del post, apra que se muestre en la parte

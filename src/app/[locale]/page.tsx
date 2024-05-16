@@ -66,7 +66,7 @@ export default function Home({
         }}
       />
 
-      <main className="flex flex-col items-center justify-between pt-5 md:pt-20">
+      <main className="flex flex-col items-center justify-between">
         <DestinationsCarousel
           translations={{
             title: t.raw("destinations_carousel.title"),

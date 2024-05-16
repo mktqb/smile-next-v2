@@ -24,7 +24,7 @@ interface Props {
 
 export default function DestinationsCarousel({ translations }: Props) {
   return (
-    <section className="section-container py-10">
+    <section className="section-container max-lg:py-10">
       <div className="main-title title-container items-center pb-8 xl:pb-12">
         <h2
           className="font-taviraj text-[#21D840]"
